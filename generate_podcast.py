@@ -1,13 +1,13 @@
 """
 Gerador diário de podcast:
 1. Escolhe um tema do dia (topics.json, cíclico por dia do ano)
-2. Gera um roteiro de ~5 minutos com a API da Anthropic (Claude)
+2. Gera um roteiro de ~5 minutos com a API do Google Gemini (tier gratuito)
 3. Converte o roteiro em áudio (mp3) usando edge-tts (gratuito)
 4. Salva os arquivos em episodes/AAAA-MM-DD/
 5. Envia o áudio para o grupo do Telegram
 
 Variáveis de ambiente necessárias (configuradas como Secrets no GitHub):
-- ANTHROPIC_API_KEY
+- GEMINI_API_KEY
 - TELEGRAM_BOT_TOKEN
 - TELEGRAM_CHAT_ID
 - GITHUB_REPOSITORY (já vem automaticamente no GitHub Actions)
@@ -20,13 +20,14 @@ import datetime
 from pathlib import Path
 
 import requests
-import anthropic
 import edge_tts
 
 # ---------- Configurações ----------
 VOZ = "pt-BR-AntonioNeural"        # voz masculina PT-BR. Alternativa: pt-BR-FranciscaNeural (feminina)
 PALAVRAS_ALVO = 800                 # ~5 minutos de fala
-MODELO_CLAUDE = "claude-sonnet-5"
+# Modelo gratuito do Gemini. Se parar de funcionar, confira o modelo atual do tier
+# gratuito em https://ai.google.dev/gemini-api/docs/pricing e troque aqui.
+MODELO_GEMINI = "gemini-2.5-flash"
 
 
 def escolher_tema_do_dia() -> str:
@@ -39,7 +40,11 @@ def escolher_tema_do_dia() -> str:
 
 
 def gerar_roteiro(tema: str) -> str:
-    client = anthropic.Anthropic()  # lê ANTHROPIC_API_KEY do ambiente automaticamente
+    api_key = os.environ["GEMINI_API_KEY"]
+    url = (
+        f"https://generativelanguage.googleapis.com/v1beta/models/"
+        f"{MODELO_GEMINI}:generateContent?key={api_key}"
+    )
 
     prompt = f"""Escreva o roteiro de um episódio de podcast em português do Brasil, \
 com aproximadamente {PALAVRAS_ALVO} palavras (para dar uns 5 minutos falados).
@@ -56,12 +61,11 @@ corrido que será lido em voz alta.
 - Termine com uma despedida breve.
 """
 
-    resposta = client.messages.create(
-        model=MODELO_CLAUDE,
-        max_tokens=2000,
-        messages=[{"role": "user", "content": prompt}],
-    )
-    return resposta.content[0].text.strip()
+    corpo = {"contents": [{"parts": [{"text": prompt}]}]}
+    resposta = requests.post(url, json=corpo, timeout=60)
+    resposta.raise_for_status()
+    dados = resposta.json()
+    return dados["candidates"][0]["content"]["parts"][0]["text"].strip()
 
 
 async def texto_para_audio(texto: str, caminho_saida: str):
