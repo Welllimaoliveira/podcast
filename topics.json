@@ -1,9 +1,10 @@
 {
   "_comentario": "Adicione, remova ou reordene os temas livremente. O script escolhe 1 por dia, ciclando pela lista (dia 1 = índice 0, dia 2 = índice 1, ...). Quando chega no fim, volta pro começo.",
   "temas": [
-        "A evolução das linguagens de programação",
-    "Automação: como pequenos scripts economizam horas de trabalho",
-    "Direito Penal para o concurso público da PRF: conceitos, crimes e pontos mais cobrados"
-  ]
+   "Direito Administrativo para a prova da PRF",
+"Direito Penal para a prova da PRF",
+"Informática para a prova da PRF",
+"Português para a prova da PRF",
+"Trânsito (Legislação de Trânsito) para a prova da PRF" ]  
 }
   
