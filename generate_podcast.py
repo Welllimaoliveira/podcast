@@ -27,7 +27,7 @@ VOZ = "pt-BR-AntonioNeural"        # voz masculina PT-BR. Alternativa: pt-BR-Fra
 PALAVRAS_ALVO = 800                 # ~5 minutos de fala
 # Modelo gratuito do Gemini. Se parar de funcionar, confira o modelo atual do tier
 # gratuito em https://ai.google.dev/gemini-api/docs/pricing e troque aqui.
-MODELO_GEMINI = "gemini-2.5-flash"
+MODELO_GEMINI = "gemini-flash-latest"
 
 
 def escolher_tema_do_dia() -> str:
