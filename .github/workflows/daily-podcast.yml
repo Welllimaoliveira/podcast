@@ -2,12 +2,12 @@ name: Podcast Diário
 
 on:
   schedule:
-    # Roda todo dia às 09:00 (horário de Brasília = UTC-3, por isso 12:00 UTC)
-    - cron: "0 12 * * *"
-    - cron: "0 18 * * *"
-    - cron: "0 20 * * *"
-    
-  workflow_dispatch: {}   # permite rodar manualmente pela aba Actions do GitHub
+    # Horários de Brasília
+    - cron: "7 9,15,21 * * *"
+      timezone: "America/Sao_Paulo"
+
+  # Permite executar manualmente pela aba Actions
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,6 +15,7 @@ permissions:
 jobs:
   gerar-e-enviar:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
