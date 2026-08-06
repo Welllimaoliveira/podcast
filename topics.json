@@ -1,0 +1,15 @@
+{
+  "_comentario": "Adicione, remova ou reordene os temas livremente. O script escolhe 1 por dia, ciclando pela lista (dia 1 = índice 0, dia 2 = índice 1, ...). Quando chega no fim, volta pro começo.",
+  "temas": [
+    "Como a inteligência artificial está mudando o mercado de trabalho",
+    "A história e evolução do Git e do controle de versão",
+    "O que são APIs e por que elas são essenciais no software moderno",
+    "Segurança digital: hábitos simples que evitam grandes problemas",
+    "Como funciona a nuvem (cloud computing) por baixo dos panos",
+    "O que é open source e por que ele move a internet",
+    "Produtividade para desenvolvedores: além do código",
+    "Bancos de dados: SQL vs NoSQL, quando usar cada um",
+    "A evolução das linguagens de programação",
+    "Automação: como pequenos scripts economizam horas de trabalho"
+  ]
+}
