@@ -2,7 +2,7 @@ name: Podcast Diário
 
 on:
   schedule:
-    # Horários de Brasília
+    # Horários de Brasília: 09:07, 15:07 e 21:07
     - cron: "7 9,15,21 * * *"
       timezone: "America/Sao_Paulo"
 
