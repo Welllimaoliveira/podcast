@@ -2,29 +2,32 @@ name: Podcast Diário
 
 on:
   schedule:
-    # Executa uma vez por hora.
-    # Sempre no minuto 7.
+    # A cada 2 horas, somente durante o dia.
     #
-    # Exemplos:
+    # Horários de Brasília:
     # 08:07
-    # 09:07
     # 10:07
-    # 11:07
-    # etc.
-    # A cada 2 horas, somente entre 08:00 e 22:00
+    # 12:07
+    # 14:07
+    # 16:07
+    # 18:07
+    # 20:07
+    # 22:07
+
     - cron: "7 8,10,12,14,16,18,20,22 * * *"
-        timezone: "America/Sao_Paulo"
+      timezone: "America/Sao_Paulo"
+
   # Permite executar manualmente
   workflow_dispatch:
+
 
 permissions:
   contents: write
 
 
 # Impede duas execuções simultâneas.
-# Isso é importante porque usamos
-# podcast_state.json para controlar
-# qual será o próximo tema.
+# Fundamental porque usamos
+# podcast_state.json.
 concurrency:
 
   group: podcast-diario
@@ -38,11 +41,13 @@ jobs:
 
     runs-on: ubuntu-latest
 
+    timeout-minutes: 30
+
 
     steps:
 
       # ==========================================
-      # BAIXAR REPOSITÓRIO
+      # REPOSITÓRIO
       # ==========================================
 
       - name: Checkout do repositório
@@ -68,7 +73,25 @@ jobs:
 
 
       # ==========================================
-      # DEPENDÊNCIAS
+      # FFMPEG
+      #
+      # Necessário para juntar as falas
+      # dos dois apresentadores.
+      # ==========================================
+
+      - name: Instalar FFmpeg
+
+        run: |
+
+          sudo apt-get update -qq
+
+          sudo apt-get install -y ffmpeg
+
+          ffmpeg -version
+
+
+      # ==========================================
+      # DEPENDÊNCIAS PYTHON
       # ==========================================
 
       - name: Instalar dependências
@@ -84,7 +107,7 @@ jobs:
       # GERAR PODCAST
       # ==========================================
 
-      - name: Gerar podcast e enviar para Telegram
+      - name: Gerar podcast com dois apresentadores
 
         env:
 
@@ -109,6 +132,6 @@ jobs:
 
         with:
 
-          commit_message: "🎙️ Novo episódio automático"
+          commit_message: "🎙️ Novo podcast com dois apresentadores"
 
           file_pattern: "episodes/** podcast_state.json"
