@@ -1,16 +1,15 @@
 """
 Gerador automático de podcast com DOIS APRESENTADORES.
 
-Funcionamento:
-
-1. Lê os temas de topics.json.
+Fluxo:
+1. Lê os temas em topics.json.
 2. Lê podcast_state.json.
 3. Seleciona o próximo tema da sequência.
-4. Gemini cria uma conversa entre dois apresentadores.
-5. edge-tts gera uma voz diferente para cada apresentador.
-6. FFmpeg junta todas as falas em um único MP3.
-7. Salva o episódio.
-8. Envia o podcast para o Telegram.
+4. Gera um diálogo estruturado com Gemini.
+5. Gera as falas com duas vozes do edge-tts.
+6. Junta as falas com FFmpeg em um único MP3.
+7. Salva roteiro, diálogo e metadados.
+8. Envia o MP3 para o Telegram.
 9. Atualiza podcast_state.json somente depois do envio com sucesso.
 """
 
@@ -33,44 +32,34 @@ import edge_tts
 # CONFIGURAÇÕES
 # ==========================================================
 
-# Apresentador masculino
 VOZ_A = "pt-BR-AntonioNeural"
-
-# Apresentadora feminina
 VOZ_B = "pt-BR-FranciscaNeural"
 
-# Aproximadamente 7 a 10 minutos de conversa,
-# dependendo da velocidade das vozes.
-PALAVRAS_ALVO = 1300
+# Valor aproximado.
+# Se o Gemini cortar a resposta, o sistema tenta
+# automaticamente com 850 e depois 700 palavras.
+PALAVRAS_ALVO = 1000
 
-# Mantemos o modelo que já estava funcionando
 MODELO_GEMINI = "gemini-flash-latest"
 
 ARQUIVO_TEMAS = Path("topics.json")
-
 ARQUIVO_ESTADO = Path("podcast_state.json")
 
 FUSO_BRASILIA = ZoneInfo("America/Sao_Paulo")
 
-
-# ==========================================================
-# NOMES DOS APRESENTADORES
-# ==========================================================
-
 NOMES_APRESENTADORES = {
     "A": "Apresentador 1",
-    "B": "Apresentadora 2"
+    "B": "Apresentadora 2",
 }
-
 
 VOZES = {
     "A": VOZ_A,
-    "B": VOZ_B
+    "B": VOZ_B,
 }
 
 
 # ==========================================================
-# CARREGAR TEMAS
+# TEMAS
 # ==========================================================
 
 def carregar_temas():
@@ -81,20 +70,28 @@ def carregar_temas():
             f"Arquivo não encontrado: {ARQUIVO_TEMAS}"
         )
 
-    with open(
-        ARQUIVO_TEMAS,
+    with ARQUIVO_TEMAS.open(
         "r",
         encoding="utf-8"
     ) as arquivo:
 
-        dados = json.load(arquivo)
+        dados = json.load(
+            arquivo
+        )
 
-    temas = dados.get("temas", [])
+    temas = dados.get(
+        "temas",
+        []
+    )
 
-    if not isinstance(temas, list):
+    if not isinstance(
+        temas,
+        list
+    ):
 
         raise ValueError(
-            "O campo 'temas' precisa ser uma lista."
+            "O campo 'temas' do topics.json "
+            "precisa ser uma lista."
         )
 
     temas = [
@@ -109,14 +106,15 @@ def carregar_temas():
     if not temas:
 
         raise ValueError(
-            "Nenhum tema válido foi encontrado."
+            "Nenhum tema válido foi encontrado "
+            "em topics.json."
         )
 
     return temas
 
 
 # ==========================================================
-# CARREGAR ESTADO
+# ESTADO
 # ==========================================================
 
 def carregar_estado():
@@ -126,26 +124,30 @@ def carregar_estado():
         return {
             "ultimo_indice": -1,
             "ultimo_tema": None,
-            "ultima_execucao": None
+            "ultima_execucao": None,
         }
 
     try:
 
-        with open(
-            ARQUIVO_ESTADO,
+        with ARQUIVO_ESTADO.open(
             "r",
             encoding="utf-8"
         ) as arquivo:
 
-            dados = json.load(arquivo)
-
-        if not isinstance(dados, dict):
-
-            raise ValueError(
-                "Estado inválido."
+            estado = json.load(
+                arquivo
             )
 
-        return dados
+        if not isinstance(
+            estado,
+            dict
+        ):
+
+            raise ValueError(
+                "podcast_state.json inválido."
+            )
+
+        return estado
 
     except Exception as erro:
 
@@ -160,19 +162,19 @@ def carregar_estado():
         )
 
         print(
-            "A sequência será iniciada "
-            "novamente."
+            "A sequência será reiniciada "
+            "a partir do primeiro tema."
         )
 
         return {
             "ultimo_indice": -1,
             "ultimo_tema": None,
-            "ultima_execucao": None
+            "ultima_execucao": None,
         }
 
 
 # ==========================================================
-# ESCOLHER O PRÓXIMO TEMA
+# PRÓXIMO TEMA
 # ==========================================================
 
 def escolher_proximo_tema(
@@ -192,16 +194,18 @@ def escolher_proximo_tema(
 
         indice = (
             indice_anterior + 1
-        ) % len(temas)
+        ) % len(
+            temas
+        )
 
     else:
 
-        # Primeira execução
         indice = 0
 
-    tema = temas[indice]
-
-    return indice, tema
+    return (
+        indice,
+        temas[indice]
+    )
 
 
 # ==========================================================
@@ -216,16 +220,17 @@ def salvar_estado(
 
     estado = {
 
-        "ultimo_indice": indice,
+        "ultimo_indice":
+            indice,
 
-        "ultimo_tema": tema,
+        "ultimo_tema":
+            tema,
 
         "ultima_execucao":
-            agora.isoformat()
+            agora.isoformat(),
     }
 
-    with open(
-        ARQUIVO_ESTADO,
+    with ARQUIVO_ESTADO.open(
         "w",
         encoding="utf-8"
     ) as arquivo:
@@ -234,7 +239,7 @@ def salvar_estado(
             estado,
             arquivo,
             ensure_ascii=False,
-            indent=2
+            indent=2,
         )
 
     print("")
@@ -248,7 +253,7 @@ def salvar_estado(
 
 
 # ==========================================================
-# EXTRAIR JSON DA RESPOSTA DO GEMINI
+# LIMPAR JSON DO GEMINI
 # ==========================================================
 
 def limpar_json_gemini(
@@ -257,14 +262,22 @@ def limpar_json_gemini(
 
     texto = texto.strip()
 
-    # Proteção caso o Gemini ainda coloque
-    # ```json no começo da resposta.
+    # Caso o Gemini ainda retorne:
+    #
+    # ```json
+    # {...}
+    # ```
 
-    if texto.startswith("```"):
+    if texto.startswith(
+        "```"
+    ):
 
         linhas = texto.splitlines()
 
-        if linhas and linhas[0].startswith("```"):
+        if (
+            linhas
+            and linhas[0].startswith("```")
+        ):
 
             linhas = linhas[1:]
 
@@ -275,13 +288,352 @@ def limpar_json_gemini(
 
             linhas = linhas[:-1]
 
-        texto = "\n".join(linhas)
+        texto = "\n".join(
+            linhas
+        )
 
     return texto.strip()
 
 
 # ==========================================================
-# GERAR DIÁLOGO NO GEMINI
+# VALIDAR RESPOSTA GEMINI
+# ==========================================================
+
+def extrair_falas_resposta_gemini(
+    dados_resposta
+):
+
+    candidatos = dados_resposta.get(
+        "candidates",
+        []
+    )
+
+    if not candidatos:
+
+        raise RuntimeError(
+            "Gemini não retornou candidatos. "
+            f"Resposta: {dados_resposta}"
+        )
+
+    candidato = candidatos[0]
+
+    finish_reason = candidato.get(
+        "finishReason",
+        "DESCONHECIDO"
+    )
+
+    print(
+        f"Finish reason do Gemini: "
+        f"{finish_reason}"
+    )
+
+    partes = (
+        candidato
+        .get(
+            "content",
+            {}
+        )
+        .get(
+            "parts",
+            []
+        )
+    )
+
+    if not partes:
+
+        raise RuntimeError(
+            "Gemini retornou resposta "
+            "sem conteúdo."
+        )
+
+    texto_json = partes[0].get(
+        "text",
+        ""
+    )
+
+    texto_json = limpar_json_gemini(
+        texto_json
+    )
+
+    # Caso o Gemini informe explicitamente
+    # que atingiu o limite de tokens.
+
+    if finish_reason == "MAX_TOKENS":
+
+        raise RuntimeError(
+            "MAX_TOKENS"
+        )
+
+    try:
+
+        dialogo_json = json.loads(
+            texto_json
+        )
+
+    except json.JSONDecodeError as erro:
+
+        print("")
+        print(
+            "O Gemini retornou JSON "
+            "incompleto ou inválido."
+        )
+
+        print("")
+        print(
+            "Últimos 500 caracteres "
+            "recebidos:"
+        )
+
+        print(
+            texto_json[-500:]
+        )
+
+        raise RuntimeError(
+            "JSON_INCOMPLETO"
+        ) from erro
+
+    # Proteção adicional:
+    # aceita tanto:
+    #
+    # {"falas": [...]}
+    #
+    # quanto uma lista direta.
+
+    if isinstance(
+        dialogo_json,
+        list
+    ):
+
+        falas = dialogo_json
+
+    else:
+
+        falas = dialogo_json.get(
+            "falas",
+            []
+        )
+
+    if not isinstance(
+        falas,
+        list
+    ):
+
+        raise RuntimeError(
+            "O campo 'falas' "
+            "não é uma lista."
+        )
+
+    falas_validas = []
+
+    for fala in falas:
+
+        # Ignora:
+        #
+        # {}
+        #
+        # ou qualquer item inválido.
+
+        if not isinstance(
+            fala,
+            dict
+        ):
+
+            continue
+
+        speaker = str(
+            fala.get(
+                "speaker",
+                ""
+            )
+        ).strip().upper()
+
+        texto = str(
+            fala.get(
+                "text",
+                ""
+            )
+        ).strip()
+
+        if speaker not in (
+            "A",
+            "B"
+        ):
+
+            continue
+
+        if not texto:
+
+            continue
+
+        falas_validas.append(
+
+            {
+                "speaker":
+                    speaker,
+
+                "text":
+                    texto,
+            }
+
+        )
+
+    if len(
+        falas_validas
+    ) < 8:
+
+        raise RuntimeError(
+
+            f"Gemini retornou poucas "
+            f"falas válidas: "
+            f"{len(falas_validas)}."
+        )
+
+    return falas_validas
+
+
+# ==========================================================
+# PROMPT
+# ==========================================================
+
+def montar_prompt(
+    tema,
+    palavras
+):
+
+    return f"""
+Crie um roteiro de podcast em português do Brasil
+com DOIS APRESENTADORES conversando naturalmente.
+
+TEMA:
+
+"{tema}"
+
+
+TAMANHO:
+
+O roteiro inteiro deve ter aproximadamente
+{palavras} palavras.
+
+Não ultrapasse muito esse tamanho.
+
+
+APRESENTADORES:
+
+A = apresentador masculino.
+
+B = apresentadora feminina.
+
+
+OBJETIVO:
+
+A conversa deve parecer um podcast real,
+com duas pessoas discutindo, explicando
+e complementando o assunto juntas.
+
+
+ESTILO:
+
+- Português brasileiro natural.
+- Conversa dinâmica.
+- Não parecer leitura de apostila.
+- Não parecer uma entrevista formal.
+- Os dois precisam demonstrar conhecimento.
+- B não deve apenas fazer perguntas.
+- Os dois devem explicar conceitos.
+- Um pode complementar o outro.
+- Um pode fazer perguntas.
+- Um pode apresentar contrapontos.
+- Pode haver exemplos.
+- Pode haver analogias.
+- Pode haver pequenas reações naturais.
+- Evite exagerar em expressões como
+  "Nossa!", "Uau!" ou similares.
+- Não repita constantemente o nome
+  do outro apresentador.
+- Evite blocos enormes de texto
+  para apenas uma pessoa.
+
+
+FALAS:
+
+Faça aproximadamente entre
+22 e 30 falas.
+
+Cada fala deve ter normalmente
+entre 1 e 3 frases.
+
+O apresentador A deve começar.
+
+A alternância precisa parecer natural.
+
+
+QUANDO O TEMA FOR DE CONCURSO OU PRF:
+
+- Pense em quem está estudando para prova.
+- Explique pegadinhas comuns.
+- Traga exemplos práticos.
+- Mostre como o assunto pode aparecer
+  em questões.
+- Quando fizer sentido,
+  mencione o estilo Cebraspe.
+- Não invente legislação.
+- Não invente artigos.
+- Não invente jurisprudência.
+- Não invente decisões judiciais.
+- Se não tiver certeza sobre um número
+  de artigo, explique o conceito
+  sem citar o número.
+
+
+FINAL:
+
+Faça um encerramento natural e útil.
+
+Os dois apresentadores podem participar
+da conclusão.
+
+
+FORMATO OBRIGATÓRIO:
+
+Retorne SOMENTE JSON válido.
+
+Não escreva nada antes do JSON.
+
+Não escreva nada depois do JSON.
+
+Não utilize Markdown.
+
+Não utilize blocos ```json.
+
+
+Formato esperado:
+
+{{
+  "falas": [
+    {{
+      "speaker": "A",
+      "text": "Texto falado pelo apresentador A."
+    }},
+    {{
+      "speaker": "B",
+      "text": "Texto falado pela apresentadora B."
+    }}
+  ]
+}}
+
+
+O campo "speaker" pode conter SOMENTE:
+
+"A"
+
+ou
+
+"B"
+"""
+
+
+# ==========================================================
+# GERAR DIÁLOGO COM RETENTATIVAS
 # ==========================================================
 
 def gerar_dialogo(
@@ -302,376 +654,202 @@ def gerar_dialogo(
         f"?key={api_key}"
     )
 
+    # Caso a primeira resposta fique grande
+    # demais e seja cortada, tentamos
+    # automaticamente com um roteiro menor.
 
-    prompt = f"""
-Você vai criar o roteiro de um podcast brasileiro
-com DOIS APRESENTADORES conversando entre si.
+    tentativas_palavras = [
 
-TEMA:
+        1000,
 
-"{tema}"
+        850,
 
+        700,
+    ]
 
-OBJETIVO:
+    ultimo_erro = None
 
-Produza aproximadamente {PALAVRAS_ALVO} palavras no total.
+    for numero_tentativa, palavras in enumerate(
 
-O podcast deve parecer uma conversa verdadeira,
-interessante e dinâmica, semelhante a dois
-apresentadores discutindo e explicando um assunto.
+        tentativas_palavras,
 
+        start=1
 
-APRESENTADORES:
+    ):
 
-A = apresentador principal masculino.
+        print("")
+        print(
+            f"Solicitando conversa ao Gemini "
+            f"- tentativa "
+            f"{numero_tentativa}/"
+            f"{len(tentativas_palavras)}"
+        )
 
-B = apresentadora feminina que participa ativamente
-da conversa.
+        print(
+            f"Tamanho solicitado: "
+            f"aproximadamente "
+            f"{palavras} palavras."
+        )
 
+        prompt = montar_prompt(
+            tema,
+            palavras
+        )
 
-ESTILO:
+        corpo = {
 
-- Conversa natural.
-- Português do Brasil.
-- Linguagem clara.
-- Não parecer leitura de apostila.
-- Não parecer entrevista formal.
-- Os dois precisam demonstrar conhecimento.
-- B não deve apenas fazer perguntas.
-- Os dois podem explicar conceitos.
-- Um pode complementar o raciocínio do outro.
-- Um pode discordar ou fazer contraponto.
-- Pode haver perguntas espontâneas.
-- Pode haver pequenas reações naturais.
-- Pode haver exemplos.
-- Pode haver analogias.
-- Evite exagerar em expressões como "Nossa!",
-  "Uau!" ou similares.
-- Evite repetir constantemente o nome do outro
-  apresentador.
+            "contents": [
 
+                {
 
-QUANDO O TEMA FOR DE CONCURSO OU PRF:
+                    "parts": [
 
-- Explique pensando em alguém estudando para prova.
-- Mostre pegadinhas comuns.
-- Traga situações práticas.
-- Explique como o assunto pode aparecer em questões.
-- Quando fizer sentido, mencione o estilo Cebraspe.
-- Não invente legislação.
-- Não invente artigos.
-- Não invente jurisprudência.
-- Não invente decisões judiciais.
-- Se não tiver segurança sobre um número de artigo,
-  explique o conceito sem citar o número.
+                        {
+                            "text":
+                                prompt
+                        }
 
+                    ]
 
-ESTRUTURA DA CONVERSA:
+                }
 
-A deve começar o episódio.
+            ],
 
-Depois os apresentadores devem alternar naturalmente.
+            "generationConfig": {
 
-Não precisa obrigatoriamente ser:
+                "temperature":
+                    0.75,
 
-A
-B
-A
-B
-A
-B
+                # Mais espaço para evitar
+                # corte prematuro da resposta.
 
-Se fizer sentido, A pode falar duas vezes,
-ou B pode desenvolver um raciocínio maior.
+                "maxOutputTokens":
+                    8192,
 
-Mas os dois precisam participar bastante.
+                # Obriga a API a trabalhar
+                # como JSON.
 
+                "responseMimeType":
+                    "application/json",
 
-TAMANHO DAS FALAS:
+                # Esquema estruturado.
+                #
+                # Ajuda a impedir objetos vazios
+                # como {}.
 
-Cada fala deve ter normalmente entre
-1 e 4 frases.
+                "responseSchema": {
 
-Evite blocos enormes de texto para apenas
-um apresentador.
+                    "type":
+                        "OBJECT",
 
+                    "properties": {
 
-ABERTURA:
+                        "falas": {
 
-Comece com uma pergunta, situação ou provocação
-interessante relacionada ao tema.
+                            "type":
+                                "ARRAY",
 
-Não diga:
+                            "items": {
 
-"Bem-vindos ao nosso podcast".
+                                "type":
+                                    "OBJECT",
 
+                                "properties": {
 
-FINAL:
+                                    "speaker": {
 
-Faça uma conclusão útil.
+                                        "type":
+                                            "STRING",
 
-Os dois apresentadores podem participar
-do encerramento.
+                                        "enum": [
+                                            "A",
+                                            "B"
+                                        ],
+                                    },
 
+                                    "text": {
 
-IMPORTANTE:
+                                        "type":
+                                            "STRING",
+                                    },
+                                },
 
-Retorne SOMENTE um JSON válido.
+                                "required": [
 
-Não coloque explicações antes.
+                                    "speaker",
 
-Não coloque explicações depois.
+                                    "text",
+                                ],
+                            },
+                        }
+                    },
 
-Não use Markdown.
+                    "required": [
 
-Não use ```json.
-
-
-FORMATO EXATO:
-
-{{
-  "falas": [
-    {{
-      "speaker": "A",
-      "text": "Texto falado pelo apresentador A."
-    }},
-    {{
-      "speaker": "B",
-      "text": "Texto falado pela apresentadora B."
-    }}
-  ]
-}}
-
-Use somente:
-
-"A"
-
-ou
-
-"B"
-
-no campo speaker.
-"""
-
-
-    corpo = {
-
-        "contents": [
-
-            {
-
-                "parts": [
-
-                    {
-                        "text": prompt
-                    }
-
-                ]
-
-            }
-
-        ],
-
-        "generationConfig": {
-
-            "temperature": 0.8,
-
-            "maxOutputTokens": 6000,
-
-            "responseMimeType":
-                "application/json"
+                        "falas"
+                    ],
+                },
+            },
         }
-    }
 
+        try:
 
-    print("")
-    print(
-        "Solicitando conversa ao Gemini..."
-    )
+            resposta = requests.post(
 
+                url,
 
-    resposta = requests.post(
+                json=corpo,
 
-        url,
-
-        json=corpo,
-
-        timeout=180
-    )
-
-
-    resposta.raise_for_status()
-
-
-    dados_resposta = resposta.json()
-
-
-    try:
-
-        texto_json = (
-
-            dados_resposta[
-                "candidates"
-            ][0][
-                "content"
-            ][
-                "parts"
-            ][0][
-                "text"
-            ]
-
-        )
-
-    except Exception as erro:
-
-        print("")
-        print(
-            "Resposta inesperada do Gemini:"
-        )
-
-        print(
-            dados_resposta
-        )
-
-        raise RuntimeError(
-            "Não foi possível obter "
-            "o conteúdo do Gemini."
-        ) from erro
-
-
-    texto_json = limpar_json_gemini(
-        texto_json
-    )
-
-
-    try:
-
-        dialogo_json = json.loads(
-            texto_json
-        )
-
-    except json.JSONDecodeError as erro:
-
-        print("")
-        print(
-            "JSON recebido do Gemini:"
-        )
-
-        print(
-            texto_json
-        )
-
-        raise RuntimeError(
-            "Gemini não retornou "
-            "um JSON válido."
-        ) from erro
-
-
-    # Aceita tanto:
-    #
-    # {"falas": [...]}
-    #
-    # como proteção adicional caso
-    # a API retorne diretamente uma lista.
-
-    if isinstance(
-        dialogo_json,
-        list
-    ):
-
-        falas = dialogo_json
-
-    else:
-
-        falas = dialogo_json.get(
-            "falas",
-            []
-        )
-
-
-    if not isinstance(
-        falas,
-        list
-    ):
-
-        raise RuntimeError(
-            "A resposta do Gemini "
-            "não contém uma lista de falas."
-        )
-
-
-    falas_validas = []
-
-
-    for fala in falas:
-
-        if not isinstance(
-            fala,
-            dict
-        ):
-
-            continue
-
-
-        speaker = str(
-            fala.get(
-                "speaker",
-                ""
+                timeout=180
             )
-        ).strip().upper()
 
+            resposta.raise_for_status()
 
-        texto = str(
-            fala.get(
-                "text",
-                ""
+            dados_resposta = resposta.json()
+
+            falas = extrair_falas_resposta_gemini(
+                dados_resposta
             )
-        ).strip()
 
+            print("")
+            print(
 
-        if speaker not in (
-            "A",
-            "B"
-        ):
+                f"Diálogo criado com sucesso: "
+                f"{len(falas)} falas."
+            )
 
-            continue
+            return falas
 
+        except Exception as erro:
 
-        if not texto:
+            ultimo_erro = erro
 
-            continue
+            print("")
+            print(
 
+                f"Tentativa "
+                f"{numero_tentativa} "
+                f"falhou: {erro}"
+            )
 
-        falas_validas.append(
+            if numero_tentativa < len(
+                tentativas_palavras
+            ):
 
-            {
+                print("")
+                print(
 
-                "speaker": speaker,
+                    "Tentando novamente "
+                    "com um roteiro menor..."
+                )
 
-                "text": texto
-            }
+    raise RuntimeError(
 
-        )
+        "Não foi possível gerar "
+        "um diálogo completo "
+        "após 3 tentativas."
 
-
-    if len(
-        falas_validas
-    ) < 4:
-
-        raise RuntimeError(
-            "Gemini retornou poucas "
-            "falas válidas para o podcast."
-        )
-
-
-    print("")
-    print(
-        f"Diálogo criado com "
-        f"{len(falas_validas)} falas."
-    )
-
-
-    return falas_validas
+    ) from ultimo_erro
 
 
 # ==========================================================
@@ -684,12 +862,11 @@ def salvar_roteiro(
     caminho
 ):
 
-    linhas = []
+    linhas = [
 
-    linhas.append(
         f"# Tema\n\n{tema}\n"
-    )
 
+    ]
 
     for fala in falas:
 
@@ -706,9 +883,10 @@ def salvar_roteiro(
         ]
 
         linhas.append(
-            f"## {nome}\n\n{texto}\n"
-        )
 
+            f"## {nome}\n\n"
+            f"{texto}\n"
+        )
 
     caminho.write_text(
 
@@ -721,7 +899,7 @@ def salvar_roteiro(
 
 
 # ==========================================================
-# GERAR UMA FALA EM ÁUDIO
+# GERAR UMA FALA
 # ==========================================================
 
 async def gerar_fala_audio(
@@ -732,10 +910,10 @@ async def gerar_fala_audio(
 
     ultimo_erro = None
 
-
-    # Faz até 3 tentativas porque
-    # o serviço de voz pode eventualmente
-    # apresentar erro temporário.
+    # Edge-TTS pode ocasionalmente
+    # apresentar erro de conexão.
+    #
+    # Fazemos até 3 tentativas.
 
     for tentativa in range(
         1,
@@ -745,50 +923,60 @@ async def gerar_fala_audio(
         try:
 
             comunicador = edge_tts.Communicate(
+
                 texto,
+
                 voz
             )
 
             await comunicador.save(
-                str(caminho)
+
+                str(
+                    caminho
+                )
             )
 
-
             if (
+
                 caminho.exists()
-                and caminho.stat().st_size > 1000
+
+                and
+
+                caminho.stat().st_size > 1000
+
             ):
 
                 return
 
-
             raise RuntimeError(
+
                 "Arquivo de áudio vazio "
                 "ou muito pequeno."
             )
-
 
         except Exception as erro:
 
             ultimo_erro = erro
 
-
             print(
-                f"Tentativa {tentativa} "
-                f"falhou: {erro}"
-            )
 
+                f"Tentativa {tentativa} "
+                f"de gerar fala falhou: "
+                f"{erro}"
+            )
 
             if tentativa < 3:
 
                 await asyncio.sleep(
+
                     tentativa * 2
                 )
 
-
     raise RuntimeError(
+
         "Não foi possível gerar "
         "uma das falas."
+
     ) from ultimo_erro
 
 
@@ -803,15 +991,16 @@ async def gerar_segmentos(
 
     arquivos = []
 
-
     total = len(
         falas
     )
 
-
     for numero, fala in enumerate(
+
         falas,
+
         start=1
+
     ):
 
         speaker = fala[
@@ -826,7 +1015,6 @@ async def gerar_segmentos(
             speaker
         ]
 
-
         caminho = (
 
             pasta_temporaria
@@ -834,36 +1022,35 @@ async def gerar_segmentos(
             / f"fala_{numero:03d}_{speaker}.mp3"
         )
 
-
         nome = NOMES_APRESENTADORES[
             speaker
         ]
 
-
         print(
+
             f"Gerando fala "
             f"{numero}/{total} "
             f"- {nome}"
         )
 
-
         await gerar_fala_audio(
+
             texto,
+
             voz,
+
             caminho
         )
-
 
         arquivos.append(
             caminho
         )
 
-
     return arquivos
 
 
 # ==========================================================
-# JUNTAR TODOS OS MP3 COM FFMPEG
+# JUNTAR MP3 COM FFMPEG
 # ==========================================================
 
 def juntar_audios(
@@ -877,9 +1064,10 @@ def juntar_audios(
     ) is None:
 
         raise RuntimeError(
-            "FFmpeg não foi encontrado."
-        )
 
+            "FFmpeg não foi encontrado "
+            "no ambiente."
+        )
 
     arquivo_lista = (
 
@@ -888,23 +1076,21 @@ def juntar_audios(
         / "lista_ffmpeg.txt"
     )
 
-
     linhas = []
-
 
     for arquivo in arquivos:
 
         caminho_absoluto = (
+
             arquivo
             .resolve()
             .as_posix()
         )
 
-
         linhas.append(
+
             f"file '{caminho_absoluto}'"
         )
-
 
     arquivo_lista.write_text(
 
@@ -915,13 +1101,12 @@ def juntar_audios(
         encoding="utf-8"
     )
 
-
     print("")
     print(
+
         "Juntando as vozes "
         "em um único podcast..."
     )
-
 
     comando = [
 
@@ -955,9 +1140,8 @@ def juntar_audios(
 
         str(
             caminho_final
-        )
+        ),
     ]
-
 
     subprocess.run(
 
@@ -966,33 +1150,43 @@ def juntar_audios(
         check=True
     )
 
-
     if (
+
         not caminho_final.exists()
-        or caminho_final.stat().st_size < 5000
+
+        or
+
+        caminho_final.stat().st_size < 5000
+
     ):
 
         raise RuntimeError(
+
             "O podcast final "
             "não foi gerado corretamente."
         )
 
-
     print(
+
         f"Podcast final criado: "
         f"{caminho_final}"
     )
 
 
 # ==========================================================
-# ENVIAR PARA TELEGRAM
+# TELEGRAM
 # ==========================================================
 
 def enviar_para_telegram(
+
     caminho_audio,
+
     tema,
+
     link_repo,
+
     numero_tema,
+
     total_temas
 ):
 
@@ -1004,40 +1198,40 @@ def enviar_para_telegram(
         "TELEGRAM_CHAT_ID"
     ]
 
-
     url = (
 
         f"https://api.telegram.org/"
         f"bot{token}/sendAudio"
-
     )
-
 
     legenda = (
 
         "🎙️ Podcast de Estudos\n\n"
 
-        f"👥 Dois apresentadores\n\n"
+        "👥 Dois apresentadores\n\n"
 
-        f"*Tema {numero_tema}/{total_temas}:*\n"
+        f"*Tema "
+        f"{numero_tema}/"
+        f"{total_temas}:*\n"
 
         f"{tema}\n\n"
 
         f"🔗 {link_repo}"
-
     )
-
 
     print("")
     print(
+
         "Enviando podcast "
         "para o Telegram..."
     )
 
-
     with open(
+
         caminho_audio,
+
         "rb"
+
     ) as audio_file:
 
         resposta = requests.post(
@@ -1053,7 +1247,7 @@ def enviar_para_telegram(
                     legenda,
 
                 "parse_mode":
-                    "Markdown"
+                    "Markdown",
             },
 
             files={
@@ -1065,26 +1259,25 @@ def enviar_para_telegram(
             timeout=180
         )
 
-
     resposta.raise_for_status()
 
-
     dados = resposta.json()
-
 
     if not dados.get(
         "ok"
     ):
 
         raise RuntimeError(
-            f"Telegram retornou erro: {dados}"
-        )
 
+            f"Telegram retornou erro: "
+            f"{dados}"
+        )
 
     print("")
     print(
-        "Podcast enviado "
-        "para o Telegram com sucesso."
+
+        "Podcast enviado para "
+        "o Telegram com sucesso."
     )
 
 
@@ -1097,7 +1290,6 @@ def main():
     agora = datetime.datetime.now(
         FUSO_BRASILIA
     )
-
 
     print("")
     print(
@@ -1112,7 +1304,6 @@ def main():
     print(
         "=" * 70
     )
-
 
     print(
 
@@ -1132,21 +1323,20 @@ def main():
 
     estado = carregar_estado()
 
-
     indice, tema = escolher_proximo_tema(
+
         temas,
+
         estado
     )
-
 
     print("")
     print(
 
         f"Tema selecionado: "
-        f"{indice + 1}/{len(temas)}"
-
+        f"{indice + 1}/"
+        f"{len(temas)}"
     )
-
 
     print(
         tema
@@ -1161,21 +1351,20 @@ def main():
         "%Y-%m-%d"
     )
 
-
     horario = agora.strftime(
         "%H-%M-%S"
     )
 
-
     pasta_episodio = (
 
-        Path("episodes")
+        Path(
+            "episodes"
+        )
 
         / data
 
         / horario
     )
-
 
     pasta_episodio.mkdir(
 
@@ -1184,9 +1373,9 @@ def main():
         exist_ok=True
     )
 
-
     print("")
     print(
+
         f"Pasta do episódio: "
         f"{pasta_episodio}"
     )
@@ -1212,7 +1401,6 @@ def main():
         / "roteiro.md"
     )
 
-
     salvar_roteiro(
 
         falas,
@@ -1222,16 +1410,16 @@ def main():
         caminho_roteiro
     )
 
-
     print("")
     print(
+
         f"Roteiro salvo em: "
         f"{caminho_roteiro}"
     )
 
 
     # ======================================================
-    # SALVAR JSON DO DIÁLOGO
+    # SALVAR DIÁLOGO JSON
     # ======================================================
 
     caminho_dialogo = (
@@ -1241,14 +1429,17 @@ def main():
         / "dialogo.json"
     )
 
-
     caminho_dialogo.write_text(
 
         json.dumps(
 
             {
-                "tema": tema,
-                "falas": falas
+
+                "tema":
+                    tema,
+
+                "falas":
+                    falas,
             },
 
             ensure_ascii=False,
@@ -1261,7 +1452,7 @@ def main():
 
 
     # ======================================================
-    # DADOS DO EPISÓDIO
+    # METADADOS
     # ======================================================
 
     dados_episodio = {
@@ -1276,7 +1467,9 @@ def main():
             indice + 1,
 
         "total_temas":
-            len(temas),
+            len(
+                temas
+            ),
 
         "tema":
             tema,
@@ -1288,12 +1481,16 @@ def main():
             VOZ_B,
 
         "quantidade_falas":
-            len(falas),
+            len(
+                falas
+            ),
 
         "modelo_gemini":
-            MODELO_GEMINI
-    }
+            MODELO_GEMINI,
 
+        "palavras_alvo":
+            PALAVRAS_ALVO,
+    }
 
     caminho_info = (
 
@@ -1301,7 +1498,6 @@ def main():
 
         / "episodio.json"
     )
-
 
     caminho_info.write_text(
 
@@ -1329,19 +1525,20 @@ def main():
         / "podcast.mp3"
     )
 
-
-    # Os MP3 individuais ficam apenas
-    # temporariamente e NÃO são enviados
-    # para o GitHub.
+    # As falas individuais ficam
+    # somente em uma pasta temporária.
+    #
+    # Elas NÃO são enviadas ao GitHub.
 
     with tempfile.TemporaryDirectory(
+
         prefix="podcast_falas_"
+
     ) as pasta_temp:
 
         pasta_temporaria = Path(
             pasta_temp
         )
-
 
         arquivos_segmentos = asyncio.run(
 
@@ -1353,7 +1550,6 @@ def main():
             )
 
         )
-
 
         juntar_audios(
 
@@ -1376,7 +1572,6 @@ def main():
         "SEU_USUARIO/SEU_REPO"
     )
 
-
     link_repo = (
 
         f"https://github.com/"
@@ -1385,8 +1580,9 @@ def main():
 
         f"/tree/main/episodes/"
 
-        f"{data}/{horario}"
+        f"{data}/"
 
+        f"{horario}"
     )
 
 
@@ -1413,10 +1609,12 @@ def main():
 
 
     # ======================================================
-    # ATUALIZAR SEQUÊNCIA
+    # ATUALIZAR ESTADO
     #
-    # SOMENTE DEPOIS DO TELEGRAM
-    # CONFIRMAR O ENVIO.
+    # IMPORTANTE:
+    #
+    # somente atualiza após o Telegram
+    # confirmar o envio.
     # ======================================================
 
     salvar_estado(
@@ -1435,6 +1633,7 @@ def main():
     )
 
     print(
+
         "PROCESSO CONCLUÍDO "
         "COM SUCESSO"
     )
