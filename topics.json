@@ -1,12 +1,12 @@
 {
-  "_comentario": "Adicione, remova ou reordene os temas livremente. O script escolhe 1 por dia, ciclando pela lista (dia 1 = índice 0, dia 2 = índice 1, ...). Quando chega no fim, volta pro começo.",
+  "_comentario": "Os temas são utilizados em sequência. Cada execução utiliza o próximo tema. Quando chegar ao último tema, volta automaticamente ao primeiro.",
   "temas": [
-   "Direito Administrativo para a prova da PRF",
-"Direito Penal para a prova da PRF",
-"Informática para a prova da PRF",
-"Português para a prova da PRF",
-"Trânsito (Legislação de Trânsito) para a prova da PRF",
-"ingles geral para aprender questoes e respotas ",
-  "raciocínio lógico para concurso"]  
+    "Direito Administrativo para a prova da PRF",
+    "Direito Penal para a prova da PRF",
+    "Informática para a prova da PRF",
+    "Português para a prova da PRF",
+    "Trânsito (Legislação de Trânsito) para a prova da PRF",
+    "Inglês geral para aprender questões e respostas",
+    "Raciocínio lógico para concurso"
+  ]
 }
-  
