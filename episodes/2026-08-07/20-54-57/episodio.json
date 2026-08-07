@@ -1,0 +1,12 @@
+{
+  "data_hora_brasilia": "2026-08-07T20:54:57.057865-03:00",
+  "indice_tema": 0,
+  "numero_tema": 1,
+  "total_temas": 7,
+  "tema": "Direito Administrativo para a prova da PRF",
+  "apresentador_a": "pt-BR-AntonioNeural",
+  "apresentador_b": "pt-BR-FranciscaNeural",
+  "quantidade_falas": 24,
+  "modelo_gemini": "gemini-flash-latest",
+  "palavras_alvo": 1000
+}
