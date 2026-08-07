@@ -2,12 +2,10 @@ name: Podcast Diário
 
 on:
   schedule:
-    # Horários de Brasília: 09:07, 15:07 e 21:07
-    #- cron: "7 9,15,21 * * *"
+    # TESTE: executa a cada 5 minutos
     - cron: "*/5 * * * *"
-     #timezone: "America/Sao_Paulo"
 
-  # Permite executar manualmente pela aba Actions
+  # Permite executar manualmente
   workflow_dispatch:
 
 permissions:
