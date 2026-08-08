@@ -1,0 +1,77 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Exatamente. Vamos olhar de perto a estrutura da condicional, porque ela é disparada a mais cobrada nas provas. Na tabela-verdade do 'Se P, então Q', existe apenas um único caso em que a proposição resultante é falsa: quando a primeira parte, que chamamos de antecedente, é verdadeira, e a segunda parte, o consequente, é falsa. Nos cursos preparatórios, praticamente todo mundo memorizou o famoso macete da 'Vera Fischer é Falsa'."
+    },
+    {
+      "speaker": "B",
+      "text": "É um clássico que nunca falha na hora do sufoco! Se a primeira for Verdadeira e a segunda for Falsa, o resultado da condicional é Falso. Em qualquer outro cenário — seja Verdadeiro com Verdadeiro, Falso com Verdadeiro ou até Falso com Falso — a condicional será sempre Verdadeira. O candidato precisa fixar que a única forma de quebrar uma promessa condicional é cumprir a condição inicial e não entregar o resultado prometido."
+    },
+    {
+      "speaker": "A",
+      "text": "Muitos estudantes travam justamente quando o antecedente é falso. Pense no seguinte exemplo prático: 'Se chover amanhã, eu vou à biblioteca'. Se amanhã fizer um sol radiante e não chover, não importa se eu fui ou não à biblioteca; a minha afirmação inicial não foi desmentida. É por isso que, com a primeira parte falsa, o resultado final da condicional é considerado verdadeiro por definição."
+    },
+    {
+      "speaker": "B",
+      "text": "Compreendido esse funcionamento, a banca Cebraspe adora cobrar as equivalências lógicas da condicional, que nada mais são do que maneiras diferentes de reescrever a mesma ideia sem alterar os valores lógicos da tabela. A equivalência mais tradicional é a chamada Contrapositiva. Para aplicar essa regra, você deve inverter a ordem das duas proposições e negar ambas simultaneamente."
+    },
+    {
+      "speaker": "A",
+      "text": "Na prática da prova, se você tem a proposição 'Se o candidato estuda, então ele é aprovado', a equivalente contrapositiva será 'Se o candidato não é aprovado, então ele não estuda'. Repare que mantivemos o conectivo 'Se... então', mas invertemos a posição das frases e negamos o conteúdo de cada uma. Se a frase original é verdadeira, a contrapositiva obrigatoriamente também será."
+    },
+    {
+      "speaker": "B",
+      "text": "O detalhe crucial é não trocar apenas a ordem sem negar, ou apenas negar sem trocar a ordem. O Cebraspe adora colocar como pegadinha 'Se o candidato não estuda, então não é aprovado', o que é um erro clássico! Além da contrapositiva, existe outra equivalência fundamental para a condicional que troca o conectivo 'Se... então' pela disjunção 'OU', conhecida popularmente como a regra do Neymar ou NeMa."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa regra do NeMa é uma ferramenta poderosa para resolver questões rapidamente. O acrônimo ensina exatamente o passo a passo: você NEga a primeira proposição, troca a seta da condicional pelo conectivo 'OU', e MAntém a segunda proposição intacta. É por isso que dizemos 'NEga a primeira OU MAntém a segunda'."
+    },
+    {
+      "speaker": "B",
+      "text": "Pegando o nosso mesmo exemplo: 'Se o candidato estuda, então ele é aprovado'. Aplicando a regra do NeMa, negamos a primeira parte ficando 'O candidato não estuda', colocamos o 'OU' no meio, e mantemos a segunda parte 'ele é aprovado'. A sentença equivalente final fica 'O candidato não estuda OU ele é aprovado'. Lógicamente, essas duas frases expressam exatamente a mesma restrição."
+    },
+    {
+      "speaker": "A",
+      "text": "Agora, os candidatos precisam ter um cuidado redobrado para não confundir equivalência com negação. A equivalência mantém o mesmo valor lógico da frase original, enquanto a negação serve para contradictionar a frase, invertendo seu valor de verdadeiro para falso. E para negar a condicional, usamos outro macete indispensável que é a regra do MANÉ."
+    },
+    {
+      "speaker": "B",
+      "text": "O macete do MANÉ é simples e direto ao ponto: MAntém a primeira parte E NEga a segunda parte. Percebam uma mudança crítica aqui: para negar uma condicional, você nunca usa outro 'Se... então'. A negação da condicional transforma a estrutura no conectivo 'E', eliminando completamente a ideia de condição."
+    },
+    {
+      "speaker": "A",
+      "text": "A aplicação é impecável: para negar 'Se o candidato estuda, então ele é aprovado', nós mantemos a primeira parte 'O candidato estuda', trocamos o conectivo para 'E', e negamos a segunda 'ele não é aprovado'. Fica 'O candidato estuda E não é aprovado'. Reparem que essa estrutura é justamente o caso 'Vera Fischer', a única situação que torna a condicional falsa."
+    },
+    {
+      "speaker": "B",
+      "text": "Expandindo as negações para outros conectivos, temos as famosas Leis de De Morgan, que ensinam como negar a conjunção 'E' e a disjunção 'OU'. A regra geral de De Morgan é surpreendentemente simétrica: você deve negar ambas as proposições individuais e inverter o conectivo central, trocando 'E' por 'OU' ou trocando 'OU' por 'E'."
+    },
+    {
+      "speaker": "A",
+      "text": "Por exemplo, se a afirmação for 'O agente fiscalizou a documentação E aplicou a multa', a negação feita por De Morgan será 'O agente não fiscalizou a documentação OU não aplicou a multa'. Para desmentir que ele fez as duas coisas juntas, basta que ele tenha deixado de fazer pelo menos uma delas, por isso o 'E' vira 'OU'."
+    },
+    {
+      "speaker": "B",
+      "text": "E no caminho inverso funciona da mesma forma. Para negar 'O réu pagou a fiança OU respondeu em liberdade', negamos as duas partes e trocamos o 'OU' pelo 'E', resultando em 'O réu não pagou a fiança E não respondeu em liberdade'. O Cebraspe adora criar alternativas onde nega as frases mas esquece de inverter o conectivo, tentando induzir o candidato ao erro por desatenção."
+    },
+    {
+      "speaker": "A",
+      "text": "Outra armadilha frequente do Cebraspe envolve a tradução do português falado para a linguagem simbólica do RLM. A banca adora mascarar a condicional usando termos como 'quando', 'como', 'desde que', ou expressões de condição suficiente e necessária. Quando o examinador escreve 'A ocorrência do fato X é condição suficiente para o fato Y', ele está dizendo 'Se X, então Y'."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa relação entre suficiente e necessário confunde muitos concurseiros. O macete definitivo para não errar no dia da prova é lembrar que o elemento 'Suficiente' sempre fica na frente da seta, ou seja, é o antecedente, enquanto o elemento 'Necessário' fica sempre atrás da seta, atuando como o consequente da condicional."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente! Se a questão diz 'Ser brasileiro nato é condição necessária para ser Presidente da República', a estrutura é 'Se é Presidente da República, então é brasileiro nato'. O erro comum é colocar 'ser brasileiro nato' na frente da seta só porque a palavra apareceu primeiro na frase em português. A ordem das palavras no texto não dita obrigatoriamente a ordem lógica da fórmula."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito. Dominar essa conversão do texto em português para os símbolos da lógica proposicional é o grande diferencial competitivo. A partir do momento em que você consegue montar a estrutura correta no papel, basta aplicar roboticamente as regras de tabela-verdade, equivalência do Neymar ou negação do MANÉ para gabaritar a questão."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Você já abriu uma prova do Cebraspe, olhou para uma questão de Raciocínio Lógico e sentiu que a banca estava falando em outra língua? Isso é mais comum do que se imagina, mas a verdade é que o RLM não precisa ser o vilão da sua preparação. Na verdade, quando você pega o jeito, essa disciplina vira um verdadeiro divisor de águas na pontuação final."
+    },
+    {
+      "speaker": "B",
+      "text": "É exatamente isso. Principalmente no perfil do Cebraspe, onde uma questão errada anula uma certa, dominar a lógica garante pontos preciosos com total certeza. O segredo está em parar de tentar resolver as questões usando a intuição do dia a dia e passar a aplicar regras bem estruturadas. E tudo começa entendendo o tijolo fundamental dessa matéria: o conceito de proposição lógica."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito. Em termos bem simples, uma proposição lógica nada mais é do que uma oração declarativa que possui um sentido completo. A característica principal dela é que a gente consegue valorá-la, ou seja, atribuir um valor lógico que só pode ser Verdadeiro ou Falso. Não existe meio-termo ou uma terceira opção aqui."
+    },
+    {
+      "speaker": "B",
+      "text": "Isso mesmo. Se eu digo 'Brasília é a capital do Brasil', isso é uma proposição declarativa e nós sabemos que o valor lógico é verdadeiro. Agora, se eu disser 'Que dia bonito!', ou fizer uma pergunta como 'Você estudou hoje?', isso não é proposição. Frases exclamativas, interrogativas, imperativas como 'Faça o seu dever' e sentenças abertas simplesmente não podem ser julgadas como V ou F."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa questão das sentenças abertas é uma pegadinha clássica do Cebraspe. Uma frase como 'Ele é um excelente policial' não tem como ser julgada porque a gente não sabe quem é 'ele'. Como existe uma variável indefinida na frase, falta informação para dizer se é verdadeiro ou falso. Para ser proposição, o sujeito precisa estar bem determinado."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. Dominado esse conceito de proposição simples, a banca começa a brincar montando estruturas maiores, que chamamos de proposições compostas. Para juntar essas frases simples, nós usamos os famosos conectivos lógicos. Eles funcionam como pontes e mudam completamente a forma de analisar a veracidade de uma sentença inteira."
+    },
+    {
+      "speaker": "A",
+      "text": "O primeiro e mais intuitivo deles é a Negação, representada pelo til ou pelo símbolo de cantoneira. A função da negação é simplesmente inverter o valor lógico da proposição original. Se a frase 'O candidato foi aprovado' é verdadeira, a sua negação 'O candidato não foi aprovado' passa a ser falsa automaticamente."
+    },
+    {
+      "speaker": "B",
+      "text": "Aí entramos na Conjunção, que é o nosso famoso operador 'E'. Pense no 'E' como um exigente segurança de balada: para a proposição composta ser verdadeira, as duas partes precisam ser estritamente verdadeiras ao mesmo tempo. Se apenas uma parte for falsa, toda a estrutura desmorona e fica falsa."
+    },
+    {
+      "speaker": "A",
+      "text": "Faz sentido total. Se eu digo 'Estudei para a prova E passei no concurso', só estarei falando a verdade se ambas as coisas realmente aconteceram. Se eu estudei mas não passei, a afirmação completa se torna uma mentira. Essa rigidez do 'E' é fundamental para não cair em pegadinhas na hora de montar a tabela-verdade."
+    },
+    {
+      "speaker": "B",
+      "text": "Já a Disjunção inclusiva, que é o conectivo 'OU', é muito mais flexível e boazinha. Basta que uma das partes seja verdadeira para que a proposição inteira seja considerada verdadeira. Ela só vai ser falsa no único caso em que todas as partes envolvidas forem falsas simultaneamente."
+    },
+    {
+      "speaker": "A",
+      "text": "E é importantíssimo não confundir essa disjunção inclusiva com a Disjunção Exclusiva, que é o 'OU... OU'. Na exclusiva, como o próprio nome diz, uma opção exclui a outra. Ou bem acontece uma coisa, ou bem acontece outra, mas nunca as duas juntas. Se as duas forem verdadeiras ou se as duas forem falsas, a disjunção exclusiva resulta em falso."
+    },
+    {
+      "speaker": "B",
+      "text": "Boa lembrança. Um exemplo prático seria: 'Ou o candidato nasceu no Ceará ou nasceu na Bahia'. Ele não pode ter nascido nos dois estados ao mesmo tempo. Se ele realmente nasceu em apenas um deles, a sentença é verdadeira. Se ele nasceu em São Paulo, ambas as partes são falsas e a frase toda fica falsa."
+    },
+    {
+      "speaker": "A",
+      "text": "Agora chegamos à estrela máxima dos concursos públicos: a Condicional, representada pelo 'SE... ENTÃO' ou por uma seta apontando para a direita. Ela estabelece uma relação de causa e efeito, de condição suficiente e necessária. A condicional é, sem sombra de dúvida, a estrutura mais cobrada pelo Cebraspe e exige uma atenção especialíssima."
+    },
+    {
+      "speaker": "B",
+      "text": "Com certeza. A regra básica para lembrar da condicional é que a promessa feita pela frase só é quebrada se a primeira parte for verdadeira e a segunda for falsa. Em qualquer outra combinação de valores lógicos, a sentença condicional permanece sendo verdadeira. É a única estrutura em que a ordem das frases altera totalmente o resultado."
+    },
+    {
+      "speaker": "A",
+      "text": "Exato. E fechando esse grupo inicial de conectivos, temos a Bicondicional, o famoso 'SE E SOMENTE SE', indicado por uma seta dupla. Ela funciona como um pacto de equivalência perfeita. A proposição bicondicional só é verdadeira quando os dois lados têm exatamente o mesmo valor lógico, ou seja, quando ambos são verdadeiros ou ambos são falsos."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito. Pense na bicondicional como uma balança em equilíbrio: se um lado for verdadeiro e o outro falso, ela perde o equilíbrio e a proposição fica falsa. Entender a dinâmica desses conectivos é como memorizar o movimento das peças no tabuleiro de xadrez do RLM. Sem essa base bem consolidada, fica impossível avançar."
+    },
+    {
+      "speaker": "A",
+      "text": "E quando a gente fala de provas do Cebraspe, memorizar apenas a definição dos conectivos é só o primeiro passo. A banca ama explorar as transformações que podemos fazer com essas sentenças, especialmente quando entramos nos detalhes profundos da condicional e das suas equivalências."
+    },
+    {
+      "speaker": "B",
+      "text": "Com certeza. A condicional tem tantos segredos e regrinhas práticas de memorização que vale a pena analisar cada detalhe da sua tabela-verdade e as formas de negá-la sem cair nas pegadinhas de linguagem da banca."
+    }
+  ]
+}
