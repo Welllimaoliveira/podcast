@@ -1,0 +1,77 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Exatamente, e é aí que a Segurança da Informação se torna o coração da prova da PRF. Para o Cebraspe, proteger uma rede envolve garantir quatro pilares fundamentais, conhecidos pela sigla CIDA: Confidencialidade, Integridade, Disponibilidade e Autenticidade. A banca costuma colocar situações hipotéticas do cotidiano policial para testar se o candidato sabe identificar qual desses princípios foi violado durante um incidente de segurança."
+    },
+    {
+      "speaker": "B",
+      "text": "Uma pegadinha muito comum é trocar a Confidencialidade pela Integridade. Lembre-se de que a Confidencialidade garante que a informação só seja acessada por pessoas autorizadas, evitando a leitura indevida. Já a Integridade garante que o dado não foi alterado ou adulterado no caminho. Se um invasor altera o boletim de ocorrência no sistema da PRF, ele violou a Integridade; se ele apenas leu o documento confidencial sem permissão, a violação foi de Confidencialidade."
+    },
+    {
+      "speaker": "A",
+      "text": "E não podemos esquecer da Disponibilidade, que assegura que o sistema esteja acessível quando necessário, e da Autenticidade, que confirma a identidade da pessoa ou do sistema emissor. Além dos princípios, o Cebraspe adora explorar os tipos de códigos maliciosos que ameaçam essa estrutura. O ponto central aqui é saber diferenciar as formas de contágio e execução de cada malware, como Vírus, Worms e Spywares."
+    },
+    {
+      "speaker": "B",
+      "text": "A diferença básica que sempre cai em prova é entre Vírus e Worm. O Vírus é um programa parasita, ou seja, ele precisa se hospedar em um arquivo executável ou documento e necessita da ação humana para se multiplicar, como clicar em um anexo. O Worm, por sua vez, é um código autônomo que se propaga sozinho explorando vulnerabilidades na rede, sem precisar de um arquivo hospedeiro nem de intervenção do usuário."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro malware extremamente cotado para a prova da PRF é o Ransomware. Ele sequestra os dados do sistema por meio de criptografia forte e exige um resgate, geralmente em criptomoedas, para devolver a chave de decodificação. O Cebraspe costuma afirmar erroneamente que o Ransomware destrói fisicamente o disco rígido, mas na verdade ele apenas bloqueia o acesso aos arquivos através do ciframento dos dados."
+    },
+    {
+      "speaker": "B",
+      "text": "Já no caso dos Spywares, o objetivo principal é a espionagem e a coleta oculta de dados do usuário. Entre as variações mais cobradas temos os Keyloggers, que capturam tudo o que é digitado no teclado, e os Screenloggers, que gravam cliques e capturam a tela na região do cursor. É vital lembrar que essas pragas muitas vezes chegam ao computador da vítima através de técnicas de Engenharia Social, explorando a ingenuidade do ser humano."
+    },
+    {
+      "speaker": "A",
+      "text": "A Engenharia Social é a arte de manipular pessoas para que elas forneçam informações confidenciais ou executem arquivos maliciosos. O principal vetor de ataque baseado nisso é o Phishing. Trata-se daquela mensagem fraudulenta, enviada por e-mail, SMS ou aplicativo de mensagem, que se passa por uma instituição oficial para induzir o servidor a clicar em links falsos ou fornecer suas credenciais corporativas."
+    },
+    {
+      "speaker": "B",
+      "text": "A banca Cebraspe gosta de criar enunciados onde o usuário recebe um e-mail parecendo ser da administração da PRF solicitando o recadastramento urgente de senha sob pena de bloqueio. Isso é um clássico Phishing. Se o enunciado mencionar a alteração do serviço de nomes para redirecionar o tráfego para um site falso sem que o usuário perceba, mesmo digitando o endereço correto, aí já estamos falando de Pharming, que afeta o envenenamento de DNS."
+    },
+    {
+      "speaker": "A",
+      "text": "Para mitigar essas ameaças e garantir a proteção dos dados transmitidos nas redes, a criptografia é a ferramenta essencial. A banca cobra intensamente a diferença entre Criptografia Simétrica e Criptografia Assimétrica. Na Criptografia Simétrica, utiliza-se uma única chave secreta tanto para cifrar quanto para decifrar a mensagem, o que torna o processo muito rápido, porém traz o desafio da distribuição segura dessa chave."
+    },
+    {
+      "speaker": "B",
+      "text": "Na Criptografia Assimétrica, a lógica muda completamente porque trabalhamos com um par de chaves matematicamente relacionadas: uma chave pública e uma chave privada. A chave pública é aberta e pode ser distribuída para qualquer pessoa, enquanto a chave privada é secreta e deve ficar sob a posse exclusiva do seu dono. O grande segredo para a prova é entender o que acontece quando usamos cada uma dessas chaves no processo."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa é a maior fonte de pegadinhas do Cebraspe em Segurança da Informação. Se o objetivo for garantir a Confidencialidade da comunicação, o remetente deve cifrar a mensagem usando a Chave Pública do destinatário. Como apenas a Chave Privada do destinatário consegue decifrar o que foi codificado com a sua pública correspondente, o sigilo total da informação fica garantido durante todo o trajeto."
+    },
+    {
+      "speaker": "B",
+      "text": "Por outro lado, se o objetivo for garantir a Autenticidade e a Integridade do documento, ocorre o inverso: entra em cena a Assinatura Digital. Para assinar digitalmente um arquivo, o emissor utiliza a sua própria Chave Privada para gerar a assinatura. Qualquer pessoa que tenha a Chave Pública do emissor poderá validar aquela assinatura e confirmar que o documento realmente veio dele e não foi alterado."
+    },
+    {
+      "speaker": "A",
+      "text": "E atente-se para o detalhe fatal da prova: a Assinatura Digital não garante a Confidencialidade do documento. A banca adora colocar afirmativas dizendo que assinar digitalmente um arquivo impede que terceiros vejam seu conteúdo. Isso está incorreto, pois a assinatura digital apenas provê autenticidade, integridade e o não-repúdio, também conhecido como irretratabilidade, que impede o autor de negar a autoria."
+    },
+    {
+      "speaker": "B",
+      "text": "O conceito de não-repúdio é crucial no trabalho operacional da Polícia Rodoviária Federal. Se um policial assina um laudo pericial ou uma autuação digitalmente com sua chave privada, fica provado juridicamente que foi ele quem gerou o documento. Ele não pode alegar que outra pessoa produziu aquela informação, pois sua chave privada é de uso pessoal e intransferível."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro componente vital que viabiliza a verificação de integridade e a assinatura digital é a Função Hash. O hash é um algoritmo de espelhamento que transforma qualquer volume de dados em uma sequência de caracteres de tamanho fixo. O Cebraspe costuma afirmar que o hash é um tipo de criptografia reversível, o que é um erro absurdo, pois o hash é unidirecional e não permite recuperar o texto original a partir do código gerado."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente, o hash funciona como uma impressão digital do arquivo. Se alterarmos um único ponto ou espaço em um texto de cem páginas, o valor do hash resultante será completamente diferente. Essa propriedade permite comparar a impressão digital do arquivo original com a do arquivo recebido para atestar que a mensagem permaneceu intacta do início ao fim do tráfego na rede."
+    },
+    {
+      "speaker": "A",
+      "text": "Perceba como todos esses conceitos se entrelaçam no cotidiano da segurança corporativa e nas questões da banca. Entender a diferença entre cifrar para sigilo usando a chave pública do outro e assinar para autenticidade usando a própria chave privada é o tipo de conhecimento que garante pontos preciosos no gabarito."
+    },
+    {
+      "speaker": "B",
+      "text": "E toda essa estrutura de segurança, chaves e hashes se torna ainda mais prática quando observamos a rotina de trabalho remoto e acesso aos sistemas internos da polícia. Conectar uma delegacia a uma central ou permitir que um agente em campo acesse o banco de dados corporativo com segurança exige a aplicação direta dessas tecnologias."
+    }
+  ]
+}

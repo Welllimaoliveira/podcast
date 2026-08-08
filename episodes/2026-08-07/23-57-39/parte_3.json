@@ -1,0 +1,77 @@
+{
+  "parte": 3,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Exatamente! Essa conexão remota e segura com os sistemas centrais da Polícia Rodoviária Federal é viabilizada principalmente pelo uso de Redes Virtuais Privadas, as famosas VPNs. A VPN cria um túnel criptografado sobre uma infraestrutura de rede pública, como a própria Internet, permitindo que o policial acesse dados corporativos sigilosos de qualquer lugar do país como se estivesse conectado dentro da rede local da instituição. Esse tunelamento garante a confidencialidade e a integridade do tráfego das informações operacionais."
+    },
+    {
+      "speaker": "B",
+      "text": "E o Cebraspe costuma cobrar o conceito de VPN exatamente sob a ótica do tunelamento e do tráfego criptografado. É vital que você lembre para a prova que a VPN não é um meio físico de transmissão, mas sim uma tecnologia de rede privada virtual sobreposta a uma rede pública. Além disso, quando tratamos de navegação web e acesso administrativo a servidores corporativos, o tráfego seguro depende diretamente de protocolos robustos como HTTPS e SSH."
+    },
+    {
+      "speaker": "A",
+      "text": "O protocolo HTTPS combina o conhecido HTTP com a camada de segurança SSL ou TLS, utilizando por padrão a porta quatro quatro três para cifrar todos os dados trocados entre o navegador e o servidor. Já o protocolo SSH, que opera na porta vinte e dois, é amplamente cobrado em questões sobre administração remota de sistemas de forma segura. O SSH veio para substituir protocolos antigos e vulneráveis, como o Telnet, eliminando o tráfego de senhas em texto puro pela rede."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa comparação entre o SSH e o Telnet é uma pegadinha clássica nas provas de concursos da carreira policial. A banca Cebraspe adora afirmar que o Telnet oferece segurança nativa ou que o SSH não possui suporte a criptografia assimétrica. Na verdade, o SSH utiliza criptografia forte para proteger comandos executados no terminal remoto, garantindo que nenhum invasor consiga interceptar ou alterar os dados trafegados durante a sessão de administração."
+    },
+    {
+      "speaker": "A",
+      "text": "Agora que cobrimos essa aplicação prática em acessos remotos e protocolos de comunicação, é o momento perfeito para fazermos o nosso checklist final de revisão dos pontos mais cobrados na prova. Vamos repassar sinteticamente as diferenças de redes, as principais ameaças digitais e os pilares de segurança da informação para garantir que nenhum detalhe passe despercebido."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito. Começando pelas redes de computadores, lembre-se de que a Internet é a rede mundial e pública, a Intranet é restrita e privada para membros de uma organização, e a Extranet permite o acesso externo controlado a parceiros autorizados. Todas elas utilizam a família de protocolos TCP/IP, onde o protocolo IP cuida do endereçamento dos dispositivos na rede e o DNS traduz nomes de domínio em endereços IP numéricos."
+    },
+    {
+      "speaker": "A",
+      "text": "Já no campo dos malwares e ameaças digitais, vimos que o Worm se destaca por se replicar automaticamente pela rede aproveitando vulnerabilidades, sem precisar se anexar a outros arquivos. Por outro lado, o Ransomware sequestra os dados do sistema utilizando criptografia avançada e exige o pagamento de um resgate para liberar o acesso. Não esqueça do Spyware, focado em espionagem, e do Phishing, técnica de engenharia social para enganar o usuário e roubar dados pessoais."
+    },
+    {
+      "speaker": "B",
+      "text": "Na parte dos pilares da segurança, guarde a famosa sigla DICA, que representa Disponibilidade, Integridade, Confidencialidade e Autenticidade. Lembre-se também de que a criptografia simétrica utiliza uma única chave secreta para cifrar e decifrar os dados, enquanto a criptografia assimétrica trabalha com um par de chaves: a pública é usada pelo remetente para garantir a confidencialidade, e a privada é usada pelo emissor para gerar a assinatura digital e garantir a autenticidade."
+    },
+    {
+      "speaker": "A",
+      "text": "Com essa revisão na ponta da língua, precisamos focar nas orientações estratégicas para o estilo único das questões Certo ou Errado do Cebraspe. Essa banca possui uma dinâmica de cobrança muito própria, onde uma palavra mal interpretada pode custar um ponto precioso no resultado final."
+    },
+    {
+      "speaker": "B",
+      "text": "Uma das principais dicas de estratégia é ter cuidado extremo com termos absolutistas nas afirmativas da prova. Palavras como sempre, nunca, exclusivamente, impossível, totalmente ou em hipótese alguma devem acender um alerta vermelho imediato. Em Informática e tecnologia da informação, quase nada é absoluto, pois sempre existem exceções tecnológicas, diferentes configurações de segurança ou cenários de exceção previstos nos manuais técnicos."
+    },
+    {
+      "speaker": "A",
+      "text": "O Cebraspe costuma criar afirmativas falsas justamente inserindo um termo categórico em uma frase que, de resto, seria plenamente correta. Por exemplo, dizer que uma VPN garante total e absoluta imunidade do computador contra qualquer tipo de malware torna a afirmativa errada. A VPN protege o tráfego dos dados via criptografia no túnel, mas não impede que um usuário baixe um arquivo infectado contendo um vírus ou um spyware."
+    },
+    {
+      "speaker": "B",
+      "text": "Outra tática muito comum da banca é montar itens longos compostos por duas partes ligadas por uma conjunção. Frequentemente, a primeira parte do texto traz um conceito perfeito, mas a segunda parte introduz um erro sutil, como trocar a função do firewall pela do antivírus. Leia a questão pausadamente, divida o enunciado em proposições lógicas e valide cada pedaço do texto antes de marcar seu gabarito definitivo."
+    },
+    {
+      "speaker": "A",
+      "text": "E nunca subestime a regra do jogo da banca Cebraspe, onde uma resposta errada anula uma resposta certa. Se você se deparar com uma questão extremamente complexa ou com termos que você realmente desconhece, deixar o item em branco é uma atitude madura de gestão de risco. A aprovação em um concurso concorrido como o da Polícia Rodoviária Federal exige tanto conhecimento teórico quanto inteligência emocional no controle de perdas."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. A disciplina que você construiu durante a sua rotina de estudos deve ser demonstrada no dia da prova com serenidade e foco total. A disciplina de Informática tem um peso relevante na pontuação final e costuma ser o diferencial de classificação entre os candidatos que apenas usam o computador e aqueles que estudaram a teoria técnica exigida no edital da PRF."
+    },
+    {
+      "speaker": "A",
+      "text": "Mantenha o seu plano de estudos firme nesta reta final, priorizando a resolução constante de questões anteriores da banca e a revisão dos seus resumos. Cada questão resolvida, cada protocolo compreendido e cada conceito fixado aproximam você do seu grande objetivo profissional."
+    },
+    {
+      "speaker": "B",
+      "text": "Visualize a sua preparação como um investimento diário no seu futuro como Policial Rodoviário Federal. Todo o cansaço, as noites de estudo e a abdicação de momentos de lazer serão recompensados quando você vir o seu nome publicado no Diário Oficial da União."
+    },
+    {
+      "speaker": "A",
+      "text": "Chegamos ao final do nosso episódio sobre Informática focada no concurso da PRF. Esperamos que este conteúdo tenha clareado suas dúvidas e fortalecido sua preparação teórica e estratégica para o dia do exame."
+    },
+    {
+      "speaker": "B",
+      "text": "Agradecemos demais pela sua companhia ao longo deste podcast. Continue dedicado, mantenha a confiança no seu potencial e faça uma excelente prova. Um grande abraço a todos os futuros policiais rodoviários federais, bons estudos e até a vitória!"
+    }
+  ]
+}

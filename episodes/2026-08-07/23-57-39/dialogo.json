@@ -1,0 +1,226 @@
+{
+  "tema": "Informática para a prova da PRF",
+  "plano": {
+    "parte_1": "Boas-vindas aos futuros Policiais Rodoviários Federais! Neste bloco inicial, vamos introduzir a relevância da Informática na prova da PRF organizada pelo Cebraspe. Abordaremos os fundamentos de Redes de Computadores e Arquitetura da Internet. Explicaremos a diferença essencial entre Internet, Intranet e Extranet, além do funcionamento básico do modelo TCP/IP e de protocolos de comunicação fundamentais, como HTTP, DNS e IP. O objetivo aqui é construir uma base conceitual sólida para que você entenda como os dados trafegam de forma estruturada e por que a banca cobra a terminologia técnica dessas redes no contexto administrativo e operacional.",
+    "parte_2": "Aprofundando o conteúdo, focamos em Segurança da Informação e nas principais pegadinhas do Cebraspe. Analisamos os pilares fundamentais da segurança: Confidencialidade, Integridade, Disponibilidade e Autenticidade. Diferenciamos malwares recorrentes nas provas, como Ransomware, Spyware, Worms e Vírus, destacando o uso da Engenharia Social e ataques de Phishing. Discutimos a comparação entre Criptografia Simétrica e Criptografia Assimétrica, alertando para enunciados clássicos da banca que tentam induzir o candidato ao erro trocando os conceitos de chaves públicas e privadas ou confundindo assinatura digital com sigilo.",
+    "parte_3": "Para consolidar o aprendizado, analisamos a aplicação prática do uso de redes virtuais privadas (VPN) e conexões seguras via HTTPS e SSH no trabalho remoto de sistemas corporativos da administração pública. Fazemos um checklist final de revisão dos pontos mais cobrados: diferenças entre tipos de redes, ameaças digitais e pilares de segurança. Apresentamos orientações estratégicas para o modelo de questões Certo ou Errado da banca Cebraspe, destacando os cuidados necessários com termos absolutistas nas afirmativas. Finalizamos o episódio com palavras de incentivo e foco total na preparação do candidato para a PRF."
+  },
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Você já parou para pensar em como uma simples consulta de placa realizada por um policial rodoviário federal na rodovia conecta instantaneamente a viatura ao banco de dados central em Brasília? Essa comunicação rápida e segura não acontece por acaso, e é exatamente esse ecossistema digital que a banca Cebraspe adora cobrar na prova da PRF. Entender a tecnologia por trás dessa operação é o primeiro passo para não cair em pegadinhas e garantir pontos preciosos na sua preparação."
+    },
+    {
+      "speaker": "B",
+      "text": "Muitos candidatos travam ao estudar Redes de Computadores por acharem o tema abstrato demais, quando na verdade ele está presente no nosso dia a dia e na rotina policial. A banca não quer que você seja um programador ou engenheiro de redes, mas exige que você compreenda a lógica de funcionamento e a terminologia correta dos sistemas. Vamos desmistificar esses conceitos fundamentais de uma forma bem prática e voltada para a prova."
+    },
+    {
+      "speaker": "A",
+      "text": "Para começar do jeito certo, precisamos alinhar três conceitos que a Cebraspe ama confundir nos enunciados: Internet, Intranet e Extranet. A Internet é a rede mundial, pública e descentralizada que todos nós usamos para acessar qualquer site aberto. Já a Intranet é uma rede privada, de acesso restrito aos membros de uma determinada organização, como a própria Polícia Rodoviária Federal."
+    },
+    {
+      "speaker": "B",
+      "text": "E aqui já surge a primeira grande pegadinha de prova que você precisa anotar no seu caderno. A Cebraspe costuma afirmar que a Intranet exige equipamentos físicos totalmente diferentes dos utilizados na Internet, o que é completamente falso. A Intranet utiliza exatamente os mesmos protocolos e tecnologias da Internet, como a pilha TCP/IP, mas com o acesso restrito aos usuários autorizados daquela instituição."
+    },
+    {
+      "speaker": "A",
+      "text": "E para fechar esse trio de redes, temos a Extranet, que nada mais é do que uma extensão controlada da Intranet para usuários externos autorizados. Pense em um parceiro de outro órgão público ou em um policial em trabalho remoto acessando serviços internos por meio de uma credencial segura. A Extranet permite esse acesso externo limitado aos recursos privados sem expor toda a rede interna para o público geral."
+    },
+    {
+      "speaker": "B",
+      "text": "Agora que já sabemos diferenciar esses três ambientes de rede, precisamos entender como as informações de fato viajam de um ponto a outro. É aí que entra o famoso modelo TCP/IP, que funciona como o idioma universal das redes de computadores. Sem esse conjunto de protocolos, seria impossível diferentes dispositivos, como um smartphone, um computador de mesa e um servidor policial, conversarem entre si."
+    },
+    {
+      "speaker": "A",
+      "text": "Para visualizar o TCP/IP de forma simples, pense em um serviço de correios perfeitamente organizado. O protocolo TCP fica responsável por garantir que a mensagem seja dividida em pacotes menores, entregue sem erros e remontada na ordem correta no destino. Já o protocolo IP atua como o endereçamento postal, identificando a origem e o destino exato de cada um desses pacotes na rede."
+    },
+    {
+      "speaker": "B",
+      "text": "Falando especificamente do protocolo IP, é crucial entender que o endereço IP é a identificação única de um dispositivo em uma rede. A Cebraspe costuma explorar muito a transição entre o IPv4, que usa endereços de 32 bits divididos em quatro blocos, e o IPv6, que possui 128 bits e foi criado para resolver o esgotamento de endereços no planeta. Saber essa diferença estrutural entre IPv4 e IPv6 é questão certa em provas."
+    },
+    {
+      "speaker": "A",
+      "text": "Com certeza! Mas ninguém decora uma sequência de números como 192.168.0.1 para acessar um site na web, não é verdade? É justamente para facilitar a vida do usuário que existe o DNS, o Domain Name System. O DNS funciona como uma grande agenda telefônica da Internet, traduzindo nomes de domínios amigáveis para os seus respectivos endereços IP numéricos."
+    },
+    {
+      "speaker": "B",
+      "text": "Quando você digita o endereço de um portal no seu navegador, o servidor DNS entra em ação nos bastidores para descobrir qual é o IP daquele servidor. Se a banca disser que o DNS é responsável por criptografar os dados da navegação, pode marcar errado sem medo! O papel do DNS é estritamente a resolução de nomes em endereços IP, algo vital para a navegação na web."
+    },
+    {
+      "speaker": "A",
+      "text": "Outra pegadinha clássica do Cebraspe é tentar misturar a função do DNS com os protocolos de aplicação, como o HTTP e o HTTPS. O HTTP é o protocolo padrão para a transferência de páginas e conteúdos na web. Quando navegamos em um site usando HTTP simples, os dados trafegam em texto puro pela rede, sem nenhum tipo de proteção ou sigilo contra interceptações."
+    },
+    {
+      "speaker": "B",
+      "text": "E é por isso que para sistemas administrativos e operacionais da PRF o HTTP sozinho não é suficiente. Nesses casos entra o HTTPS, onde a letra S representa a presença de uma camada de segurança extra, como o TLS ou SSL. O HTTPS garante que a comunicação entre o navegador e o servidor seja completamente criptografada, impedindo que terceiros bisbilhotem as informações trafegadas."
+    },
+    {
+      "speaker": "A",
+      "text": "Repare como todos esses elementos trabalham de forma encadeada quando você faz uma requisição na web. Você digita o nome do site, o DNS traduz para o IP correspondente, o protocolo IP guia os pacotes pela rede, o TCP garante a entrega sem perdas e o HTTPS exibe a página de forma segura. A banca ama colocar enunciados afirmando que um único protocolo faz o trabalho de todos os outros."
+    },
+    {
+      "speaker": "B",
+      "text": "Cada protocolo atua em uma camada específica do modelo TCP/IP com funções muito bem delimitadas. A Cebraspe adora inventar que o IP criptografa pacotes ou que o HTTP faz o roteamento físico dos dados. Fique atento aos verbos de ação: rotear e endereçar é papel do IP, transportar e garantir ordem é papel do TCP, traduzir nomes é DNS, e transferir páginas é HTTP."
+    },
+    {
+      "speaker": "A",
+      "text": "Pensando no contexto da Polícia Rodoviária Federal, a compreensão dessa infraestrutura é fundamental inclusive para entender auditorias de acesso e segurança cibernética. Saber como os registros de conexão identificam endereços IP, portas de comunicação e requisições ajuda o servidor a entender a rastreabilidade das ações dentro dos sistemas corporativos. Tudo na prova é pensado para medir se o candidato domina essa lógica."
+    },
+    {
+      "speaker": "B",
+      "text": "E não se esqueça de que a banca costuma cobrar casos práticos onde o servidor público precisa identificar se uma determinada aplicação está rodando em ambiente de Intranet ou Extranet com base na forma de acesso. Se o acesso exige autenticação prévia via canal seguro por alguém fora da instituição, estamos tratando de uma Extranet."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa clareza conceitual sobre o tráfego de dados e os protocolos de rede é a base para qualquer questão de informática da banca. Quando você domina a diferença de escopo entre as redes e entende o papel de cada protocolo na pilha TCP/IP, as afirmativas de Certo ou Errado começam a ficar muito mais previsíveis."
+    },
+    {
+      "speaker": "B",
+      "text": "E o mais interessante é perceber como toda essa estrutura de rede precisa ser protegida constantemente contra falhas e ataques maliciosos. Afinal, de nada adiantaria ter uma rede super estruturada conectando as delegacias se as informações pudessem ser adulteradas ou roubadas ao longo do caminho por criminosos virtuais."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, e é aí que a Segurança da Informação se torna o coração da prova da PRF. Para o Cebraspe, proteger uma rede envolve garantir quatro pilares fundamentais, conhecidos pela sigla CIDA: Confidencialidade, Integridade, Disponibilidade e Autenticidade. A banca costuma colocar situações hipotéticas do cotidiano policial para testar se o candidato sabe identificar qual desses princípios foi violado durante um incidente de segurança."
+    },
+    {
+      "speaker": "B",
+      "text": "Uma pegadinha muito comum é trocar a Confidencialidade pela Integridade. Lembre-se de que a Confidencialidade garante que a informação só seja acessada por pessoas autorizadas, evitando a leitura indevida. Já a Integridade garante que o dado não foi alterado ou adulterado no caminho. Se um invasor altera o boletim de ocorrência no sistema da PRF, ele violou a Integridade; se ele apenas leu o documento confidencial sem permissão, a violação foi de Confidencialidade."
+    },
+    {
+      "speaker": "A",
+      "text": "E não podemos esquecer da Disponibilidade, que assegura que o sistema esteja acessível quando necessário, e da Autenticidade, que confirma a identidade da pessoa ou do sistema emissor. Além dos princípios, o Cebraspe adora explorar os tipos de códigos maliciosos que ameaçam essa estrutura. O ponto central aqui é saber diferenciar as formas de contágio e execução de cada malware, como Vírus, Worms e Spywares."
+    },
+    {
+      "speaker": "B",
+      "text": "A diferença básica que sempre cai em prova é entre Vírus e Worm. O Vírus é um programa parasita, ou seja, ele precisa se hospedar em um arquivo executável ou documento e necessita da ação humana para se multiplicar, como clicar em um anexo. O Worm, por sua vez, é um código autônomo que se propaga sozinho explorando vulnerabilidades na rede, sem precisar de um arquivo hospedeiro nem de intervenção do usuário."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro malware extremamente cotado para a prova da PRF é o Ransomware. Ele sequestra os dados do sistema por meio de criptografia forte e exige um resgate, geralmente em criptomoedas, para devolver a chave de decodificação. O Cebraspe costuma afirmar erroneamente que o Ransomware destrói fisicamente o disco rígido, mas na verdade ele apenas bloqueia o acesso aos arquivos através do ciframento dos dados."
+    },
+    {
+      "speaker": "B",
+      "text": "Já no caso dos Spywares, o objetivo principal é a espionagem e a coleta oculta de dados do usuário. Entre as variações mais cobradas temos os Keyloggers, que capturam tudo o que é digitado no teclado, e os Screenloggers, que gravam cliques e capturam a tela na região do cursor. É vital lembrar que essas pragas muitas vezes chegam ao computador da vítima através de técnicas de Engenharia Social, explorando a ingenuidade do ser humano."
+    },
+    {
+      "speaker": "A",
+      "text": "A Engenharia Social é a arte de manipular pessoas para que elas forneçam informações confidenciais ou executem arquivos maliciosos. O principal vetor de ataque baseado nisso é o Phishing. Trata-se daquela mensagem fraudulenta, enviada por e-mail, SMS ou aplicativo de mensagem, que se passa por uma instituição oficial para induzir o servidor a clicar em links falsos ou fornecer suas credenciais corporativas."
+    },
+    {
+      "speaker": "B",
+      "text": "A banca Cebraspe gosta de criar enunciados onde o usuário recebe um e-mail parecendo ser da administração da PRF solicitando o recadastramento urgente de senha sob pena de bloqueio. Isso é um clássico Phishing. Se o enunciado mencionar a alteração do serviço de nomes para redirecionar o tráfego para um site falso sem que o usuário perceba, mesmo digitando o endereço correto, aí já estamos falando de Pharming, que afeta o envenenamento de DNS."
+    },
+    {
+      "speaker": "A",
+      "text": "Para mitigar essas ameaças e garantir a proteção dos dados transmitidos nas redes, a criptografia é a ferramenta essencial. A banca cobra intensamente a diferença entre Criptografia Simétrica e Criptografia Assimétrica. Na Criptografia Simétrica, utiliza-se uma única chave secreta tanto para cifrar quanto para decifrar a mensagem, o que torna o processo muito rápido, porém traz o desafio da distribuição segura dessa chave."
+    },
+    {
+      "speaker": "B",
+      "text": "Na Criptografia Assimétrica, a lógica muda completamente porque trabalhamos com um par de chaves matematicamente relacionadas: uma chave pública e uma chave privada. A chave pública é aberta e pode ser distribuída para qualquer pessoa, enquanto a chave privada é secreta e deve ficar sob a posse exclusiva do seu dono. O grande segredo para a prova é entender o que acontece quando usamos cada uma dessas chaves no processo."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa é a maior fonte de pegadinhas do Cebraspe em Segurança da Informação. Se o objetivo for garantir a Confidencialidade da comunicação, o remetente deve cifrar a mensagem usando a Chave Pública do destinatário. Como apenas a Chave Privada do destinatário consegue decifrar o que foi codificado com a sua pública correspondente, o sigilo total da informação fica garantido durante todo o trajeto."
+    },
+    {
+      "speaker": "B",
+      "text": "Por outro lado, se o objetivo for garantir a Autenticidade e a Integridade do documento, ocorre o inverso: entra em cena a Assinatura Digital. Para assinar digitalmente um arquivo, o emissor utiliza a sua própria Chave Privada para gerar a assinatura. Qualquer pessoa que tenha a Chave Pública do emissor poderá validar aquela assinatura e confirmar que o documento realmente veio dele e não foi alterado."
+    },
+    {
+      "speaker": "A",
+      "text": "E atente-se para o detalhe fatal da prova: a Assinatura Digital não garante a Confidencialidade do documento. A banca adora colocar afirmativas dizendo que assinar digitalmente um arquivo impede que terceiros vejam seu conteúdo. Isso está incorreto, pois a assinatura digital apenas provê autenticidade, integridade e o não-repúdio, também conhecido como irretratabilidade, que impede o autor de negar a autoria."
+    },
+    {
+      "speaker": "B",
+      "text": "O conceito de não-repúdio é crucial no trabalho operacional da Polícia Rodoviária Federal. Se um policial assina um laudo pericial ou uma autuação digitalmente com sua chave privada, fica provado juridicamente que foi ele quem gerou o documento. Ele não pode alegar que outra pessoa produziu aquela informação, pois sua chave privada é de uso pessoal e intransferível."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro componente vital que viabiliza a verificação de integridade e a assinatura digital é a Função Hash. O hash é um algoritmo de espelhamento que transforma qualquer volume de dados em uma sequência de caracteres de tamanho fixo. O Cebraspe costuma afirmar que o hash é um tipo de criptografia reversível, o que é um erro absurdo, pois o hash é unidirecional e não permite recuperar o texto original a partir do código gerado."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente, o hash funciona como uma impressão digital do arquivo. Se alterarmos um único ponto ou espaço em um texto de cem páginas, o valor do hash resultante será completamente diferente. Essa propriedade permite comparar a impressão digital do arquivo original com a do arquivo recebido para atestar que a mensagem permaneceu intacta do início ao fim do tráfego na rede."
+    },
+    {
+      "speaker": "A",
+      "text": "Perceba como todos esses conceitos se entrelaçam no cotidiano da segurança corporativa e nas questões da banca. Entender a diferença entre cifrar para sigilo usando a chave pública do outro e assinar para autenticidade usando a própria chave privada é o tipo de conhecimento que garante pontos preciosos no gabarito."
+    },
+    {
+      "speaker": "B",
+      "text": "E toda essa estrutura de segurança, chaves e hashes se torna ainda mais prática quando observamos a rotina de trabalho remoto e acesso aos sistemas internos da polícia. Conectar uma delegacia a uma central ou permitir que um agente em campo acesse o banco de dados corporativo com segurança exige a aplicação direta dessas tecnologias."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente! Essa conexão remota e segura com os sistemas centrais da Polícia Rodoviária Federal é viabilizada principalmente pelo uso de Redes Virtuais Privadas, as famosas VPNs. A VPN cria um túnel criptografado sobre uma infraestrutura de rede pública, como a própria Internet, permitindo que o policial acesse dados corporativos sigilosos de qualquer lugar do país como se estivesse conectado dentro da rede local da instituição. Esse tunelamento garante a confidencialidade e a integridade do tráfego das informações operacionais."
+    },
+    {
+      "speaker": "B",
+      "text": "E o Cebraspe costuma cobrar o conceito de VPN exatamente sob a ótica do tunelamento e do tráfego criptografado. É vital que você lembre para a prova que a VPN não é um meio físico de transmissão, mas sim uma tecnologia de rede privada virtual sobreposta a uma rede pública. Além disso, quando tratamos de navegação web e acesso administrativo a servidores corporativos, o tráfego seguro depende diretamente de protocolos robustos como HTTPS e SSH."
+    },
+    {
+      "speaker": "A",
+      "text": "O protocolo HTTPS combina o conhecido HTTP com a camada de segurança SSL ou TLS, utilizando por padrão a porta quatro quatro três para cifrar todos os dados trocados entre o navegador e o servidor. Já o protocolo SSH, que opera na porta vinte e dois, é amplamente cobrado em questões sobre administração remota de sistemas de forma segura. O SSH veio para substituir protocolos antigos e vulneráveis, como o Telnet, eliminando o tráfego de senhas em texto puro pela rede."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa comparação entre o SSH e o Telnet é uma pegadinha clássica nas provas de concursos da carreira policial. A banca Cebraspe adora afirmar que o Telnet oferece segurança nativa ou que o SSH não possui suporte a criptografia assimétrica. Na verdade, o SSH utiliza criptografia forte para proteger comandos executados no terminal remoto, garantindo que nenhum invasor consiga interceptar ou alterar os dados trafegados durante a sessão de administração."
+    },
+    {
+      "speaker": "A",
+      "text": "Agora que cobrimos essa aplicação prática em acessos remotos e protocolos de comunicação, é o momento perfeito para fazermos o nosso checklist final de revisão dos pontos mais cobrados na prova. Vamos repassar sinteticamente as diferenças de redes, as principais ameaças digitais e os pilares de segurança da informação para garantir que nenhum detalhe passe despercebido."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito. Começando pelas redes de computadores, lembre-se de que a Internet é a rede mundial e pública, a Intranet é restrita e privada para membros de uma organização, e a Extranet permite o acesso externo controlado a parceiros autorizados. Todas elas utilizam a família de protocolos TCP/IP, onde o protocolo IP cuida do endereçamento dos dispositivos na rede e o DNS traduz nomes de domínio em endereços IP numéricos."
+    },
+    {
+      "speaker": "A",
+      "text": "Já no campo dos malwares e ameaças digitais, vimos que o Worm se destaca por se replicar automaticamente pela rede aproveitando vulnerabilidades, sem precisar se anexar a outros arquivos. Por outro lado, o Ransomware sequestra os dados do sistema utilizando criptografia avançada e exige o pagamento de um resgate para liberar o acesso. Não esqueça do Spyware, focado em espionagem, e do Phishing, técnica de engenharia social para enganar o usuário e roubar dados pessoais."
+    },
+    {
+      "speaker": "B",
+      "text": "Na parte dos pilares da segurança, guarde a famosa sigla DICA, que representa Disponibilidade, Integridade, Confidencialidade e Autenticidade. Lembre-se também de que a criptografia simétrica utiliza uma única chave secreta para cifrar e decifrar os dados, enquanto a criptografia assimétrica trabalha com um par de chaves: a pública é usada pelo remetente para garantir a confidencialidade, e a privada é usada pelo emissor para gerar a assinatura digital e garantir a autenticidade."
+    },
+    {
+      "speaker": "A",
+      "text": "Com essa revisão na ponta da língua, precisamos focar nas orientações estratégicas para o estilo único das questões Certo ou Errado do Cebraspe. Essa banca possui uma dinâmica de cobrança muito própria, onde uma palavra mal interpretada pode custar um ponto precioso no resultado final."
+    },
+    {
+      "speaker": "B",
+      "text": "Uma das principais dicas de estratégia é ter cuidado extremo com termos absolutistas nas afirmativas da prova. Palavras como sempre, nunca, exclusivamente, impossível, totalmente ou em hipótese alguma devem acender um alerta vermelho imediato. Em Informática e tecnologia da informação, quase nada é absoluto, pois sempre existem exceções tecnológicas, diferentes configurações de segurança ou cenários de exceção previstos nos manuais técnicos."
+    },
+    {
+      "speaker": "A",
+      "text": "O Cebraspe costuma criar afirmativas falsas justamente inserindo um termo categórico em uma frase que, de resto, seria plenamente correta. Por exemplo, dizer que uma VPN garante total e absoluta imunidade do computador contra qualquer tipo de malware torna a afirmativa errada. A VPN protege o tráfego dos dados via criptografia no túnel, mas não impede que um usuário baixe um arquivo infectado contendo um vírus ou um spyware."
+    },
+    {
+      "speaker": "B",
+      "text": "Outra tática muito comum da banca é montar itens longos compostos por duas partes ligadas por uma conjunção. Frequentemente, a primeira parte do texto traz um conceito perfeito, mas a segunda parte introduz um erro sutil, como trocar a função do firewall pela do antivírus. Leia a questão pausadamente, divida o enunciado em proposições lógicas e valide cada pedaço do texto antes de marcar seu gabarito definitivo."
+    },
+    {
+      "speaker": "A",
+      "text": "E nunca subestime a regra do jogo da banca Cebraspe, onde uma resposta errada anula uma resposta certa. Se você se deparar com uma questão extremamente complexa ou com termos que você realmente desconhece, deixar o item em branco é uma atitude madura de gestão de risco. A aprovação em um concurso concorrido como o da Polícia Rodoviária Federal exige tanto conhecimento teórico quanto inteligência emocional no controle de perdas."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. A disciplina que você construiu durante a sua rotina de estudos deve ser demonstrada no dia da prova com serenidade e foco total. A disciplina de Informática tem um peso relevante na pontuação final e costuma ser o diferencial de classificação entre os candidatos que apenas usam o computador e aqueles que estudaram a teoria técnica exigida no edital da PRF."
+    },
+    {
+      "speaker": "A",
+      "text": "Mantenha o seu plano de estudos firme nesta reta final, priorizando a resolução constante de questões anteriores da banca e a revisão dos seus resumos. Cada questão resolvida, cada protocolo compreendido e cada conceito fixado aproximam você do seu grande objetivo profissional."
+    },
+    {
+      "speaker": "B",
+      "text": "Visualize a sua preparação como um investimento diário no seu futuro como Policial Rodoviário Federal. Todo o cansaço, as noites de estudo e a abdicação de momentos de lazer serão recompensados quando você vir o seu nome publicado no Diário Oficial da União."
+    },
+    {
+      "speaker": "A",
+      "text": "Chegamos ao final do nosso episódio sobre Informática focada no concurso da PRF. Esperamos que este conteúdo tenha clareado suas dúvidas e fortalecido sua preparação teórica e estratégica para o dia do exame."
+    },
+    {
+      "speaker": "B",
+      "text": "Agradecemos demais pela sua companhia ao longo deste podcast. Continue dedicado, mantenha a confiança no seu potencial e faça uma excelente prova. Um grande abraço a todos os futuros policiais rodoviários federais, bons estudos e até a vitória!"
+    }
+  ]
+}
