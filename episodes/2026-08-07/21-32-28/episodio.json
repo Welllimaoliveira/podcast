@@ -1,0 +1,20 @@
+{
+  "data_hora_brasilia": "2026-08-07T21:32:28.528771-03:00",
+  "indice_tema": 1,
+  "numero_tema": 2,
+  "total_temas": 7,
+  "tema": "Direito Penal para a prova da PRF",
+  "modelo_gemini": "gemini-flash-latest",
+  "quantidade_partes": 3,
+  "palavras_por_parte": 1100,
+  "palavras_totais_alvo": 3300,
+  "duracao_aproximada": "18 a 22 minutos",
+  "apresentador_a": "pt-BR-AntonioNeural",
+  "apresentador_b": "pt-BR-FranciscaNeural",
+  "total_falas": 51,
+  "falas_por_parte": [
+    18,
+    17,
+    16
+  ]
+}

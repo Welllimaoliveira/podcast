@@ -1,0 +1,73 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Para ajudar a fixar e não cair nessa pegadinha de inversão entre tempo e lugar, vale a pena recorrer ao famoso macete da LUTA. É uma regra simples que salva pontos valiosos na hora de julgar o item do Cebraspe."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente! A palavra LUTA resume as duas teorias: o L e o U mostram que para o Lugar do crime adota-se a teoria da Ubiquidade, enquanto o T e o A indicam que para o Tempo do crime a teoria adotada é a da Atividade. Se a banca trocar essa ordem na questão, afirmando por exemplo que o tempo segue a ubiquidade, você já sabe que a assertiva está errada."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa rapidez na identificação do erro é fundamental para manter um bom ritmo de prova. E falando em armadilhas recorrentes, outro tema em que a banca gosta de testar o candidato até o limite é a aplicação do Princípio da Insignificância, especialmente nos crimes praticados contra a Administração Pública."
+    },
+    {
+      "speaker": "B",
+      "text": "Esse é um ponto crucial para a PRF! A jurisprudência consolidada dos tribunais superiores, inclusive sumulada pelo Superior Tribunal de Justiça, é no sentido de que não se aplica o princípio da insignificância aos crimes contra a Administração Pública. O fundamento é que o bem jurídico tutelado nesses casos não é apenas o patrimônio moral ou financeiro, mas sim a probidade e a moralidade administrativa."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito. Então, imagine um caso em que um indivíduo tenta subornar um policial rodoviário federal com uma quantia irrisória, como vinte reais, ou comete um pequeno peculato apropriando-se de um bem de valor insignificante da repartição. A defesa não poderá alegar o princípio da insignificância para trancar a ação penal, justamente porque a moralidade pública não pode ser mensurada financeiramente."
+    },
+    {
+      "speaker": "B",
+      "text": "Mas atenção para uma distinção importante que o Cebraspe adora explorar em provas policiais: a exceção do crime de descaminho! No descaminho, por envolver o não pagamento de tributo federal, os tribunais superiores admitem o princípio da insignificância se o valor do imposto sonegado for de até vinte mil reais. Então o candidato precisa separar bem: descaminho aceita, mas crimes como corrupção, peculato e desacato não aceitam."
+    },
+    {
+      "speaker": "A",
+      "text": "Excelente ressalva! Essa diferenciação entre os crimes em espécie e a tutela administrativa é um divisor de águas na pontuação. Avançando no nosso estudo da lei penal no tempo, outro assunto que gera muita dúvida é a dinâmica das leis temporárias e excepcionais."
+    },
+    {
+      "speaker": "B",
+      "text": "As leis temporárias são aquelas que possuem um prazo determinado de vigência prefixado pelo próprio texto legal, enquanto as excepcionais são editadas para vigorar durante situações de emergência ou calamidade, como guerras ou pandemias. A característica marcante dessas duas espécies de leis é a ultra-atividade."
+    },
+    {
+      "speaker": "A",
+      "text": "Isso significa que, mesmo depois de decorrido o período de sua duração ou cessadas as circunstâncias que as determinaram, a lei temporária ou excepcional continua sendo aplicada aos fatos praticados durante a sua vigência. O agente que cometeu uma infração durante o período de calamidade será punido por aquela lei, ainda que o julgamento ocorra quando a lei já não esteja mais em vigor."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa é uma exceção clássica à regra geral da retroatividade da lei penal mais benéfica. Em regra, como estabelece a Constituição e o artigo segundo do Código Penal, a lei penal posterior que favorece o agente retroage para beneficiá-lo em todos os casos."
+    },
+    {
+      "speaker": "A",
+      "text": "E quando dizemos em todos os casos, é em todos mesmo, inclusive se já houver sentença condenatória transitada em julgado! O Cebraspe costuma colocar nas alternativas que, se a condenação já transitou em julgado, a nova lei mais benéfica não poderia alcançar o réu, o que é uma inverdade absoluta."
+    },
+    {
+      "speaker": "B",
+      "text": "Exato! A lei mais benéfica alcança o condenado mesmo durante o cumprimento da pena. Inclusive, vale lembrar que, ocorrido o trânsito em julgado, a competência para aplicar a lei mais benéfica deixa de ser do juiz do processo de conhecimento e passa a ser do juiz da execução penal, conforme preceitua a Súmula 611 do STF."
+    },
+    {
+      "speaker": "A",
+      "text": "Outra pegadinha que a banca prepara diz respeito ao crime permanente e ao crime continuado diante de uma nova lei penal mais severa. Imagine que o sujeito esteja praticando um crime permanente, como a extorsão mediante sequestro ou a associação criminosa, e durante a execução do delito entra em vigor uma lei com pena mais grave."
+    },
+    {
+      "speaker": "B",
+      "text": "Nesse cenário, aplica-se a lei nova mais severa! Parece contra-intuitivo para quem estuda rápido, mas a Súmula 711 do STF estabelece que a lei penal mais grave aplica-se ao crime continuado ou ao crime permanente, se a sua vigência é anterior à cessação da continuidade ou da permanência."
+    },
+    {
+      "speaker": "A",
+      "text": "Como o delito continuava ocorrendo no momento em que a lei nova e mais dura entrou em vigor, o agente estava praticando a conduta sob o império da nova legislação. Portanto, não se trata de retroatividade da lei penal maléfica, mas sim de aplicação imediata da lei vigente ao tempo da conduta que ainda persistia."
+    },
+    {
+      "speaker": "B",
+      "text": "Notou como todos esses institutos se entrelaçam quando analisamos um caso concreto? É exatamente assim que a banca formula os enunciados da PRF, misturando teoria do tempo do crime, aplicação da lei mais severa e aplicabilidade de princípios em situações de fiscalização nas rodovias."
+    },
+    {
+      "speaker": "A",
+      "text": "Por isso, o segredo para ter um desempenho de excelência é ler cada assertiva decompondo os seus elementos jurídicos: identificar qual é o crime, qual era a legislação vigente no momento da ação, se a lei posterior é benéfica ou maléfica, e se há alguma súmula específica vedando certo benefício."
+    }
+  ]
+}

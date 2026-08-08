@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Você está fiscalizando uma rodovia federal no meio da noite, aborda um motorista com atitude suspeita e descobre que a conduta dele parece errada, mas não existe nenhuma lei escrita proibindo aquilo explicitamente. Você poderia efetuar a prisão mesmo assim apenas por achar a conduta perigosa? Essa é a provocação perfeita para começarmos a pensar como a banca Cebraspe exige do futuro policial rodoviário federal."
+    },
+    {
+      "speaker": "B",
+      "text": "Se você respondeu que não pode prender, acertou em cheio. O pilar fundamental de todo o Direito Penal reside no Princípio da Legalidade, desdobrado na Anterioridade, resumido naquela clássica máxima de que não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal. Para a prova da PRF, a banca adora testar se o candidato entende que essa lei precisa ser formal, escrita e anterior ao fato."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, e é aí que entram as pegadinhas clássicas da banca Cebraspe. Ela costuma criar situações hipotéticas em que um decreto presidencial, uma portaria ministerial ou até uma medida provisória tenta criar um crime novo ou aumentar uma pena sob o pretexto de urgência na segurança pública. O candidato desatento pensa na gravidade do fato e assinala que a conduta é criminosa, esquecendo que Medida Provisória jamais pode tipificar crime."
+    },
+    {
+      "speaker": "B",
+      "text": "Esse ponto é crucial porque a atuação do PRF na pista é pautada por muitos regulamentos do Contran e normas administrativas. No entanto, infração administrativa de trânsito é uma coisa, e ilícito penal é outra totalmente diferente. O agente pode autuar com base numa resolução, mas para responsabilizar penalmente alguém, exige-se estritamente uma lei ordinária ou complementar aprovada pelo Congresso."
+    },
+    {
+      "speaker": "A",
+      "text": "E ligada diretamente à legalidade está a aplicação da lei penal no tempo, especialmente o princípio da irretroatividade. A regra geral é claríssima: a lei penal mais severa nunca retroage para prejudicar o réu. Ela só vai caminhar para trás se for para beneficiar o acusado, a famosa lex mitior, garantindo direitos fundamentais até mesmo após o trânsito em julgado da sentença."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa questão da retroatividade benéfica após a condenação definitiva despenca nas provas estilo Certo ou Errado. O Cebraspe costuma afirmar que, se já houver sentença transitada em julgado, a lei nova mais benéfica não produz efeitos para aquele condenado. Isso é mentira, pois o benefício da lei nova retroage sempre, inclusive alterando execuções penais em andamento."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro tema indispensável para quem busca a farda da PRF é o Princípio da Insignificância, também conhecido como crime de bagatela. A ideia central aqui é que o Direito Penal não deve se ocupar de condutas incapazes de gerar uma lesão relevante ou um perigo real ao bem jurídico protegido. Só que a aplicação desse princípio exige o preenchimento simultâneo de quatro requisitos objetivos estabelecidos pela jurisprudência."
+    },
+    {
+      "speaker": "B",
+      "text": "Esses requisitos são memorizados por muitos candidatos através do acrônimo MARI. Temos a mínima ofensividade da conduta, a ausência de periculosidade social da ação, o reduzidíssimo grau de reprovabilidade do comportamento e a inexpressividade da lesão jurídica provocada. Se faltar qualquer um desses elementos, a conduta continua sendo considerada crime normalmente."
+    },
+    {
+      "speaker": "A",
+      "text": "E onde o Cebraspe costuma armar a armadilha na prova da PRF quando o assunto é insignificância? Justamente ao tentar aplicar esse princípio a crimes cometidos contra a Administração Pública ou em situações que envolvem a fé pública e a segurança viária. O candidato vê o baixo valor financeiro envolvido numa situação prática e conclui precipitadamente que o fato é atípico."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito. Por exemplo, se alguém tenta subornar um PRF na rodovia oferecendo uma quantia irrisória, como vinte reais, não existe espaço para aplicar o princípio da insignificância. Os tribunais superiores pacificaram o entendimento de que em crimes contra a Administração Pública o bem tutelado é a moralidade e a probidade administrativa, valores que não podem ser mensurados financeiramente."
+    },
+    {
+      "speaker": "A",
+      "text": "Da mesma forma, o porte de drogas para consumo pessoal ou crimes que colocam em risco a coletividade, como o tráfego em velocidade incompatível perto de escolas ou hospitais, possuem particularidades rígidas. A banca explora essa linha tênue entre a irrelevância do dano material e a gravidade da conduta que expõe a sociedade a um risco proibido e desproporcional."
+    },
+    {
+      "speaker": "B",
+      "text": "Ainda no campo dos fundamentos, precisamos falar sobre como o Código Penal delimita o tempo e o lugar do crime, dois conceitos que causam muita confusão na hora de responder os itens. Quando pensamos no tempo do crime, a legislação brasileira adotou expressamente a Teoria da Atividade. Isso significa que considera-se praticado o crime no momento da ação ou omissão."
+    },
+    {
+      "speaker": "A",
+      "text": "Isso é extremamente relevante para definir a lei aplicável e a imputabilidade do agente. Se o sujeito atira na vítima quando tem dezessete anos e onze meses, mas a vítima falece no hospital três semanas depois, quando ele já completou dezoito anos, ele responde como menor infrator. O momento do resultado é irrelevante para a fixação do tempo do crime."
+    },
+    {
+      "speaker": "B",
+      "text": "Já para o lugar do crime, a regra do Código Penal muda e adota-se a Teoria da Ubiquidade, também chamada de teoria mista. Por essa teoria, considera-se praticado o delito tanto no lugar em que ocorreu a ação ou omissão, quanto no lugar onde se produziu ou deveria produzir-se o resultado. Essa distinção é prato cheio para enunciados bem elaborados."
+    },
+    {
+      "speaker": "A",
+      "text": "Imagine uma questão do Cebraspe descrevendo um veículo que transporta mercadoria contrabandeada partindo do Paraguai, atravessando rodovias no Paraná e sendo interceptado apenas em São Paulo. Para determinar o lugar do crime sob a ótica do Código Penal, tanto os locais dos atos executórios quanto o local do resultado previsto são considerados para a aplicação da lei brasileira."
+    },
+    {
+      "speaker": "B",
+      "text": "O grande segredo do Cebraspe é inverter os conceitos nas assertivas para confundir o estudante apressado. Eles escrevem textos impecáveis e perfeitamente bem redigidos, mas no final da frase afirmam que o Código Penal adotou a Teoria da Atividade para o lugar do crime e a Teoria da Ubiquidade para o tempo do crime."
+    },
+    {
+      "speaker": "A",
+      "text": "Exato! Essa simples troca conceitual anula o item se o candidato não estiver treinando a leitura atenta. Por isso, ao analisar qualquer assertiva, você precisa pausar nos conectivos e nos termos técnicos centrais, checando se a teoria atribuída corresponde exatamente ao conceito descrito no enunciado."
+    },
+    {
+      "speaker": "B",
+      "text": "Dominar esses pilares iniciais de legalidade, retroatividade, insignificância e aplicação da lei no tempo e no espaço é a base de sustentação para acertar dezenas de itens. Com esse alicerce firme, fica muito mais fácil visualizar como esses conceitos operam nas situações operacionais complexas que a banca adora inventar."
+    }
+  ]
+}
