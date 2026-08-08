@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Você já passou pela experiência de ler uma questão de concurso, achar a regra perfeita na sua cabeça e, mesmo assim, errar o item? Se a sua meta é a Polícia Rodoviária Federal, esse tipo de frustração é mais comum do que parece. A prova de Língua Portuguesa da PRF não quer saber se você decorou a nomenclatura das orações subordinadas. O foco da banca é totalmente prático, cobrando a gramática em pleno funcionamento dentro do texto."
+    },
+    {
+      "speaker": "B",
+      "text": "É exatamente isso. Muita gente passa meses decorando listas infinitas de exceções gramaticais e, na hora da prova organizada pelo Cebraspe, dá de cara com textos densos sobre segurança pública, trânsito e direitos fundamentais. A banca não vai perguntar se um termo é um adjunto adnominal ou um complemento nominal isolado. Ela quer saber se uma alteração na estrutura da frase preserva a norma-padrão e o sentido pretendido pelo autor original."
+    },
+    {
+      "speaker": "A",
+      "text": "E isso nos leva diretamente ao funcionamento real da prova. O candidato precisa encarar o texto não como um mero suporte decorativo para questões de gramática, mas como um organismo vivo. Quando olhamos para as provas recentes da PRF, percebemos que o exame está estruturado sobre dois grandes pilares interligados: a interpretação de texto e a reescritura de frases. Se você dominar esses dois eixos, metade do seu caminho já estará percorrido."
+    },
+    {
+      "speaker": "B",
+      "text": "E esses dois pilares conversam o tempo todo. Na verdade, a reescritura de frases nada mais é do que uma prova de gramática e interpretação aplicadas ao mesmo tempo. A banca propõe uma alteração no trecho, seja trocando uma palavra por um sinônimo, mudando a ordem dos termos ou substituindo uma pontuação, e pergunta se essa modificação mantém dois requisitos fundamentais: a correção gramatical e a coerência do texto."
+    },
+    {
+      "speaker": "A",
+      "text": "Esse é o ponto crucial que todo futuro policial rodoviário federal precisa gravar na mente. O Cebraspe usa exaustivamente esses dois termos nos enunciados: correção gramatical e coerência. Só que muitos candidatos tratam os dois como se fossem a mesma coisa, e é aí que a banca arma a armadilha. É vital entender com clareza o significado técnico de cada um desses conceitos para não marcar Certo ou Errado no piloto automático."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito. Quando o comando da questão fala em manter a correção gramatical, a banca está perguntando exclusivamente se a nova redação respeita as regras da norma-padrão da língua portuguesa. Isso envolve concordância, regência, crase, pontuação e colocação pronominal. A frase pode ser totalmente maluca do ponto de vista do sentido, mas se não violar nenhuma regra da gramática normativa, ela possui correção gramatical."
+    },
+    {
+      "speaker": "A",
+      "text": "Por outro lado, quando o comando menciona a coerência do texto, ele está se referindo à manutenção da lógica e do sentido original das ideias. Se uma reescrita altera a relação de causa e efeito, transforma uma regra geral em uma exceção ou muda a intenção do autor, houve prejuízo para a coerência, mesmo que a frase esteja impecável do ponto de vista gramatical. Essa distinção salva pontos preciosos."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. O Cebraspe adora criar reescritas impecáveis do ponto de vista da gramática pura, mas que alteram sutilmente o sentido original. O candidato desatento lê a frase, percebe que a concordância está certa, que a regência está ok, e marca Certo. Só que o item pedia a manutenção do sentido original, e a troca de uma palavra sutil acabou com a coerência. Por isso, a leitura comparativa atenta é a sua maior aliada."
+    },
+    {
+      "speaker": "A",
+      "text": "E para que um texto mantenha tanto a coerência quanto a correção gramatical durante essas reescritas, entra em cena um elemento fundamental: a coesão textual. A coesão funciona como a argamassa de um edifício, conectando as frases e os parágrafos de forma fluida. Sem uma boa estrutura coesiva, o texto se transforma em um amontoado de frases soltas, o que abre espaço para interpretações equivocadas e ambiguidades graves."
+    },
+    {
+      "speaker": "B",
+      "text": "Dentro do estudo da coesão para a PRF, a banca tem um amor especial pelos mecanismos de referenciação, com destaque total para os elementos anafóricos. Um elemento anafórico é aquele termo que resgata uma ideia, palavra ou expressão que já foi dita anteriormente no texto. O objetivo é evitar repetições desnecessárias e manter a continuidade do pensamento ao longo da leitura do documento ou da reportagem."
+    },
+    {
+      "speaker": "A",
+      "text": "Na prática da prova, isso costuma aparecer quando a banca aponta para um pronome demonstrativo ou pessoal e afirma que ele se refere a um substantivo específico no parágrafo anterior. Por exemplo, em um texto sobre fiscalização, a frase diz que o agente abordou o motorista e lhe solicitou os documentos. A banca pode perguntar se o pronome lhe se refere ao agente ou ao motorista, testando se você realmente acompanhou a cadeia de referência."
+    },
+    {
+      "speaker": "B",
+      "text": "E além dos pronomes pessoais e demonstrativos, temos os grandes campeões de incidência nas provas do Cebraspe: os pronomes relativos. Palavras como que, o qual, onde e cujo são verdadeiros curingas da coesão. Eles desempenham uma dupla função essencial: introduzem uma nova oração e, ao mesmo tempo, substituem um termo antecedente, evitando que o texto fique truncado ou repetitivo."
+    },
+    {
+      "speaker": "A",
+      "text": "O pronome cujo, em especial, é uma fonte inesgotável de questões. A banca adora explorar a relação de posse que ele estabelece entre o antecedente e o consequente. O grande segredo aqui é lembrar que o pronome cujo concorda em gênero e número com o termo posterior, o possuído, e nunca com o antecedente. Além disso, jamais se deve colocar artigo após o cujo, erro muito comum no dia a dia."
+    },
+    {
+      "speaker": "B",
+      "text": "Outra pegadinha clássica com pronomes relativos envolve a substituição do pronome que por o qual e suas variações. A banca frequentemente propõe trocar um pelo outro para testar se o candidato domina a regência verbal. Se o verbo da oração adjetiva exigir uma preposição, essa preposição precisa ser deslocada para antes do pronome relativo. Se você esquecer a preposição antes de o qual, a correção gramatical vai por água abaixo."
+    },
+    {
+      "speaker": "A",
+      "text": "Um ótimo exemplo é a diferença entre usar em que e onde. O pronome relativo onde só deve ser utilizado quando o antecedente for um lugar físico, palpável, como rodovia, posto policial ou cidade. Se a referência for um conceito abstrato, como situação, lei ou processo, o uso de onde acarreta desvio gramatical, devendo-se optar por em que, no qual ou no contexto em que."
+    },
+    {
+      "speaker": "B",
+      "text": "Percebe como todos esses detalhes de coesão afetam diretamente a reescritura de frases? Quando a banca propõe reescrever um trecho substituindo um pronome relativo por outro, ela está testando se você percebe a manutenção do referente, a manutenção da regência e a preservação do sentido. Um pequeno descuido na identificação do termo que está sendo substituído pode fazer você aceitar uma reescrita que altera completamente a lógica da mensagem."
+    },
+    {
+      "speaker": "A",
+      "text": "Por isso, o estudo focado na PRF exige essa mudança de postura. Não se trata de decorar regras isoladas na véspera da prova, mas de desenvolver a habilidade de analisar como cada palavra se conecta com as outras dentro da frase. Compreender a função dos anafóricos e a mecânica da reescrita transforma a forma como você lê os itens do Cebraspe, trazendo muito mais segurança e rapidez durante o exame."
+    },
+    {
+      "speaker": "B",
+      "text": "E quando a gente domina esses fundamentos de coerência, correção e coesão, fica muito mais fácil identificar as sutilezas que a banca esconde nas questões de pontuação e conectivos. Por exemplo, a simples inserção de uma vírgula antes de um pronome relativo pode alterar completamente o sentido de uma regra de trânsito, transformando uma limitação restritiva em uma explicação ampla."
+    }
+  ]
+}

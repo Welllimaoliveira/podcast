@@ -1,0 +1,77 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Exatamente. Imagina uma questão cobrando a frase: 'Os motoristas que ultrapassam em local proibido devem ser autuados'. Sem vírgulas, estamos restringindo o grupo, ou seja, apenas os motoristas que cometem essa infração específica serão autuados. Se a banca propõe colocar vírgulas antes e depois da oração, ela passa a ser explicativa, dando a entender que todos os motoristas ultrapassam em local proibido."
+    },
+    {
+      "speaker": "B",
+      "text": "Aí o item do Cebraspe afirma que a inserção das vírgulas manteria a correção gramatical e o sentido original do texto. A pegadinha está justamente aí: a frase continua gramaticalmente perfeita, mas o sentido muda radicalmente. O candidato desatento lê correndo, percebe que a gramática está certa e marca 'certo', caindo direto na armadilha da banca."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro ponto crítico na pontuação para a PRF é o isolamento de adjuntos adverbiais deslocados. Se o adjunto adverbial for de grande extensão, como 'Durante a operação de fiscalização no final do ano', a vírgula é obrigatória após o termo. Se for de pequena extensão, como 'Ontem', a vírgula é facultativa. O Cebraspe adora retirar vírgulas de adjuntos longos e perguntar se o texto permanece correto."
+    },
+    {
+      "speaker": "B",
+      "text": "E não podemos esquecer da regra de ouro: nunca separar o sujeito do predicado ou o verbo do seu complemento por vírgula simples. Às vezes a banca coloca uma oração intercalada longa entre o sujeito e o verbo para confundir a sua leitura visual. Se você não fizer a análise sintática do termo principal, acaba aceitando uma pontuação totalmente descabida."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa lógica sintática se conecta perfeitamente com os casos especiais de regência verbal e crase. A regência diz respeito à exigência de preposição feita por um verbo ou nome, e a crase nada mais é do que a fusão dessa preposição com um artigo ou pronome demonstrativo. A banca adora colocar a crase em contexto de fiscalização ou trânsito para testar essa percepção."
+    },
+    {
+      "speaker": "B",
+      "text": "Um caso muito comum é a diferença entre determinar ou generalizar um substantivo feminino. Se escrevemos 'A PRF presta atendimento a vítimas de acidentes', não há crase porque o 'a' é apenas preposição isolada diante de uma palavra usada de forma genérica no plural. Mas se disser 'A PRF presta atendimento às vítimas do acidente ocorrido na BR-116', a crase é obrigatória porque especifica quais são as vítimas."
+    },
+    {
+      "speaker": "A",
+      "text": "E o Cebraspe ama explorar os casos facultativos de crase, pois gosta de perguntar se a retirada do sinal indicativo de crase prejudica a correção do texto. Diante de pronomes possessivos femininos singulares, como em 'sua viatura', o uso do artigo é opcional, logo a crase também é. Sabendo disso, você já elimina a dúvida de forma rápida sem perder tempo precioso."
+    },
+    {
+      "speaker": "B",
+      "text": "Outra pegadinha clássica de regência envolve o verbo visar. No sentido de almejar ou ter como objetivo, ele é transitivo indireto e exige a preposição 'a'. Então, o correto é 'As medidas visam à redução de acidentes', com crase, e não 'visam a redução'. Já no sentido de assinar um documento ou mirar um alvo, ele é transitivo direto e não aceita preposição."
+    },
+    {
+      "speaker": "A",
+      "text": "Já o verbo implicar, na acepção de acarretar ou gerar consequência, é transitivo direto. É muito comum ver as pessoas falando no dia a dia que 'a infração implica em multa', mas na norma-padrão o correto é 'a infração implica multa', sem a preposição 'em'. A banca sabe que esse vício de linguagem é popular e usa exatamente isso para montar o item."
+    },
+    {
+      "speaker": "B",
+      "text": "Falando em induzir ao erro, precisamos entrar no terreno dos conectivos, que é onde o Cebraspe mais derruba candidatos. Eles adoram fazer trocas de conjunções para testar a equivalência semântica e a manutenção da correção gramatical. O grande pesadelo de muitos estudantes é a confusão entre porquanto, conquanto e conectivos de conformidade."
+    },
+    {
+      "speaker": "A",
+      "text": "A semelhança sonora entre porquanto e conquanto é a pegadinha perfeita. A conjunção porquanto tem valor causal ou explicativo, equivalente a 'porque' ou 'visto que'. Já conquanto é concessiva, equivalente a 'embora' ou 'ainda que'. Se a banca troca porquanto por conquanto, ela está trocando uma causa por uma concessão, alterando inteiramente a lógica do texto."
+    },
+    {
+      "speaker": "B",
+      "text": "Vamos ver um exemplo prático: 'O agente manteve a fiscalização, porquanto a pista estava perigosa' significa que a pista perigosa foi o motivo, a causa. Se você troca por 'conquanto a pista estivesse perigosa', a frase passa a significar que ele manteve a fiscalização apesar do perigo na pista. Ambas as orações podem existir na língua, mas os sentidos originais são completamente opostos!"
+    },
+    {
+      "speaker": "A",
+      "text": "E tem também a locução 'a despeito de', que é extremamente recorrente no Cebraspe. Ela possui valor concessivo, podendo ser substituída por 'apesar de' ou 'não obstante'. No entanto, a banca muitas vezes sugere trocar 'a despeito de' por uma conjunção como 'embora', o que exige alterar a estrutura do verbo seguinte de uma forma reduzida para uma forma flexionada."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito! Se o texto diz 'A despeito de haver sinalização, o condutor avançou', o verbo está no infinitivo. Se a questão propõe substituir por 'Embora', a reescrita correta exige o verbo no subjuntivo: 'Embora houvesse sinalização'. Se o candidato aceitar a troca direta mantendo o verbo sem flexionar, a frase fica gramaticalmente incorreta."
+    },
+    {
+      "speaker": "A",
+      "text": "Outra família de conectivos muito cobrada é a das conformativas, com conforme, segundo e consoante. Elas introduzem uma ideia de acordo ou conformidade com uma norma, lei ou diretriz. Em textos voltados para a PRF, que citam constantemente resoluções e artigos do Código de Trânsito Brasileiro, essas conjunções aparecem a todo momento."
+    },
+    {
+      "speaker": "B",
+      "text": "A banca gosta de sugerir a substituição de consoante por conforme ou segundo, o que em geral é válido e mantém a conformidade. Mas ela também tenta enganar trocando por conectivos de valor comparativo ou causativo. Por isso, a regra de ouro no Cebraspe para questões de conectivos é testar duas coisas em etapas separadas: primeiro a coerência da ideia e depois a correção da estrutura."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa estratégia em duas etapas salva muitas questões. Primeiro você pergunta: a relação lógica entre as frases continua sendo de causa, condição, concessão ou conformidade? Se a resposta for sim, aí você passa para a segunda pergunta: a regência e o modo verbal foram mantidos de acordo com as exigências da norma-padrão?"
+    },
+    {
+      "speaker": "B",
+      "text": "Quando você sistematiza essa análise, deixa de ler o texto de forma passiva e passa a investigar cada escolha da banca. O examinador deixa de ser imprevisível e vira um elaborador cujos padrões você já conhece de cor. É essa postura analítica que diferencia o candidato que fica pelo caminho daquele que realmente conquista a vaga na PRF."
+    }
+  ]
+}
