@@ -1,0 +1,77 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Exatamente. Vamos entrar direto nas regras gerais de circulação e conduta, especialmente a questão da preferência em cruzamentos não sinalizados, que é um tema clássico em provas. A regra geral do artigo vinte e nove estabelece que a preferência é do veículo que vem pela direita, mas existem exceções claríssimas que a banca adora inverter para confundir o candidato."
+    },
+    {
+      "speaker": "B",
+      "text": "Por exemplo, a rodovia e a rotatória têm prioridade sobre a regra da direita. Se você está prestes a entrar em uma rotatória, a preferência de passagem é de quem já está circulando por ela, independentemente de quem vem pela sua direita ou esquerda. Essa inversão sutil faz o candidato desatento marcar o item como correto na prova do Cebraspe."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro ponto crítico é a diferença prática entre preferência e prioridade de passagem. Os veículos que se deslocam sobre trilhos têm preferência sobre os demais. Já os veículos de emergência, como ambulâncias e viaturas da própria Polícia Rodoviária Federal, gozam de prioridade de trânsito, além de livre circulação, parada e estacionamento quando em serviço de urgência."
+    },
+    {
+      "speaker": "B",
+      "text": "E vale destacar que essa prerrogativa dos veículos de emergência exige o cumprimento rígido de requisitos legais. O veículo precisa estar em efetivo serviço de urgência e com os dispositivos de alarme sonoro e iluminação vermelha intermitente acionados simultaneamente. Se a viatura estiver apenas com o giroscópio ligado sem a sirene, ela não pode avançar o sinal vermelho."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito. Falando em ultrapassagem, esse é um dos tópicos com maior número de questões devido ao alto índice de gravidade dos acidentes em rodovias federais. A regra geral determina que a ultrapassagem deve ser feita pela esquerda, mas o código traz uma exceção pontual: quando o veículo à frente estiver sinalizando que vai dobrar à esquerda."
+    },
+    {
+      "speaker": "B",
+      "text": "E o estudante precisa dominar a distinção entre ultrapassagem e passagem por outro veículo. A ultrapassagem exige que você saia da sua faixa, ocupe a faixa de sentido oposto ou adjacente e depois retorne à sua faixa de origem. Já a passagem ocorre quando você avança à frente de outro veículo sem mudar de faixa de rolamento."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa distinção conceitual é crucial para o correto enquadramento das infrações. Ultrapassar pelo acostamento é uma infração gravíssima com fator multiplicador de cinco vezes no valor da multa, enquanto trafegar pelo acostamento é outra conduta com penalidade distinta. A banca costuma formular uma situação hipotética e pedir para o candidato qualificar a infração praticada pelo motorista."
+    },
+    {
+      "speaker": "B",
+      "text": "Outra confusão muito recorrente nas questões de prova envolve a diferença teórica entre parar e estacionar. Parar é a imobilização do veículo pelo tempo estritamente necessário para o embarque ou desembarque de passageiros. Já estacionar é manter o veículo imobilizado por tempo superior ao necessário para embarque ou para realização de carga e descarga."
+    },
+    {
+      "speaker": "A",
+      "text": "Se o motorista mantém o veículo parado no acostamento por dois minutos apenas para pegar uma caixa no porta-malas, pela definição do CTB ele realizou um estacionamento, e não uma parada. Essa pegadinha é fortíssima porque, na linguagem cotidiana do trânsito, as pessoas dizem que apenas deram uma paradinha rápida para descarregar mercadorias."
+    },
+    {
+      "speaker": "B",
+      "text": "Passando para a parte de penalidades e medidas administrativas, existe um divisor de águas que precisa ficar cristalino para o dia da prova. As penalidades são sanções impostas pela autoridade de trânsito após o devido processo administrativo, como a aplicação de multa, a suspensão do direito de dirigir e a cassação da CNH."
+    },
+    {
+      "speaker": "A",
+      "text": "Já as medidas administrativas possuem caráter complementar e preventivo, sendo adotadas pelo agente de trânsito no momento do ato fiscalizatório, como a retenção do veículo, a remoção e o recolhimento do documento de habilitação. Uma macete prático para a prova é lembrar que quase todas as medidas administrativas começam com as letras R ou T."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente, retenção, remoção, recolhimento e realização de teste de alcoolemia. Se uma questão do Cebraspe disser que o Policial Rodoviário Federal aplicou a penalidade de apreensão do veículo ou a multa no local da abordagem, o item está categoricamente errado. O policial no local aplica a medida administrativa, enquanto a autoridade aplica a penalidade posteriormente."
+    },
+    {
+      "speaker": "A",
+      "text": "Excelente reforço. Avançando para os Crimes de Trânsito no Capítulo Dezessete, precisamos analisar como as regras do Direito Penal interagem com o CTB. Nos crimes culposos na direção de veículo automotor, como o homicídio culposo e a lesão corporal culposa, existem causas de aumento de pena que aparecem com frequência no exame."
+    },
+    {
+      "speaker": "B",
+      "text": "Como o fato de o condutor não possuir permissão para dirigir ou CNH, ou praticar o delito em cima de uma faixa de pedestres. É fundamental ressaltar que a ausência de habilitação atua como causa majorante nesses crimes culposos, não devendo ser confundida de forma direta com o crime autônomo do artigo trezentos e nove."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa exigência do perigo de dano concreto para a configuração do crime do artigo trezentos e nove é uma jurisprudência pacificada que despenca na PRF. Dirigir sem habilitação, por si só, configura apenas uma infração administrativa gravíssima. Para se transformar em crime de trânsito, é indispensável que a conduta gere um perigo real e demonstrável de dano."
+    },
+    {
+      "speaker": "B",
+      "text": "O mesmo raciocínio de aplicação prática vale para o crime de embriaguez ao volante do artigo trezentos e seis. O tipo penal exige a conduta de conduzir veículo com a capacidade psicomotora alterada em razão da influência de álcool ou outra substância psicoativa, o que pode ser constatado por teste de etilômetro, exame de sangue ou sinais de alteração."
+    },
+    {
+      "speaker": "A",
+      "text": "E vale destacar a importante distinção entre a infração administrativa e o crime de recusa ao teste do etilômetro. A recusa em se submeter ao teste gera as mesmas penalidades e medidas administrativas do artigo cento e sessenta e cinco, mas não gera presunção automática de crime de trânsito, que exige prova da alteração psicomotora por outros meios."
+    },
+    {
+      "speaker": "B",
+      "text": "Compreender com clareza essa fronteira exata entre a esfera administrativa e a esfera penal é o fator determinante que diferencia os candidatos aprovados. Quando você consegue aplicar essa lógica jurídica na resolução de situações hipotéticas, a estrutura das questões do Cebraspe se torna previsível e muito mais simples de responder."
+    }
+  ]
+}
