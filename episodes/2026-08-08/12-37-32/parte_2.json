@@ -1,0 +1,77 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "E essa capacidade do verbo de inverter sozinho mostra muito bem como a lógica do inglês busca constante clareza sobre quem executa e quem recebe a ação. Mas existe um cenário que gera uma confusão enorme em provas de concursos públicos, como em questões da banca Cebraspe, que é quando a própria palavra interrogativa funciona como o sujeito da frase. Estamos falando da diferença crucial entre as chamadas Subject Questions e as Object Questions."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa é uma das pegadinhas mais clássicas do inglês. Quando fazemos uma pergunta sobre o objeto da ação, ou seja, sobre quem recebe a ação, usamos a estrutura tradicional com o verbo auxiliar que já vimos, como em 'Who did you call?'. O sujeito aqui é 'you' e o 'who' é o objeto. Porém, quando a pergunta é sobre quem praticou a ação, o 'who' passa a ser o próprio sujeito. E aí ocorre algo que pega muitos candidatos de surpresa: nós não usamos os auxiliares Do, Does ou Did."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente. Na Subject Question, como a palavra interrogativa, seja 'who' ou 'what', já ocupa a posição de sujeito, a frase segue direto para o verbo principal conjugado no tempo correto. Por isso dizemos 'Who called you yesterday?' e jamais 'Who did call you?'. Se você colocar o auxiliar Did aí sem um contexto de extrema ênfase, a frase fica errada. Em itens de prova, os examinadores adoram inserir esse auxiliar indevido para testar se o estudante realmente domina essa exceção."
+    },
+    {
+      "speaker": "B",
+      "text": "Para fixar bem essa diferença, vale a pena comparar dois exemplos simples lado a lado. Se eu pergunto 'Who saw the accident?', eu quero saber qual pessoa testemunhou o fato, ou seja, quem foi o sujeito que viu, sem uso de auxiliar. Agora, se eu pergunto 'Who did you see at the accident?', você é o sujeito que viu alguém, tornando a pergunta uma Object Question que exige o auxiliar Did. Essa sutil mudança na estrutura altera o foco sintático de toda a frase."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito. E quando saímos desse universo das perguntas diretas e vamos para a comunicação corporativa e formal, nos deparamos com as Indirect Questions, as perguntas indiretas. Elas são fundamentais para pedir informações de maneira cortês e elegante. A grande virada de chave aqui é compreender que, ao transformar uma pergunta em indireta, a ordem das palavras no trecho principal volta a ser exatamente a de uma frase afirmativa."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa é uma armadilha em que falantes de português caem com muita frequência porque tendem a manter a inversão do verbo. Em uma pergunta direta, nós dizemos 'Where does he live?'. Contudo, se começarmos a frase com uma fórmula de polidez como 'Could you tell me...', o trecho seguinte deixa de ser interrogativo puro e vira uma afirmação embutida: 'Could you tell me where he lives?'. O auxiliar 'does' desaparece e o verbo ganha a flexão de terceira pessoa."
+    },
+    {
+      "speaker": "A",
+      "text": "É o que chamamos de neutralização da estrutura interrogativa. Como a expressão inicial, seja 'Do you know' ou 'Can you explain', já estabeleceu que se trata de uma pergunta, a frase seguinte perde a necessidade do verbo auxiliar ou da inversão. Se alguém diz 'Do you know what time is it?', comete um erro gramatical muito comum. O correto é ajustar a ordem para 'Do you know what time it is?', posicionando o verbo 'is' no final, após o sujeito 'it'."
+    },
+    {
+      "speaker": "B",
+      "text": "Em exames como o Cebraspe, a banca adora montar frases longas e complexas com perguntas indiretas exatamente para confundir a percepção do candidato. Eles apresentam frases como 'I wonder why did the manager cancel the meeting' para induzir ao erro, quando a forma correta seria 'I wonder why the manager canceled the meeting'. A mente não treinada aceita a presença do auxiliar 'did' só porque vê a palavra interrogativa 'why' logo ao lado."
+    },
+    {
+      "speaker": "A",
+      "text": "Outra estrutura extremamente importante que exige essa mesma atenção aos detalhes são as Question Tags, também chamadas de Tag Questions. Elas são aquelas pequenas perguntas no final da frase usadas para confirmar uma informação ou buscar a concordância do ouvinte, equivalendo ao nosso 'né?' ou 'sabe?'. Só que, diferentemente do português, no inglês a Question Tag segue uma simetria gramatical muito rigorosa em relação à oração principal."
+    },
+    {
+      "speaker": "B",
+      "text": "A regra básica da Question Tag é a inversão da polaridade. Se a oração principal for afirmativa, a tag no final da frase precisa ser negativa. Se a oração principal for negativa, a tag precisa ser afirmativa. Por exemplo, ao dizer 'You speak English', a tag correspondente será 'don't you?'. Por outro lado, se a frase for 'You don't speak Spanish', a tag muda para 'do you?'. O auxiliar utilizado na oração principal dita o ritmo da tag."
+    },
+    {
+      "speaker": "A",
+      "text": "E essa concordância precisa respeitar rigorosamente o tempo verbal e a presença de verbos modais. Se dizemos no passado 'She traveled to London', usamos o auxiliar do passado na tag: 'didn't she?'. Se a frase utiliza o verbo To Be, como em 'He is working today', a tag será 'isn't he?'. E no caso de um verbo modal, como 'They can help us', a tag vira 'can't they?'. O segredo é identificar qual verbo detém a força gramatical na oração inicial."
+    },
+    {
+      "speaker": "B",
+      "text": "Mas atenção, porque existem exceções pontuais nas Question Tags que adoram ser exploradas em questões de prova. A mais famosa de todas envolve a primeira pessoa do singular com o verbo To Be na forma afirmativa. Se você diz 'I am correct', a tag esperada por analogia seria 'amn't I?', mas essa construção não existe no inglês gramatical padrão. A forma aceita e correta que você deve aplicar é 'aren't I?'."
+    },
+    {
+      "speaker": "A",
+      "text": "Outra exceção bem conhecida é quando temos um convite ou sugestão iniciado por 'Let's'. Na frase 'Let's start the presentation', a Question Tag correta é 'shall we?'. E quando a frase está no imperativo, dando uma ordem ou pedido como 'Open the window', a tag usada para suavizar o comando é 'will you?' ou 'would you?'. Mapear essas particularidades impede que o estudante perca pontos em detalhes aparentemente simples."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa necessidade de atenção aos detalhes nos leva diretamente aos vícios de tradução literal do português para o inglês. Na nossa língua mãe, a diferença entre uma frase afirmativa e uma pergunta é marcada quase que exclusivamente pela entonação da voz. Nós falamos 'Você mora aqui' e 'Você mora aqui?'. Se você tentar reproduzir isso em inglês apenas elevando o tom da voz em 'You live here?', em uma conversa informal até vão entender, mas gramaticalmente a frase carece do auxiliar 'Do'."
+    },
+    {
+      "speaker": "A",
+      "text": "Outra armadilha frequente provocada pela tradução literal envolve o posicionamento das preposições no final das perguntas. Em português, dizemos 'Com quem você trabalha?' ou 'De onde você é?'. No inglês natural, a preposição é deslocada para o final da frase interrogativa. O padrão correto é 'Who do you work with?' e 'Where are you from?'. Traduzir ao pé da letra como 'With who you work?' produz uma estrutura totalmente artificial e incorreta."
+    },
+    {
+      "speaker": "B",
+      "text": "Perceba como a chave para superar esses erros comuns está em mudar o modelo mental de construção das frases. Não se trata de traduzir palavra por palavra, mas sim de entender a função e o posicionamento correto dos componentes sintáticos em inglês. Quando você passa a visualizar a estrutura interrogativa como um sistema de engrenagens bem ajustado, a hesitação diminui drasticamente e a precisão técnica aumenta."
+    },
+    {
+      "speaker": "A",
+      "text": "E esse ganho em precisão gramatical impacta diretamente a sua capacidade de compreensão auditiva e leitura interpretativa. Quando você escuta 'What caused the problem?', você reconhece de imediato que é uma Subject Question, sem esperar por um 'did'. Da mesma forma, ao ler um texto acadêmico ou uma questão de concurso, você identifica o tom respeitoso de uma pergunta indireta sem estranhar a ordem das palavras."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa consciência da estrutura gramatical e das regras de inversão é exatamente o alicerce que sustenta a confiança na hora de falar e responder em tempo real."
+    }
+  ]
+}

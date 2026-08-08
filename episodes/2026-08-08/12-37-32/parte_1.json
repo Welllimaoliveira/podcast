@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Você já passou por aquela situação de estar conversando em inglês, precisar fazer uma pergunta simples e dar um 'branco' total na hora de organizar as palavras? Isso acontece porque, em português, a gente praticamente só muda a entonação da voz para transformar uma afirmação em pergunta. Em inglês, o jogo é bem diferente e exige uma estrutura lógica muito clara desde o início."
+    },
+    {
+      "speaker": "B",
+      "text": "É exatamente isso! Quando a gente fala 'Você trabalha aqui', basta colocar um ponto de interrogação no final da frase. Mas no inglês, a língua exige um sinalizador para avisar o ouvinte que aquilo é uma pergunta antes mesmo de a frase terminar. É aí que muita gente trava, achando que precisa memorizar mil regras, quando na verdade existe uma lógica muito redondinha por trás disso."
+    },
+    {
+      "speaker": "A",
+      "text": "E é essa lógica que descomplica tudo depois que você entende o funcionamento do sistema. Para organizar esse raciocínio, nós dividimos as perguntas em dois grandes grupos principais: as chamadas Yes/No Questions e as Wh- Questions. Entender a diferença entre essas duas categorias é o primeiro passo para parar de traduzir palavra por palavra na cabeça."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. As Yes/No Questions são aquelas perguntas fechadas, onde a resposta esperada é simplesmente um sim ou não, ou uma confirmação direta. Por exemplo, se eu pergunto 'Do you like coffee?', você só precisa me responder se gosta ou não. A estrutura dela sempre começa com um verbo auxiliar ou com o próprio verbo To Be."
+    },
+    {
+      "speaker": "A",
+      "text": "Já as Wh- Questions são as perguntas abertas, onde você quer extrair uma informação específica da outra pessoa. Elas usam aquelas palavras interrogativas no início: What, Where, When, Why, Who e How. Se em vez de perguntar se você bebe café, eu quiser saber onde você toma café, eu pergunto: 'Where do you drink coffee?'. Veja como a estrutura da pergunta fechada continua ali, só adicionamos a palavra interrogativa antes."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa é uma dica de ouro tanto para conversação quanto para resolver questões de provas: a estrutura base de uma pergunta em inglês quase não muda. A palavra interrogativa entra como uma camada extra na frente do bloco principal. E o coração desse bloco principal é justamente o famoso verbo auxiliar, que funciona como o grande organizador da frase."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito! O verbo auxiliar funciona como um verdadeiro painel de sinalização no trânsito das palavras. Ele não tem uma tradução direta nesse contexto, mas avisa duas coisas fundamentais logo de cara para quem está ouvindo: quem é o sujeito e em qual tempo verbal a conversa está acontecendo."
+    },
+    {
+      "speaker": "B",
+      "text": "No presente simples, por exemplo, nós temos os auxiliares Do e Does. A gente usa o Do para I, you, we e they, enquanto o Does é exclusivo para a terceira pessoa do singular, ou seja, he, she e it. Então, se eu pergunto 'Does she work here?', o Does já me avisou que estou falando dela e no tempo presente."
+    },
+    {
+      "speaker": "A",
+      "text": "E o mais interessante é observar como o verbo principal se comporta quando o auxiliar entra em cena. Como o Does já carrega a marcação da terceira pessoa, o verbo principal volta para a sua forma base, sem o 's' no final. Você não diz 'Does she works?', você diz 'Does she work?'. Essa é uma das pegadinhas mais clássicas em bancas como o Cebraspe."
+    },
+    {
+      "speaker": "B",
+      "text": "Com certeza! As bancas adoram colocar frases gramaticalmente poluídas para testar se o candidato sabe que o auxiliar já fez todo o trabalho pesado de conjugação. E essa mesma regra de ouro se aplica perfeitamente quando mudamos o tempo verbal para o passado usando o auxiliar Did."
+    },
+    {
+      "speaker": "A",
+      "text": "O Did é excelente porque simplifica as coisas: ele é usado para todas as pessoas gramaticais no passado. Se você quer perguntar se alguém viajou ontem, você usa 'Did you travel yesterday?'. E veja só a armadilha: o verbo 'travel' fica no presente ou forma base, porque o Did já anunciou que a frase inteira está no passado."
+    },
+    {
+      "speaker": "B",
+      "text": "Muita gente escorrega aí e tenta dizer 'Did you traveled?', o que gera uma redundância incorreta. O Did já fez o trabalho de puxar a frase para o passado. Pensar no auxiliar como um alarme de tempo verbal muda completamente a forma como você constrói a frase na sua cabeça."
+    },
+    {
+      "speaker": "A",
+      "text": "Uma analogia muito boa é pensar no verbo auxiliar como um operário de obra. Ele carrega o peso do tempo e da pessoa para que o verbo principal fique livre e solto na forma original. Se o operário Did já carregou a caixa do passado, o verbo principal não precisa carregar mais nada."
+    },
+    {
+      "speaker": "B",
+      "text": "Excelente analogia! E quando olhamos para a resposta, o inglês também tem uma forma muito elegante de responder, que são as chamadas respostas curtas, as short answers. Em vez de responder apenas 'Yes' ou 'No', o que pode soar ríspido, você devolve a resposta usando o mesmo auxiliar da pergunta."
+    },
+    {
+      "speaker": "A",
+      "text": "Por exemplo, se a pergunta for 'Do you speak English?', a resposta curta e polida é 'Yes, I do' ou 'No, I don't'. Se a pergunta for no passado, como 'Did they arrive on time?', a resposta vai ser 'Yes, they did' ou 'No, they didn't'. Repare que o verbo principal nem precisa reaparecer na resposta curta."
+    },
+    {
+      "speaker": "B",
+      "text": "Isso dá uma fluência enorme e evita que você cometa erros de conjugação na hora de responder rapidamente. O próprio auxiliar que a pessoa usou para te perguntar é o gancho perfeito para você estruturar a sua resposta sem hesitar nem perder tempo."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente. Agora, um ponto que vale a pena ressaltar é quando o próprio verbo principal da frase é o verbo To Be, nas formas am, is, are, was, were, ou um verbo modal como Can ou Could. Nesses casos, a regra do Do, Does e Did não se aplica, porque esses verbos são autossuficientes."
+    },
+    {
+      "speaker": "B",
+      "text": "Eles não precisam de operários auxiliares porque eles mesmos invertem de posição com o sujeito! Em vez de tentar colocar um Do, dizemos simplesmente 'Are you happy?' ou 'Can you help me?'. Saber identificar se a frase precisa de um auxiliar externo ou se o verbo já é forte o suficiente para inverter sozinho é a chave para não errar."
+    }
+  ]
+}
