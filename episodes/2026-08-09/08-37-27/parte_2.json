@@ -1,0 +1,81 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Exatamente. O Poder de Polícia é a prerrogativa fundamental que o Estado possui para condicionar ou restringir o uso de bens, o exercício de direitos e a realização de atividades individuais em prol do interesse público. Na rotina da rodovia federal, isso se reflete a cada instante, seja na fiscalização do excesso de velocidade, na verificação de equipamentos obrigatórios ou na retenção de veículos irregulares."
+    },
+    {
+      "speaker": "B",
+      "text": "E uma distinção clássica que a banca Cebraspe adora explorar em prova é a diferença entre Polícia Administrativa e Polícia Judiciária. A Polícia Administrativa tem caráter predominantemente preventivo e incide sobre bens, direitos e atividades, sendo regida pelo Direito Administrativo. Já a Polícia Judiciária tem caráter eminentemente repressivo, incide diretamente sobre pessoas e atua na apuração de infrações penais, sob o regramento do Direito Processual Penal."
+    },
+    {
+      "speaker": "A",
+      "text": "A própria Polícia Rodoviária Federal exerce ambas as funções no seu cotidiano, mas a prova vai exigir que você saiba identificar em qual regime jurídico determinado ato está fundamentado. Se o policial lavra um auto de infração de trânsito por ultrapassagem indevida, ele está atuando na esfera da Polícia Administrativa. Se ele efetua a prisão em flagrante de um condutor transportando drogas, ele está atuando na esfera processual penal, em apoio à persecução criminal do Estado."
+    },
+    {
+      "speaker": "B",
+      "text": "E para que essa fiscalização administrativa funcione de maneira célere e eficaz, o Poder de Polícia é dotado de três atributos essenciais: a discricionariedade, a autoexecutariedade e a coercibilidade. A discricionariedade significa que, em diversas situações, a lei confere ao agente público uma margem de liberdade para avaliar a oportunidade e a conveniência de praticar determinado ato, escolhendo a melhor solução dentro dos limites legais."
+    },
+    {
+      "speaker": "A",
+      "text": "Mas atenção para a pegadinha clássica: nem todo ato de polícia é discrecionário. Existem atos plenamente vinculados, nos quais a lei não deixa qualquer margem de escolha para o policial. A lavratura de um auto de infração ao constatar um descumprimento expresso do Código de Trânsito, por exemplo, é um dever vinculado. Preenchida a hipótese legal, o agente é obrigado a autuar, não podendo relevar a falta por mera preferência pessoal."
+    },
+    {
+      "speaker": "B",
+      "text": "O segundo atributo de extrema relevância é a autoexecutariedade. Ela permite que a Administração Pública execute suas decisões de forma direta e imediata, inclusive com o uso de força material quando necessário, sem depender de autorização prévia do Poder Judiciário. Se um veículo acidentado está obstruindo totalmente uma pista de rolamento e gerando risco grave de colisão, o policial pode e deve determinar a imediata remoção do automóvel."
+    },
+    {
+      "speaker": "A",
+      "text": "A doutrina e a banca Cebraspe costumam desmembrar a autoexecutariedade em dois elementos: a exigibilidade e a executariedade. A exigibilidade é o poder da Administração de utilizar meios indiretos de coação, como a aplicação de uma multa, para induzir o cidadão a cumprir a lei. Já a executariedade é a permissão para empregar meios diretos de coerção física, como a apreensão de uma carga irregular."
+    },
+    {
+      "speaker": "B",
+      "text": "É fundamental destacar um detalhe que adora cair em prova: a autoexecutariedade não está presente em absolutamente todos os atos de polícia. A cobrança forçada de uma multa de trânsito não paga é o exemplo perfeito. A Administração Pública não pode penhorar a conta bancária ou tomar bens do motorista por conta própria; ela precisa ajuizar uma ação de execução fiscal no Poder Judiciário para receber aquele valor."
+    },
+    {
+      "speaker": "A",
+      "text": "O terceiro atributo é a coercibilidade, que se traduz na imperatividade dos atos do Poder de Polícia. As ordens emanadas pela autoridade administrativa se impõem aos particulares independentemente da concordância prévia deles. Quando o agente da PRF faz um sinal sonoro e de luz determinando a parada de um veículo para fiscalização, o condutor tem o dever jurídico de obedecer, sob pena de cometer infração e até crime de desobediência."
+    },
+    {
+      "speaker": "B",
+      "text": "Outro ponto crucial e de alta incidência nas provas do Cebraspe é o chamado Ciclo de Polícia. A doutrina divide esse ciclo em quatro fases distintas: a ordem de polícia, o consentimento de polícia, a fiscalização de polícia e a sanção de polícia. A grande controvérsia jurídica gira em torno da possibilidade de delegação dessas fases para entidades de direito privado."
+    },
+    {
+      "speaker": "A",
+      "text": "Esse é um tema de jurisprudência pacificada no Supremo Tribunal Federal que você precisa levar para o dia da prova. A regra geral é que o Poder de Polícia não pode ser delegado a empresas privadas particulares. Contudo, o STF firmou tese no sentido de que é constitucional a delegação das fases de consentimento, fiscalização e sanção para pessoas jurídicas de direito privado integrantes da Administração Pública Indireta."
+    },
+    {
+      "speaker": "B",
+      "text": "Para essa delegação ser válida, essas entidades estatais de direito privado precisam ter capital maioritariamente público e prestar serviço público em regime não concorrencial. A única fase que permanece absolutamente indelegável é a ordem de polícia, que corresponde à edição das normas e leis. Então, a fiscalização por radares gerenciada por uma sociedade de economia mista estatal é plenamente válida."
+    },
+    {
+      "speaker": "A",
+      "text": "Avançando no conteúdo do edital, precisamos analisar a figura do Abuso de Poder. O abuso de poder é o gênero que indica uma atuação estatal eivada de ilicitude, desviando-se da legalidade. Esse gênero se divide em duas espécies bem delineadas que a Cebraspe frequentemente tenta trocar nas questões: o excesso de poder e o desvio de finalidade."
+    },
+    {
+      "speaker": "B",
+      "text": "O excesso de poder ocorre quando o agente público atua fora dos limites da sua competência legal. O vício aqui está no elemento sujeito ou competência do ato. Ocorre, por exemplo, quando um agente pratica um ato reservado por lei exclusivamente a um superior hierárquico, ou quando utiliza força física desproporcional e injustificada durante uma abordagem policial."
+    },
+    {
+      "speaker": "A",
+      "text": "Por outro lado, o desvio de finalidade, também conhecido como desvio de poder, acontece quando o agente atua dentro da sua competência formal, mas pratica o ato buscando um fim diverso daquele determinado pela lei ou alheio ao interesse público. Seria o caso de um policial que autua e determina o recolhimento do veículo de um vizinho com quem tem uma desavença pessoal, apenas para prejudicá-lo."
+    },
+    {
+      "speaker": "B",
+      "text": "Perceba a diferença sutil que decide questões de prova: no excesso de poder, o agente não tinha atribuição legal para fazer aquilo; no desvio de finalidade, o agente tinha competência legal, mas agiu movido por capricho, vingança ou interesse privado. Memorizar essa distinção do vício do ato administrativo é meio caminho andado para garantir pontos valiosos."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro detalhe importante envolve a dosimetria na aplicação de sanções administrativas. Quando a lei estabelece uma margem de escolha na aplicação da penalidade, como o tempo de suspensão do direito de dirigir dentro de um patamar mínimo e máximo, a escolha da autoridade deve ser fundamentada com base em critérios objetivos, razoabilidade e proporcionalidade."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa exigência de motivação é o que impede que a discricionariedade se transforme em arbitrariedade. A Administração Pública tem poder para agir e punir, mas esse poder é um poder-dever instrumental, que existe unicamente para proteger a sociedade e assegurar o cumprimento da legislação rodoviária."
+    },
+    {
+      "speaker": "A",
+      "text": "Compreender toda essa estrutura dos Poderes Administrativos e suas limitações legais é o passo decisivo para analisar de forma precisa as situações práticas que ocorrem diariamente nas rodovias do nosso país."
+    }
+  ]
+}
