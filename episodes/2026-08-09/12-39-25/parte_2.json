@@ -1,0 +1,77 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Uma das pegadinhas mais clássicas do Cebraspe envolve a diferença sutil entre os tipos de malware, especialmente entre vírus e worm. A banca costuma afirmar que o vírus se propaga sozinho pela rede, quando na verdade essa é a característica principal do worm. O vírus precisa de um arquivo hospedeiro e da ação direta do usuário para ser executado."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa diferença é crucial na prova. Enquanto o vírus depende que você abra um anexo ou execute um programa para se infectar, o worm explora vulnerabilidades ativamente para se replicar de máquina em máquina. Outra confusão comum acontece entre Trojan e Backdoor, onde a banca tenta vender a ideia de que todo cavalo de Tróia é automaticamente um ransomware."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente. O cavalo de Tróia parece um programa inofensivo ou útil, mas carrega uma funcionalidade oculta e nociva. Ele pode até instalar um backdoor para abrir portas de acesso remoto, mas o foco da questão é essa dissimulação inicial. Já quando falamos de Phishing e IP Spoofing, o erro do candidato geralmente está em misturar engenharia social com falsificação técnica."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito. O Phishing é uma técnica de engenharia social focada em enganar a vítima para que ela entregue dados pessoais ou credenciais voluntariamente, como em um e-mail falso do banco. Já o Spoofing é um mascaramento de identidade técnica, como falsificar o endereço IP de origem para burlar regras de segurança. São camadas completamente diferentes da ameaça."
+    },
+    {
+      "speaker": "A",
+      "text": "E isso nos leva diretamente aos princípios da segurança da informação e como a banca cobra a integridade e a autenticidade. O Cebraspe adora afirmativas que trocam o conceito de integridade pelo de confidencialidade. Garantir que uma mensagem não foi alterada no trajeto é integridade, frequentemente assegurada por funções de hash, e não por criptografia de confidencialidade."
+    },
+    {
+      "speaker": "B",
+      "text": "Aliás, a assinatura digital é um prato cheio para os examinadores porque ela une a autenticidade, a integridade e o não repúdio. O erro comum aqui é achar que a assinatura digital serve para esconder o conteúdo da mensagem. Na verdade, ela não garante sigilo algum por si só, apenas prova quem assinou e que o texto permanece inalterado."
+    },
+    {
+      "speaker": "A",
+      "text": "Para haver sigilo, você precisa combinar a assinatura digital com a criptografia assimétrica tradicional, usando a chave pública do destinatário. Falando em criptografia assimétrica, lembre-se de que a chave pública cifra e a chave privada decifra para confidencialidade. Na assinatura digital, ocorre o inverso: você assina com a sua chave privada e qualquer um valida com a sua chave pública."
+    },
+    {
+      "speaker": "B",
+      "text": "Mudando um pouco de área, na parte de Computação em Nuvem, os modelos de implantação geram muitas dúvidas conceituais. Os candidatos frequentemente confundem nuvem privada com nuvem comunitária ou acham que nuvem pública significa gratuita. Nuvem pública apenas indica que a infraestrutura está disponível para o público geral sob contratação, não que o acesso seja aberto e sem custos."
+    },
+    {
+      "speaker": "A",
+      "text": "Com certeza. Uma nuvem privada pode ser hospedada inclusive fora da empresa, desde que seja dedicada exclusivamente a uma única organização. E quando analisamos a nuvem híbrida, a banca adora perguntar se a integração exige que todas as aplicações funcionem da mesma forma. O ponto chave da nuvem híbrida é a interoperabilidade e o compartilhamento seguro de dados entre ambientes distintos."
+    },
+    {
+      "speaker": "B",
+      "text": "Outra pegadinha recorrente sobre nuvem é afirmar que a responsabilidade pela segurança dos dados é inteiramente do provedor. No modelo IaaS, por exemplo, o provedor garante a segurança física e do ambiente virtualizado, mas a atualização do sistema operacional e o backup dos dados continuam sob responsabilidade do cliente. Trata-se do modelo de responsabilidade compartilhada."
+    },
+    {
+      "speaker": "A",
+      "text": "Quando avançamos para os comandos do Linux, o Cebraspe explora bastante a questão das permissões de arquivos. É muito comum aparecerem questões com a sintaxe do comando chmod e a representação numérica de permissões. Saber que o número 7 equivale a leitura, escrita e execução, enquanto 5 significa leitura e execução, salva pontos valiosos na prova."
+    },
+    {
+      "speaker": "B",
+      "text": "E vale lembrar a ordem exata dessas permissões: primeiro o dono do arquivo, depois o grupo e por fim os outros usuários. Então um chmod 755 concede acesso total ao proprietário, mas limita grupo e outros apenas para leitura e execução. Se a banca disser que 755 dá controle total a qualquer usuário, o item está incorreto."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro detalhe importante nos comandos Linux é a diferença entre os utilitários de busca de texto e localização de arquivos. O grep busca padrões dentro do conteúdo de um arquivo texto, enquanto o comando find localiza o arquivo na estrutura do sistema com base em nomes, tamanhos ou datas. Confundir o grep com o find é uma falha super recorrente."
+    },
+    {
+      "speaker": "B",
+      "text": "No ambiente do Windows, por outro lado, as pegadinhas focam em atalhos de teclado e gerenciamento de arquivos. A diferença entre deletar um arquivo usando a tecla Delete simples, enviando para a Lixeira, e a combinação Shift Delete, que exclui permanentemente sem passar pela Lixeira, é cobrada exaustivamente. Além disso, arquivos em unidades de rede removidos não vão para a Lixeira local."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa observação sobre unidades de rede é excelente! Se você apaga um arquivo armazenado em um servidor compartilhado de rede, ele não passa pela Lixeira da sua máquina local. Outra pegadinha clássica do Windows envolve arrastar e soltar arquivos entre pastas. Se for na mesma unidade de disco, a ação padrão é mover; se for para unidades diferentes, a ação padrão é copiar."
+    },
+    {
+      "speaker": "B",
+      "text": "E na parte de redes de computadores, precisamos destacar a confusão entre o protocolo HTTPS e a garantia de segurança absoluta de um site. O HTTPS garante apenas que a comunicação entre o navegador e o servidor é criptografada e autenticada por um certificado digital. Ele não garante que o site seja honesto ou esteja livre de malwares."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente! Um site de Phishing perfeitamente construído por criminosos pode utilizar o protocolo HTTPS para transmitir os dados roubados de forma criptografada. O ícone do cadeado no navegador indica conexão segura e criptografada, mas jamais atesta a idoneidade moral do proprietário daquela página web."
+    },
+    {
+      "speaker": "B",
+      "text": "Para fechar essa análise detalhada de redes, vale ressaltar o papel dos servidores DNS no funcionamento da internet. A banca adora afirmar que o DNS é responsável por atribuir endereços IP dinâmicos às máquinas da rede local, quando essa é a função do DHCP. O DNS atua como uma lista telefônica, traduzindo nomes de domínio em endereços IP para permitir a navegação."
+    }
+  ]
+}

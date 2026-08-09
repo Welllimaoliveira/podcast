@@ -1,0 +1,77 @@
+{
+  "parte": 3,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Exato, essa confusão entre DNS e DHCP cai direto. Imagina a cena prática: a viatura da PRF está rodando e os tablets corporativos precisam se conectar à rede para consultar placas. O DHCP vai atribuir o IP automaticamente para aquele tablet se comunicar na rede, enquanto o DNS vai traduzir o endereço do sistema que o policial digitou no navegador."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeita essa aplicação prática! E já que citamos sistemas corporativos e acesso remoto, a nuvem entra com tudo nas provas do Cebraspe. O candidato precisa dominar a divisão entre IaaS, PaaS e SaaS. Para a PRF, quando o policial acessa o sistema SEI para assinar um documento, ele está usando um SaaS, que é o software como serviço, pronto para uso sem preocupação com infraestrutura."
+    },
+    {
+      "speaker": "A",
+      "text": "Por outro lado, se a equipe de TI da PRF contrata servidores virtuais e espaço de armazenamento bruto para montar um banco de dados próprio da fiscalização, estamos diante de um IaaS, a infraestrutura como serviço. A banca gosta de trocar essas definições ou dizer que no SaaS o usuário é responsável por atualizar o sistema operacional da máquina, o que é um erro absurdo."
+    },
+    {
+      "speaker": "B",
+      "text": "Falando em proteção desses sistemas e dados, os pilares da segurança da informação são cobrança certa na prova. É preciso lembrar do quarteto fundamental: confidencialidade, integridade, disponibilidade e autenticidade. Em uma operação da PRF, se um vazamento expõe dados sigilosos de uma investigação, a confidencialidade foi quebrada. Se o sistema cai durante uma fiscalização e impede a consulta de mandados, o problema foi na disponibilidade."
+    },
+    {
+      "speaker": "A",
+      "text": "E se alguém altera clandestinamente o histórico de multas de um veículo no sistema, temos uma violação gritante da integridade. Além disso, para garantir a autenticidade e a irretratabilidade das comunicações oficiais, a assinatura digital com certificado ICP-Brasil é fundamental. A banca Cebraspe ama afirmar que o certificado digital garante que um arquivo não possui vírus, o que é totalmente falso, pois ele apenas garante a origem e a inalterabilidade do documento."
+    },
+    {
+      "speaker": "B",
+      "text": "Outro ponto crítico no edital são as ameaças digitais, principalmente a diferença entre ransomware, vírus e worm. O ransomware sequestra os dados do computador por meio de criptografia forte e exige o pagamento de um resgate para devolver o acesso. Já o worm se destaca por sua capacidade de se propagar sozinho pelas redes, sem precisar se anexar a nenhum arquivo hospedeiro nem de ação direta do usuário."
+    },
+    {
+      "speaker": "A",
+      "text": "Exato, e essa é a pegadinha clássica com o vírus tradicional. O vírus necessita ser executado pelo usuário e precisa estar anexado a um programa ou arquivo para se multiplicar. Quando a questão diz que um código malicioso infectou a rede inteira de forma autônoma sem ninguém clicar em nada, pode marcar worm sem medo de errar."
+    },
+    {
+      "speaker": "B",
+      "text": "E para barrar essas ameaças, precisamos lembrar do papel do Firewall e do Antivírus, que atuam de formas bem distintas na defesa do sistema. O firewall funciona como um porteiro da rede, filtrando o tráfego de dados com base em regras de portas e protocolos, liberando ou bloqueando conexões. Ele não inspeciona se um arquivo baixado contém um vírus oculto, tarefa que cabe ao software antivírus."
+    },
+    {
+      "speaker": "A",
+      "text": "Com certeza! Ter um firewall ativo não substitui o antivírus e vice-versa, eles são soluções complementares na segurança. Agora que cobrimos os conceitos práticos mais quentes, vale a pena fazermos uma consolidação bem direta das principais pegadinhas para fixar tudo na memória dos futuros policiais rodoviários federais."
+    },
+    {
+      "speaker": "B",
+      "text": "Excelente ideia! Vamos passar a limpo aqueles pontos que garantem pontos preciosos na prova. Começando pelos sistemas operacionais: no Linux, lembre-se do chmod 755 onde o proprietário tem controle total e os outros apenas leitura e execução. E nunca confunda o grep, que busca texto dentro dos arquivos, com o find, que localiza os arquivos pelo nome ou atributos."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito. No Windows, gravar a diferença do Shift Delete para exclusão permanente sem ir para a Lixeira é regra básica. Além disso, arrastar um arquivo para outra pasta na mesma unidade move o arquivo, mas arrastar para um pendrive ou unidade diferente faz uma cópia automática. E não se esqueça de que arquivos deletados em pastas compartilhadas na rede não vão para a Lixeira local."
+    },
+    {
+      "speaker": "B",
+      "text": "Na parte de redes e internet, o HTTPS garante uma conexão criptografada e autêntica entre o cliente e o servidor, mas não garante a honestidade do site. Um site falso de phishing pode sim usar HTTPS e exibir o cadeado de segurança no navegador. E guarde bem a dupla DHCP e DNS: o DHCP distribui os endereços IP dinâmicos, enquanto o DNS traduz os nomes de domínio para números IP."
+    },
+    {
+      "speaker": "A",
+      "text": "Na nuvem, o SaaS entrega o software pronto para uso, como o SEI ou o webmail, enquanto o IaaS fornece a infraestrutura e o controle do sistema operacional para o cliente. Nos pilares da segurança, confidencialidade protege o sigilo, integridade impede alterações indevidas, e disponibilidade garante o acesso contínuo. E lembre-se de que a assinatura digital assegura autoria e integridade, não ausência de malwares."
+    },
+    {
+      "speaker": "B",
+      "text": "Fechando as ameaças digitais: ransomware é o software extorquista que criptografa dados para pedir resgate. O worm se replica sozinho pela rede sem precisar de arquivo hospedeiro, diferentemente do vírus que depende do arquivo e da ação de execução. E para a defesa, o firewall controla as conexões de rede, enquanto o antivírus analisa os arquivos em busca de pragas digitais."
+    },
+    {
+      "speaker": "A",
+      "text": "Que revisão espetacular! Dominar essa estrutura teórica aplicada aos cenários do Cebraspe é o caminho mais seguro para gabaritar Informática na PRF. O segredo é manter a calma na hora de ler os enunciados e procurar atentamente por palavras-chave que denunciam as pegadinhas da banca."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. Mantenham o foco no treino por questões, revisando esses conceitos periodicamente até o dia do exame. Tenho certeza de que esse conhecimento prático vai fazer toda a diferença no seu desempenho e na conquista da tão sonhada farda da Polícia Rodoviária Federal."
+    },
+    {
+      "speaker": "A",
+      "text": "Chegamos ao fim deste episódio. Muito obrigado pela companhia de todos vocês ao longo desse estudo focado. Desejamos uma excelente preparação, bons estudos e nos vemos na posse!"
+    },
+    {
+      "speaker": "B",
+      "text": "Até a próxima, pessoal! Bons estudos, mantenham a disciplina e um grande abraço a todos os futuros policiais!"
+    }
+  ]
+}
