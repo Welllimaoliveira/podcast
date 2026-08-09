@@ -1,0 +1,77 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Perfeito. E quando falamos de conduta e elemento subjetivo, a fronteira entre dolo eventual e culpa consciente é um dos temas mais cobrados e que mais geram dúvidas nas provas da PRF. No dolo eventual, o agente não quer diretamente o resultado ilícito, mas prevê a possibilidade de sua ocorrência e assume o risco de produzi-lo. Já na culpa consciente, o agente também prevê o resultado, mas acredita sinceramente, com base nas suas habilidades, que o evento não vai acontecer."
+    },
+    {
+      "speaker": "B",
+      "text": "Esse ponto é fundamental porque o Cebraspe costuma trazer casos práticos de acidentes graves em rodovias federais, como motoristas participando de rachas ou dirigindo sob forte efeito de álcool. A banca testa se o candidato consegue identificar o 'assumiu o risco' para caracterizar o dolo eventual ou a 'confiança de que o resultado seria evitado' para configurar a culpa consciente. A diferença na pena aplicada ao motorista em um homicídio no trânsito é gigantesca a depender desse enquadramento."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente. E avançando para a relação de causalidade, prevista no artigo 13 do Código Penal, temos a questão das causas supervenientes relativamente independentes. Imagine que o condutor de um veículo atropele uma pessoa por negligência, causando lesões corporais, e a vítima seja socorrida por uma ambulância. Se essa ambulância sofrer um acidente no trajeto ao hospital e a vítima falecer em decorrência exclusiva dessa nova colisão, o motorista inicial responde apenas pelas lesões corporais que praticou."
+    },
+    {
+      "speaker": "B",
+      "text": "Isso acontece porque a causa superveniente produziu por si só o resultado morte, quebrando a linha de desdobramento causal normal do primeiro atropelamento. A questão chave para a prova é lembrar que os atos anteriores já praticados continuam sendo puníveis. Se a nova causa não produzisse o resultado por si só, mas apenas somasse forças, como uma infecção hospitalar decorrente da cirurgia, o resultado morte ainda seria imputado ao autor do atropelamento inicial."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro ponto em que a banca gosta de criar pegadinhas diz respeito aos crimes omissivos, divididos em próprios e impróprios. Nos crimes omissivos próprios, a própria norma penal incrimina um não fazer, como na omissão de socorro do artigo 135 do Código Penal, onde qualquer pessoa pode ser sujeito ativo. Já nos crimes omissivos impróprios, também chamados de comissivos por omissão, o agente não tem apenas o dever geral de solidariedade, mas uma posição de garantidor."
+    },
+    {
+      "speaker": "B",
+      "text": "E o artigo 13, parágrafo segundo, estabelece exatamente quem são esses garantidores, como quem tem obrigação legal de proteção, quem assumiu a responsabilidade de evitar o resultado ou quem criou o risco com seu comportamento anterior. Para o Policial Rodoviário Federal em serviço, existe o dever legal de agir para impedir o resultado delituoso. Se o policial presencia um crime grave ocorrendo na rodovia e, podendo agir sem risco pessoal excessivo, se omite dolosamente, ele responde pelo resultado produzido na condição de garantidor."
+    },
+    {
+      "speaker": "A",
+      "text": "Aprofundando na dinâmica do crime, precisamos examinar o 'iter criminis', o caminho percorrido pelo delito, que compreende a cogitação, a preparação, a execução e a consumação. Como regra geral no Direito Penal brasileiro, a cogitação e os atos preparatórios não são puníveis, salvo quando a própria lei tipifica a preparação como crime autônomo, como ocorre na associação criminosa. A punibilidade do crime principal só começa com o início dos atos executórios."
+    },
+    {
+      "speaker": "B",
+      "text": "E é na fase de execução que surgem os institutos da tentativa, da desistência voluntária e do arrependimento eficaz. Na tentativa, o agente inicia a execução, mas o crime não se consuma por circunstâncias alheias à sua vontade. Já na desistência voluntária e no arrependimento eficaz, previstos no artigo 15, o resultado não ocorre por uma escolha voluntária do próprio agente, gerando o que a doutrina chama de ponte de ouro."
+    },
+    {
+      "speaker": "A",
+      "text": "A frase clássica da doutrina sintetiza isso muito bem: na tentativa o agente quer prosseguir, mas não pode; na desistência voluntária o agente pode prosseguir, mas não quer. Se o indivíduo voluntariamente desiste de continuar a execução ou impede que o resultado se produza, ele só responde pelos atos já praticados. O examinador adora trocar a desistência voluntária pela tentativa imperfeita para testar se o candidato percebeu a voluntariedade da conduta."
+    },
+    {
+      "speaker": "B",
+      "text": "Não podemos confundir a ponte de ouro com a ponte de prata, que é o arrependimento posterior do artigo 16 do Código Penal. No arrependimento posterior, o crime já foi consumado, mas desde que tenha sido cometido sem violência ou grave ameaça à pessoa, e o dano seja reparado ou a coisa restituída até o recebimento da denúncia ou da queixa, a pena será reduzida de um a dois terços. Essa reparação precisa ser integral e voluntária."
+    },
+    {
+      "speaker": "A",
+      "text": "Ainda sobre os obstáculos à consumação, a figura do crime impossível do artigo 17 é prato cheio em questões de concursos da carreira policial. O crime impossível ocorre quando é absolutamente ineficaz o meio empregado pelo agente ou absolutamente impróprio o objeto material sobre o qual recai a conduta. Nesses casos, o Código Penal adota a teoria objetiva temperada, estabelecendo que o fato é atípico e a tentativa não é punível."
+    },
+    {
+      "speaker": "B",
+      "text": "Um bom exemplo prático seria um indivíduo tentar atirar em alguém usando uma arma com o percutor totalmente quebrado ou tentar matar uma pessoa que já estava morta há horas. O meio é absolutamente ineficaz no primeiro caso e o objeto é absolutamente impróprio no segundo. Mas atente para a palavra 'absolutamente', porque se a ineficácia do meio ou a impropriedade do objeto forem apenas relativas, haverá punição pela tentativa normalmente."
+    },
+    {
+      "speaker": "A",
+      "text": "Outra distinção dogmática essencial para não errar questões no Cebraspe é a diferença entre erro de tipo e erro de proibição. O erro de tipo recai sobre os elementos constitutivos do tipo penal, ou seja, o agente não sabe exatamente o que está fazendo na realidade fática. Quando um passageiro pega por engano a mala de outra pessoa idêntica na rodoviária pensando ser a sua, há um erro de tipo que exclui o dolo do crime de furto."
+    },
+    {
+      "speaker": "B",
+      "text": "Se o erro de tipo for invencível ou escusável, aquele que qualquer pessoa prudente cometeria, exclui o dolo e a culpa. Se for vencível ou inexcusável, exclui o dolo, mas permite a punição por crime culposo, se houver previsão legal da modalidade culposa. Já no erro de proibição, o agente sabe exatamente o que está fazendo no mundo dos fatos, mas desconhece a ilicitude da sua conduta, o que incide diretamente sobre a culpabilidade."
+    },
+    {
+      "speaker": "A",
+      "text": "Trazendo isso para os crimes em espécie que despencam na prova da PRF, a diferenciação entre contrabando e descaminho é uma obrigação do candidato. O descaminho é a ilusão do pagamento de direito ou imposto devido pela entrada ou saída de mercadoria que é lícita no país. Já o contrabando consiste em importar ou exportar mercadoria proibida no Brasil, violando o controle sanitário, de segurança ou ambiental do Estado."
+    },
+    {
+      "speaker": "B",
+      "text": "E a repercussão prática dessa distinção é enorme no que diz respeito ao princípio da insignificância. O STF e o STJ admitem a aplicação da insignificância no crime de descaminho quando o valor do tributo sonegado não ultrapassa o patamar fixado pela Fazenda Nacional, atualmente vinte mil reais. No entanto, em relação ao contrabando, por envolver mercadoria ilícita ou de circulação restrita, a regra geral é o descabimento absoluto da insignificância."
+    },
+    {
+      "speaker": "A",
+      "text": "E não podemos deixar de mencionar os crimes praticados por servidor público contra a administração em geral, como o peculato e a corrupção passiva. O peculato-apropriação ou peculato-desvio ocorre quando o funcionário público se apropria ou desvia dinheiro ou bem móvel de que tem a posse em razão do cargo. Se ele facilita a subtração praticada por terceiro se valendo da facilidade que o cargo lhe proporciona, temos o peculato-furto."
+    },
+    {
+      "speaker": "B",
+      "text": "Já na corrupção passiva, o funcionário público solicita, recebe ou aceita promessa de vantagem indevida, enquanto na corrupção ativa o particular oferece ou promete a vantagem ao funcionário. Perceba que são crimes autônomos; o particular responde por corrupção ativa e o policial por corrupção passiva. Conectar a teoria geral do crime aos tipos penais específicos é o segredo para estruturar o raciocínio na hora da prova e resolver os estudos de caso com segurança."
+    }
+  ]
+}

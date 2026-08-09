@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Imagine a seguinte cena: você é um policial rodoviário federal, faz uma abordagem de rotina na BR-116 e descobre que o motorista está transportando mercadoria sem nota fiscal ou com uma arma de fogo com numeração raspada no banco de trás. Naquele exato segundo, a teoria do Direito Penal deixa de ser apenas matéria de livro e vira a sua ferramenta primária de trabalho. É exatamente por isso que a banca Cebraspe ama cobrar situações práticas na prova da PRF, testando se você realmente domina os fundamentos do Direito Penal ou se apenas decorou conceitos soltos sem saber aplicá-los."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito! E quando a gente olha para o edital da PRF, muita gente comete o erro grave de achar que Direito Penal é só memorizar artigo de lei e pena de reclusão. Só que o examinador não quer saber se você é um leitor de código, ele quer saber se você entende como a lei penal se aplica no tempo, no espaço e a quem ela se destina. Por exemplo, compreender a fundo a diferença entre o princípio da legalidade e o princípio da anterioridade resolve uma quantidade enorme de questões que parecem difíceis, mas são puramente conceituais."
+    },
+    {
+      "speaker": "A",
+      "text": "E é aí que muitos candidatos escorregam na hora da prova. A legalidade nos diz que não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal, o clássico artigo primeiro do nosso Código Penal. Mas a pegadinha favorita do Cebraspe é misturar o princípio da anterioridade com a regra da irretroatividade da lei penal gravosa. A regra geral no nosso sistema é claríssima: a lei penal nunca retroage para prejudicar o réu, aplicando-se a retroatividade apenas quando for para beneficiar o agente."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente! E a banca adora criar enunciados contando a história de um crime continuado ou de um crime permanente, como o sequestro ou o porte ilegal de arma de fogo, onde uma lei nova mais severa entra em vigor durante a execução do delito. Nesses casos específicos de crime permanente ou continuado, aplica-se a lei nova, mesmo que seja mais gravosa, se ela entrar em vigor antes de cessar a permanência ou a continuidade. É a famosa Súmula 711 do Supremo Tribunal Federal, que despenca em concursos policiais."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa súmula é uma verdadeira campeã de audiência e faz todo sentido prático. Se o agente continua praticando a conduta delituosa no exato momento em que a lei nova e mais dura passa a vigorar, ele está cometendo o crime sob a vigência da lei nova. Não existe retroatividade nesse cenário, mas sim a aplicação imediata da lei vigente durante a prática da conduta. Entender essa dinâmica evita cair na armadilha de achar que qualquer lei penal mais severa fica proibida de ser aplicada no caso concreto."
+    },
+    {
+      "speaker": "B",
+      "text": "Outro ponto fundamental que a gente precisa deixar muito claro logo na base do estudo é a aplicação da lei penal no tempo e no espaço, a famosa regra do macete LUTA. Para o tempo do crime, o Código Penal adotou a Teoria da Atividade, ou seja, considera-se praticado o crime no momento da ação ou da omissão, ainda que outro seja o momento do resultado. Já para o lugar do crime, a teoria adotada foi a da Ubiquidade, considerando-se o local da ação, da omissão e também onde se produziu ou deveria produzir-se o resultado."
+    },
+    {
+      "speaker": "A",
+      "text": "Isso tem um impacto gigantesco no trabalho do policial rodoviário federal, especialmente em rodovias que cortam divisas de estados ou zonas de fronteira do país. Imagine um disparo de arma de fogo efetuado do lado brasileiro da fronteira, mas que atinge a vítima que estava do lado estrangeiro. Para o Direito Penal brasileiro, vigora a teoria da ubiquidade quanto ao lugar, o que garante a jurisdição do Brasil para processar e julgar esse fato, dependendo de todos os desdobramentos e tratados aplicáveis."
+    },
+    {
+      "speaker": "B",
+      "text": "E no que diz respeito ao conceito analítico de crime, o Cebraspe adora testar o candidato na estrutura tripartite. Para a doutrina majoritária e para a banca, o crime é composto por fato típico, ilícito e culpável. Se faltar qualquer um desses três elementos, não temos um crime sob a ótica analítica. Na rotina da fiscalização de trânsito e do combate à criminalidade nas estradas, identificar a presença do fato típico é sempre o ponto de partida de qualquer análise jurídica."
+    },
+    {
+      "speaker": "A",
+      "text": "Com certeza! E vale lembrar que a tipicidade não é apenas a adequação formal do fato à norma escrita no texto legal, que é a chamada tipicidade formal. É preciso haver também a tipicidade material, que consiste na efetiva lesão ou ameaça real de lesão ao bem jurídico tutelado pela lei penal. É exatamente no campo da tipicidade material que surge o famoso Princípio da Insignificância, ou crime de bagatela, assunto obrigatório na preparação para a PRF."
+    },
+    {
+      "speaker": "B",
+      "text": "O princípio da insignificância é perfeito para entender a lógica de intervenção mínima do Direito Penal. Ele funciona como uma causa supra-legal de exclusão da própria tipicidade material. Isso significa que, se a conduta for considerada insignificante perante o direito, o fato deixa de ser penalmente típico, e sem fato típico, não existe crime. Só que para aplicar a insignificância, a jurisprudência estabeleceu quatro requisitos objetivos que o candidato precisa ter na ponta da língua."
+    },
+    {
+      "speaker": "A",
+      "text": "Vamos relembrar esses quatro vetores fixados pelo STF, porque o examinador ama trocar um deles na questão para te confundir. O STF exige a mínima ofensividade da conduta do agente, a nenhuma periculosidade social da ação, o reduzidíssimo grau de reprovabilidade do comportamento e a inexpressividade da lesão jurídica provocada. Se qualquer um desses quatro requisitos faltar na situação hipotética narrada pela banca, a insignificância não poderá ser reconhecida."
+    },
+    {
+      "speaker": "B",
+      "text": "E o Cebraspe adora criar historinhas complexas para testar se você sabe aplicar esses vetores! Por exemplo, no furto de uma coisa de valor irrisório praticado por um agente reincidente ou mediante arrombamento de obstáculo. A jurisprudência dominante entende que a reincidência habitual ou a maior reprovabilidade da conduta, como no furto qualificado, costumam afastar a aplicação da insignificância. O candidato precisa prestar muita atenção ao contexto da questão para não responder de forma automática."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro detalhe crucial para a prova é saber onde a insignificância é sumariamente vedada pela jurisprudência dos tribunais superiores. Em crimes cometidos com violência ou grave ameaça à pessoa, como no roubo, a insignificância é absolutamente inviável, não importando o valor irrisório do bem subtraído. Da mesma forma, nos crimes contra a administração pública, existe a Súmula 599 do Superior Tribunal de Justiça que proíbe a aplicação do princípio da insignificância como regra geral."
+    },
+    {
+      "speaker": "B",
+      "text": "Excelente lembrança! E se a gente avançar para o segundo elemento do conceito analítico de crime, que é a ilicitude ou antijuridicidade, nos deparamos com as causas de exclusão da ilicitude, conhecidas como justificantes. O Código Penal prevê quatro hipóteses clássicas no seu artigo 23: o estado de necessidade, a legítima defesa, o estrito cumprimento do dever legal e o exercício regular de direito. Havendo qualquer uma dessas causas, o fato continua sendo típico, mas deixa de ser ilícito."
+    },
+    {
+      "speaker": "A",
+      "text": "Para o futuro Policial Rodoviário Federal, dominar o estrito cumprimento do dever legal e a legítima defesa é vital, tanto para a prova quanto para a atuação de campo. Quando um policial precisa usar a força para repelir uma agressão injusta e atual contra si ou contra terceiros, ele está amparado pela legítima defesa. Já quando atua cumprindo estritamente as ordens previstas em lei para aquela função, atua em estrito cumprimento do dever legal. Em ambos os casos, a ilicitude é afastada."
+    },
+    {
+      "speaker": "B",
+      "text": "Mas atenção com a pegadinha do excesso! A lei penal é muito categórica ao afirmar que o agente responderá pelo excesso punível, seja ele doloso ou culposo. A atuação do agente público deve sempre pautar-se pela proporcionalidade e pela razoabilidade da medida utilizada. Se o policial neutraliza uma ameaça e continua agindo com violência desnecessária após cessar o perigo, ele sai da esfera da excludente de ilicitude e passa a responder pelo excesso cometido."
+    },
+    {
+      "speaker": "A",
+      "text": "Fechando a estrutura do conceito analítico de crime, temos o terceiro pilar, que é a culpabilidade. A culpabilidade não é elemento do fato, mas sim um juízo de reprovação pessoal que recai sobre o autor de um fato típico e ilícito. Os elementos constitutivos da culpabilidade que você precisa memorizar são a imputabilidade penal, a potencial consciência da ilicitude e a exigibilidade de conduta diversa. Se faltar um desses elementos, o autor do fato fica isento de pena."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. Quando a gente consegue enxergar toda essa estrutura fundamental — fato típico, ilicitude e culpabilidade —, fica muito mais simples resolver qualquer questão da prova da PRF e analisar ocorrências reais com precisão. Com essa base conceitual bem estabelecida, o próximo passo essencial é entender como os elementos do fato típico se desdobram na prática, principalmente no que diz respeito à conduta, ao dolo, à culpa e ao resultado."
+    }
+  ]
+}
