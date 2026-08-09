@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Você passa meses decorando o Código de Trânsito, gabarita as questões de Física, se sente o próprio inspetor na pista, mas chega no dia da prova e o Português te derruba. Essa é a realidade de milhares de candidatos que fazem o concurso da Polícia Rodoviária Federal sem entender a dimensão real dessa matéria. A língua portuguesa não está ali apenas para cumprir tabela no edital; ela é o verdadeiro divisor de águas entre quem entra nas vagas e quem fica no cadastro de reserva."
+    },
+    {
+      "speaker": "B",
+      "text": "E o grande xis da questão é que o Cebraspe, que historicamente organiza a prova da PRF, cobra o idioma de uma forma totalmente diferente daquela gramática decorativa do colégio. Não adianta nada saber de cor a lista de substantivos sobrecomuns se você não souber analisar a função sintática de um termo dentro do período. A banca quer testar a sua capacidade de raciocínio verbal, a sua agilidade para ler textos complexos e interpretar o impacto de cada vírgula na mensagem original."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito. Por isso, quando a gente abre a prova da PRF, encontra aquele modelo clássico de comando que assusta muita gente: a substituição do termo X pelo termo Y manteria a correção gramatical e os sentidos originais do texto. Reparou como a banca junta duas coisas em uma única afirmação? Ela não pergunta se a norma culta foi respeitada isoladamente, mas sim se a estrutura faz sentido naquele contexto específico de comunicação."
+    },
+    {
+      "speaker": "B",
+      "text": "Esse é o conceito fundamental de sintaxe aplicada ao texto. Para encarar o Português da PRF, o candidato precisa dominar a diferença crucial entre a compreensão textual e a interpretação de texto. Muita gente confunde as duas coisas na hora da prova e acaba marcando a opção errada por puro excesso de confiança ou por inferir mais do que o texto realmente autoriza."
+    },
+    {
+      "speaker": "A",
+      "text": "Vamos esclarecer essa diferença, porque ela salva pontos preciosos. A compreensão textual é aquilo que está dito expressamente no texto, a informação explícita. Quando a questão diz segundo o texto ou o autor afirma que, a resposta está literalmente ali na sua frente, bastando uma leitura atenta. Já a interpretação exige que você deduza uma informação a partir de pistas lógicas do texto, sem jamais extrapolar os limites do que foi escrito."
+    },
+    {
+      "speaker": "B",
+      "text": "Exato. O maior erro em interpretação é a extrapolação, quando o candidato usa o seu conhecimento prévio de mundo para concordar ou discordar do texto. Na prova da PRF, você precisa esquecer a sua opinião pessoal sobre segurança pública, trânsito ou legislação. A sua única verdade é o texto fornecido pelo Cebraspe; se o autor não disse ou não deixou uma margem lógica para deduzir, a assertiva estará errada."
+    },
+    {
+      "speaker": "A",
+      "text": "E para interpretar com precisão, é preciso dominar os fundamentos da coesão e da coerência textual. A coesão é a engrenagem gramatical, as ferramentas que conectam as palavras e as frases, como pronomes, conjunções e preposições. A coerência é a lógica do texto, o sentido global que se constrói a partir dessas conexões bem feitas. Se você altera um elemento coesivo, quase sempre afeta a coerência da frase."
+    },
+    {
+      "speaker": "B",
+      "text": "Um exemplo prático disso aparece na anáfora e na catáfora, que nada mais são do que recursos para evitar a repetição desnecessária de palavras. O Cebraspe adora trocar um pronome relativo por outro e perguntar se a coesão é mantida. Se o candidato não sabe qual termo aquele pronome está retomando no parágrafo anterior, ele erra a questão de sintaxe e, por consequência, perde a interpretação do trecho inteiro."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro pilar fundamental que aparece de forma ostensiva na prova da PRF é a conectividade por meio das conjunções. As conjunções são os sinalizadores de trânsito do texto; elas indicam a direção do pensamento do autor. Se você encontra uma conjunção concessiva, como embora ou conquanto, sabe que ali existe uma ideia de oposição parcial que não impede a ação principal de acontecer."
+    },
+    {
+      "speaker": "B",
+      "text": "E o Cebraspe ama brincar com a equivalência semântica entre essas conjunções. Eles colocam uma frase com embora e sugerem trocar por apesar de ou por portanto, afirmando que o sentido original se mantém. O aluno desatento acha que todas são conectivos e aceita a troca, esquecendo que portanto traz uma ideia conclusiva, mudando completamente a lógica do argumento proposto pelo autor."
+    },
+    {
+      "speaker": "A",
+      "text": "Isso nos leva diretamente a um dos assuntos mais cobrados e que gera mais insegurança nos concurseiros: a reescritura de frases. A reescritura não é uma matéria isolada, mas sim a soma de todo o Português cobrado na prova. Para avaliar se uma reescrita está correta, você precisa passar por um triplo filtro: checar a regência, verificar a concordância e analisar a manutenção do sentido original."
+    },
+    {
+      "speaker": "B",
+      "text": "É como uma análise completa em três etapas. Se a nova frase desrespeitar uma regra de crase ou de concordância verbal, a assertiva já está errada por falha gramatical. Mas, se a gramática estiver impecável e o sentido do texto tiver sido alterado de uma afirmação categórica para uma dúvida, a questão também estará errada. Esse ajuste fino exige treinar o olhar técnico para cada detalhe da frase."
+    },
+    {
+      "speaker": "A",
+      "text": "E dentro da reescritura, a pontuação desempenha um papel absolutamente decisivo. Uma simples vírgula pode transformar uma oração subordinada adjetiva explicativa em uma oração restritiva. Isso muda drasticamente o alcance do que está sendo dito, e o Cebraspe adora colocar essa pegadinha em itens do tipo Certo ou Errado para ver se o aluno domina o impacto semântico da vírgula."
+    },
+    {
+      "speaker": "B",
+      "text": "Vamos desenhar essa situação para ficar bem claro na mente de quem está estudando. Se eu digo 'Os policiais rodoviários, que passaram no concurso, fizeram um excelente trabalho', as vírgulas indicam que todos os policiais rodoviários passaram no concurso, sendo uma explicação. Mas se eu retiro as vírgulas, a oração passa a ser restritiva: apenas o grupo de policiais que passou no concurso fez um bom trabalho."
+    },
+    {
+      "speaker": "A",
+      "text": "Notou a diferença brutal de sentido? A gramática das duas frases continua perfeitamente correta em termos de norma culta, mas o significado mudou completamente. É exatamente por isso que a banca afirma muitas vezes que a retirada da vírgula manteria a correção gramatical, mas alteraria os sentidos do texto. O candidato treinado percebe a sutileza na hora e ganha o ponto sem hesitar."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa capacidade de enxergar o Português como um sistema integrado é o que diferencia o aprovado. Não se trata de decorar regras gramaticais isoladas, mas de entender como a morfologia, a sintaxe e a semântica se unem para construir um texto coeso e coerente. Quando você entende essa engrenagem, a prova da PRF deixa de ser um bicho de sete cabeças e se torna uma aliada na sua pontuação."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente. Dominar esses fundamentos de interpretação, conectores e reescritura cria a base necessária para encarar qualquer texto que a banca colocar na sua frente. Sabendo identificar onde estão as armadilhas mais comuns da sintaxe e da semântica, fica muito mais simples analisar as pontuações e a regência que aparecem nos enunciados mais complexos."
+    },
+    {
+      "speaker": "B",
+      "text": "Agora que mapeamos toda essa estrutura conceitual e a lógica do estilo Cebraspe, precisamos ver como isso se comporta quando a banca aperta o cerco com casos práticos e estruturas de frases repletas de inversões sintáticas."
+    }
+  ]
+}
