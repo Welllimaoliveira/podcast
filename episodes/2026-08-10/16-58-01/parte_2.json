@@ -1,0 +1,69 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "E por falar nessa mudança de sentido, vale a pena olhar bem para a vírgula antes dos pronomes relativos. Se escrevemos 'os policiais rodoviários, que concluíram o treinamento, foram convocados', a vírgula isola uma oração explicativa, indicando que todos os policiais concluíram o treinamento. Por outro lado, sem a vírgula, a oração vira restritiva e significa que apenas uma parte daquele grupo realizou o curso."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa é uma das armadilhas mais clássicas do Cebraspe em itens de Certo ou Errado. A banca costuma perguntar se a eliminação das vírgulas altera a correção gramatical e o sentido original do texto. O candidato incauto responde que altera tudo, mas na verdade a frase continua gramaticalmente perfeita, mudando apenas a interpretação semântica."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, a correção é mantida, mas a informação passa de geral para específica. Outro ponto crítico onde a banca adora testar o conhecimento do candidato é na regência verbal combinada com o uso da crase. Verbos como 'visar' no sentido de almejar ou 'aspirar' no sentido de desejar exigem a preposição 'a', o que abre portas para a ocorrência do acento indicativo de crase."
+    },
+    {
+      "speaker": "B",
+      "text": "E no caso da crase, o segredo é dominar com clareza as situações proibidas e as facultativas para não perder tempo. Lembre-se de que a crase é terminantemente proibida antes de verbos, palavras masculinas e pronomes pessoais ou demonstrativos como 'esta' e 'essa'. Se o candidato memoriza esses casos proibidos, ele já elimina metade das dúvidas na prova."
+    },
+    {
+      "speaker": "A",
+      "text": "Por outro lado, os casos facultativos exigem atenção dobrada na reescrita. O uso do acento grave é opcional diante de nomes próprios femininos, pronomes possessivos femininos singulares e após a preposição 'até'. Nessas situações, retirar ou inserir a crase não altera nem a correção gramatical nem a lógica da frase."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito, e a banca adora afirmar que a retirada do acento grave nesses casos geraria erro gramatical, o que torna o item errado. Avançando na sintaxe, a partícula 'se' também é uma fonte inesgotável de questões na prova da PRF. Precisamos diferenciar claramente quando o 'se' atua como pronome passivador e quando funciona como índice de indeterminação do sujeito."
+    },
+    {
+      "speaker": "A",
+      "text": "Quando o verbo é transitivo direto e vem acompanhado do 'se' passivador, a concordância deve ser feita obrigatoriamente com o sujeito paciente. Se o texto traz 'Analisou-se os dados da operação', há um erro gramatical evidente, pois o correto seria 'Analisaram-se os dados'. O termo 'os dados' é o sujeito paciente no plural e exige que o verbo acompanhe a flexão."
+    },
+    {
+      "speaker": "B",
+      "text": "Já nos casos em que temos um verbo transitivo indireto acompanhado da partícula 'se', o termo regido por preposição impede que exista um sujeito paciente. Em frases como 'Precisa-se de novos agentes', o verbo fica invariavelmente na terceira pessoa do singular, pois o 'se' atua como índice de indeterminação do sujeito. Mudar essa frase para 'Precisam-se de novos agentes' é um erro crasso de concordância."
+    },
+    {
+      "speaker": "A",
+      "text": "O Cebraspe costuma misturar essas duas estruturas no mesmo parágrafo para induzir o candidato ao erro por contaminação visual. Se você enxerga a preposição logo após o verbo, já sabe que não pode haver concordância no plural com o termo preposicionado. Essa percepção rápida economiza um tempo precioso durante a resolução da prova."
+    },
+    {
+      "speaker": "B",
+      "text": "E quando juntamos a regência e a concordância no contexto de reescrita, a troca de conectivos passa a ser o grande teste de atenção. A substituição de uma conjunção por outra pode parecer perfeita à primeira vista, mas muitas vezes destrói a coerência do parágrafo. A banca explora bastante a troca de conectivos causais, concessivos e conclusivos."
+    },
+    {
+      "speaker": "A",
+      "text": "Um exemplo clássico é a confusão entre os conectivos 'porquanto' e 'conquanto', que possuem grafias semelhantes, mas papéis lógicos opostos. A conjunção 'porquanto' tem valor explicativo ou causal, equivalente a 'porque' ou 'visto que'. Já 'conquanto' introduz uma ideia concessiva, funcionando exatamente como 'embora' ou 'ainda que'."
+    },
+    {
+      "speaker": "B",
+      "text": "Trocar 'porquanto' por 'conquanto' em uma reescrita altera completamente a relação de causa e concessão pretendida pelo autor do texto. Mesmo que a estrutura gramatical pareça bem montada, o sentido original é totalmente subvertido. O candidato precisa identificar imediatamente essa alteração semântica para julgar o item como incorreto."
+    },
+    {
+      "speaker": "A",
+      "text": "O mesmo cuidado deve ser tomado com conectivos condicionais e conformativos. Se substituirmos 'segundo' por 'caso', alteramos a ideia de conformidade para uma hipótese, o que exige inclusive a mudança do modo verbal do indicativo para o subjuntivo. Se o candidato não ajustar o verbo após a troca do conectivo, a frase perde tanto a correção quanto a coerência."
+    },
+    {
+      "speaker": "B",
+      "text": "É por isso que dizemos que o estudo dos conectivos não é meramente decorativo ou memorização de listas de conjunções. Entender a semântica das relações lógicas permite antecipar a intenção do examinador quando ele propõe uma reescrita. A banca testa se o candidato percebe a diferença entre consequência, condição, oposição e causa."
+    },
+    {
+      "speaker": "A",
+      "text": "E essa percepção apurada só se consolida quando aplicamos a teoria diretamente em itens reais de provas anteriores do Cebraspe. Perceber o padrão de cobrança e entender como as armadilhas são montadas transforma o receio da prova em segurança prática. A teoria ganha vida exatamente no momento em que confrontamos o texto original com as opções propostas."
+    },
+    {
+      "speaker": "B",
+      "text": "Com certeza, ver como esses detalhes de vírgula, crase, concordância e conectivos aparecem nas questões faz toda a diferença na hora do exame. Nada substitui o treino focado na resolução de itens no formato Certo ou Errado para fixar o conteúdo. Vamos colocar toda essa análise em prática agora mesmo resolvendo algumas questões organizadas sobre esses temas."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "disciplina": "portugues",
+  "questoes": [
+    {
+      "id": "PRF-2021-009",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Português",
+      "disciplina_canonica": "portugues",
+      "item_original": 9,
+      "questao": "No texto sobre a evolução histórica da polícia, a transferência da polícia do sistema de justiça para o governo da cidade é apresentada como uma mudança de paradigma quanto ao papel policial na sociedade.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 9 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-010",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Português",
+      "disciplina_canonica": "portugues",
+      "item_original": 10,
+      "questao": "A reescrita que atribui diretamente aos países europeus o empenho em prevenir crimes e apresenta esse empenho como causa do desenvolvimento de uma habilidade policial específica mantém integralmente a correção gramatical e os sentidos do trecho original.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 10 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-011",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Português",
+      "disciplina_canonica": "portugues",
+      "item_original": 11,
+      "questao": "O primeiro parágrafo permite inferir que o desenvolvimento, no século XIX, de campos científicos ligados à justiça criminal esteve associado a visões preconceituosas dirigidas a determinados grupos sociais.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 11 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-013",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Português",
+      "disciplina_canonica": "portugues",
+      "item_original": 13,
+      "questao": "Segundo o texto, a violência no período medieval era frequente e socialmente aceita.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 13 - gabarito oficial definitivo"
+    }
+  ]
+}
