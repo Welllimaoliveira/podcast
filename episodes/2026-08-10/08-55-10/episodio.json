@@ -1,0 +1,20 @@
+{
+  "data_hora_brasilia": "2026-08-10T08:55:10.961738-03:00",
+  "indice_tema": 5,
+  "numero_tema": 6,
+  "total_temas": 7,
+  "tema": "Inglês geral para aprender questões e respostas",
+  "modelo_gemini": "gemini-flash-latest",
+  "quantidade_partes": 3,
+  "palavras_por_parte": 1100,
+  "palavras_totais_alvo": 3300,
+  "duracao_aproximada": "18 a 22 minutos",
+  "apresentador_a": "pt-BR-AntonioNeural",
+  "apresentador_b": "pt-BR-FranciscaNeural",
+  "total_falas": 54,
+  "falas_por_parte": [
+    18,
+    18,
+    18
+  ]
+}
