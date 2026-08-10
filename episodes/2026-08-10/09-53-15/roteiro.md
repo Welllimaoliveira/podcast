@@ -1,0 +1,239 @@
+# Tema
+
+Raciocínio lógico para concurso
+
+## Apresentador 1
+
+Olá, futuros aprovados! Quando a gente abre o edital de um concurso público e vê a disciplina de Raciocínio Lógico-Matemático, é muito comum bater aquele receio inicial. A verdade é que o RLM não é um bicho de sete cabeças, mas sim uma ferramenta poderosa para treinar a sua mente a pensar com precisão e clareza. Nas carreiras policiais, por exemplo, onde decisões rápidas e corretas salvam vidas, a lógica formal é indispensável para estruturar relatórios, analisar evidências e tomar decisões sob pressão.
+
+## Apresentadora 2
+
+Com certeza, e vale lembrar que bancas renomadas, como o Cebraspe, cobram essa matéria exatamente para avaliar o perfil analítico do candidato, e não apenas a sua capacidade de memorizar regras. Muita gente confunde o raciocínio lógico da prova com o bom senso do dia a dia, e é aí que moram as maiores pegadinhas. Para encarar qualquer questão com confiança, o primeiro passo é virar a chave e entender que a lógica tem a sua própria gramática e as suas próprias estruturas rigorosas.
+
+## Apresentador 1
+
+Exatamente, e a pedra fundamental de toda essa estrutura é o conceito de proposição lógica. Em termos bem rigorosos, uma proposição é uma sentença declarativa, expressa em palavras ou símbolos, que exprime um sentido completo e admite um, e somente um, valor lógico: ou ela é verdadeira, ou ela é falsa. Não existe meio termo na lógica bivalente, ou seja, algo não pode ser 'mais ou menos verdadeiro' ou 'depende do ponto de vista'.
+
+## Apresentadora 2
+
+Essa definição é um prato cheio para o Cebraspe elaborar itens do tipo certo ou errado. Sentenças interrogativas como 'Qual é o seu nome?', exclamativas como 'Que operação excelente!', imperativas como 'Prenda o suspeito!', ou frases abertas sem sujeito definido não são proposições, pois não têm valor de verdade. Por outro lado, se eu afirmo 'O agente realizou a patrulha na quinta-feira', temos uma sentença declarativa perfeitamente classificável como verdadeira ou falsa.
+
+## Apresentador 1
+
+Perfeito, e a partir daí nós dividimos as proposições em duas categorias fundamentais: as simples e as compostas. A proposição simples é aquela que traz apenas uma ideia central, formada por um único sujeito e um único predicado, sem a presença de conectivos lógicos. Um exemplo bem prático seria 'O candidato estuda RLM'. Já a proposição composta surge quando unimos duas ou mais proposições simples utilizando conectivos, como na frase 'O candidato estuda RLM e o candidato faz exercícios'.
+
+## Apresentadora 2
+
+Esses conectivos lógicos funcionam como a cola estrutural do raciocínio formal. Nós temos cinco conectivos essenciais que todo concurseiro precisa dominar para gabaritar a prova. São eles: a conjunção, representada pelo 'e'; a disjunção inclusiva, que é o 'ou'; a disjunção exclusiva, o 'ou...ou'; a condicional, expressa pelo 'se...então'; e a bicondicional, dada por 'se e somente se'. Cada um desses conectivos altera o valor lógico da sentença composta de uma maneira bem específica.
+
+## Apresentador 1
+
+A conjunção 'e' exige um nível máximo de rigor, pois a proposição composta só será verdadeira se todas as proposições simples que a compõem forem estritamente verdadeiras. Se o edital exige 'diploma de nível superior E carteira de habilitação', ter apenas um dos dois requisitos não satisfaz a condição completa. Já na disjunção inclusiva 'ou', a lógica é mais flexível: basta que pelo menos uma das partes seja verdadeira para que toda a frase seja considerada verdadeira.
+
+## Apresentadora 2
+
+É fundamental não confundir essa disjunção inclusiva com a disjunção exclusiva, representada pelo 'ou...ou'. Na exclusiva, apenas uma das opções pode acontecer, mas não ambas ao mesmo tempo. Pense em uma escala de plantão policial: 'Ou o agente está na delegacia A ou o agente está na delegacia B'. Ele não pode estar nos dois lugares simultaneamente, nem ausente de ambos se essas forem as únicas alternativas impostas, garantindo que exatamente uma proposição seja verdadeira.
+
+## Apresentador 1
+
+Agora, o verdadeiro xodó das bancas examinadoras, especialmente do Cebraspe, é a proposição condicional, o famoso 'se...então'. A estrutura 'Se P, então Q' estabelece uma relação de causa e efeito, ou de condição suficiente e necessária, entre duas proposições. Por exemplo: 'Se o indivíduo cometeu o crime, então ele será processado'. Note que o fato de o indivíduo ser processado depende diretamente do cumprimento da hipótese inicial, criando uma dependência lógica entre os fatos.
+
+## Apresentadora 2
+
+Para fechar o quinteto de conectivos, temos a bicondicional 'se e somente se', que indica uma via de dupla mão entre as proposições. Nesse caso, a sentença composta só é verdadeira quando ambas as proposições simples possuem exatamente o mesmo valor lógico, ou seja, ambas verdadeiras ou ambas falsas. Se dizemos 'O suspeito será detido se e somente se houver mandado judicial', a prisão só ocorre com mandado, e a existência do mandado obriga a prisão.
+
+## Apresentador 1
+
+Com todos esses conectivos apresentados, a grande pergunta do estudante é: como avaliar o valor lógico de uma frase composta longa e complexa? É exatamente aqui que entra a tabela-verdade, que nada mais é do que um diagrama tabular organizado para mapear todas as combinações possíveis de valores lógicos das proposições simples. Ela funciona como um guia visual infalível que revela o resultado final de qualquer construção lógica.
+
+## Apresentadora 2
+
+Uma pegadinha de prova extremamente comum sobre a tabela-verdade é cobrar a quantidade de linhas que ela deve possuir. Para não cair em armadilhas, existe uma fórmula matemática direta: a quantidade de linhas de uma tabela-verdade é dada por dois elevado a 'n', onde 'n' representa o número de proposições simples distintas envolvidas. Se uma questão do Cebraspe apresenta três proposições simples, como P, Q e R, a tabela terá exatamente dois elevado a três, resultando em oito linhas de análise.
+
+## Apresentador 1
+
+Exatamente, e entender o comportamento de cada conectivo dentro da tabela-verdade é o que diferencia o candidato preparado do improvisado. Na tabela da condicional 'se P, então Q', por exemplo, existe apenas uma situação em que a proposição composta é falsa: quando a primeira parte é verdadeira e a segunda é falsa. Os professores costumam usar macetes para memorizar isso, mas o essencial é compreender que uma premissa verdadeira jamais pode conduzir a uma conclusão falsa.
+
+## Apresentadora 2
+
+Já na tabela da conjunção 'e', basta encontrar uma única proposição simples falsa para que a linha inteira seja julgada como falsa. Na disjunção inclusiva 'ou', por outro lado, a linha só será falsa se todas as proposições simples forem falsas juntas. Treinar o preenchimento dessas linhas com exemplos do cotidiano policial ajuda a fixar os conceitos sem a necessidade de memorização mecânica, transformando a tabela em uma ferramenta intuitiva.
+
+## Apresentador 1
+
+Isso é crucial porque o Cebraspe adora reescrever essas estruturas lógicas de maneiras menos óbvias na prova de português ou na própria prova de RLM. Às vezes a condicional surge sem a palavra 'então', usando vírgula ou termos como 'caso', 'desde que' ou 'quando'. Se o candidato não dominou a lógica essencial por trás das tabelas, ele acaba se perdendo na interpretação de texto e marca o gabarito errado por mera distração.
+
+## Apresentadora 2
+
+Por isso, dominar desde o conceito de proposição até a construção da tabela-verdade cria uma base sólida e inabalável para o seu estudo. Quando você entende como os conectivos alteram os valores de verdade, questões que pareciam textos confusos passam a ser vistas como equações simples e previsíveis. Essa clareza traz muita rapidez durante a resolução da prova, economizando um tempo precioso que pode ser investido em outras disciplinas.
+
+## Apresentador 1
+
+O raciocínio lógico, quando encarado como uma linguagem de precisão, deixa de ser um obstáculo e se torna o seu maior aliado na busca pela aprovação. Praticar a identificação de proposições e a aplicação dos conectivos no dia a dia torna o pensamento analítico automático. À medida que avançamos na análise das tabelas e equivalências, essa estrutura inicial se desdobra em técnicas cada vez mais estratégicas para acertar qualquer questão.
+
+## Apresentadora 2
+
+Com essa visão geral dos fundamentos, percebemos que o segredo do RLM não é adivinhar, mas aplicar regras claras de forma sistemática. Cada proposição analisada corretamente é um ponto a mais acumulado na sua folha de respostas. A partir dessa base bem consolidada, fica muito mais fácil visualizar como as bancas testam a validade dos argumentos e constroem cenários complexos nas provas.
+
+## Apresentador 1
+
+E avançando exatamente a partir dessa base das tabelas, o próximo grande salto do candidato é entender as equivalências lógicas. Em vez de desenhar uma tabela inteira de oito ou dezesseis linhas no meio da prova, você pode aplicar regras de transformação direta para encontrar frases com o mesmo valor verdade. A equivalência mais cobrada disparada nas provas é a da condicional, conhecida como contrapositiva.
+
+## Apresentadora 2
+
+A contrapositiva é perfeita pela simplicidade de aplicação, porque você inverte a ordem das proposições e nega ambas. Se a frase original diz 'se o servidor cumpre o regimento, então ele é promovido', a equivalente lógica perfeita é 'se ele não é promovido, então o servidor não cumpre o regimento'. A banca adora trocar a ordem sem negar ou negar sem trocar a ordem para confundir quem leu com pressa.
+
+## Apresentador 1
+
+Essa troca incompleta é uma das maiores armadilhas de RLM em concursos. Mas a condicional tem outra equivalência clássica que costuma derrubar milhares de candidatos: a transformação do 'se, então' em uma estrutura com a disjunção 'ou'. Para memorizar essa mudança, os concurseiros costumam usar a regra do 'NEGA OU', onde você nega a primeira parte, troca o conectivo pelo 'ou' e mantém a segunda parte intacta.
+
+## Apresentadora 2
+
+Usando o mesmo exemplo, a frase 'se o servidor cumpre o regimento, então ele é promovido' se transforma em 'o servidor não cumpre o regimento ou ele é promovido'. O Cebraspe adora colocar essa equivalência em questões de certo ou errado porque ela soa estranha ao ouvido leigo em português. No entanto, do ponto de vista da lógica formal, o valor lógico das duas sentenças é rigorosamente idêntico.
+
+## Apresentador 1
+
+Falando em frases que soam estranhas, precisamos tomar um cuidado redobrado com a negação da condicional. Muita gente confunde equivalência com negação e acha que para negar um 'se, então' basta colocar outro 'se, então' na resposta. Isso é um erro fatal na hora de marcar o gabarito. A negação de uma condicional nunca gera outra condicional.
+
+## Apresentadora 2
+
+Exatamente. Para negar a condicional, aplicamos a famosa regra do 'MANÉ': mantém a primeira proposição E nega a segunda proposição. A frase 'se o agente investiga, então o crime é solucionado' torna-se, na negação, 'o agente investiga E o crime não é solucionado'. Perceba que o 'se, então' desaparece completamente e dá lugar ao conectivo 'e'.
+
+## Apresentador 1
+
+Esse mesmo rigor se aplica quando precisamos negar as proposições compostas unidas por 'e' ou por 'ou', que é onde entram as célebres Leis de De Morgan. A regra de ouro aqui é muito simples de lembrar: você deve negar ambas as proposições simples e inverter o conectivo que as une. O conectivo 'e' vira 'ou', e o conectivo 'ou' vira 'e'.
+
+## Apresentadora 2
+
+Se a prova apresenta a sentença 'o perito analisou as provas e o laudo foi emitido', a negação lógica correta é 'o perito não analisou as provas OU o laudo não foi emitido'. Se você apenas negar as duas mantendo o 'e', a questão estará incorreta. A banca aposta justamente no fato de que, na linguagem do dia a dia, tendemos a manter o conectivo original.
+
+## Apresentador 1
+
+E as pegadinhas não param nos conectivos; elas ficam ainda mais refinadas quando entram os quantificadores lógicos, conhecidos como 'Todo', 'Algum' e 'Nenhum'. O erro mais grotesco e infelizmente mais comum é o candidato achar que a negação de 'Todo homem é honesto' seria 'Nenhum homem é honesto'. Lógica não funciona por opostos absolutos do senso comum.
+
+## Apresentadora 2
+
+Para quebrar a ideia de que 'Todo P é Q', você não precisa provar que nada é. Basta encontrar um único contraexemplo dentro do grupo. Por isso, a negação de 'Todo' é feita por um quantificador particular acrescido de uma negação, ou seja, 'pelo menos um', 'existe um' ou 'algum' não é. Assim, a negação de 'Todo homem é honesto' é 'Algum homem não é honesto'.
+
+## Apresentador 1
+
+Seguindo o mesmo raciocínio analítico, a negação de 'Nenhum candidato foi aprovado' é simplesmente 'Algum candidato foi aprovado'. O quantificador universal negativo 'Nenhum' é anulado ao mostrar que existe ao menos um elemento que possui aquela característica. Essa precisão cirúrgica de termos garante pontos preciosos em provas do Cebraspe, onde uma única palavra muda o julgamento do item.
+
+## Apresentadora 2
+
+Outra pegadinha clássica das bancas ocorre logo no início do enunciado, quando tentam fazer o candidato perder tempo analisando coisas que nem proposições são. É fundamental lembrar que sentenças interrogativas, exclamativas, imperativas e sentenças abertas não possuem valor lógico definido. Frases como 'Faça o relatório agora!' ou 'Quem cometeu o delito?' jamais podem ser julgadas como verdadeiras ou falsas.
+
+## Apresentador 1
+
+As sentenças abertas são especialmente perigosas porque costumam vir com equações matemáticas sem o valor das variáveis, como 'x mais três é igual a dez'. Como o valor de x não foi determinado, essa frase não tem como ser classificada e, portanto, não é uma proposição. A banca gosta de colocar textos longos misturando ordens e perguntas para ver se o candidato tenta montar uma tabela-verdade do que é inviável.
+
+## Apresentadora 2
+
+Quando dominamos a identificação e a manipulação dessas sentenças, chegamos ao ponto culminante do RLM, que é a análise da validade dos argumentos. Um argumento é uma estrutura formada por premissas que buscam sustentar uma conclusão. A grande chave aqui é perceber que a validade depende exclusivamente da forma lógica do argumento, e não da verdade material dos fatos na vida real.
+
+## Apresentador 1
+
+Perfeito. Se um argumento diz 'Todo cão voa' e 'Bob é um cão', a conclusão lógica necessária é 'Bob voa'. Mesmo que no mundo real cães não voem, a dedução dentro daquele sistema fechado é perfeitamente válida. Se as premissas forem consideradas verdadeiras, a conclusão deriva delas obrigatoriamente sem margem para contraexemplos.
+
+## Apresentadora 2
+
+É exatamente essa separação entre o mundo real e a lógica formal que garante o sucesso do candidato experiente. Não tente discutir com a questão usando seus conhecimentos de mundo ou opiniões pessoais. Trate as frases como símbolos e relações conceituais rígidas, aplicando as regras de inferência sem desviar do texto fornecido pela banca examinadora.
+
+## Apresentador 1
+
+Quando você junta o domínio das equivalências, a negação de quantificadores e a estrutura dos argumentos válidos, o padrão de cobrança da banca fica totalmente transparente. As armadilhas deixam de assustar e passam a ser pistas óbvias apontando a alternativa correta ou o item certo. O raciocínio passa a ser mecânico, rápido e focado em pontuar.
+
+## Apresentadora 2
+
+E a melhor forma de consolidar todo esse aparato teórico e fixar cada macete que vimos até agora é encarando a realidade da prova. Nada substitui a prática direta com itens recentes e variados. Chegou o momento perfeito de colocar essas regras à prova e resolver algumas questões fundamentais de concurso juntos.
+
+## Apresentador 1
+
+Agora chegou a hora de testar de verdade o que você sabe. Separei quatro questões de provas anteriores da Polícia Rodoviária Federal.
+
+## Apresentadora 2
+
+A regra é simples: escute as quatro questões e marque mentalmente certo ou errado. Não vamos revelar as respostas agora. Depois das quatro, a gente volta com o gabarito oficial e explica cada uma.
+
+## Apresentador 1
+
+Como estamos usando provas anteriores, considere sempre o ano indicado e o gabarito oficial daquela prova. Legislação pode sofrer alterações ao longo do tempo.
+
+## Apresentadora 2
+
+Questão 1. PRF 2021, CEBRASPE, item 27. Considere um modelo em que a taxa de espalhamento de uma notícia seja p vezes (1 - p), com constante de proporcionalidade igual a 1. Se 30% da população já conhece a notícia, então a taxa de espalhamento é superior a 20% por unidade de tempo. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 2. PRF 2021, CEBRASPE, item 28. No modelo em que a taxa de espalhamento é p vezes (1 - p), se essa taxa for 16% por unidade de tempo, então necessariamente mais de 75% da população ainda desconhece a notícia. Certo ou errado?
+
+## Apresentadora 2
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentadora 2
+
+Questão 3. PRF 2021, CEBRASPE, item 29. No modelo de espalhamento dado por p vezes (1 - p), com p entre zero e um, é possível que a taxa de espalhamento de uma notícia ultrapasse 50% por unidade de tempo. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 4. PRF 2021, CEBRASPE, item 30. No mesmo modelo, quanto maior for o número de pessoas que já conhecem uma notícia, maior será necessariamente sua taxa de espalhamento. Certo ou errado?
+
+## Apresentador 1
+
+As quatro foram apresentadas. Se você quiser mais tempo para resolver, pause o áudio agora. Quando estiver pronto, continue para conferir o gabarito.
+
+## Apresentadora 2
+
+Vamos corrigir. Mais importante do que acertar é entender exatamente por que cada item está certo ou errado.
+
+## Apresentador 1
+
+Questão 1. O gabarito oficial é CERTO.
+
+## Apresentadora 2
+
+A taxa de espalhamento é dada pela função f(p) = p * (1 - p), em que p representa a proporção de pessoas que já conhecem a notícia. Como 30% da população já conhece o fato, temos p = 0,30. Aplicando a fórmula do modelo, a taxa de espalhamento é calculada como 0,30 * (1 - 0,30) = 0,30 * 0,70 = 0,21, o que corresponde a 21% por unidade de tempo. Como 21% é estritamente superior a 20%, a afirmativa apresentada na questão está correta. A pegadinha consiste em confundir a porcentagem de pessoas que conhecem a notícia (30%) diretamente com a taxa final de espalhamento, sem aplicar o produto da fórmula f(p) = p * (1 - p). O candidato deveria realizar a simples substituição do valor na função para chegar ao valor exato de 21%.
+
+## Apresentadora 2
+
+Questão 2. O gabarito oficial é ERRADO.
+
+## Apresentador 1
+
+A taxa de espalhamento é p * (1 - p) = 0,16. Resolvendo a equação do segundo grau p - p^2 = 0,16, temos p^2 - p + 0,16 = 0. As raízes dessa equação são p = 0,20 (20%) e p = 0,80 (80%). A porcentagem de pessoas que desconhecem a notícia é representada por 1 - p. Se p = 0,80, então 1 - p = 0,20 (20% da população desconhece a notícia). Por outro lado, se p = 0,20, temos 1 - p = 0,80 (80%). A afirmativa afirma que necessariamente mais de 75% desconhece a notícia, o que é falso, pois a porcentagem pode ser de apenas 20%. A pegadinha do item está no termo 'necessariamente', ignorando a segunda raiz válida da equação do segundo grau. O candidato deveria encontrar as duas possibilidades e constatar que uma delas desmente o enunciado.
+
+## Apresentador 1
+
+Questão 3. O gabarito oficial é ERRADO.
+
+## Apresentadora 2
+
+A função de espalhamento f(p) = p * (1 - p) = -p^2 + p representa uma parábola com concavidade voltada para baixo. O ponto de máximo dessa função ocorre no vértice, calculado por p = -b / (2a) = -1 / (-2) = 0,50 (50%). Substituindo esse valor máximo na função, obtemos f(0,50) = 0,50 * 0,50 = 0,25, ou seja, a taxa máxima de espalhamento é de 25% por unidade de tempo. Assim, é impossível que a taxa ultrapasse 50%. A pegadinha da questão reside em tentar induzir o candidato a achar que, por p variar de 0 a 1, a taxa de espalhamento também poderia chegar a valores próximos de 100% ou ultrapassar 50%. O candidato precisava identificar o vértice da parábola para determinar o limite máximo de 25%.
+
+## Apresentadora 2
+
+Questão 4. O gabarito oficial é ERRADO.
+
+## Apresentador 1
+
+A função f(p) = p * (1 - p) descreve um comportamento quadrático. A taxa de espalhamento cresce apenas no intervalo em que p varia de 0 a 0,50 (quando até 50% das pessoas conhecem a notícia), atingindo seu pico de 25%. A partir de p = 0,50 até p = 1,00, a taxa de espalhamento passa a diminuir, tendendo a zero quando todos já conhecem a notícia. Portanto, não é correto afirmar que quanto maior o número de pessoas que conhecem a notícia, maior será necessariamente a taxa. A pegadinha consiste na ideia intuitiva equivocada de que quanto mais pessoas sabem, mais rápido a informação se espalha indefinidamente. O candidato deveria analisar o comportamento do gráfico da parábola para perceber o decrescimento após o ponto médio.
+
+## Apresentador 1
+
+Se você errou alguma delas, essa é justamente a questão que merece entrar na sua lista de revisão.
+
+## Apresentadora 2
+
+E se acertou as quatro, ótimo. Mas não fique apenas no acerto: tenha certeza de que você consegue explicar o motivo de cada resposta.
+
+## Apresentador 1
+
+Continuamos no próximo episódio com outro tema e quatro novas questões. Bons estudos e até lá.

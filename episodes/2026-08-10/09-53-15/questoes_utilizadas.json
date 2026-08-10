@@ -1,0 +1,49 @@
+{
+  "disciplina": "raciocinio logico",
+  "questoes": [
+    {
+      "id": "PRF-2021-027",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Raciocínio lógico",
+      "disciplina_canonica": "raciocinio logico",
+      "item_original": 27,
+      "questao": "Considere um modelo em que a taxa de espalhamento de uma notícia seja p vezes (1 - p), com constante de proporcionalidade igual a 1. Se 30% da população já conhece a notícia, então a taxa de espalhamento é superior a 20% por unidade de tempo.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 27 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-028",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Raciocínio lógico",
+      "disciplina_canonica": "raciocinio logico",
+      "item_original": 28,
+      "questao": "No modelo em que a taxa de espalhamento é p vezes (1 - p), se essa taxa for 16% por unidade de tempo, então necessariamente mais de 75% da população ainda desconhece a notícia.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 28 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-029",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Raciocínio lógico",
+      "disciplina_canonica": "raciocinio logico",
+      "item_original": 29,
+      "questao": "No modelo de espalhamento dado por p vezes (1 - p), com p entre zero e um, é possível que a taxa de espalhamento de uma notícia ultrapasse 50% por unidade de tempo.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 29 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-030",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Raciocínio lógico",
+      "disciplina_canonica": "raciocinio logico",
+      "item_original": 30,
+      "questao": "No mesmo modelo, quanto maior for o número de pessoas que já conhecem uma notícia, maior será necessariamente sua taxa de espalhamento.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 30 - gabarito oficial definitivo"
+    }
+  ]
+}

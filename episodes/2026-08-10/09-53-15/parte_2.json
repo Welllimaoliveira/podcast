@@ -1,0 +1,77 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "E avançando exatamente a partir dessa base das tabelas, o próximo grande salto do candidato é entender as equivalências lógicas. Em vez de desenhar uma tabela inteira de oito ou dezesseis linhas no meio da prova, você pode aplicar regras de transformação direta para encontrar frases com o mesmo valor verdade. A equivalência mais cobrada disparada nas provas é a da condicional, conhecida como contrapositiva."
+    },
+    {
+      "speaker": "B",
+      "text": "A contrapositiva é perfeita pela simplicidade de aplicação, porque você inverte a ordem das proposições e nega ambas. Se a frase original diz 'se o servidor cumpre o regimento, então ele é promovido', a equivalente lógica perfeita é 'se ele não é promovido, então o servidor não cumpre o regimento'. A banca adora trocar a ordem sem negar ou negar sem trocar a ordem para confundir quem leu com pressa."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa troca incompleta é uma das maiores armadilhas de RLM em concursos. Mas a condicional tem outra equivalência clássica que costuma derrubar milhares de candidatos: a transformação do 'se, então' em uma estrutura com a disjunção 'ou'. Para memorizar essa mudança, os concurseiros costumam usar a regra do 'NEGA OU', onde você nega a primeira parte, troca o conectivo pelo 'ou' e mantém a segunda parte intacta."
+    },
+    {
+      "speaker": "B",
+      "text": "Usando o mesmo exemplo, a frase 'se o servidor cumpre o regimento, então ele é promovido' se transforma em 'o servidor não cumpre o regimento ou ele é promovido'. O Cebraspe adora colocar essa equivalência em questões de certo ou errado porque ela soa estranha ao ouvido leigo em português. No entanto, do ponto de vista da lógica formal, o valor lógico das duas sentenças é rigorosamente idêntico."
+    },
+    {
+      "speaker": "A",
+      "text": "Falando em frases que soam estranhas, precisamos tomar um cuidado redobrado com a negação da condicional. Muita gente confunde equivalência com negação e acha que para negar um 'se, então' basta colocar outro 'se, então' na resposta. Isso é um erro fatal na hora de marcar o gabarito. A negação de uma condicional nunca gera outra condicional."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. Para negar a condicional, aplicamos a famosa regra do 'MANÉ': mantém a primeira proposição E nega a segunda proposição. A frase 'se o agente investiga, então o crime é solucionado' torna-se, na negação, 'o agente investiga E o crime não é solucionado'. Perceba que o 'se, então' desaparece completamente e dá lugar ao conectivo 'e'."
+    },
+    {
+      "speaker": "A",
+      "text": "Esse mesmo rigor se aplica quando precisamos negar as proposições compostas unidas por 'e' ou por 'ou', que é onde entram as célebres Leis de De Morgan. A regra de ouro aqui é muito simples de lembrar: você deve negar ambas as proposições simples e inverter o conectivo que as une. O conectivo 'e' vira 'ou', e o conectivo 'ou' vira 'e'."
+    },
+    {
+      "speaker": "B",
+      "text": "Se a prova apresenta a sentença 'o perito analisou as provas e o laudo foi emitido', a negação lógica correta é 'o perito não analisou as provas OU o laudo não foi emitido'. Se você apenas negar as duas mantendo o 'e', a questão estará incorreta. A banca aposta justamente no fato de que, na linguagem do dia a dia, tendemos a manter o conectivo original."
+    },
+    {
+      "speaker": "A",
+      "text": "E as pegadinhas não param nos conectivos; elas ficam ainda mais refinadas quando entram os quantificadores lógicos, conhecidos como 'Todo', 'Algum' e 'Nenhum'. O erro mais grotesco e infelizmente mais comum é o candidato achar que a negação de 'Todo homem é honesto' seria 'Nenhum homem é honesto'. Lógica não funciona por opostos absolutos do senso comum."
+    },
+    {
+      "speaker": "B",
+      "text": "Para quebrar a ideia de que 'Todo P é Q', você não precisa provar que nada é. Basta encontrar um único contraexemplo dentro do grupo. Por isso, a negação de 'Todo' é feita por um quantificador particular acrescido de uma negação, ou seja, 'pelo menos um', 'existe um' ou 'algum' não é. Assim, a negação de 'Todo homem é honesto' é 'Algum homem não é honesto'."
+    },
+    {
+      "speaker": "A",
+      "text": "Seguindo o mesmo raciocínio analítico, a negação de 'Nenhum candidato foi aprovado' é simplesmente 'Algum candidato foi aprovado'. O quantificador universal negativo 'Nenhum' é anulado ao mostrar que existe ao menos um elemento que possui aquela característica. Essa precisão cirúrgica de termos garante pontos preciosos em provas do Cebraspe, onde uma única palavra muda o julgamento do item."
+    },
+    {
+      "speaker": "B",
+      "text": "Outra pegadinha clássica das bancas ocorre logo no início do enunciado, quando tentam fazer o candidato perder tempo analisando coisas que nem proposições são. É fundamental lembrar que sentenças interrogativas, exclamativas, imperativas e sentenças abertas não possuem valor lógico definido. Frases como 'Faça o relatório agora!' ou 'Quem cometeu o delito?' jamais podem ser julgadas como verdadeiras ou falsas."
+    },
+    {
+      "speaker": "A",
+      "text": "As sentenças abertas são especialmente perigosas porque costumam vir com equações matemáticas sem o valor das variáveis, como 'x mais três é igual a dez'. Como o valor de x não foi determinado, essa frase não tem como ser classificada e, portanto, não é uma proposição. A banca gosta de colocar textos longos misturando ordens e perguntas para ver se o candidato tenta montar uma tabela-verdade do que é inviável."
+    },
+    {
+      "speaker": "B",
+      "text": "Quando dominamos a identificação e a manipulação dessas sentenças, chegamos ao ponto culminante do RLM, que é a análise da validade dos argumentos. Um argumento é uma estrutura formada por premissas que buscam sustentar uma conclusão. A grande chave aqui é perceber que a validade depende exclusivamente da forma lógica do argumento, e não da verdade material dos fatos na vida real."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito. Se um argumento diz 'Todo cão voa' e 'Bob é um cão', a conclusão lógica necessária é 'Bob voa'. Mesmo que no mundo real cães não voem, a dedução dentro daquele sistema fechado é perfeitamente válida. Se as premissas forem consideradas verdadeiras, a conclusão deriva delas obrigatoriamente sem margem para contraexemplos."
+    },
+    {
+      "speaker": "B",
+      "text": "É exatamente essa separação entre o mundo real e a lógica formal que garante o sucesso do candidato experiente. Não tente discutir com a questão usando seus conhecimentos de mundo ou opiniões pessoais. Trate as frases como símbolos e relações conceituais rígidas, aplicando as regras de inferência sem desviar do texto fornecido pela banca examinadora."
+    },
+    {
+      "speaker": "A",
+      "text": "Quando você junta o domínio das equivalências, a negação de quantificadores e a estrutura dos argumentos válidos, o padrão de cobrança da banca fica totalmente transparente. As armadilhas deixam de assustar e passam a ser pistas óbvias apontando a alternativa correta ou o item certo. O raciocínio passa a ser mecânico, rápido e focado em pontuar."
+    },
+    {
+      "speaker": "B",
+      "text": "E a melhor forma de consolidar todo esse aparato teórico e fixar cada macete que vimos até agora é encarando a realidade da prova. Nada substitui a prática direta com itens recentes e variados. Chegou o momento perfeito de colocar essas regras à prova e resolver algumas questões fundamentais de concurso juntos."
+    }
+  ]
+}
