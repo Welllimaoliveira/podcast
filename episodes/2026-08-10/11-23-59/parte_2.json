@@ -1,0 +1,77 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Agora que compreendemos a estrutura organizacional, precisamos analisar como a Administração Pública atua na prática por meio dos seus Poderes. Na prova da PRF, o estudo dos Poderes Administrativos ganha um destaque gigantesco, principalmente quando falamos sobre o Poder de Polícia. Esse é o verdadeiro instrumento de trabalho do policial rodoviário federal na fiscalização de trânsito e na repressão a crimes nas rodovias."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. E a primeira grande distinção que a banca Cebraspe ama cobrar é a diferença entre Polícia Administrativa e Polícia Judiciária. A Polícia Administrativa tem caráter predominantemente preventivo, incidindo sobre bens, direitos e atividades, como a fiscalização de veículos e bagagens. Já a Polícia Judiciária tem caráter predominantemente repressivo, incide diretamente sobre pessoas e atua na investigação de ilícitos penais."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa diferenciação é crucial. Embora a PRF exerça precipuamente a Polícia Administrativa ao fiscalizar o tráfego e impor multas, ela também atua na segurança pública ao prender em flagrante e combater o crime organizado nas rodovias federais. No entanto, para fins conceituais de prova, a fiscalização rotineira de trânsito é a expressão clássica da Polícia Administrativa."
+    },
+    {
+      "speaker": "B",
+      "text": "E para exercer essa Polícia Administrativa com eficiência, o Estado dota o agente de atributos específicos do Poder de Polícia. O primeiro deles é a discricionariedade, que confere certa margem de liberdade para o policial escolher a oportunidade e conveniência de determinada ação. Por exemplo, o PRF decide, dentro dos limites da lei, qual local e horário são mais adequados para instalar um ponto de fiscalização."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito. Mas vale lembrar que a discricionariedade não é irrestrita, pois existem atos do Poder de Polícia que são vinculados, como a lavratura do auto de infração quando a lei obriga. O segundo atributo fundamental é a autoexecutoriedade. Ela permite que a Administração Pública execute suas decisões diretamente, inclusive com o uso da força, sem a necessidade de autorização prévia do Poder Judiciário."
+    },
+    {
+      "speaker": "B",
+      "text": "Imagine a cena prática: se um PRF aborda um caminhão com excesso de peso ou com documento adulterado, ele não precisa pedir uma ordem judicial para reter o veículo. A própria lei concede a prerrogativa de apreender o bem e interromper a viagem imediatamente. É a autoexecutoriedade garantindo a celeridade e a efetividade na proteção do interesse público nas rodovias."
+    },
+    {
+      "speaker": "A",
+      "text": "E diretamente ligada à autoexecutoriedade temos a coercibilidade, que é a faculdade de impor as decisões estatais de forma imperativa e obrigatória ao particular. Se um motorista se recusa a encostar o veículo após uma ordem clara de parada, o policial pode utilizar os meios moderados da força para fazer cumprir a ordem. A coercibilidade mostra que o ato administrativo independe da concordância do administrado."
+    },
+    {
+      "speaker": "B",
+      "text": "Agora, quando o agente público extrapola os limites legais no exercício desses poderes, ingressamos no campo do Abuso de Poder. A banca Cebraspe costuma criar cenários complexos para confundir as duas espécies de abuso: o Excesso de Poder e o Desvio de Poder. Guardar a diferença entre o vício de competência e o vício de finalidade é o segredo para não cair nas pegadinhas."
+    },
+    {
+      "speaker": "A",
+      "text": "O Excesso de Poder ocorre quando o agente atua fora dos limites de sua competência legal ou atua de forma desproporcional. Pense em um policial que aplica uma sanção que a lei reserva exclusivamente ao Superintendente da PRF, ou que emprega força física totalmente desnecessária em uma abordagem tranquila. O vício aqui está na competência ou na intensidade da medida adotada."
+    },
+    {
+      "speaker": "B",
+      "text": "Já o Desvio de Poder, também chamado de Desvio de Finalidade, acontece quando o agente atua dentro da sua competência, mas busca um fim alheio ao interesse público ou diverso do previsto na lei. O exemplo clássico é o policial que aplica uma multa válida no papel, mas com a intenção secreta de se vingar de um inimigo pessoal. O ato parece perfeito por fora, mas está eivado de vício na finalidade."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa memorização é tiro certeiro: falou em vício de competência, o gabarito é Excesso de Poder; falou em vício de finalidade, a resposta é Desvio de Poder. Superada essa parte dos poderes e seus abusos, precisamos fechar nossa revisão teórica abordando a Responsabilidade Civil do Estado, regida pelo artigo 37, parágrafo sexto da Constituição Federal."
+    },
+    {
+      "speaker": "B",
+      "text": "Esse artigo estabelece que as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros. Adotou-se no Brasil a Teoria do Risco Administrativo, que fundamenta a Responsabilidade Civil Objetiva do Estado. Isso significa que a vítima não precisa provar a culpa ou o dolo do agente para ser indenizada."
+    },
+    {
+      "speaker": "A",
+      "text": "Basta que o cidadão comprove três elementos básicos: a conduta estatal do agente público agindo nessa qualidade, o dano efetivo sofrido e o nexo causal entre a conduta e o dano. Se uma viatura da PRF em perseguição policial colidir com um veículo particular parado no sinal, a União terá de indenizar os prejuízos do cidadão, independentemente de provar imprudência do policial."
+    },
+    {
+      "speaker": "B",
+      "text": "Contudo, por se adotar a Teoria do Risco Administrativo e não do Risco Integral, existem causas que podem mitigar ou excluir totalmente a responsabilidade do Estado. A responsabilidade é excluída quando rompemos o nexo causal, o que ocorre nos casos de culpa exclusiva da vítima, caso fortuito, força maior ou fato exclusivo de terceiro. Se o pedestre se atira deliberadamente na frente da viatura, o Estado não responde."
+    },
+    {
+      "speaker": "A",
+      "text": "Já no caso de culpa concorrente da vítima, a responsabilidade estatal não é eliminada, mas sim mitigada, dividindo-se o valor da indenização proporcionalmente. Outro ponto essencial que o Cebraspe adora cobrar é a ação regressiva do Estado contra o servidor. A Constituição garante ao Estado o direito de reaver o prejuízo pago ao terceiro, mas apenas se demonstrado que o agente atuou com dolo ou culpa."
+    },
+    {
+      "speaker": "B",
+      "text": "E atenção máxima à tese fixada pelo Supremo Tribunal Federal no Tema 940 de Repercussão Geral. O STF definiu que a ação de reparação de danos deve ser proposta diretamente contra o Estado ou a entidade prestadora de serviço, sendo vedado ao particular processar diretamente o agente público. O servidor só responderá perante o Estado, em regresso, caso a União seja condenada e comprove dolo ou culpa do policial."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa norma garante a dupla proteção: assegura ao lesado o recebimento da indenização pelo patrimônio público e protege o agente para que exerça suas funções operacionais sem o pavor de ser processado diretamente por cidadãos a todo instante. É um sistema harmonioso que equilibra a garantia dos direitos fundamentais com a eficiência da atividade estatal."
+    },
+    {
+      "speaker": "B",
+      "text": "Dominar com clareza os Poderes Administrativos, o Abuso de Poder e a Responsabilidade Civil do Estado é o passo decisivo para gabaritar Direito Administrativo na PRF. Agora que encerramos essa profunda varredura teórica, chegou o momento ideal de colocar todo esse conhecimento à prova. Vamos partir para a resolução de questões do Cebraspe e consolidar esses conceitos de forma definitiva."
+    }
+  ]
+}
