@@ -1,0 +1,69 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Fala, pessoal, que bom ter vocês aqui conosco nessa jornada intensa rumo ao concurso da Polícia Rodoviária Federal. O Direito Penal não é apenas uma disciplina determinante para garantir pontos preciosos na prova teórica do Cebraspe, mas é também a ferramenta técnica básica do seu cotidiano de patrulhamento nas rodovias do país. Hoje nós vamos dominar desde os princípios fundamentais até os pilares da teoria do crime, unindo teoria robusta e exemplos práticos."
+    },
+    {
+      "speaker": "B",
+      "text": "É isso mesmo, o policial rodoviário federal lida diariamente com a aplicação prática da lei penal ao fiscalizar trechos estratégicos e combater crimes graves nas estradas. Para começar com o pé direito, precisamos fixar o princípio da legalidade e seu desdobramento indissociável, a anterioridade. Conforme estabelece o artigo primeiro do Código Penal, não existe crime sem lei anterior que o defina, nem pena sem prévia cominação legal."
+    },
+    {
+      "speaker": "A",
+      "text": "Esse ponto é crucial para a sua prova porque a norma penal precisa estar plenamente em vigor antes da conduta para que o Estado possa exercer o direito de punir. O Cebraspe adora criar questões em que uma conduta até então atípica é praticada à tarde e, à noite, surge uma lei criminalizando aquele exato ato. Nesse cenário, o condutor ou pedestre jamais poderá ser punido, pois a lei nova maléfica não retroage para alcançar fatos passados."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente, e essa garantia se conecta diretamente aos princípios da intervenção mínima e da fragmentariedade do direito estatal. O Direito Penal opera como ultima ratio, ou seja, a última ferramenta do sistema, devendo atuar apenas quando os outros ramos, como o administrativo ou o civil, se mostrarem insuficientes. Somente as lesões verdadeiramente graves aos bens jurídicos mais relevantes para a sociedade devem ser objeto de tutela penal."
+    },
+    {
+      "speaker": "A",
+      "text": "Dentro dessa lógica de proteção estritamente necessária, surge o princípio da insignificância, que afasta a própria tipicidade material da conduta. A jurisprudência do STF e do STJ exige requisitos objetivos acumulados: mínima ofensividade da ação, nenhuma periculosidade social, reduzidíssimo grau de reprovabilidade e inexpressividade da lesão jurídica. Além disso, vale lembrar o princípio da culpabilidade, proibindo qualquer responsabilidade penal objetiva no nosso ordenamento."
+    },
+    {
+      "speaker": "B",
+      "text": "Passando para a aplicação da lei penal no tempo, a regra estrutural é a irretroatividade da lei penal mais gravosa para o réu. Contudo, se surgir uma novatio legis in melius, que traga qualquer benefício, ou uma abolitio criminis, que descriminalize o ato, a nova lei terá eficácia retroativa imediata. Essa retroatividade benéfica alcança inclusive os fatos já decididos por sentença condenatória com trânsito em julgado."
+    },
+    {
+      "speaker": "A",
+      "text": "Uma pegadinha clássica das provas do Cebraspe é afirmar que o trânsito em julgado impediria a retroatividade da lei mais favorável ao réu. A Súmula 611 do Supremo Tribunal Federal deixa cristalino que, após o trânsito em julgado, compete ao juízo da execução penal aplicar a lei mais benéfica. Fique atento porque a banca tenta confundir a competência do juiz da fase de conhecimento com a do juiz da execução."
+    },
+    {
+      "speaker": "B",
+      "text": "Outro ponto em que o candidato não pode escorregar é sobre o momento em que se considera praticado o delito. O artigo quarto do Código Penal adotou expressamente a teoria da atividade para definir o tempo do crime. Considera-se praticado o crime no exato momento da ação ou da omissão, sendo totalmente irrelevante o momento em que ocorre o resultado naturalístico."
+    },
+    {
+      "speaker": "A",
+      "text": "Para o lugar do crime, por outro lado, o artigo sexto do Código Penal consagrou a teoria da ubiquidade, também chamada de teoria mista. Considera-se praticado o crime tanto no lugar da ação ou omissão quanto no local onde se produziu ou deveria produzir-se o resultado. Para não trocar esses conceitos na hora da prova, memorize o famoso macete LUTA: Lugar é Ubiquidade e Tempo é Atividade."
+    },
+    {
+      "speaker": "B",
+      "text": "Excelente lembrança, essa sigla LUTA já salvou muitos candidatos de pegadinhas bem elaboradas em provas de carreiras policiais. Com essa base de aplicação da lei, entramos na Teoria Geral do Crime, na qual a doutrina majoritária adota o conceito analítico tripartido. Para que determinada conduta configure crime, ela precisa ser comprovadamente um fato típico, ilícito e praticado por um agente culpável."
+    },
+    {
+      "speaker": "A",
+      "text": "O fato típico é o primeiro substrato a ser analisado e compõe-se de quatro elementos essenciais: conduta, resultado, nexo causal e tipicidade. A conduta humana deve ser uma ação ou omissão consciente e voluntária, dirigida a uma finalidade lícita ou ilícita. Se o agente atua sob coação física irresistível, por exemplo, a vontade é suprimida, eliminando a própria conduta e tornando o fato atípico."
+    },
+    {
+      "speaker": "B",
+      "text": "O resultado é a modificação no mundo exterior provocada pela conduta, sendo elemento indispensável nos crimes materiais. Para conectar a conduta humana a esse resultado naturalístico, utilizamos o nexo de causalidade, regido pela teoria da equivalência dos antecedentes causais. Aplica-se o método hipotético de eliminação de Thyrén: se suprimirmos mentalmente a conduta e o resultado desaparecer, essa conduta é causa do evento."
+    },
+    {
+      "speaker": "A",
+      "text": "Por fim, a tipicidade desdobra-se nas dimensões formal e material para fechar a estrutura do fato típico. A tipicidade formal é a perfeita subsunção ou encaixe da conduta real ao modelo abstrato descrito no texto do artigo penal. Já a tipicidade material exige a ocorrência de uma lesão ou ameaça real e significativa ao bem protegido pela lei, sendo aqui que incide o princípio da insignificância."
+    },
+    {
+      "speaker": "B",
+      "text": "Vencido o fato típico, passa-se ao exame da ilicitude, que representa a relação de contrariedade entre a conduta e o ordenamento jurídico. O próprio Código Penal estabelece causas justificantes que excluem a ilicitude: legítima defesa, estado de necessidade, estrito cumprimento do dever legal e exercício regular de direito. Havendo qualquer uma dessas excludentes, o fato permanece típico, contudo deixa de constituir um crime."
+    },
+    {
+      "speaker": "A",
+      "text": "O terceiro pilar do conceito analítico é a culpabilidade, que consiste no juízo de reprovação social incidente sobre o autor do fato ilícito. Os seus elementos integrantes são a imputabilidade penal, a potencial consciência da ilicitude e a exigibilidade de conduta diversa. O Cebraspe costuma trocar os elementos do fato típico com os elementos da culpabilidade para testar se o candidato realmente compreendeu a estrutura tripartida."
+    },
+    {
+      "speaker": "B",
+      "text": "Enxergar essa engrenagem do Direito Penal de forma integrada faz toda a diferença para interpretar cenários complexos no patrulhamento e gabaritar a prova. Quando você domina a transição entre fato típico, ilicitude e culpabilidade, a resolução das questões do Cebraspe se torna quase intuitiva. Vamos aprofundar agora o estudo detalhado das excludentes de ilicitude e suas peculiaridades na atividade policial."
+    }
+  ]
+}

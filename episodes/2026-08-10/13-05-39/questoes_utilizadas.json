@@ -1,0 +1,49 @@
+{
+  "disciplina": "direito penal",
+  "questoes": [
+    {
+      "id": "PRF-2021-100",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 100,
+      "questao": "A remarcação de novo número no chassi de um veículo e a falsificação de seu certificado de registro configuram, em conjunto, um único crime de falsificação de documento público.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 100 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-101",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 101,
+      "questao": "A remarcação do chassi com o mesmo número original do veículo configura simultaneamente crime contra a fé pública e infração administrativa de trânsito.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 101 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-102",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 102,
+      "questao": "Durante uma blitz, o motorista que oferece dinheiro ao policial para ser irregularmente liberado pratica corrupção ativa.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 102 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-103",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 103,
+      "questao": "Se o policial recusar a quantia oferecida pelo motorista para liberá-lo irregularmente de uma blitz, o crime de corrupção ativa permanece apenas na forma tentada.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 103 - gabarito oficial definitivo"
+    }
+  ]
+}
