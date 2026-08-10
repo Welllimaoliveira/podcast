@@ -134,4 +134,5 @@ jobs:
 
           commit_message: "🎙️ Novo podcast com dois apresentadores"
 
-          file_pattern: "episodes/** podcast_state.json"
+         # file_pattern: "episodes/** podcast_state.json"
+	  file_pattern: "episodes/** podcast_state.json questoes_state.json"

@@ -1,30 +1,35 @@
 """
-PODCAST AUTOMÁTICO COM DOIS APRESENTADORES
-GERAÇÃO EM 3 PARTES PARA EPISÓDIOS DE ~20 MINUTOS
+PODCAST AUTOMÁTICO PRF
+DOIS APRESENTADORES + TEORIA + 4 QUESTÕES DE PROVAS ANTERIORES
 
 Fluxo:
 
-1. Lê os temas em topics.json.
+1. Lê topics.json.
 2. Lê podcast_state.json.
-3. Seleciona o próximo tema da sequência.
-4. Gemini cria um planejamento do episódio.
-5. Gemini gera PARTE 1.
-6. Gemini recebe o final da PARTE 1 e gera PARTE 2.
-7. Gemini recebe o final da PARTE 2 e gera PARTE 3.
-8. Todas as falas são reunidas.
-9. edge-tts gera as duas vozes.
-10. FFmpeg junta todas as falas em um único MP3.
-11. O episódio é enviado ao Telegram.
-12. podcast_state.json só avança depois do envio com sucesso.
+3. Escolhe o próximo tema.
+4. Lê questoes_prf.json.
+5. Lê questoes_state.json.
+6. Seleciona 4 questões de provas anteriores da disciplina.
+7. Gera duas partes teóricas com Gemini.
+8. Cria uma terceira parte com:
+   - 4 questões
+   - tempo para o aluno pensar
+   - gabarito oficial
+   - explicações
+9. edge-tts gera duas vozes.
+10. FFmpeg junta tudo em um MP3.
+11. Envia para o Telegram.
+12. Somente depois do envio:
+    - atualiza podcast_state.json
+    - atualiza questoes_state.json
 
-Objetivo aproximado:
+IMPORTANTE:
 
-PARTE 1 = ~1.100 palavras
-PARTE 2 = ~1.100 palavras
-PARTE 3 = ~1.100 palavras
+O Gemini NÃO decide o gabarito das questões.
 
-TOTAL = ~3.300 palavras
-DURAÇÃO APROXIMADA = 18 a 22 minutos
+O gabarito vem obrigatoriamente de:
+
+questoes_prf.json
 """
 
 import os
@@ -34,6 +39,7 @@ import datetime
 import shutil
 import subprocess
 import tempfile
+import unicodedata
 
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -43,54 +49,235 @@ import edge_tts
 
 
 # ==========================================================
-# CONFIGURAÇÕES GERAIS
+# CONFIGURAÇÕES
 # ==========================================================
 
-# Voz masculina
 VOZ_A = "pt-BR-AntonioNeural"
-
-# Voz feminina
 VOZ_B = "pt-BR-FranciscaNeural"
 
-# Modelo Gemini
 MODELO_GEMINI = "gemini-flash-latest"
 
-# Número de partes do episódio
-QUANTIDADE_PARTES = 3
+# Duas partes teóricas.
+# A terceira parte será o desafio das questões.
+QUANTIDADE_PARTES_TEORIA = 2
 
-# Tamanho principal de cada parte
-PALAVRAS_POR_PARTE = 1100
+# Tamanho de cada parte teórica.
+PALAVRAS_POR_PARTE = 1050
 
-# Caso uma resposta venha cortada,
+# Se o Gemini cortar uma resposta,
 # tenta novamente com tamanhos menores.
 TENTATIVAS_PALAVRAS = [
-    1100,
-    1000,
-    900,
+    1050,
+    950,
+    850,
 ]
 
-# Quantas últimas falas serão enviadas
-# para o Gemini como contexto da próxima parte.
+# Número de questões por episódio.
+QUESTOES_POR_EPISODIO = 4
+
+# Número de falas anteriores passadas ao Gemini
+# para manter continuidade entre parte 1 e 2.
 FALAS_CONTEXTO = 8
 
-# Arquivos do sistema
-ARQUIVO_TEMAS = Path("topics.json")
-ARQUIVO_ESTADO = Path("podcast_state.json")
 
-# Fuso horário
-FUSO_BRASILIA = ZoneInfo("America/Sao_Paulo")
+# ==========================================================
+# ARQUIVOS
+# ==========================================================
 
+ARQUIVO_TEMAS = Path(
+    "topics.json"
+)
+
+ARQUIVO_ESTADO_PODCAST = Path(
+    "podcast_state.json"
+)
+
+ARQUIVO_QUESTOES = Path(
+    "questoes_prf.json"
+)
+
+ARQUIVO_ESTADO_QUESTOES = Path(
+    "questoes_state.json"
+)
+
+
+# ==========================================================
+# HORÁRIO
+# ==========================================================
+
+FUSO_BRASILIA = ZoneInfo(
+    "America/Sao_Paulo"
+)
+
+
+# ==========================================================
+# APRESENTADORES
+# ==========================================================
 
 NOMES_APRESENTADORES = {
-    "A": "Apresentador 1",
-    "B": "Apresentadora 2",
+
+    "A":
+        "Apresentador 1",
+
+    "B":
+        "Apresentadora 2",
 }
 
 
 VOZES = {
-    "A": VOZ_A,
-    "B": VOZ_B,
+
+    "A":
+        VOZ_A,
+
+    "B":
+        VOZ_B,
 }
+
+
+# ==========================================================
+# UTILIDADES
+# ==========================================================
+
+def normalizar_texto(
+    texto
+):
+
+    texto = str(
+        texto
+    ).strip().lower()
+
+    texto = unicodedata.normalize(
+        "NFD",
+        texto
+    )
+
+    texto = "".join(
+
+        caractere
+
+        for caractere in texto
+
+        if unicodedata.category(
+            caractere
+        ) != "Mn"
+    )
+
+    return texto
+
+
+# ==========================================================
+# NORMALIZAR DISCIPLINA
+# ==========================================================
+
+def disciplina_canonica(
+    texto
+):
+
+    texto = normalizar_texto(
+        texto
+    )
+
+    if (
+        "administrativo"
+        in texto
+    ):
+
+        return "direito administrativo"
+
+    if (
+        "penal"
+        in texto
+    ):
+
+        return "direito penal"
+
+    if (
+        "informat"
+        in texto
+    ):
+
+        return "informatica"
+
+    if (
+        "portugues"
+        in texto
+    ):
+
+        return "portugues"
+
+    if (
+        "transito"
+        in texto
+    ):
+
+        return "transito"
+
+    if (
+        "ingles"
+        in texto
+    ):
+
+        return "ingles"
+
+    if (
+        "racioc"
+        in texto
+        and
+        "logic"
+        in texto
+    ):
+
+        return "raciocinio logico"
+
+    return texto
+
+
+# ==========================================================
+# DISCIPLINA DO TEMA
+# ==========================================================
+
+def disciplina_do_tema(
+    tema
+):
+
+    return disciplina_canonica(
+        tema
+    )
+
+
+# ==========================================================
+# NORMALIZAR GABARITO
+# ==========================================================
+
+def normalizar_gabarito(
+    valor
+):
+
+    valor = normalizar_texto(
+        valor
+    )
+
+    if valor in (
+        "c",
+        "certo",
+        "correto",
+        "verdadeiro",
+    ):
+
+        return "CERTO"
+
+    if valor in (
+        "e",
+        "errado",
+        "incorreto",
+        "falso",
+    ):
+
+        return "ERRADO"
+
+    raise ValueError(
+        f"Gabarito inválido: {valor}"
+    )
 
 
 # ==========================================================
@@ -100,8 +287,10 @@ VOZES = {
 def carregar_temas():
 
     if not ARQUIVO_TEMAS.exists():
+
         raise FileNotFoundError(
-            f"Arquivo não encontrado: {ARQUIVO_TEMAS}"
+            f"Arquivo não encontrado: "
+            f"{ARQUIVO_TEMAS}"
         )
 
     with ARQUIVO_TEMAS.open(
@@ -109,7 +298,9 @@ def carregar_temas():
         encoding="utf-8"
     ) as arquivo:
 
-        dados = json.load(arquivo)
+        dados = json.load(
+            arquivo
+        )
 
     temas = dados.get(
         "temas",
@@ -120,53 +311,70 @@ def carregar_temas():
         temas,
         list
     ):
+
         raise ValueError(
-            "O campo 'temas' em topics.json "
+            "O campo 'temas' "
             "precisa ser uma lista."
         )
 
     temas = [
-        str(tema).strip()
+
+        str(
+            tema
+        ).strip()
+
         for tema in temas
-        if str(tema).strip()
+
+        if str(
+            tema
+        ).strip()
     ]
 
     if not temas:
+
         raise ValueError(
-            "Nenhum tema válido encontrado "
-            "em topics.json."
+            "Nenhum tema encontrado."
         )
 
     return temas
 
 
 # ==========================================================
-# CARREGAR ESTADO
+# CARREGAR ESTADO PODCAST
 # ==========================================================
 
-def carregar_estado():
+def carregar_estado_podcast():
 
-    if not ARQUIVO_ESTADO.exists():
+    if not ARQUIVO_ESTADO_PODCAST.exists():
 
         return {
-            "ultimo_indice": -1,
-            "ultimo_tema": None,
-            "ultima_execucao": None,
+
+            "ultimo_indice":
+                -1,
+
+            "ultimo_tema":
+                None,
+
+            "ultima_execucao":
+                None,
         }
 
     try:
 
-        with ARQUIVO_ESTADO.open(
+        with ARQUIVO_ESTADO_PODCAST.open(
             "r",
             encoding="utf-8"
         ) as arquivo:
 
-            estado = json.load(arquivo)
+            estado = json.load(
+                arquivo
+            )
 
         if not isinstance(
             estado,
             dict
         ):
+
             raise ValueError(
                 "Estado inválido."
             )
@@ -177,22 +385,28 @@ def carregar_estado():
 
         print("")
         print(
-            "AVISO: não foi possível carregar "
+            "AVISO:"
+        )
+
+        print(
+            "Não foi possível carregar "
             "podcast_state.json."
         )
 
         print(
-            f"Motivo: {erro}"
-        )
-
-        print(
-            "A sequência será reiniciada."
+            erro
         )
 
         return {
-            "ultimo_indice": -1,
-            "ultimo_tema": None,
-            "ultima_execucao": None,
+
+            "ultimo_indice":
+                -1,
+
+            "ultimo_tema":
+                None,
+
+            "ultima_execucao":
+                None,
         }
 
 
@@ -216,33 +430,49 @@ def escolher_proximo_tema(
         )
 
         indice = (
-            indice_anterior + 1
-        ) % len(temas)
+
+            indice_anterior
+            + 1
+
+        ) % len(
+            temas
+        )
 
     else:
 
         indice = 0
 
-    return indice, temas[indice]
+    return (
+        indice,
+        temas[
+            indice
+        ]
+    )
 
 
 # ==========================================================
-# SALVAR ESTADO
+# SALVAR ESTADO PODCAST
 # ==========================================================
 
-def salvar_estado(
+def salvar_estado_podcast(
     indice,
     tema,
     agora
 ):
 
     estado = {
-        "ultimo_indice": indice,
-        "ultimo_tema": tema,
-        "ultima_execucao": agora.isoformat(),
+
+        "ultimo_indice":
+            indice,
+
+        "ultimo_tema":
+            tema,
+
+        "ultima_execucao":
+            agora.isoformat(),
     }
 
-    with ARQUIVO_ESTADO.open(
+    with ARQUIVO_ESTADO_PODCAST.open(
         "w",
         encoding="utf-8"
     ) as arquivo:
@@ -256,38 +486,661 @@ def salvar_estado(
 
     print("")
     print(
-        "Controle de sequência atualizado."
+        "Estado do podcast atualizado."
     )
 
     print(
-        f"Último tema enviado: {tema}"
+        f"Último tema: {tema}"
     )
 
 
 # ==========================================================
-# LIMPAR POSSÍVEL MARKDOWN DO GEMINI
+# CARREGAR QUESTÕES
+# ==========================================================
+
+def carregar_questoes():
+
+    if not ARQUIVO_QUESTOES.exists():
+
+        raise FileNotFoundError(
+            f"Arquivo não encontrado: "
+            f"{ARQUIVO_QUESTOES}"
+        )
+
+    with ARQUIVO_QUESTOES.open(
+        "r",
+        encoding="utf-8"
+    ) as arquivo:
+
+        dados = json.load(
+            arquivo
+        )
+
+    # ------------------------------------------------------
+    # Aceita duas estruturas:
+    #
+    # NOVA:
+    #
+    # {
+    #   "questoes": [
+    #       {...},
+    #       {...}
+    #   ]
+    # }
+    #
+    # ANTIGA:
+    #
+    # {
+    #   "id": "...",
+    #   "questao": "...",
+    #   ...
+    # }
+    #
+    # Isso evita quebrar enquanto você
+    # atualiza o JSON.
+    # ------------------------------------------------------
+
+    if (
+        isinstance(
+            dados,
+            dict
+        )
+        and
+        "questoes" in dados
+    ):
+
+        questoes = dados[
+            "questoes"
+        ]
+
+    elif (
+        isinstance(
+            dados,
+            list
+        )
+    ):
+
+        questoes = dados
+
+    elif (
+        isinstance(
+            dados,
+            dict
+        )
+        and
+        "id" in dados
+    ):
+
+        questoes = [
+            dados
+        ]
+
+    else:
+
+        raise ValueError(
+            "Formato de questoes_prf.json "
+            "não reconhecido."
+        )
+
+    questoes_validas = []
+
+    ids_encontrados = set()
+
+    for questao in questoes:
+
+        if not isinstance(
+            questao,
+            dict
+        ):
+
+            continue
+
+        id_questao = str(
+            questao.get(
+                "id",
+                ""
+            )
+        ).strip()
+
+        disciplina = str(
+            questao.get(
+                "disciplina",
+                ""
+            )
+        ).strip()
+
+        texto_questao = str(
+            questao.get(
+                "questao",
+                ""
+            )
+        ).strip()
+
+        gabarito_original = questao.get(
+            "gabarito",
+            ""
+        )
+
+        if not id_questao:
+
+            continue
+
+        if id_questao in ids_encontrados:
+
+            raise ValueError(
+                f"ID de questão repetido: "
+                f"{id_questao}"
+            )
+
+        if not disciplina:
+
+            continue
+
+        if not texto_questao:
+
+            continue
+
+        try:
+
+            gabarito = normalizar_gabarito(
+                gabarito_original
+            )
+
+        except Exception:
+
+            print(
+                f"Questão ignorada "
+                f"por gabarito inválido: "
+                f"{id_questao}"
+            )
+
+            continue
+
+        questao_tratada = {
+
+            "id":
+                id_questao,
+
+            "ano":
+                questao.get(
+                    "ano",
+                    ""
+                ),
+
+            "banca":
+                str(
+                    questao.get(
+                        "banca",
+                        "CEBRASPE"
+                    )
+                ).strip(),
+
+            "disciplina":
+                disciplina,
+
+            "disciplina_canonica":
+                disciplina_canonica(
+                    disciplina
+                ),
+
+            "item_original":
+                questao.get(
+                    "item_original",
+                    ""
+                ),
+
+            "questao":
+                texto_questao,
+
+            "gabarito":
+                gabarito,
+
+            "fonte":
+                str(
+                    questao.get(
+                        "fonte",
+                        ""
+                    )
+                ).strip(),
+        }
+
+        ids_encontrados.add(
+            id_questao
+        )
+
+        questoes_validas.append(
+            questao_tratada
+        )
+
+    if not questoes_validas:
+
+        raise RuntimeError(
+            "Nenhuma questão válida foi "
+            "encontrada em questoes_prf.json."
+        )
+
+    return questoes_validas
+
+
+# ==========================================================
+# CARREGAR ESTADO DAS QUESTÕES
+# ==========================================================
+
+def carregar_estado_questoes():
+
+    if not ARQUIVO_ESTADO_QUESTOES.exists():
+
+        return {
+
+            "questoes_usadas":
+                []
+        }
+
+    try:
+
+        with ARQUIVO_ESTADO_QUESTOES.open(
+            "r",
+            encoding="utf-8"
+        ) as arquivo:
+
+            estado = json.load(
+                arquivo
+            )
+
+        usados = estado.get(
+            "questoes_usadas",
+            []
+        )
+
+        if not isinstance(
+            usados,
+            list
+        ):
+
+            usados = []
+
+        estado[
+            "questoes_usadas"
+        ] = [
+
+            str(
+                item
+            ).strip()
+
+            for item in usados
+        ]
+
+        return estado
+
+    except Exception as erro:
+
+        print("")
+        print(
+            "AVISO:"
+        )
+
+        print(
+            "Não foi possível carregar "
+            "questoes_state.json."
+        )
+
+        print(
+            erro
+        )
+
+        return {
+
+            "questoes_usadas":
+                []
+        }
+
+
+# ==========================================================
+# SELECIONAR 4 QUESTÕES
+# ==========================================================
+
+def selecionar_questoes(
+    tema,
+    questoes,
+    estado_questoes
+):
+
+    disciplina = disciplina_do_tema(
+        tema
+    )
+
+    candidatas = [
+
+        questao
+
+        for questao in questoes
+
+        if questao[
+            "disciplina_canonica"
+        ] == disciplina
+    ]
+
+    # ------------------------------------------------------
+    # Precisa haver pelo menos 4 questões
+    # cadastradas para a disciplina.
+    # ------------------------------------------------------
+
+    if len(
+        candidatas
+    ) < QUESTOES_POR_EPISODIO:
+
+        raise RuntimeError(
+
+            f"Não existem questões suficientes "
+            f"para a disciplina '{disciplina}'.\n"
+            f"Encontradas: {len(candidatas)}\n"
+            f"Necessárias: "
+            f"{QUESTOES_POR_EPISODIO}\n\n"
+            f"Adicione mais questões reais "
+            f"em questoes_prf.json."
+        )
+
+    usados = estado_questoes.get(
+        "questoes_usadas",
+        []
+    )
+
+    usados_set = set(
+        usados
+    )
+
+    disponiveis = [
+
+        questao
+
+        for questao in candidatas
+
+        if questao[
+            "id"
+        ] not in usados_set
+    ]
+
+    # ------------------------------------------------------
+    # CASO 1:
+    #
+    # Ainda existem 4 ou mais inéditas.
+    # ------------------------------------------------------
+
+    if len(
+        disponiveis
+    ) >= QUESTOES_POR_EPISODIO:
+
+        selecionadas = disponiveis[
+            :QUESTOES_POR_EPISODIO
+        ]
+
+        controle = {
+
+            "reiniciou_ciclo":
+                False,
+
+            "ids_disciplina":
+                [
+                    q["id"]
+                    for q in candidatas
+                ],
+
+            "ids_novo_ciclo":
+                [],
+        }
+
+        return (
+            disciplina,
+            selecionadas,
+            controle
+        )
+
+    # ------------------------------------------------------
+    # CASO 2:
+    #
+    # Restaram 1, 2 ou 3 questões inéditas.
+    #
+    # Primeiro usamos todas elas.
+    #
+    # Depois iniciamos novo ciclo para completar
+    # as 4 do episódio.
+    #
+    # Assim nenhuma questão fica esquecida.
+    # ------------------------------------------------------
+
+    selecionadas = list(
+        disponiveis
+    )
+
+    faltam = (
+        QUESTOES_POR_EPISODIO
+        - len(
+            selecionadas
+        )
+    )
+
+    ids_selecionados = {
+
+        questao[
+            "id"
+        ]
+
+        for questao in selecionadas
+    }
+
+    reciclaveis = [
+
+        questao
+
+        for questao in candidatas
+
+        if questao[
+            "id"
+        ] not in ids_selecionados
+    ]
+
+    inicio_novo_ciclo = reciclaveis[
+        :faltam
+    ]
+
+    selecionadas.extend(
+        inicio_novo_ciclo
+    )
+
+    controle = {
+
+        "reiniciou_ciclo":
+            True,
+
+        "ids_disciplina":
+            [
+                q["id"]
+                for q in candidatas
+            ],
+
+        "ids_novo_ciclo":
+            [
+                q["id"]
+                for q in inicio_novo_ciclo
+            ],
+    }
+
+    return (
+        disciplina,
+        selecionadas,
+        controle
+    )
+
+
+# ==========================================================
+# SALVAR ESTADO DAS QUESTÕES
+# ==========================================================
+
+def salvar_estado_questoes(
+    estado_anterior,
+    selecionadas,
+    controle,
+    disciplina,
+    agora
+):
+
+    usados_anteriores = estado_anterior.get(
+        "questoes_usadas",
+        []
+    )
+
+    ids_selecionadas = [
+
+        questao[
+            "id"
+        ]
+
+        for questao in selecionadas
+    ]
+
+    # ------------------------------------------------------
+    # CICLO NORMAL
+    # ------------------------------------------------------
+
+    if not controle[
+        "reiniciou_ciclo"
+    ]:
+
+        novos_usados = list(
+            usados_anteriores
+        )
+
+        for id_questao in ids_selecionadas:
+
+            if id_questao not in novos_usados:
+
+                novos_usados.append(
+                    id_questao
+                )
+
+    # ------------------------------------------------------
+    # NOVO CICLO
+    #
+    # Quando esgotamos a disciplina:
+    #
+    # removemos do controle os IDs antigos
+    # daquela disciplina.
+    #
+    # Mantemos IDs de outras disciplinas.
+    #
+    # Depois registramos as primeiras questões
+    # que já entraram no novo ciclo.
+    # ------------------------------------------------------
+
+    else:
+
+        ids_disciplina = set(
+            controle[
+                "ids_disciplina"
+            ]
+        )
+
+        novos_usados = [
+
+            id_questao
+
+            for id_questao in usados_anteriores
+
+            if id_questao not in ids_disciplina
+        ]
+
+        for id_questao in controle[
+            "ids_novo_ciclo"
+        ]:
+
+            if id_questao not in novos_usados:
+
+                novos_usados.append(
+                    id_questao
+                )
+
+    estado = {
+
+        "questoes_usadas":
+            novos_usados,
+
+        "ultima_disciplina":
+            disciplina,
+
+        "ultimas_questoes":
+            ids_selecionadas,
+
+        "ultima_execucao":
+            agora.isoformat(),
+    }
+
+    with ARQUIVO_ESTADO_QUESTOES.open(
+        "w",
+        encoding="utf-8"
+    ) as arquivo:
+
+        json.dump(
+            estado,
+            arquivo,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    print("")
+    print(
+        "Controle das questões atualizado."
+    )
+
+    print(
+        "Questões utilizadas:"
+    )
+
+    for id_questao in ids_selecionadas:
+
+        print(
+            f" - {id_questao}"
+        )
+
+
+# ==========================================================
+# LIMPAR JSON GEMINI
 # ==========================================================
 
 def limpar_json_gemini(
     texto
 ):
 
-    texto = texto.strip()
+    texto = str(
+        texto
+    ).strip()
 
-    if texto.startswith("```"):
+    if texto.startswith(
+        "```"
+    ):
 
         linhas = texto.splitlines()
 
-        if linhas and linhas[0].startswith(
-            "```"
+        if (
+            linhas
+            and
+            linhas[0].startswith(
+                "```"
+            )
         ):
-            linhas = linhas[1:]
+
+            linhas = linhas[
+                1:
+            ]
 
         if (
             linhas
-            and linhas[-1].strip() == "```"
+            and
+            linhas[-1].strip() == "```"
         ):
-            linhas = linhas[:-1]
+
+            linhas = linhas[
+                :-1
+            ]
 
         texto = "\n".join(
             linhas
@@ -297,7 +1150,7 @@ def limpar_json_gemini(
 
 
 # ==========================================================
-# FAZER CHAMADA AO GEMINI
+# CHAMAR GEMINI
 # ==========================================================
 
 def chamar_gemini(
@@ -312,20 +1165,28 @@ def chamar_gemini(
     ]
 
     url = (
+
         "https://generativelanguage.googleapis.com/"
         "v1beta/models/"
+
         f"{MODELO_GEMINI}:generateContent"
+
         f"?key={api_key}"
     )
 
     corpo = {
 
         "contents": [
+
             {
+
                 "parts": [
+
                     {
-                        "text": prompt
+                        "text":
+                            prompt
                     }
+
                 ]
             }
         ],
@@ -347,8 +1208,11 @@ def chamar_gemini(
     }
 
     resposta = requests.post(
+
         url,
+
         json=corpo,
+
         timeout=180,
     )
 
@@ -358,7 +1222,7 @@ def chamar_gemini(
 
 
 # ==========================================================
-# OBTER TEXTO DA RESPOSTA GEMINI
+# OBTER TEXTO GEMINI
 # ==========================================================
 
 def obter_texto_gemini(
@@ -376,7 +1240,9 @@ def obter_texto_gemini(
             "Gemini não retornou candidatos."
         )
 
-    candidato = candidatos[0]
+    candidato = candidatos[
+        0
+    ]
 
     finish_reason = candidato.get(
         "finishReason",
@@ -384,7 +1250,8 @@ def obter_texto_gemini(
     )
 
     print(
-        f"Finish reason: {finish_reason}"
+        f"Finish reason: "
+        f"{finish_reason}"
     )
 
     if finish_reason == "MAX_TOKENS":
@@ -395,17 +1262,26 @@ def obter_texto_gemini(
 
     partes = (
         candidato
-        .get("content", {})
-        .get("parts", [])
+        .get(
+            "content",
+            {}
+        )
+        .get(
+            "parts",
+            []
+        )
     )
 
     if not partes:
 
         raise RuntimeError(
-            "Gemini retornou resposta sem conteúdo."
+            "Gemini retornou resposta "
+            "sem conteúdo."
         )
 
-    texto = partes[0].get(
+    texto = partes[
+        0
+    ].get(
         "text",
         ""
     )
@@ -422,227 +1298,67 @@ def obter_texto_gemini(
 
 
 # ==========================================================
-# PLANEJAMENTO DO EPISÓDIO
+# SCHEMA DE FALAS
 # ==========================================================
 
-def gerar_plano_episodio(
-    tema
-):
+def schema_falas():
 
-    print("")
-    print("=" * 70)
-    print("CRIANDO PLANEJAMENTO DO EPISÓDIO")
-    print("=" * 70)
+    return {
 
-    prompt = f"""
-Crie um planejamento para um podcast educacional
-em português do Brasil.
-
-Tema:
-
-"{tema}"
-
-O episódio terá aproximadamente 20 minutos
-e será dividido internamente em 3 partes.
-
-Essas partes serão depois unidas em um único
-podcast, portanto precisam formar uma narrativa
-contínua.
-
-PARTE 1:
-Introdução natural ao assunto, contexto,
-fundamentos e conceitos essenciais.
-
-PARTE 2:
-Aprofundamento, exemplos, aplicações,
-comparações e pegadinhas importantes.
-
-PARTE 3:
-Casos práticos, revisão dos pontos principais,
-consolidação do conhecimento e conclusão.
-
-Quando for tema relacionado a concurso ou PRF:
-
-- Pense em quem está estudando para prova.
-- Destaque pontos que podem aparecer no Cebraspe.
-- Inclua situações práticas.
-- Não invente legislação.
-- Não invente números de artigos.
-- Não invente jurisprudência.
-- Não invente decisões judiciais.
-
-Crie tópicos específicos para o tema fornecido.
-
-Evite repetir o mesmo assunto nas três partes.
-
-Retorne somente JSON válido.
-"""
-
-    schema = {
-
-        "type": "OBJECT",
+        "type":
+            "OBJECT",
 
         "properties": {
 
-            "parte_1": {
-                "type": "STRING"
-            },
+            "falas": {
 
-            "parte_2": {
-                "type": "STRING"
-            },
+                "type":
+                    "ARRAY",
 
-            "parte_3": {
-                "type": "STRING"
+                "items": {
+
+                    "type":
+                        "OBJECT",
+
+                    "properties": {
+
+                        "speaker": {
+
+                            "type":
+                                "STRING",
+
+                            "enum": [
+                                "A",
+                                "B"
+                            ],
+                        },
+
+                        "text": {
+
+                            "type":
+                                "STRING",
+                        },
+                    },
+
+                    "required": [
+
+                        "speaker",
+
+                        "text",
+                    ],
+                },
             },
         },
 
         "required": [
-            "parte_1",
-            "parte_2",
-            "parte_3",
+
+            "falas"
         ],
     }
 
-    try:
-
-        dados = chamar_gemini(
-            prompt,
-            schema,
-            max_output_tokens=2048,
-            temperature=0.55,
-        )
-
-        texto = obter_texto_gemini(
-            dados
-        )
-
-        plano = json.loads(
-            texto
-        )
-
-        if (
-            plano.get("parte_1")
-            and plano.get("parte_2")
-            and plano.get("parte_3")
-        ):
-
-            print("")
-            print(
-                "Planejamento criado com sucesso."
-            )
-
-            return plano
-
-    except Exception as erro:
-
-        print("")
-        print(
-            "Não foi possível gerar o "
-            "planejamento automático."
-        )
-
-        print(
-            f"Motivo: {erro}"
-        )
-
-        print(
-            "Usando planejamento padrão."
-        )
-
-    # Fallback caso a geração do plano falhe.
-    return {
-
-        "parte_1":
-            (
-                "Apresentar o tema, contextualizar sua "
-                "importância, explicar os fundamentos "
-                "e os principais conceitos necessários "
-                "para compreender o assunto."
-            ),
-
-        "parte_2":
-            (
-                "Aprofundar os conceitos apresentados, "
-                "trazer exemplos, comparações, aplicações "
-                "práticas e pontos que costumam gerar "
-                "confusão ou erro."
-            ),
-
-        "parte_3":
-            (
-                "Apresentar situações práticas, revisar "
-                "os pontos fundamentais, consolidar o "
-                "aprendizado e realizar um encerramento "
-                "natural do episódio."
-            ),
-    }
-
 
 # ==========================================================
-# FORMATAR PLANO
-# ==========================================================
-
-def formatar_plano(
-    plano
-):
-
-    return f"""
-PLANEJAMENTO GERAL DO EPISÓDIO:
-
-PARTE 1:
-{plano["parte_1"]}
-
-PARTE 2:
-{plano["parte_2"]}
-
-PARTE 3:
-{plano["parte_3"]}
-"""
-
-
-# ==========================================================
-# CRIAR CONTEXTO DA PARTE ANTERIOR
-# ==========================================================
-
-def montar_contexto_continuidade(
-    falas
-):
-
-    if not falas:
-
-        return (
-            "Esta é a primeira parte do episódio. "
-            "Não existe conversa anterior."
-        )
-
-    ultimas = falas[
-        -FALAS_CONTEXTO:
-    ]
-
-    linhas = []
-
-    for fala in ultimas:
-
-        speaker = fala[
-            "speaker"
-        ]
-
-        texto = fala[
-            "text"
-        ]
-
-        linhas.append(
-            f"{speaker}: {texto}"
-        )
-
-    return "\n".join(
-        linhas
-    )
-
-
-# ==========================================================
-# VALIDAR FALAS GERADAS
+# EXTRAIR FALAS
 # ==========================================================
 
 def extrair_falas(
@@ -672,7 +1388,9 @@ def extrair_falas(
         )
 
         print(
-            texto[-600:]
+            texto[
+                -600:
+            ]
         )
 
         raise RuntimeError(
@@ -690,7 +1408,8 @@ def extrair_falas(
     ):
 
         raise RuntimeError(
-            "O campo falas não é uma lista."
+            "O campo 'falas' "
+            "não é uma lista."
         )
 
     falas_validas = []
@@ -701,6 +1420,7 @@ def extrair_falas(
             fala,
             dict
         ):
+
             continue
 
         speaker = str(
@@ -721,23 +1441,31 @@ def extrair_falas(
             "A",
             "B"
         ):
+
             continue
 
         if not texto_fala:
+
             continue
 
         falas_validas.append(
+
             {
-                "speaker": speaker,
-                "text": texto_fala,
+
+                "speaker":
+                    speaker,
+
+                "text":
+                    texto_fala,
             }
         )
 
     if len(
         falas_validas
-    ) < 10:
+    ) < 8:
 
         raise RuntimeError(
+
             f"Poucas falas válidas: "
             f"{len(falas_validas)}"
         )
@@ -746,10 +1474,199 @@ def extrair_falas(
 
 
 # ==========================================================
-# GERAR UMA DAS TRÊS PARTES
+# PLANEJAMENTO DO EPISÓDIO
 # ==========================================================
 
-def gerar_parte(
+def gerar_plano_episodio(
+    tema
+):
+
+    print("")
+    print(
+        "=" * 70
+    )
+
+    print(
+        "CRIANDO PLANEJAMENTO "
+        "DO EPISÓDIO"
+    )
+
+    print(
+        "=" * 70
+    )
+
+    prompt = f"""
+Crie um planejamento para as DUAS PARTES
+TEÓRICAS de um podcast educacional.
+
+Tema:
+
+"{tema}"
+
+Depois dessas duas partes haverá uma terceira
+parte contendo quatro questões reais de provas
+anteriores da PRF.
+
+Portanto:
+
+PARTE 1:
+Introdução natural, fundamentos, contexto
+e conceitos essenciais.
+
+PARTE 2:
+Aprofundamento, aplicações, exemplos,
+comparações e pegadinhas de prova.
+
+NÃO coloque questões específicas de provas
+anteriores nessas duas partes.
+
+A parte de questões será criada separadamente.
+
+Quando o assunto for relacionado à legislação:
+
+- não invente artigos;
+- não invente jurisprudência;
+- não invente decisões;
+- se não tiver segurança sobre um número
+  específico, explique apenas o conceito.
+
+Retorne somente JSON.
+"""
+
+    schema = {
+
+        "type":
+            "OBJECT",
+
+        "properties": {
+
+            "parte_1": {
+
+                "type":
+                    "STRING",
+            },
+
+            "parte_2": {
+
+                "type":
+                    "STRING",
+            },
+        },
+
+        "required": [
+
+            "parte_1",
+
+            "parte_2",
+        ],
+    }
+
+    try:
+
+        dados = chamar_gemini(
+
+            prompt,
+
+            schema,
+
+            max_output_tokens=2048,
+
+            temperature=0.55,
+        )
+
+        texto = obter_texto_gemini(
+            dados
+        )
+
+        plano = json.loads(
+            texto
+        )
+
+        if (
+            plano.get(
+                "parte_1"
+            )
+            and
+            plano.get(
+                "parte_2"
+            )
+        ):
+
+            print("")
+            print(
+                "Planejamento criado."
+            )
+
+            return plano
+
+    except Exception as erro:
+
+        print("")
+        print(
+            "Falha no planejamento "
+            "automático."
+        )
+
+        print(
+            erro
+        )
+
+    return {
+
+        "parte_1":
+            (
+                "Apresentar o assunto, "
+                "contextualizar sua importância "
+                "e explicar os fundamentos."
+            ),
+
+        "parte_2":
+            (
+                "Aprofundar o assunto, trazer "
+                "exemplos, aplicações e pegadinhas "
+                "frequentes de prova."
+            ),
+    }
+
+
+# ==========================================================
+# CONTEXTO DA CONVERSA
+# ==========================================================
+
+def montar_contexto_continuidade(
+    falas
+):
+
+    if not falas:
+
+        return (
+            "Não existe conversa anterior."
+        )
+
+    ultimas = falas[
+        -FALAS_CONTEXTO:
+    ]
+
+    linhas = []
+
+    for fala in ultimas:
+
+        linhas.append(
+
+            f"{fala['speaker']}: "
+            f"{fala['text']}"
+        )
+
+    return "\n".join(
+        linhas
+    )
+
+
+# ==========================================================
+# GERAR PARTE TEÓRICA
+# ==========================================================
+
+def gerar_parte_teorica(
     tema,
     numero_parte,
     plano,
@@ -760,135 +1677,52 @@ def gerar_parte(
         falas_anteriores
     )
 
-    plano_formatado = formatar_plano(
-        plano
-    )
+    objetivo = plano[
+        f"parte_{numero_parte}"
+    ]
 
     if numero_parte == 1:
 
-        instrucao_inicio = """
-Esta é a PRIMEIRA parte.
+        instrucao = """
+Esta é a primeira parte.
 
-O apresentador A deve iniciar.
+A deve iniciar.
 
 Faça uma abertura envolvente.
 
-Pode começar com:
-- pergunta;
-- situação prática;
-- curiosidade;
-- problema relacionado ao tema.
-
-Não use a frase:
-"Bem-vindos ao nosso podcast".
-
-No final desta parte não faça despedida.
-
-Deixe a conversa pronta para continuar.
-"""
-
-    elif numero_parte == 2:
-
-        instrucao_inicio = """
-Esta é a SEGUNDA parte.
-
-IMPORTANTE:
-
-Continue diretamente da conversa anterior.
-
-NÃO faça nova introdução.
-
-NÃO diga:
-- "na segunda parte";
-- "voltando ao podcast";
-- "agora vamos começar outro assunto";
-- "bem-vindos novamente".
-
-Não repita explicações já dadas.
-
-A primeira fala deve parecer consequência natural
-da conversa anterior.
-
-Aprofunde o assunto conforme o planejamento.
+Não diga:
+"Bem-vindos ao podcast".
 
 No final não faça despedida.
 """
 
     else:
 
-        instrucao_inicio = """
-Esta é a TERCEIRA e última parte.
+        instrucao = """
+Esta é a continuação direta da conversa.
 
-Continue diretamente da conversa anterior.
+Não faça uma nova abertura.
 
-NÃO faça nova introdução.
+Não diga:
+"segunda parte",
+"novo bloco",
+"voltando ao podcast".
 
-Aprofunde os pontos restantes.
+Não repita o que já foi explicado.
 
-Depois faça uma revisão natural dos pontos
-mais importantes.
-
-Finalize o episódio de maneira útil e agradável.
-
-Os dois apresentadores podem participar
-do encerramento.
-
-Somente esta parte deve ter despedida.
+No final faça uma transição natural indicando
+que agora será hora de testar o conhecimento
+com algumas questões.
 """
-
-    objetivo_parte = plano[
-        f"parte_{numero_parte}"
-    ]
-
-    schema = {
-
-        "type": "OBJECT",
-
-        "properties": {
-
-            "falas": {
-
-                "type": "ARRAY",
-
-                "items": {
-
-                    "type": "OBJECT",
-
-                    "properties": {
-
-                        "speaker": {
-
-                            "type": "STRING",
-
-                            "enum": [
-                                "A",
-                                "B"
-                            ],
-                        },
-
-                        "text": {
-                            "type": "STRING"
-                        },
-                    },
-
-                    "required": [
-                        "speaker",
-                        "text",
-                    ],
-                },
-            }
-        },
-
-        "required": [
-            "falas"
-        ],
-    }
 
     ultimo_erro = None
 
     for tentativa, palavras in enumerate(
+
         TENTATIVAS_PALAVRAS,
+
         start=1
+
     ):
 
         print("")
@@ -897,8 +1731,8 @@ Somente esta parte deve ter despedida.
         )
 
         print(
-            f"GERANDO PARTE "
-            f"{numero_parte}/{QUANTIDADE_PARTES}"
+            f"GERANDO PARTE TEÓRICA "
+            f"{numero_parte}/2"
         )
 
         print(
@@ -908,7 +1742,7 @@ Somente esta parte deve ter despedida.
         )
 
         print(
-            f"Tamanho alvo: "
+            f"Alvo: "
             f"{palavras} palavras"
         )
 
@@ -917,36 +1751,30 @@ Somente esta parte deve ter despedida.
         )
 
         prompt = f"""
-Crie a PARTE {numero_parte} de um podcast
-com DOIS APRESENTADORES.
+Crie uma conversa natural entre dois
+apresentadores brasileiros.
 
-TEMA DO EPISÓDIO:
+TEMA:
 
 "{tema}"
 
 
-{plano_formatado}
+OBJETIVO DESTA PARTE:
+
+{objetivo}
 
 
-OBJETIVO ESPECÍFICO DESTA PARTE:
-
-{objetivo_parte}
-
-
-CONTEXTO DO FINAL DA CONVERSA ANTERIOR:
+CONTEXTO DA CONVERSA ANTERIOR:
 
 {contexto}
 
 
-{instrucao_inicio}
+{instrucao}
 
 
 TAMANHO:
 
-Produza aproximadamente {palavras} palavras
-nesta parte.
-
-Não ultrapasse muito o tamanho solicitado.
+Aproximadamente {palavras} palavras.
 
 
 PERSONAGENS:
@@ -958,82 +1786,31 @@ B = apresentadora feminina.
 
 ESTILO:
 
-- Português brasileiro natural.
-- Conversa dinâmica.
-- Dois apresentadores inteligentes.
-- Não parecer leitura de apostila.
-- Não parecer entrevista formal.
-- Os dois devem ensinar.
-- B não deve existir apenas para perguntar.
-- A não deve monopolizar a conversa.
-- Os dois podem explicar conceitos.
-- Os dois podem trazer exemplos.
-- Um pode questionar o outro.
-- Um pode complementar o outro.
-- Um pode corrigir ou esclarecer uma ideia.
-- Pode haver analogias.
-- Pode haver exemplos práticos.
-- Use transições naturais.
-- Evite exagero em expressões artificiais.
-- Evite repetir o nome do outro apresentador.
+- conversa natural;
+- linguagem didática;
+- os dois devem ensinar;
+- B não deve apenas perguntar;
+- A não deve monopolizar;
+- use exemplos práticos;
+- use comparações;
+- use pegadinhas de concurso quando pertinente;
+- mencione Cebraspe quando fizer sentido;
+- evite exagero em reações artificiais;
+- não invente legislação;
+- não invente jurisprudência;
+- não invente números quando não tiver segurança.
 
 
-TAMANHO DAS FALAS:
+FALAS:
 
-Faça aproximadamente entre 16 e 22 falas
-nesta parte.
+Crie aproximadamente entre 16 e 22 falas.
 
-Cada fala pode ter normalmente entre
-2 e 4 frases.
+Cada fala pode ter entre 2 e 4 frases.
 
-Evite falas extremamente longas.
+O ouvinte não deve perceber divisão artificial
+entre os blocos.
 
-
-PARA TEMAS DE CONCURSO OU PRF:
-
-- Explique pensando em quem está estudando.
-- Mostre pegadinhas comuns.
-- Traga situações práticas.
-- Explique como pode aparecer em questões.
-- Quando fizer sentido, mencione Cebraspe.
-- Não invente artigos de lei.
-- Não invente jurisprudência.
-- Não invente decisões judiciais.
-- Não invente números ou regras específicas
-  quando não tiver segurança.
-- Se tiver dúvida sobre um detalhe jurídico,
-  explique o conceito de forma geral.
-
-
-CONTINUIDADE:
-
-Este é um único episódio.
-
-O ouvinte NÃO pode perceber que o conteúdo
-foi gerado em três chamadas diferentes.
-
-Não diga:
-"parte 1",
-"parte 2",
-"parte 3",
-"primeiro bloco",
-"segundo bloco",
-"terceiro bloco".
-
-Faça tudo parecer uma conversa única.
-
-
-FORMATO:
-
-Retorne SOMENTE JSON válido.
-
-Não escreva texto antes do JSON.
-
-Não escreva texto depois do JSON.
-
-Não use Markdown.
-
-Formato:
+Retorne somente JSON no formato:
 
 {{
   "falas": [
@@ -1051,25 +1828,29 @@ Formato:
 
         try:
 
-            dados_resposta = chamar_gemini(
+            dados = chamar_gemini(
+
                 prompt,
-                schema,
+
+                schema_falas(),
+
                 max_output_tokens=8192,
+
                 temperature=0.78,
             )
 
             falas = extrair_falas(
-                dados_resposta
+                dados
             )
 
             print("")
             print(
                 f"Parte {numero_parte} "
-                f"gerada com sucesso."
+                f"gerada."
             )
 
             print(
-                f"Quantidade de falas: "
+                f"Falas: "
                 f"{len(falas)}"
             )
 
@@ -1081,25 +1862,639 @@ Formato:
 
             print("")
             print(
-                f"Falha ao gerar "
-                f"parte {numero_parte}: "
-                f"{erro}"
+                f"Falha: {erro}"
             )
 
             if tentativa < len(
                 TENTATIVAS_PALAVRAS
             ):
 
-                print("")
                 print(
                     "Tentando novamente "
-                    "com uma resposta menor..."
+                    "com texto menor..."
                 )
 
     raise RuntimeError(
+
         f"Não foi possível gerar "
-        f"a parte {numero_parte}."
+        f"a parte teórica "
+        f"{numero_parte}."
+
     ) from ultimo_erro
+
+
+# ==========================================================
+# GERAR EXPLICAÇÕES DAS QUESTÕES
+# ==========================================================
+
+def gerar_explicacoes_questoes(
+    tema,
+    questoes
+):
+
+    print("")
+    print(
+        "=" * 70
+    )
+
+    print(
+        "GERANDO EXPLICAÇÕES "
+        "DAS 4 QUESTÕES"
+    )
+
+    print(
+        "=" * 70
+    )
+
+    blocos = []
+
+    for numero, questao in enumerate(
+        questoes,
+        start=1
+    ):
+
+        blocos.append(
+
+            f"""
+QUESTÃO {numero}
+
+ID:
+{questao["id"]}
+
+ANO:
+{questao["ano"]}
+
+BANCA:
+{questao["banca"]}
+
+DISCIPLINA:
+{questao["disciplina"]}
+
+ITEM ORIGINAL:
+{questao["item_original"]}
+
+QUESTÃO:
+{questao["questao"]}
+
+GABARITO OFICIAL:
+{questao["gabarito"]}
+"""
+        )
+
+    texto_questoes = "\n".join(
+        blocos
+    )
+
+    prompt = f"""
+Você está preparando a correção didática
+de quatro questões de provas anteriores
+da PRF.
+
+Tema atual:
+
+"{tema}"
+
+
+QUESTÕES E GABARITOS OFICIAIS:
+
+{texto_questoes}
+
+
+REGRA MAIS IMPORTANTE:
+
+O campo GABARITO OFICIAL é FIXO.
+
+Você NÃO pode:
+
+- mudar o gabarito;
+- corrigir o gabarito;
+- substituir o gabarito;
+- dizer que deveria ser outro;
+- inventar outro resultado.
+
+Sua função é SOMENTE explicar didaticamente
+o raciocínio correspondente ao gabarito
+oficial informado.
+
+
+Para cada questão:
+
+- explique de forma clara;
+- explique a pegadinha;
+- mostre o raciocínio que o candidato
+  deveria utilizar;
+- mantenha a explicação relativamente curta;
+- use aproximadamente 100 a 160 palavras;
+- não invente legislação;
+- não invente jurisprudência;
+- não invente números;
+- considere que a questão pertence à prova
+  e ao ano indicados;
+- caso uma norma possa ter mudado desde
+  a prova, não trate automaticamente
+  aquela regra antiga como situação atual.
+
+
+Retorne somente JSON.
+
+Formato:
+
+{{
+  "explicacoes": [
+    {{
+      "id": "ID_DA_QUESTAO",
+      "explicacao": "explicação"
+    }}
+  ]
+}}
+"""
+
+    schema = {
+
+        "type":
+            "OBJECT",
+
+        "properties": {
+
+            "explicacoes": {
+
+                "type":
+                    "ARRAY",
+
+                "items": {
+
+                    "type":
+                        "OBJECT",
+
+                    "properties": {
+
+                        "id": {
+
+                            "type":
+                                "STRING",
+                        },
+
+                        "explicacao": {
+
+                            "type":
+                                "STRING",
+                        },
+                    },
+
+                    "required": [
+
+                        "id",
+
+                        "explicacao",
+                    ],
+                },
+            },
+        },
+
+        "required": [
+
+            "explicacoes"
+        ],
+    }
+
+    ultimo_erro = None
+
+    for tentativa in range(
+        1,
+        4
+    ):
+
+        try:
+
+            print("")
+            print(
+                f"Tentativa "
+                f"{tentativa}/3"
+            )
+
+            dados = chamar_gemini(
+
+                prompt,
+
+                schema,
+
+                max_output_tokens=5000,
+
+                temperature=0.45,
+            )
+
+            texto = obter_texto_gemini(
+                dados
+            )
+
+            resposta = json.loads(
+                texto
+            )
+
+            explicacoes_recebidas = resposta.get(
+                "explicacoes",
+                []
+            )
+
+            mapa = {}
+
+            for item in explicacoes_recebidas:
+
+                if not isinstance(
+                    item,
+                    dict
+                ):
+
+                    continue
+
+                id_questao = str(
+                    item.get(
+                        "id",
+                        ""
+                    )
+                ).strip()
+
+                explicacao = str(
+                    item.get(
+                        "explicacao",
+                        ""
+                    )
+                ).strip()
+
+                if (
+                    id_questao
+                    and
+                    explicacao
+                ):
+
+                    mapa[
+                        id_questao
+                    ] = explicacao
+
+            faltando = [
+
+                questao[
+                    "id"
+                ]
+
+                for questao in questoes
+
+                if questao[
+                    "id"
+                ] not in mapa
+            ]
+
+            if faltando:
+
+                raise RuntimeError(
+
+                    "Explicações ausentes "
+                    "para: "
+                    + ", ".join(
+                        faltando
+                    )
+                )
+
+            print("")
+            print(
+                "Explicações geradas."
+            )
+
+            return mapa
+
+        except Exception as erro:
+
+            ultimo_erro = erro
+
+            print("")
+            print(
+                f"Falha: {erro}"
+            )
+
+    raise RuntimeError(
+
+        "Não foi possível gerar "
+        "as explicações das questões."
+
+    ) from ultimo_erro
+
+
+# ==========================================================
+# MONTAR DESAFIO
+# ==========================================================
+
+def montar_falas_desafio(
+    questoes,
+    explicacoes
+):
+
+    falas = []
+
+    # ------------------------------------------------------
+    # INTRODUÇÃO
+    # ------------------------------------------------------
+
+    falas.append(
+
+        {
+
+            "speaker":
+                "A",
+
+            "text":
+                (
+                    "Agora chegou a hora de testar "
+                    "de verdade o que você sabe. "
+                    "Separei quatro questões de "
+                    "provas anteriores da Polícia "
+                    "Rodoviária Federal."
+                )
+        }
+    )
+
+    falas.append(
+
+        {
+
+            "speaker":
+                "B",
+
+            "text":
+                (
+                    "A regra é simples: escute as quatro "
+                    "questões e marque mentalmente certo "
+                    "ou errado. Não vamos revelar as "
+                    "respostas agora. Depois das quatro, "
+                    "a gente volta com o gabarito oficial "
+                    "e explica cada uma."
+                )
+        }
+    )
+
+    falas.append(
+
+        {
+
+            "speaker":
+                "A",
+
+            "text":
+                (
+                    "Como estamos usando provas anteriores, "
+                    "considere sempre o ano indicado e o "
+                    "gabarito oficial daquela prova. "
+                    "Legislação pode sofrer alterações "
+                    "ao longo do tempo."
+                )
+        }
+    )
+
+    # ------------------------------------------------------
+    # LER AS 4 QUESTÕES SEM RESPOSTA
+    # ------------------------------------------------------
+
+    for numero, questao in enumerate(
+        questoes,
+        start=1
+    ):
+
+        speaker = (
+            "B"
+            if numero % 2 == 1
+            else "A"
+        )
+
+        ano = questao.get(
+            "ano",
+            ""
+        )
+
+        banca = questao.get(
+            "banca",
+            "CEBRASPE"
+        )
+
+        item_original = questao.get(
+            "item_original",
+            ""
+        )
+
+        referencia = (
+            f"Questão {numero}. "
+            f"PRF {ano}, "
+            f"{banca}"
+        )
+
+        if item_original:
+
+            referencia += (
+                f", item "
+                f"{item_original}"
+            )
+
+        referencia += ". "
+
+        texto = (
+
+            referencia
+
+            + questao[
+                "questao"
+            ]
+
+            + " Certo ou errado?"
+        )
+
+        falas.append(
+
+            {
+
+                "speaker":
+                    speaker,
+
+                "text":
+                    texto,
+            }
+        )
+
+        outro_speaker = (
+            "A"
+            if speaker == "B"
+            else "B"
+        )
+
+        if numero < len(
+            questoes
+        ):
+
+            falas.append(
+
+                {
+
+                    "speaker":
+                        outro_speaker,
+
+                    "text":
+                        (
+                            "Guarde sua resposta "
+                            "e vamos para a próxima."
+                        )
+                }
+            )
+
+    # ------------------------------------------------------
+    # MOMENTO PARA PENSAR
+    # ------------------------------------------------------
+
+    falas.append(
+
+        {
+
+            "speaker":
+                "A",
+
+            "text":
+                (
+                    "As quatro foram apresentadas. "
+                    "Se você quiser mais tempo para "
+                    "resolver, pause o áudio agora. "
+                    "Quando estiver pronto, continue "
+                    "para conferir o gabarito."
+                )
+        }
+    )
+
+    falas.append(
+
+        {
+
+            "speaker":
+                "B",
+
+            "text":
+                (
+                    "Vamos corrigir. Mais importante "
+                    "do que acertar é entender exatamente "
+                    "por que cada item está certo ou errado."
+                )
+        }
+    )
+
+    # ------------------------------------------------------
+    # GABARITO + EXPLICAÇÃO
+    # ------------------------------------------------------
+
+    for numero, questao in enumerate(
+        questoes,
+        start=1
+    ):
+
+        speaker_gabarito = (
+            "A"
+            if numero % 2 == 1
+            else "B"
+        )
+
+        speaker_explicacao = (
+            "B"
+            if speaker_gabarito == "A"
+            else "A"
+        )
+
+        gabarito = questao[
+            "gabarito"
+        ]
+
+        falas.append(
+
+            {
+
+                "speaker":
+                    speaker_gabarito,
+
+                "text":
+                    (
+                        f"Questão {numero}. "
+                        f"O gabarito oficial é "
+                        f"{gabarito}."
+                    )
+            }
+        )
+
+        explicacao = explicacoes.get(
+            questao[
+                "id"
+            ],
+            ""
+        )
+
+        falas.append(
+
+            {
+
+                "speaker":
+                    speaker_explicacao,
+
+                "text":
+                    explicacao,
+            }
+        )
+
+    # ------------------------------------------------------
+    # ENCERRAMENTO
+    # ------------------------------------------------------
+
+    falas.append(
+
+        {
+
+            "speaker":
+                "A",
+
+            "text":
+                (
+                    "Se você errou alguma delas, "
+                    "essa é justamente a questão "
+                    "que merece entrar na sua lista "
+                    "de revisão."
+                )
+        }
+    )
+
+    falas.append(
+
+        {
+
+            "speaker":
+                "B",
+
+            "text":
+                (
+                    "E se acertou as quatro, ótimo. "
+                    "Mas não fique apenas no acerto: "
+                    "tenha certeza de que você consegue "
+                    "explicar o motivo de cada resposta."
+                )
+        }
+    )
+
+    falas.append(
+
+        {
+
+            "speaker":
+                "A",
+
+            "text":
+                (
+                    "Continuamos no próximo episódio "
+                    "com outro tema e quatro novas "
+                    "questões. Bons estudos e até lá."
+                )
+        }
+    )
+
+    return falas
 
 
 # ==========================================================
@@ -1107,7 +2502,8 @@ Formato:
 # ==========================================================
 
 def gerar_episodio_completo(
-    tema
+    tema,
+    questoes
 ):
 
     plano = gerar_plano_episodio(
@@ -1115,13 +2511,17 @@ def gerar_episodio_completo(
     )
 
     print("")
-    print("=" * 70)
-
     print(
-        "PLANEJAMENTO DO EPISÓDIO"
+        "=" * 70
     )
 
-    print("=" * 70)
+    print(
+        "PLANEJAMENTO"
+    )
+
+    print(
+        "=" * 70
+    )
 
     print("")
     print(
@@ -1129,7 +2529,9 @@ def gerar_episodio_completo(
     )
 
     print(
-        plano["parte_1"]
+        plano[
+            "parte_1"
+        ]
     )
 
     print("")
@@ -1138,50 +2540,99 @@ def gerar_episodio_completo(
     )
 
     print(
-        plano["parte_2"]
-    )
-
-    print("")
-    print(
-        "PARTE 3:"
-    )
-
-    print(
-        plano["parte_3"]
+        plano[
+            "parte_2"
+        ]
     )
 
     falas_completas = []
 
-    falas_por_parte = []
+    falas_partes = []
 
-    for numero_parte in range(
+    # ------------------------------------------------------
+    # PARTE 1
+    # ------------------------------------------------------
+
+    parte_1 = gerar_parte_teorica(
+
+        tema,
+
         1,
-        QUANTIDADE_PARTES + 1
-    ):
 
-        falas_parte = gerar_parte(
-            tema=tema,
-            numero_parte=numero_parte,
-            plano=plano,
-            falas_anteriores=falas_completas,
-        )
+        plano,
 
-        falas_por_parte.append(
-            falas_parte
-        )
+        falas_completas
+    )
 
-        falas_completas.extend(
-            falas_parte
-        )
+    falas_partes.append(
+        parte_1
+    )
+
+    falas_completas.extend(
+        parte_1
+    )
+
+    # ------------------------------------------------------
+    # PARTE 2
+    # ------------------------------------------------------
+
+    parte_2 = gerar_parte_teorica(
+
+        tema,
+
+        2,
+
+        plano,
+
+        falas_completas
+    )
+
+    falas_partes.append(
+        parte_2
+    )
+
+    falas_completas.extend(
+        parte_2
+    )
+
+    # ------------------------------------------------------
+    # QUESTÕES
+    # ------------------------------------------------------
+
+    explicacoes = gerar_explicacoes_questoes(
+
+        tema,
+
+        questoes
+    )
+
+    parte_3 = montar_falas_desafio(
+
+        questoes,
+
+        explicacoes
+    )
+
+    falas_partes.append(
+        parte_3
+    )
+
+    falas_completas.extend(
+        parte_3
+    )
 
     print("")
-    print("=" * 70)
+    print(
+        "=" * 70
+    )
 
     print(
         "EPISÓDIO COMPLETO GERADO"
     )
 
-    print("=" * 70)
+    print(
+        "=" * 70
+    )
 
     print(
         f"Total de falas: "
@@ -1189,14 +2640,19 @@ def gerar_episodio_completo(
     )
 
     return (
+
         plano,
-        falas_por_parte,
-        falas_completas
+
+        falas_partes,
+
+        falas_completas,
+
+        explicacoes
     )
 
 
 # ==========================================================
-# SALVAR ROTEIRO LEGÍVEL
+# SALVAR ROTEIRO
 # ==========================================================
 
 def salvar_roteiro(
@@ -1205,54 +2661,224 @@ def salvar_roteiro(
     caminho
 ):
 
-    linhas = []
+    linhas = [
 
-    linhas.append(
-        "# Tema"
-    )
+        "# Tema",
 
-    linhas.append("")
+        "",
 
-    linhas.append(
-        tema
-    )
+        tema,
 
-    linhas.append("")
+        "",
+    ]
 
     for fala in falas:
 
-        speaker = fala[
-            "speaker"
-        ]
-
-        texto = fala[
-            "text"
-        ]
-
         nome = NOMES_APRESENTADORES[
-            speaker
+            fala[
+                "speaker"
+            ]
         ]
 
         linhas.append(
             f"## {nome}"
         )
 
-        linhas.append("")
-
         linhas.append(
-            texto
+            ""
         )
 
-        linhas.append("")
+        linhas.append(
+            fala[
+                "text"
+            ]
+        )
+
+        linhas.append(
+            ""
+        )
 
     caminho.write_text(
-        "\n".join(linhas),
+
+        "\n".join(
+            linhas
+        ),
+
         encoding="utf-8",
     )
 
 
 # ==========================================================
-# GERAR UMA FALA EM ÁUDIO
+# SALVAR DESAFIO EM TEXTO
+# ==========================================================
+
+def salvar_desafio_questoes(
+    questoes,
+    explicacoes,
+    caminho
+):
+
+    linhas = []
+
+    linhas.append(
+        "# DESAFIO PRF"
+    )
+
+    linhas.append(
+        ""
+    )
+
+    linhas.append(
+        "Resolva as quatro questões antes "
+        "de olhar o gabarito."
+    )
+
+    linhas.append(
+        ""
+    )
+
+    # ------------------------------------------------------
+    # QUESTÕES
+    # ------------------------------------------------------
+
+    for numero, questao in enumerate(
+        questoes,
+        start=1
+    ):
+
+        linhas.append(
+            f"## Questão {numero}"
+        )
+
+        linhas.append(
+            ""
+        )
+
+        linhas.append(
+
+            f"PRF {questao['ano']} - "
+            f"{questao['banca']} - "
+            f"Item {questao['item_original']}"
+        )
+
+        linhas.append(
+            ""
+        )
+
+        linhas.append(
+            questao[
+                "questao"
+            ]
+        )
+
+        linhas.append(
+            ""
+        )
+
+        linhas.append(
+            "**Certo ou Errado?**"
+        )
+
+        linhas.append(
+            ""
+        )
+
+    # ------------------------------------------------------
+    # GABARITO
+    # ------------------------------------------------------
+
+    linhas.append(
+        "---"
+    )
+
+    linhas.append(
+        ""
+    )
+
+    linhas.append(
+        "# GABARITO"
+    )
+
+    linhas.append(
+        ""
+    )
+
+    for numero, questao in enumerate(
+        questoes,
+        start=1
+    ):
+
+        linhas.append(
+
+            f"{numero}. "
+            f"{questao['gabarito']}"
+        )
+
+    # ------------------------------------------------------
+    # EXPLICAÇÕES
+    # ------------------------------------------------------
+
+    linhas.append(
+        ""
+    )
+
+    linhas.append(
+        "# EXPLICAÇÕES"
+    )
+
+    linhas.append(
+        ""
+    )
+
+    for numero, questao in enumerate(
+        questoes,
+        start=1
+    ):
+
+        linhas.append(
+            f"## Questão {numero}"
+        )
+
+        linhas.append(
+            ""
+        )
+
+        linhas.append(
+
+            f"Gabarito oficial: "
+            f"**{questao['gabarito']}**"
+        )
+
+        linhas.append(
+            ""
+        )
+
+        linhas.append(
+
+            explicacoes.get(
+                questao[
+                    "id"
+                ],
+                ""
+            )
+        )
+
+        linhas.append(
+            ""
+        )
+
+    caminho.write_text(
+
+        "\n".join(
+            linhas
+        ),
+
+        encoding="utf-8",
+    )
+
+
+# ==========================================================
+# GERAR UMA FALA
 # ==========================================================
 
 async def gerar_fala_audio(
@@ -1271,23 +2897,29 @@ async def gerar_fala_audio(
         try:
 
             comunicador = edge_tts.Communicate(
+
                 texto,
-                voz,
+
+                voz
             )
 
             await comunicador.save(
-                str(caminho)
+
+                str(
+                    caminho
+                )
             )
 
             if (
                 caminho.exists()
-                and caminho.stat().st_size > 1000
+                and
+                caminho.stat().st_size > 1000
             ):
+
                 return
 
             raise RuntimeError(
-                "Arquivo de áudio vazio "
-                "ou muito pequeno."
+                "Áudio vazio ou muito pequeno."
             )
 
         except Exception as erro:
@@ -1295,6 +2927,7 @@ async def gerar_fala_audio(
             ultimo_erro = erro
 
             print(
+
                 f"Falha no edge-tts. "
                 f"Tentativa {tentativa}/3: "
                 f"{erro}"
@@ -1303,17 +2936,20 @@ async def gerar_fala_audio(
             if tentativa < 3:
 
                 await asyncio.sleep(
+
                     tentativa * 2
                 )
 
     raise RuntimeError(
+
         "Não foi possível gerar "
         "uma das falas."
+
     ) from ultimo_erro
 
 
 # ==========================================================
-# GERAR TODAS AS FALAS EM ÁUDIO
+# GERAR TODOS OS SEGMENTOS
 # ==========================================================
 
 async def gerar_segmentos(
@@ -1328,8 +2964,11 @@ async def gerar_segmentos(
     )
 
     for numero, fala in enumerate(
+
         falas,
+
         start=1
+
     ):
 
         speaker = fala[
@@ -1349,20 +2988,26 @@ async def gerar_segmentos(
         ]
 
         caminho = (
+
             pasta_temporaria
+
             / f"fala_{numero:03d}_{speaker}.mp3"
         )
 
         print(
+
             f"Gerando áudio "
             f"{numero}/{total} "
             f"- {nome}"
         )
 
         await gerar_fala_audio(
+
             texto,
+
             voz,
-            caminho,
+
+            caminho
         )
 
         arquivos.append(
@@ -1373,7 +3018,7 @@ async def gerar_segmentos(
 
 
 # ==========================================================
-# JUNTAR ÁUDIOS COM FFMPEG
+# JUNTAR ÁUDIOS
 # ==========================================================
 
 def juntar_audios(
@@ -1387,11 +3032,13 @@ def juntar_audios(
     ) is None:
 
         raise RuntimeError(
-            "FFmpeg não foi encontrado."
+            "FFmpeg não encontrado."
         )
 
     arquivo_lista = (
+
         pasta_temporaria
+
         / "lista_ffmpeg.txt"
     )
 
@@ -1400,28 +3047,39 @@ def juntar_audios(
     for arquivo in arquivos:
 
         caminho_absoluto = (
+
             arquivo
             .resolve()
             .as_posix()
         )
 
         linhas.append(
-            f"file '{caminho_absoluto}'"
+
+            f"file "
+            f"'{caminho_absoluto}'"
         )
 
     arquivo_lista.write_text(
-        "\n".join(linhas),
+
+        "\n".join(
+            linhas
+        ),
+
         encoding="utf-8",
     )
 
     print("")
-    print("=" * 70)
+    print(
+        "=" * 70
+    )
 
     print(
         "JUNTANDO TODAS AS FALAS"
     )
 
-    print("=" * 70)
+    print(
+        "=" * 70
+    )
 
     comando = [
 
@@ -1441,7 +3099,9 @@ def juntar_audios(
         "0",
 
         "-i",
-        str(arquivo_lista),
+        str(
+            arquivo_lista
+        ),
 
         "-vn",
 
@@ -1451,17 +3111,22 @@ def juntar_audios(
         "-b:a",
         "128k",
 
-        str(caminho_final),
+        str(
+            caminho_final
+        ),
     ]
 
     subprocess.run(
+
         comando,
+
         check=True,
     )
 
     if (
         not caminho_final.exists()
-        or caminho_final.stat().st_size < 5000
+        or
+        caminho_final.stat().st_size < 5000
     ):
 
         raise RuntimeError(
@@ -1470,8 +3135,11 @@ def juntar_audios(
         )
 
     tamanho_mb = (
+
         caminho_final.stat().st_size
+
         / 1024
+
         / 1024
     )
 
@@ -1508,31 +3176,46 @@ def enviar_para_telegram(
     ]
 
     url = (
+
         f"https://api.telegram.org/"
         f"bot{token}/sendAudio"
     )
 
     legenda = (
-        "🎙️ Podcast de Estudos\n\n"
+
+        "🎙️ Podcast de Estudos PRF\n\n"
+
         "👥 Dois apresentadores\n"
-        "⏱️ Aproximadamente 20 minutos\n\n"
-        f"*Tema {numero_tema}/{total_temas}:*\n"
+
+        "📝 4 questões de provas anteriores\n\n"
+
+        f"*Tema {numero_tema}/"
+        f"{total_temas}:*\n"
+
         f"{tema}\n\n"
+
         f"🔗 {link_repo}"
     )
 
     print("")
-    print("=" * 70)
-
     print(
-        "ENVIANDO PARA O TELEGRAM"
+        "=" * 70
     )
 
-    print("=" * 70)
+    print(
+        "ENVIANDO PARA TELEGRAM"
+    )
+
+    print(
+        "=" * 70
+    )
 
     with open(
+
         caminho_audio,
+
         "rb"
+
     ) as audio_file:
 
         resposta = requests.post(
@@ -1540,6 +3223,7 @@ def enviar_para_telegram(
             url,
 
             data={
+
                 "chat_id":
                     chat_id,
 
@@ -1551,6 +3235,7 @@ def enviar_para_telegram(
             },
 
             files={
+
                 "audio":
                     audio_file
             },
@@ -1567,14 +3252,14 @@ def enviar_para_telegram(
     ):
 
         raise RuntimeError(
+
             f"Telegram retornou erro: "
             f"{dados}"
         )
 
     print("")
     print(
-        "Podcast enviado para "
-        "o Telegram com sucesso."
+        "Podcast enviado ao Telegram."
     )
 
 
@@ -1589,19 +3274,22 @@ def main():
     )
 
     print("")
-    print("=" * 70)
-
     print(
-        "PODCAST AUTOMÁTICO "
-        "- DOIS APRESENTADORES"
+        "=" * 70
     )
 
     print(
-        "GERAÇÃO EM 3 PARTES "
-        "- APROXIMADAMENTE 20 MINUTOS"
+        "PODCAST AUTOMÁTICO PRF"
     )
 
-    print("=" * 70)
+    print(
+        "TEORIA + 4 QUESTÕES "
+        "DE PROVAS ANTERIORES"
+    )
+
+    print(
+        "=" * 70
+    )
 
     print("")
     print(
@@ -1609,6 +3297,7 @@ def main():
     )
 
     print(
+
         agora.strftime(
             "%d/%m/%Y %H:%M:%S"
         )
@@ -1616,27 +3305,35 @@ def main():
 
 
     # ======================================================
-    # SELECIONAR TEMA
+    # TEMA
     # ======================================================
 
     temas = carregar_temas()
 
-    estado = carregar_estado()
+    estado_podcast = carregar_estado_podcast()
 
     indice, tema = escolher_proximo_tema(
+
         temas,
-        estado,
+
+        estado_podcast
     )
 
     print("")
-    print("=" * 70)
-
     print(
-        f"TEMA SELECIONADO "
-        f"{indice + 1}/{len(temas)}"
+        "=" * 70
     )
 
-    print("=" * 70)
+    print(
+
+        f"TEMA "
+        f"{indice + 1}/"
+        f"{len(temas)}"
+    )
+
+    print(
+        "=" * 70
+    )
 
     print("")
     print(
@@ -1645,7 +3342,66 @@ def main():
 
 
     # ======================================================
-    # CRIAR PASTA
+    # QUESTÕES
+    # ======================================================
+
+    questoes_banco = carregar_questoes()
+
+    estado_questoes = carregar_estado_questoes()
+
+    (
+        disciplina,
+        questoes_selecionadas,
+        controle_questoes
+    ) = selecionar_questoes(
+
+        tema,
+
+        questoes_banco,
+
+        estado_questoes
+    )
+
+    print("")
+    print(
+        "=" * 70
+    )
+
+    print(
+        "QUESTÕES SELECIONADAS"
+    )
+
+    print(
+        "=" * 70
+    )
+
+    print("")
+    print(
+        f"Disciplina: "
+        f"{disciplina}"
+    )
+
+    for numero, questao in enumerate(
+
+        questoes_selecionadas,
+
+        start=1
+
+    ):
+
+        print(
+
+            f"{numero}. "
+            f"{questao['id']} "
+            f"- PRF "
+            f"{questao['ano']} "
+            f"- "
+            f"{questao['gabarito']}"
+        )
+
+
+    # ======================================================
+    # PASTA DO EPISÓDIO
     # ======================================================
 
     data = agora.strftime(
@@ -1657,50 +3413,67 @@ def main():
     )
 
     pasta_episodio = (
-        Path("episodes")
+
+        Path(
+            "episodes"
+        )
+
         / data
+
         / horario
     )
 
     pasta_episodio.mkdir(
+
         parents=True,
+
         exist_ok=True,
     )
 
     print("")
     print(
-        f"Pasta do episódio: "
+
+        f"Pasta: "
         f"{pasta_episodio}"
     )
 
 
     # ======================================================
-    # GERAR EPISÓDIO
+    # GERAR CONTEÚDO
     # ======================================================
 
     (
         plano,
-        falas_por_parte,
-        falas
+        falas_partes,
+        falas,
+        explicacoes
     ) = gerar_episodio_completo(
-        tema
+
+        tema,
+
+        questoes_selecionadas
     )
 
 
     # ======================================================
-    # SALVAR PLANEJAMENTO
+    # SALVAR PLANO
     # ======================================================
 
     caminho_plano = (
+
         pasta_episodio
+
         / "plano.json"
     )
 
     caminho_plano.write_text(
 
         json.dumps(
+
             plano,
+
             ensure_ascii=False,
+
             indent=2,
         ),
 
@@ -1712,24 +3485,36 @@ def main():
     # SALVAR AS 3 PARTES
     # ======================================================
 
-    for numero, falas_parte in enumerate(
-        falas_por_parte,
+    for numero, parte in enumerate(
+
+        falas_partes,
+
         start=1
+
     ):
 
         caminho_parte = (
+
             pasta_episodio
+
             / f"parte_{numero}.json"
         )
 
         caminho_parte.write_text(
 
             json.dumps(
+
                 {
-                    "parte": numero,
-                    "falas": falas_parte,
+
+                    "parte":
+                        numero,
+
+                    "falas":
+                        parte,
                 },
+
                 ensure_ascii=False,
+
                 indent=2,
             ),
 
@@ -1738,23 +3523,31 @@ def main():
 
 
     # ======================================================
-    # SALVAR DIÁLOGO COMPLETO
+    # SALVAR QUESTÕES UTILIZADAS
     # ======================================================
 
-    caminho_dialogo = (
+    caminho_questoes = (
+
         pasta_episodio
-        / "dialogo.json"
+
+        / "questoes_utilizadas.json"
     )
 
-    caminho_dialogo.write_text(
+    caminho_questoes.write_text(
 
         json.dumps(
+
             {
-                "tema": tema,
-                "plano": plano,
-                "falas": falas,
+
+                "disciplina":
+                    disciplina,
+
+                "questoes":
+                    questoes_selecionadas,
             },
+
             ensure_ascii=False,
+
             indent=2,
         ),
 
@@ -1763,35 +3556,92 @@ def main():
 
 
     # ======================================================
-    # SALVAR ROTEIRO LEGÍVEL
+    # SALVAR DESAFIO EM MARKDOWN
+    # ======================================================
+
+    caminho_desafio = (
+
+        pasta_episodio
+
+        / "desafio_questoes.md"
+    )
+
+    salvar_desafio_questoes(
+
+        questoes_selecionadas,
+
+        explicacoes,
+
+        caminho_desafio
+    )
+
+
+    # ======================================================
+    # SALVAR DIÁLOGO COMPLETO
+    # ======================================================
+
+    caminho_dialogo = (
+
+        pasta_episodio
+
+        / "dialogo.json"
+    )
+
+    caminho_dialogo.write_text(
+
+        json.dumps(
+
+            {
+
+                "tema":
+                    tema,
+
+                "disciplina":
+                    disciplina,
+
+                "plano":
+                    plano,
+
+                "questoes":
+                    questoes_selecionadas,
+
+                "falas":
+                    falas,
+            },
+
+            ensure_ascii=False,
+
+            indent=2,
+        ),
+
+        encoding="utf-8",
+    )
+
+
+    # ======================================================
+    # SALVAR ROTEIRO
     # ======================================================
 
     caminho_roteiro = (
+
         pasta_episodio
+
         / "roteiro.md"
     )
 
     salvar_roteiro(
+
         falas,
+
         tema,
-        caminho_roteiro,
-    )
 
-    print("")
-    print(
-        f"Roteiro salvo em: "
-        f"{caminho_roteiro}"
+        caminho_roteiro
     )
 
 
     # ======================================================
-    # SALVAR METADADOS
+    # METADADOS
     # ======================================================
-
-    quantidade_falas_partes = [
-        len(parte)
-        for parte in falas_por_parte
-    ]
 
     dados_episodio = {
 
@@ -1805,28 +3655,40 @@ def main():
             indice + 1,
 
         "total_temas":
-            len(temas),
+            len(
+                temas
+            ),
 
         "tema":
             tema,
 
+        "disciplina":
+            disciplina,
+
         "modelo_gemini":
             MODELO_GEMINI,
 
-        "quantidade_partes":
-            QUANTIDADE_PARTES,
+        "partes_teoricas":
+            2,
 
-        "palavras_por_parte":
-            PALAVRAS_POR_PARTE,
+        "parte_3":
+            "Desafio com 4 questões",
 
-        "palavras_totais_alvo":
-            (
-                PALAVRAS_POR_PARTE
-                * QUANTIDADE_PARTES
+        "quantidade_questoes":
+            len(
+                questoes_selecionadas
             ),
 
-        "duracao_aproximada":
-            "18 a 22 minutos",
+        "ids_questoes":
+            [
+
+                questao[
+                    "id"
+                ]
+
+                for questao
+                in questoes_selecionadas
+            ],
 
         "apresentador_a":
             VOZ_A,
@@ -1835,22 +3697,26 @@ def main():
             VOZ_B,
 
         "total_falas":
-            len(falas),
-
-        "falas_por_parte":
-            quantidade_falas_partes,
+            len(
+                falas
+            ),
     }
 
     caminho_info = (
+
         pasta_episodio
+
         / "episodio.json"
     )
 
     caminho_info.write_text(
 
         json.dumps(
+
             dados_episodio,
+
             ensure_ascii=False,
+
             indent=2,
         ),
 
@@ -1863,58 +3729,68 @@ def main():
     # ======================================================
 
     caminho_audio = (
+
         pasta_episodio
+
         / "podcast.mp3"
     )
 
     print("")
-    print("=" * 70)
-
     print(
-        "GERANDO VOZES DO PODCAST"
+        "=" * 70
     )
 
-    print("=" * 70)
+    print(
+        "GERANDO ÁUDIO"
+    )
 
-    # Os MP3 individuais ficam somente
-    # temporariamente.
-    #
-    # Apenas o podcast final vai para
-    # a pasta episodes.
+    print(
+        "=" * 70
+    )
 
     with tempfile.TemporaryDirectory(
+
         prefix="podcast_falas_"
+
     ) as pasta_temp:
 
         pasta_temporaria = Path(
             pasta_temp
         )
 
-        arquivos_segmentos = asyncio.run(
+        segmentos = asyncio.run(
 
             gerar_segmentos(
+
                 falas,
-                pasta_temporaria,
+
+                pasta_temporaria
             )
         )
 
         juntar_audios(
-            arquivos_segmentos,
+
+            segmentos,
+
             caminho_audio,
-            pasta_temporaria,
+
+            pasta_temporaria
         )
 
 
     # ======================================================
-    # LINK DO REPOSITÓRIO
+    # LINK GITHUB
     # ======================================================
 
     repo = os.environ.get(
+
         "GITHUB_REPOSITORY",
+
         "SEU_USUARIO/SEU_REPO"
     )
 
     link_repo = (
+
         f"https://github.com/"
         f"{repo}"
         f"/tree/main/"
@@ -1929,25 +3805,50 @@ def main():
     # ======================================================
 
     enviar_para_telegram(
-        str(caminho_audio),
+
+        str(
+            caminho_audio
+        ),
+
         tema,
+
         link_repo,
+
         indice + 1,
-        len(temas),
+
+        len(
+            temas
+        )
     )
 
 
     # ======================================================
-    # ATUALIZAR ESTADO
+    # IMPORTANTE
     #
-    # SOMENTE DEPOIS DE O TELEGRAM
-    # CONFIRMAR O ENVIO.
+    # SÓ ATUALIZA OS ESTADOS DEPOIS
+    # DE O TELEGRAM CONFIRMAR O ENVIO.
     # ======================================================
 
-    salvar_estado(
+    salvar_estado_questoes(
+
+        estado_questoes,
+
+        questoes_selecionadas,
+
+        controle_questoes,
+
+        disciplina,
+
+        agora
+    )
+
+    salvar_estado_podcast(
+
         indice,
+
         tema,
-        agora,
+
+        agora
     )
 
 
@@ -1956,14 +3857,18 @@ def main():
     # ======================================================
 
     print("")
-    print("=" * 70)
+    print(
+        "=" * 70
+    )
 
     print(
         "PROCESSO CONCLUÍDO "
         "COM SUCESSO"
     )
 
-    print("=" * 70)
+    print(
+        "=" * 70
+    )
 
     print("")
     print(
@@ -1971,18 +3876,18 @@ def main():
     )
 
     print(
-        f"Partes: "
-        f"{QUANTIDADE_PARTES}"
+        f"Disciplina: "
+        f"{disciplina}"
     )
 
     print(
-        f"Total de falas: "
-        f"{len(falas)}"
+        f"Questões: "
+        f"{len(questoes_selecionadas)}"
     )
- 
+
     print(
-        "Duração estimada: "
-        "18 a 22 minutos"
+        f"Falas: "
+        f"{len(falas)}"
     )
 
     print("")
