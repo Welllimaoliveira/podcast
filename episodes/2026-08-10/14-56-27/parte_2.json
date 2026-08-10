@@ -1,0 +1,69 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "B",
+      "text": "E para aplicar esses conceitos na prática da prova, precisamos dominar o funcionamento dos protocolos de comunicação nas diferentes camadas. Um clássico de cobrança é a comparação entre HTTP e HTTPS na camada de aplicação. O HTTP utiliza a porta 80 e trafega dados em texto puro, enquanto o HTTPS usa a porta 443 com criptografia SSL ou TLS, garantindo confidencialidade e integridade à navegação."
+    },
+    {
+      "speaker": "A",
+      "text": "Descendo para a camada de transporte, o confronto direto fica entre TCP e UDP, que possuem comportamentos totalmente opostos. O TCP é orientado à conexão, realiza a famosa negociação em três etapas, o 'three-way handshake', e garante a entrega dos pacotes, sendo ideal para páginas web e e-mails. Já o UDP não é orientado à conexão, não garante a entrega, mas é extremamente rápido, sendo perfeito para voz sobre IP e transmissões ao vivo."
+    },
+    {
+      "speaker": "B",
+      "text": "O Cebraspe adora inventar que o UDP garante a entrega sem erros só para confundir quem estuda de forma superficial. Outra pegadinha recorrente é trocar as portas padrão dos serviços nas questões, como dizer que o HTTPS opera na porta 80 ou o SSH na porta 21. Fique muito atento porque a banca explora detalhadamente a associação correta entre o protocolo, a sua porta e a camada correspondente."
+    },
+    {
+      "speaker": "A",
+      "text": "Avançando para a parte de pragas virtuais, o examinador tenta induzir o candidato ao erro misturando os mecanismos de infecção dos malwares. O Worm, por exemplo, se propaga de forma autônoma pelas redes explorando vulnerabilidades, sem precisar de um arquivo hospedeiro ou de ação do usuário. Já o Trojan, o famoso cavalo de Tróia, depende da execução do usuário ao se passar por um programa legítimo para abrir portas no sistema."
+    },
+    {
+      "speaker": "B",
+      "text": "Não podemos esquecer do Ransomware, que se tornou um dos ataques mais críticos para instituições públicas por criptografar arquivos e exigir resgate. Para a prova da PRF, lembre-se de que o Ransomware compromete diretamente a disponibilidade dos dados da corporação. Paralelamente temos o Spyware, focado no monitoramento secreto de atividades, operando através de 'keyloggers', que capturam teclas digitadas, ou 'screenloggers', que gravam cliques na tela."
+    },
+    {
+      "speaker": "A",
+      "text": "No campo da engenharia social, o Cebraspe costuma inverter os conceitos de Phishing e Spoofing para criar armadilhas nas opções. O Phishing é a pesca de informações sensíveis por meio de mensagens enganosas que induzem a vítima a entregar senhas espontaneamente. O Spoofing, por outro lado, é uma técnica de falsificação de identidade, como mascarar um endereço IP ou e-mail para se passar por uma fonte confiável."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente, a banca vai dizer que falsificar o remetente de um e-mail é Phishing, quando na verdade o mecanismo técnico de mascaramento é o Spoofing. Essa distinção fina é o divisor de águas entre quem decorou resumos genéricos e quem realmente compreendeu os termos. Saber onde a banca costuma inverter os conceitos permite que você identifique o erro da questão em poucos segundos."
+    },
+    {
+      "speaker": "A",
+      "text": "E uma das melhores formas de mitigar os impactos de um ataque por Ransomware é ter uma rotina eficiente e bem estruturada de backups. Para o edital da PRF, a banca cobra com detalhes os tipos Completo, Incremental e Diferencial. O backup Completo copia todos os dados selecionados, sendo a base necessária para que os outros tipos possam funcionar na rotina corporativa."
+    },
+    {
+      "speaker": "B",
+      "text": "A diferença marcante entre Incremental e Diferencial está na velocidade de execução e no processo de restauração. O Incremental copia apenas o que mudou desde o último backup de qualquer tipo e limpa o atributo de modificação, tornando a cópia rápida, mas a restauração mais demorada. Já o Diferencial copia tudo o que mudou desde o último backup Completo, sem limpar o atributo, facilitando a restauração posterior."
+    },
+    {
+      "speaker": "A",
+      "text": "Em um cenário de recuperação após um sinistro, para restaurar o backup Incremental você precisa do último Completo e de todas as mídias incrementais subsequentes na ordem correta. No caso do Diferencial, bastam o último backup Completo e o último backup Diferencial realizado. O Cebraspe frequentemente afirma que o Incremental precisa de menos arquivos para a restauração, invertendo a lógica com o Diferencial."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa lógica de proteção e preservação de dados nos conecta de forma direta às exigências da LGPD na Administração Pública. A Polícia Rodoviária Federal lida diariamente com dados pessoais de cidadãos e motoristas em abordagens nas rodovias federais. Na prova, o foco da lei está nos conceitos fundamentais, no tratamento legítimo de dados e nos princípios operacionais do setor público."
+    },
+    {
+      "speaker": "A",
+      "text": "É vital diferenciar dados pessoais comuns de dados pessoais sensíveis, que tratam de origem racial, convicção religiosa, saúde ou dados biométricos. Na atuação estatal, o tratamento de dados deve observar princípios rígidos como finalidade, adequação e necessidade, coletando o mínimo indispensável para o cumprimento da atribuição legal. A segurança desses bancos de dados policiais é requisito direto de conformidade com a LGPD."
+    },
+    {
+      "speaker": "B",
+      "text": "Fique de olho nas pegadinhas clássicas do Cebraspe sobre LGPD, que costumam usar termos genéricos e generalizações indevidas. A banca gosta de afirmar que órgãos públicos precisam de autorização expressa do titular para qualquer tratamento de dados, o que é incorreto. O cumprimento de obrigação legal e a execução de políticas públicas dispensam o consentimento do cidadão em hipóteses autorizadas por lei."
+    },
+    {
+      "speaker": "A",
+      "text": "Palavras absolutas como 'sempre', 'nunca', 'em qualquer hipótese' ou 'exclusivamente' em itens sobre LGPD geralmente tornam a afirmativa incorreta. Entender que o interesse público e a segurança pública possuem exceções previstas na própria norma evita cair nessas pegadinhas de generalização. Com essa visão ampla de protocolos, segurança, backup e legislação, o conteúdo teórico fica completamente amarrado."
+    },
+    {
+      "speaker": "B",
+      "text": "Agora que cobrimos os tópicos mais aprofundados, a comparação entre protocolos, os tipos de malwares, as estratégias de backup e os detalhes da LGPD, estamos prontos para ver como tudo isso é cobrado na prática. Nada consolida melhor o aprendizado do que enfrentar os itens no formato característico da banca."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito! Vamos colocar à prova todo esse conhecimento teórico analisando algumas questões recentes elaboradas pelo Cebraspe para carreiras policiais. Separe o seu material de anotações e acompanhe cada detalhe da nossa resolução comentada a partir de agora."
+    }
+  ]
+}
