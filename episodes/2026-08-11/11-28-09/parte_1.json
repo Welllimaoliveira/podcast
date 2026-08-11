@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Se tem uma disciplina que separa os aprovados da maioria nos concursos policiais, com certeza é o Raciocínio Lógico Matemático. Muita gente olha para o edital da PRF, vê a parte de RLM e prefere fingir que ela não existe, o que é um erro gigante. Na verdade, a lógica não é um bicho de sete cabeças, mas sim um jogo com regras extremamente bem definidas."
+    },
+    {
+      "speaker": "B",
+      "text": "E o segredo para dominar esse jogo é não tentar adivinhar nada com base no nosso 'achismo' do dia a dia. Para construir uma pontuação alta na prova, a gente precisa começar pelo tijolo fundamental de toda a matéria, que é o conceito de proposição. Se você entender bem o que é e o que não é uma proposição, já garante questões preciosas em bancas como o Cebraspe."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, a proposição é a pedra angular da lógica formal. De forma bem direta, uma proposição é qualquer declaração verbal ou escrita que traga um sentido completo e possa ser julgada, sem ambiguidade, como verdadeira ou falsa. Por exemplo, quando eu digo 'A Polícia Rodoviária Federal é um órgão de segurança pública', temos uma afirmação clara que pode ser classificada como verdadeira."
+    },
+    {
+      "speaker": "B",
+      "text": "O ponto decisivo para o candidato é saber identificar o que a banca tenta vender como proposição, mas não é. Frases interrogativas, exclamativas, imperativas e sentenças abertas jamais serão proposições lógicas porque não dá para atribuir um valor de verdadeiro ou falso a elas. Se a prova trouxer 'Faça o relatório agora!' ou 'Quem foi aprovado?', você já sabe que ali não existe proposição."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa pegadinha das sentenças abertas cai direto em prova e derruba muita gente desatenta. Uma frase como 'Ele é um excelente agente de trânsito' não é proposição porque o termo 'Ele' é uma variável indefinida, tornando impossível julgar a frase. Só teríamos uma proposição se a banca especificasse quem é esse indivíduo na própria sentença."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito, e a partir do momento em que identificamos as proposições, precisamos dividi-las em simples e compostas. A proposição simples traz apenas uma ideia central, sem conectivos, como 'O trânsito está intenso'. Já a proposição composta surge quando unimos duas ou mais proposições simples usando os famosos conectivos lógicos."
+    },
+    {
+      "speaker": "A",
+      "text": "Esses conectivos lógicos funcionam exatamente como a cola do raciocínio formal. O primeiro deles é a conjunção, representada pela palavra 'E', que exige um grau de comprometimento total. Para uma estrutura com o conectivo 'E' ser verdadeira, todas as proposições simples envolvidas precisam ser obrigatoriamente verdadeiras ao mesmo tempo."
+    },
+    {
+      "speaker": "B",
+      "text": "Pensando em um exemplo prático: 'O candidato fez o teste físico E apresentou os documentos'. Se ele fez o teste, mas esqueceu a documentação, a afirmação inteira se torna falsa para a lógica. Na linguagem cotidiana a gente às vezes tolera meias verdades, mas o Cebraspe vai cobrar de você a firmeza da regra lógica."
+    },
+    {
+      "speaker": "A",
+      "text": "O segundo conectivo essencial é a disjunção inclusiva, o nosso popular 'OU'. Diferente do 'E', a disjunção é bem mais flexível, exigindo apenas que pelo menos uma das partes seja verdadeira para validar a frase toda. Se eu digo 'O agente fiscalizou o veículo OU aplicou a multa', basta que uma dessas ações tenha acontecido para a proposição ser verdadeira, inclusive se ele tiver feito ambas."
+    },
+    {
+      "speaker": "B",
+      "text": "Agora, cuidado para não confundir a disjunção inclusiva com a disjunção exclusiva, que é o 'OU... OU'. Na exclusiva, como o próprio nome diz, uma opção exclui a outra categoricamente, não permitindo que ambas ocorram juntas. O exemplo clássico é 'OU a viatura está em patrulhamento OU a viatura está na manutenção', onde é impossível ter os dois cenários simultaneamente."
+    },
+    {
+      "speaker": "A",
+      "text": "Chegamos agora no queridinho das bancas examinadoras, a condicional, representada por 'SE... ENTÃO'. Esse conectivo estabelece uma relação de causa e efeito, onde a primeira parte é a hipótese, chamada de antecedente, e a segunda parte é a consequência, conhecida como consequente. Ele é responsável por mais da metade das questões sobre estruturas lógicas em provas da carreira policial."
+    },
+    {
+      "speaker": "B",
+      "text": "A condicional tem uma regra de ouro que vira macete de memorização para os concurseiros. A única situação em que a frase 'SE P, ENTÃO Q' será falsa é quando a primeira parte for verdadeira e a segunda for falsa, a famosa combinação 'Vera Fischer'. Por exemplo, 'Se você passar no concurso, então será nomeado' só é uma mentira se você realmente passar e não for nomeado."
+    },
+    {
+      "speaker": "A",
+      "text": "Por fim, temos a bicondicional, o famoso 'SE E SOMENTE SE', que funciona como uma via de mão dupla perfeita. Nela, a proposição composta só será verdadeira se ambas as partes tiverem exatamente o mesmo valor lógico. Ou seja, se as duas forem verdadeiras, a frase é verdadeira; se as duas forem falsas, a frase também resulta em verdadeiro."
+    },
+    {
+      "speaker": "B",
+      "text": "Pense na frase: 'O policial recebe o adicional noturno SE E SOMENTE SE trabalhar no horário da noite'. Se ele trabalha à noite e recebe, a frase é verdadeira; se ele não trabalha à noite e não recebe, a declaração continua sendo coerente e verdadeira. A falsidade só acontece quando houver uma desconexão entre as duas partes, com uma sendo verdadeira e a outra falsa."
+    },
+    {
+      "speaker": "A",
+      "text": "O grande desafio que o estudante enfrenta no início da preparação é desapegar do sentido gramatical ou filosófico das frases. Em RLM, a gente não analisa o mérito moral ou a intenção de quem fala, mas sim a estrutura formal dos conectivos. O Cebraspe adora usar frases absurdas no mundo real, mas perfeitamente válidas do ponto de vista da lógica matemática."
+    },
+    {
+      "speaker": "B",
+      "text": "É por isso que nos itens de 'Certo ou Errado', a leitura precisa ser cirúrgica e analítica. Quando você enxerga o enunciado como uma fórmula de conectivos e tabela-verdade, a ansiedade diminui e o acerto vira consequência. Dominar a tabela de cada um desses cinco conectivos é o verdadeiro divisor de águas para acertar as questões mais complexas."
+    },
+    {
+      "speaker": "A",
+      "text": "Enxergar os conectivos como operadores matemáticos da linguagem transforma totalmente a forma como você resolve a prova. Em vez de ficar tentando adivinhar o contexto, você passa a traduzir o texto em símbolos como se fosse uma equação. Esse processo de simbolização simplifica absurdamente a visualização das proposições compostas longas."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa precisão técnica evita que o candidato caia nas armadilhas de interpretação de texto criadas pela banca examinadora. A partir do momento em que esses conceitos básicos ficam bem consolidados na sua mente, você ganha a velocidade necessária para resolver a prova com segurança. A base da lógica formal é simples, basta ter método e treinar a aplicação das regras."
+    }
+  ]
+}
