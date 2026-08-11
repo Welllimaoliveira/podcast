@@ -1,0 +1,231 @@
+# Tema
+
+Trânsito (Legislação de Trânsito) para a prova da PRF
+
+## Apresentador 1
+
+Se você está focado em conquistar a sua farda operacional na Polícia Rodoviária Federal, precisa dominar cada detalhe da Legislação de Trânsito. Essa disciplina não é apenas a maior parte da sua prova, ela é o verdadeiro coração do conteúdo programático exigido pela banca. Hoje vamos estruturar do zero a sua preparação, partindo da base conceitual que sustenta todo o Código de Trânsito Brasileiro. É a partir dessa fundação sólida que você vai garantir os pontos decisivos na hora da prova.
+
+## Apresentadora 2
+
+Exatamente, e quando a gente analisa o perfil histórico da Cebraspe, fica claro que a banca adora cobrar tanto a literalidade da lei quanto as pegadinhas conceituais. Por isso, compreender a arquitetura do Sistema Nacional de Trânsito, o famoso SNT, é o nosso primeiro grande passo estratégico. O SNT não é um órgão isolado, mas sim um conjunto articulado de entidades que atuam desde a normatização até a fiscalização direta nas rodovias. Se você entende essa engrenagem, não decora regrinha de forma mecânica, você raciocina exatamente como a banca exige.
+
+## Apresentador 1
+
+E esse raciocínio começa pelo artigo primeiro do CTB, que traz uma diretriz fundamental para qualquer questão de prova: o trânsito seguro é um direito de todos e um dever dos órgãos do SNT. A legislação estabelece de forma expressa que as ações do sistema devem dar prioridade absoluta à defesa da vida e à proteção da integridade física. A Cebraspe costuma colocar assertivas tentando inverter essa prioridade, sugerindo que a fluidez do tráfego ou a arrecadação de multas estariam no mesmo patamar. Fique atento porque a preservação da vida é o valor máximo inegociável dentro do texto legal.
+
+## Apresentadora 2
+
+Outro ponto crucial é a divisão funcional entre os órgãos que compõem o SNT, que se dividem basicamente em normativos e executivos. Os órgãos normativos, como o CONTRAN na esfera federal e o CETRAN no âmbito estadual, são responsáveis por criar as diretrizes, resoluções e fixar as normas gerais. Pense neles como o cérebro legislativo do sistema, criando as regras do jogo que todos devem seguir. Eles não vão para a rua fiscalizar motoristas ou aplicar penalidades diretamente no trânsito do dia a dia.
+
+## Apresentador 1
+
+Por outro lado, a aplicação prática fica sob a responsabilidade dos órgãos executivos, onde a PRF se destaca no cenário federal. Enquanto o DNIT cuida da infraestrutura, engenharia e operação das rodovias federais, a Polícia Rodoviária Federal atua no patrulhamento ostensivo e na fiscalização de trânsito nessas mesmas vias. É muito comum ver a banca trocar a competência de engenharia do DNIT com a competência de fiscalização operacional da PRF. Entender esse limite de atuação evita que você caia em armadilhas simples formuladas no enunciado.
+
+## Apresentadora 2
+
+A banca ama criar asserções afirmando que o CONTRAN pode aplicar multas ou que a PRF pode expedir resoluções de caráter geral. Lembre-se sempre de que o órgão normativo estabelece a regra, enquanto o órgão executivo cumpre e faz cumprir essa regra no campo de atuação dele. Além disso, existe o CONTRANDIFE no Distrito Federal, que acumula atribuições normativas e consultivas no âmbito distrital. Essa clareza sobre quem faz o quê no SNT elimina metade das dúvidas na hora de julgar o item como certo ou errado.
+
+## Apresentador 1
+
+Avançando na estrutura do CTB, nós precisamos dominar com perfeição as definições que estão no Anexo I do código. Esse anexo funciona como um glossário jurídico e é uma das fontes mais ricas para a elaboração de questões da Cebraspe. Um dos pares de conceitos que mais causam confusão entre os candidatos desatentos é a diferença exata entre parada e estacionamento. Embora pareçam sinônimos na linguagem cotidiana, para o direito de trânsito eles possuem implicações completamente distintas.
+
+## Apresentadora 2
+
+A parada é estritamente a imobilização do veículo pelo tempo estritamente necessário para o embarque ou desembarque de passageiros. Pense no exemplo clássico do motorista que encosta no meio-fio para um passageiro descer da cabine e em seguida retoma a marcha imediatamente. Não importa se o motorista desligou o carro ou se continuou com o motor ligado durante essa manobra rápida. Se o objetivo exclusivo foi entrar ou sair alguém do veículo e a saída foi imediata, nós estamos diante de uma parada técnica.
+
+## Apresentador 1
+
+Já o estacionamento ocorre quando a imobilização do veículo se dá por um tempo superior ao necessário para esse embarque ou desembarque. Mesmo que o condutor permaneça dentro do carro com o motor funcionando aguardando alguém que foi à farmácia, a lei considera isso como estacionamento. E aqui vai uma das maiores pegadinhas da Cebraspe: a operação de carga e descarga de mercadorias é considerada pela legislação como estacionamento. Guarde isso com muito cuidado, pois a banca tenta induzir o aluno a achar que descarregar caixas rapidamente seria uma simples parada.
+
+## Apresentadora 2
+
+Isso pega muita gente desprevenida porque a palavra rápida faz o candidato associar intuitivamente o descarregamento de uma encomenda à definição de parada. Mas lembre-se: movimentação de mercadorias é carga e descarga, e carga e descarga equivale juridicamente a estacionamento, exigindo sinalização e local apropriados. Se você estiver parado numa vaga proibida para estacionamento descarregando uma caixa de papelão, você estará cometendo uma infração de trânsito. A regra é objetiva e não abre margem para interpretações flexíveis por parte do condutor.
+
+## Apresentador 1
+
+Outra dupla clássica do Anexo I do CTB que a Cebraspe explora com frequência é a distinção entre ultrapassagem e passagem por outro veículo. A ultrapassagem é a manobra de se deslocar à frente de outro veículo que circula no mesmo sentido, ocupando a faixa oposta ou adjacente, e retornando à faixa de origem após a manobra. O elemento central que caracteriza a ultrapassagem é justamente esse retorno necessário à sua faixa inicial de circulação. Se não houver esse retorno à faixa original, a natureza jurídica do movimento muda totalmente.
+
+## Apresentadora 2
+
+Exatamente, porque se você simplesmente muda de faixa em uma avenida com várias faixas no mesmo sentido e segue a sua marcha mais rápido sem voltar para a faixa anterior, isso é passagem por outro veículo. Imagine uma rodovia de pista dupla com três faixas na mesma direção: você está na faixa do meio, muda para a esquerda para transitar mais rápido e permanece na esquerda. Você não executou uma ultrapassagem no sentido estrito do Anexo I, mas sim uma passagem. A banca troca esse detalhe do retorno à faixa de origem para confundir quem leu o texto com pressa.
+
+## Apresentador 1
+
+E a importância dessa distinção fica evidente quando analisamos as regras de circulação e as infrações de trânsito específicas para ultrapassagens indevidas. Ultrapassar pelo acostamento ou em linha contínua amarela traz penalidades gravíssimas e fatores multiplicadores pesados no valor da multa. Se a banca descreve uma situação fática, o candidato precisa primeiro identificar se o condutor fez uma ultrapassagem ou uma passagem para saber qual artigo do CTB aplicar. A precisão conceitual do Anexo I é a chave para acertar essas questões de caso prático.
+
+## Apresentadora 2
+
+Vale destacar também como os órgãos do SNT respondem civilmente pelos danos causados aos cidadãos por falhas na sinalização ou na manutenção das vias. O CTB estabelece a responsabilidade civil objetiva dos órgãos e entidades componentes do Sistema Nacional de Trânsito. Isso significa que, se um buraco não sinalizado em uma rodovia federal causar um acidente grave, a União responde pelos prejuízos independentemente de o motorista provar dolo ou culpa do agente público. Basta comprovar o nexo de causalidade entre a omissão do estado e o dano sofrido.
+
+## Apresentador 1
+
+Essa abordagem sobre a responsabilidade objetiva do SNT cai constantemente em provas de concursos policiais porque conecta a legislação de trânsito com o Direito Administrativo. As bancas gostam de colocar cenários em que o órgão alega ausência de orçamento para tentar afastar o dever de indenizar o motorista acidentado. Contudo, a obrigação de fornecer um trânsito seguro em condições adequadas de trafegabilidade é um dever legal imperativo imposto aos integrantes do SNT. A omissão na sinalização gera a obrigação direta de reparar o dano causado à vítima.
+
+## Apresentadora 2
+
+Perfeito, e quando cruzamos esse conceito com as atribuições da PRF, percebemos por que o policial rodoviário federal precisa ter um domínio profundo de toda essa estrutura. Durante o patrulhamento, o PRF não está apenas aplicando autos de infração, mas garantindo a fluidez segura, fiscalizando a infraestrutura e salvaguardando vidas nas rodovias do país. Ter essa visão sistêmica transforma o seu estudo, fazendo com que cada artigo do CTB ganhe um sentido prático e muito mais fácil de memorizar para o dia da prova.
+
+## Apresentador 1
+
+Para fechar o raciocínio dessa base teórica inicial, o segredo é ler o texto seco da lei articulado com o Anexo I e a resolução de muitas questões anteriores da Cebraspe. Perceba como a banca cobra a diferença entre órgãos consultivos, normativos e executivos, além de explorar cada detalhe das definições técnicas. Quando você domina quem manda, quem executa e o significado exato de cada termo legal, as questões complexas se tornam extremamente previsíveis e simples de resolver.
+
+## Apresentadora 2
+
+Com certeza, a consistência em revisar esses conceitos fundamentais do SNT e as definições do Anexo I constrói a segurança necessária para enfrentar qualquer pegadinha na prova. A legislação de trânsito deixa de ser um obstáculo e passa a ser a alavanca que vai colocar o seu nome dentro das vagas no resultado final. Mantenha o foco na precisão dos detalhes conceituais e na memorização ativa das competências de cada órgão do sistema.
+
+## Apresentador 1
+
+Entrando especificamente nas competências da Polícia Rodoviária Federal, o artigo 20 do CTB traz o núcleo do que você vai fazer no dia a dia do cargo. A PRF tem a atribuição de realizar o patrulhamento ostensivo, a fiscalização de trânsito e a aplicação de sanções nas rodovias e estradas federais. A banca Cebraspe adora inventar que a PRF teria competência para atuar em vias estaduais sem convênio prévio, o que é uma pegadinha clássica de prova.
+
+## Apresentadora 2
+
+Exatamente, a circunscrição é a palavra-chave aqui. Enquanto a PRF atua no âmbito federal, os órgãos executivos estaduais, como os Detrans, e os órgãos municipais dividem a gestão das demais vias. Os municípios, por exemplo, fiscalizam parada, estacionamento e circulação urbana, enquanto o estado cuida do licenciamento e da habilitação. Tentar inverter essas atribuições entre as esferas federais, estaduais e municipais é a estratégia mais batida das bancas de concurso.
+
+## Apresentador 1
+
+E quando o agente da PRF está na rodovia, ele precisa exigir o cumprimento estrito das Normas Gerais de Circulação e Conduta dispostas a partir do artigo 26. Um ponto crucial de prova é a regra de preferência em cruzamentos não sinalizados, onde a preferência é de quem vem pela direita, no caso de fluxos que se cruzam. Porém, em rotatórias, a preferência é de quem já está circulando por ela, e no caso de rodovias, a preferência é soberana para quem já transita na rodovia.
+
+## Apresentadora 2
+
+Outra norma essencial é a questão do uso das luzes e dos limites de velocidade previstos no artigo 61. Lembra que nas rodovias de pista dupla, onde não houver sinalização regulamentadora, o limite para automóveis, camionetas e motocicletas é de 110 km/h, enquanto para os demais veículos é de 90 km/h. Já em relação aos faróis, a luz baixa continua obrigatória durante o dia em rodovias de pista simples situadas fora dos perímetros urbanos, caso o veículo não possua a luz de rodagem diurna.
+
+## Apresentador 1
+
+Perfeito, e a transição entre o desrespeito a essas normas e a caracterização das ilicitudes exige que o candidato diferencie com clareza as infrações administrativas dos crimes de trânsito. A infração administrativa gera penalidades como multa e advertência por escrito, aplicadas pela autoridade de trânsito competente no âmbito administrativo. Já os crimes de trânsito, previstos a partir do artigo 291 do CTB, dependem do devido processo penal e de julgamento pelo Poder Judiciário.
+
+## Apresentadora 2
+
+O caso da condução sob a influência de álcool é um excelente exemplo didático dessa dualidade. O artigo 165 pune administrativamente o condutor que dirige sob efeito de álcool com multa gravíssima multiplicada por dez e suspensão do direito de dirigir. Mas a conduta passa a ser o crime do artigo 306 quando é constatada a alteração da capacidade psicomotora, aferida por medição igual ou superior a 0,3 miligramas de álcool por litro de ar alveolar ou constatação de sinais pelo agente.
+
+## Apresentador 1
+
+Vale destacar que a recusa ao teste do etilômetro, prevista no artigo 165-A, gera as mesmas penalidades administrativas do artigo 165, mas não configura, por si só, o crime de trânsito do artigo 306. A Cebraspe tenta induzir o candidato ao erro afirmando que a simples recusa ao bafômetro levaria o motorista preso em flagrante. Para responder pelo crime, precisa haver a comprovação inequívoca da alteração da capacidade psicomotora por exames, vídeos ou testemunho do policial.
+
+## Apresentadora 2
+
+Outro crime frequente em provas é a participação em competição não autorizada em via pública, o famoso racha, tipificado no artigo 308 do CTB. É importante notar que o crime exige a geração de situação de risco à incolumidade pública ou privada. Além disso, temos o crime de omissão de socorro no artigo 304, em que o condutor do veículo, na ocasião do acidente, deixa de prestar socorro à vítima ou de solicitar auxílio da autoridade pública, mesmo que não tenha sido o causador da colisão.
+
+## Apresentador 1
+
+Falando em pegadinhas de prova que derrubam muitos candidatos incautos, precisamos alertar sobre as mudanças nas sanções do CTB, especialmente a extinção da pena de apreensão do veículo. A Lei 13.281 revogou expressamente a apreensão como penalidade, restando no código apenas a penalidade de advertência, multa, suspensão do direito de dirigir, cassação da CNH e frequência em curso de reciclagem. Se a opção da Cebraspe mencionar a penalidade de apreensão do veículo, ela está redondamente errada.
+
+## Apresentadora 2
+
+Isso ocorre porque não se deve confundir penalidade com medida administrativa. As medidas administrativas são providências de caráter cautelar adotadas pelo agente de trânsito no local da abordagem para sanar uma irregularidade instantânea. A maioria delas começa com as letras R ou T, como retenção, remoção, recolhimento de documentos e teste de dosagem de alcoolemia. A pegadinha é a banca afirmar que a remoção do veículo é uma penalidade aplicada pela autoridade de trânsito.
+
+## Apresentador 1
+
+Exato, e a diferença prática entre retenção e remoção é um prato cheio para os examinadores. A retenção consiste na imobilização do veículo no próprio local da abordagem até que a irregularidade seja sanada, como solicitar ao condutor sem cinto de segurança que afivele o equipamento. Já a remoção envolve o deslocamento do veículo por meio de guincho até o pátio credenciado, ocorrendo quando a irregularidade não pode ser sanada no local ou quando o veículo prejudica a circulação e a segurança.
+
+## Apresentadora 2
+
+Por exemplo, estacionar o veículo em local proibido bloqueando a saída de uma garagem gera a medida administrativa de remoção, pois o problema não pode ser resolvido apenas com a presença do motorista ali no momento. Se o condutor chegar antes do guincho guinchar o veículo e estiver em condições de circular, a remoção não deve ser efetuada, cabendo apenas a lavratura do auto de infração. Esse detalhe de aplicação prática cai direto em questões fáticas da Cebraspe.
+
+## Apresentador 1
+
+Outra pegadinha recorrente sobre competências envolve a fiscalização de velocidade por radar e o excesso de peso em veículos de carga nas rodovias federais. A PRF atua diretamente no controle de peso e na fiscalização de velocidade, mas compartilha a engenharia e a instalação de radares fixos com o DNIT, que é o órgão executivo rodoviário da União. A banca adora atribuir à PRF atribuições puramente administrativas do DNIT para confundir quem não memorizou a lei seca.
+
+## Apresentadora 2
+
+Da mesma forma, a emissão da Carteira Nacional de Habilitação e o licenciamento anual do veículo são competências exclusivas dos órgãos executivos de trânsito dos estados e do DF, os Detrans. O policial rodoviário federal fiscaliza o licenciamento e a CNH durante a abordagem, mas não tem competência para expedir ou cassar esses documentos de forma autônoma. O agente apenas recolhe o documento fisicamente, se for o caso de medida administrativa prevista em lei.
+
+## Apresentador 1
+
+Mapear todas essas nuances entre competências organizacionais, regramentos de circulação e a natureza jurídica das sanções traz uma vantagem enorme na preparação. O candidato passa a ter um olhar clínico para identificar as armadilhas conceituais e os termos trocados que o examinador insere no texto da questão. É o tipo de conteúdo que garante pontos decisivos em um concurso concorrido como o da Polícia Rodoviária Federal.
+
+## Apresentadora 2
+
+Com certeza. Ter essa clareza teórica faz toda a diferença para ler o enunciado com rapidez e identificar a pegadinha em segundos. E a melhor maneira de consolidar tudo isso que debatemos sobre competências, crimes e medidas administrativas é colocar a teoria à prova. Vamos ver como esses conceitos são cobrados na prática resolvendo algumas questões recentes da banca.
+
+## Apresentador 1
+
+Agora chegou a hora de testar de verdade o que você sabe. Separei quatro questões de provas anteriores da Polícia Rodoviária Federal.
+
+## Apresentadora 2
+
+A regra é simples: escute as quatro questões e marque mentalmente certo ou errado. Não vamos revelar as respostas agora. Depois das quatro, a gente volta com o gabarito oficial e explica cada uma.
+
+## Apresentador 1
+
+Como estamos usando provas anteriores, considere sempre o ano indicado e o gabarito oficial daquela prova. Legislação pode sofrer alterações ao longo do tempo.
+
+## Apresentadora 2
+
+Questão 1. PRF 2021, CEBRASPE, item 56. Em rodovia rural de pista dupla sem sinalização regulamentadora, automóveis, camionetas e motocicletas submetem-se ao mesmo limite máximo de velocidade. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 2. PRF 2021, CEBRASPE, item 57. Veículo em movimento que possua espelhos retrovisores em ambos os lados pode utilizar cortinas nas áreas envidraçadas, observadas as regras aplicáveis. Certo ou errado?
+
+## Apresentadora 2
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentadora 2
+
+Questão 3. PRF 2021, CEBRASPE, item 58. Em acidente sem vítimas, com apenas danos materiais, o causador é obrigado a manter os veículos no local para facilitar os trabalhos policiais e periciais, sob pena de cometer infração administrativa grave. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 4. PRF 2021, CEBRASPE, item 59. Em acidente com vítimas, a autoridade ou o agente policial somente pode autorizar a remoção dos veículos da via depois de prestado socorro e concluída a perícia no local. Certo ou errado?
+
+## Apresentador 1
+
+As quatro foram apresentadas. Se você quiser mais tempo para resolver, pause o áudio agora. Quando estiver pronto, continue para conferir o gabarito.
+
+## Apresentadora 2
+
+Vamos corrigir. Mais importante do que acertar é entender exatamente por que cada item está certo ou errado.
+
+## Apresentador 1
+
+Questão 1. O gabarito oficial é CERTO.
+
+## Apresentadora 2
+
+A questão está CORRETA. Segundo o art. 61, § 1º, I, a do Código de Trânsito Brasileiro (CTB), nas rodovias rurais de pista dupla onde não houver sinalização regulamentadora, o limite máximo de velocidade é de 110 km/h para automóveis, camionetas e motocicletas. Portanto, esses três tipos de veículos submetem-se exatamente ao mesmo limite regulamentar. O raciocínio que o candidato deve adotar é memorizar as categorias que compartilham o limite máximo nas rodovias: automóveis, camionetas e motocicletas caminham juntos na legislação de trânsito em relação a tais limites. A pegadinha do examinador consiste em induzir o candidato a achar que motocicletas ou camionetas teriam restrições de velocidade diferentes dos automóveis de passeio. Lembre-se sempre de conferir se a rodovia é de pista simples ou dupla, pois isso altera a velocidade limite, mas mantém os veículos agrupados na mesma regra.
+
+## Apresentadora 2
+
+Questão 2. O gabarito oficial é CERTO.
+
+## Apresentador 1
+
+A questão está CORRETA. O artigo 111, parágrafo único, do Código de Trânsito Brasileiro (CTB) estabelece expressamente a proibição de uso de cortinas, persianas ou painéis nos vidros das áreas envidraçadas de veículos em movimento. No entanto, o próprio texto legal traz uma exceção direta: a utilização é permitida desde que o veículo possua espelhos retrovisores em ambos os lados, devendo ser observadas as demais regulamentações vigentes do Contran. O raciocínio do candidato deve focar em identificar a existência da exceção prevista no CTB, não tratando a regra de proibição de cortinas de forma absoluta. A pegadinha clássica da banca CEBRASPE é apresentar uma vedação geral como se não admitisse ressalvas, testando se o condutor/candidato conhece os requisitos específicos previstos na legislação, como a obrigatoriedade dos retrovisores bilaterais para viabilizar o uso do equipamento.
+
+## Apresentador 1
+
+Questão 3. O gabarito oficial é ERRADO.
+
+## Apresentadora 2
+
+A questão está ERRADA. Nos acidentes de trânsito sem vítimas, que resultem apenas em danos materiais, a regra do art. 178 do Código de Trânsito Brasileiro (CTB) exige que os condutores promovam a imediata remoção dos veículos da via para garantir a segurança e a fluidez do trânsito. A obrigação é desobstruir a pista, e não manter os veículos no local. Além disso, a conduta de deixar de remover o veículo que interrompa o trânsito configura infração de natureza média, e não grave. O raciocínio que o candidato deve ter em mente é que a preservação do local para perícia aplica-se prioritariamente aos acidentes com vítimas. A pegadinha da questão traz dois erros: afirma que é obrigatório manter os veículos no local e classifica a infração como grave, quando na verdade é de natureza média.
+
+## Apresentadora 2
+
+Questão 4. O gabarito oficial é ERRADO.
+
+## Apresentador 1
+
+A questão está ERRADA. Em acidentes de trânsito com vítimas, embora a regra geral oriente a preservação do local para a perícia, a legislação de trânsito e a Lei nº 5.970/1973 autorizam a autoridade ou o agente policial a determinar a imediata remoção dos veículos se isso for indispensável para a prestação de socorro às vítimas ou para desobstruir a via e garantir a segurança do trânsito. O raciocínio do candidato deve focar no valor supremo da vida e da segurança viária, que se sobrepõem à realização do exame pericial imediato no local. A pegadinha da banca CEBRASPE está no emprego da palavra restritiva somente, que torna a assertiva incorreta ao ignorar as hipóteses legais em que a remoção emergencial é permitida antes da conclusão dos trabalhos periciais.
+
+## Apresentador 1
+
+Se você errou alguma delas, essa é justamente a questão que merece entrar na sua lista de revisão.
+
+## Apresentadora 2
+
+E se acertou as quatro, ótimo. Mas não fique apenas no acerto: tenha certeza de que você consegue explicar o motivo de cada resposta.
+
+## Apresentador 1
+
+Continuamos no próximo episódio com outro tema e quatro novas questões. Bons estudos e até lá.

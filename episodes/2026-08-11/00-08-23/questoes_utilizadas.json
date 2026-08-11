@@ -1,0 +1,49 @@
+{
+  "disciplina": "transito",
+  "questoes": [
+    {
+      "id": "PRF-2021-056",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Trânsito",
+      "disciplina_canonica": "transito",
+      "item_original": 56,
+      "questao": "Em rodovia rural de pista dupla sem sinalização regulamentadora, automóveis, camionetas e motocicletas submetem-se ao mesmo limite máximo de velocidade.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 56 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-057",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Trânsito",
+      "disciplina_canonica": "transito",
+      "item_original": 57,
+      "questao": "Veículo em movimento que possua espelhos retrovisores em ambos os lados pode utilizar cortinas nas áreas envidraçadas, observadas as regras aplicáveis.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 57 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-058",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Trânsito",
+      "disciplina_canonica": "transito",
+      "item_original": 58,
+      "questao": "Em acidente sem vítimas, com apenas danos materiais, o causador é obrigado a manter os veículos no local para facilitar os trabalhos policiais e periciais, sob pena de cometer infração administrativa grave.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 58 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-059",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Trânsito",
+      "disciplina_canonica": "transito",
+      "item_original": 59,
+      "questao": "Em acidente com vítimas, a autoridade ou o agente policial somente pode autorizar a remoção dos veículos da via depois de prestado socorro e concluída a perícia no local.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 59 - gabarito oficial definitivo"
+    }
+  ]
+}
