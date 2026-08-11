@@ -1,0 +1,235 @@
+# Tema
+
+Direito Administrativo para a prova da PRF
+
+## Apresentador 1
+
+Se você está mirando na Polícia Rodoviária Federal, precisa entender que o Direito Administrativo não é só mais uma matéria do edital. Ele é literalmente o conjunto de regras que vai guiar cada passo da sua futura carreira nas rodovias do país. Dominar essa disciplina garante pontos preciosos no Cebraspe e evita surpresas no dia da prova.
+
+## Apresentadora 2
+
+É exatamente isso, e o mais interessante é perceber como o Direito Administrativo se aplica na prática diária do policial rodoviário federal. Muita gente acha que a matéria é puramente teórica, mas quando uma viatura faz uma abordagem ou aplica uma multa, tudo está respaldado por esses conceitos. Hoje vamos desenhar essa base fundamental para você entender o assunto do zero e acertar qualquer questão.
+
+## Apresentador 1
+
+Para começar do jeito certo, a gente precisa falar do chamado Regime Jurídico-Administrativo, que é a espinha dorsal de toda a matéria. Esse regime nada mais é do que um binômio formado por duas palavras essenciais: prerrogativas e sujeições. De um lado, a Administração Pública tem poderes especiais para proteger a sociedade; do outro, ela tem limitações severas impostas pela lei.
+
+## Apresentadora 2
+
+Essa balança entre poderes e limitações existe para garantir que o Estado funcione com eficiência sem que haja abuso de poder. Pensa na atuação da PRF no dia a dia durante uma fiscalização de trânsito. O policial tem o poder de parar um veículo e até guinchar um carro irregular, o que é uma prerrogativa, mas ele só pode fazer isso nos limites expressos da lei, o que representa uma sujeição.
+
+## Apresentador 1
+
+Perfeita essa analogia da balança! E a banca Cebraspe ama cobrar a origem dessas duas pontas através de dois princípios implícitos primordiais. As prerrogativas decorrem do Princípio da Supremacia do Interesse Público sobre o Privado. Já as sujeições nascem do Princípio da Indisponibilidade do Interesse Público.
+
+## Apresentadora 2
+
+Vale destacar um detalhe que o Cebraspe costuma transformar em pegadinha nas provas de carreiras policiais. A Supremacia do Interesse Público não significa que o Estado pode passar por cima dos direitos fundamentais do cidadão a qualquer custo. O interesse público não pertence ao administrador ou ao policial individualmente, mas sim a toda a coletividade.
+
+## Apresentador 1
+
+Excelente ponto, porque a Indisponibilidade do Interesse Público lembra justamente que o agente público é mero gestor do interesse coletivo. Ele não pode abrir mão de uma multa de trânsito ou liberar um veículo irregular por pura cortesia ou amizade. O bem público não está à disposição da vontade do policial, devendo seguir estritamente o que determina o ordenamento jurídico.
+
+## Apresentadora 2
+
+E disso nasce o Princípio da Legalidade, que funciona de forma muito diferente na esfera privada em comparação com a esfera pública. No Direito Privado, o cidadão comum pode fazer tudo aquilo que a lei não proíbe expressamente. Na Administração Pública, por outro lado, o agente público só pode atuar quando a lei expressamente autoriza ou determina.
+
+## Apresentador 1
+
+Essa diferença é um prato cheio para o Cebraspe elaborar itens no formato Certo ou Errado para tentar confundir o candidato desatento. Por exemplo, a banca pode afirmar que um Policial Rodoviário Federal atua com autonomia da vontade em situações não previstas na legislação. Isso está completamente incorreto, pois o policial é estritamente vinculado ao princípio da legalidade administrativa.
+
+## Apresentadora 2
+
+Além da Legalidade, o artigo trinta e sete da Constituição Federal traz outros quatro princípios expressos que formam o famoso acrônimo LIMPE. Temos a Impessoalidade, a Moralidade, a Publicidade e a Eficiência. Na prova da PRF, esses cinco princípios são cobrados tanto no texto seco da lei quanto aplicados em casos práticos do cotidiano policial.
+
+## Apresentador 1
+
+Falando sobre Impessoalidade, por exemplo, o policial jamais pode agir com favoritismo para beneficiar conhecidos nem com perseguição pessoal contra qualquer motorista. A atuação administrativa deve ser neutra, objetiva e voltada apenas para o bem comum. Além disso, a Impessoalidade impede que o agente utilize a máquina pública para promoção pessoal em suas ações oficiais.
+
+## Apresentadora 2
+
+E a Moralidade Administrativa vai além do simples cumprimento frio da lei escrita, exigindo ética, boa-fé e lealdade às instituições. Não basta que a conduta do agente público seja apenas legal do ponto de vista formal, ela precisa ser juridicamente honesta. O Cebraspe costuma criar cenários onde a conduta parece válida, mas fere nitidamente a probidade administrativa.
+
+## Apresentador 1
+
+Outro pilar fundamental da atuação estatal é a Publicidade, que estabelece a transparência dos atos administrativos como regra geral. A sociedade tem o direito de conhecer as ações, gastos e decisões tomadas pelos órgãos públicos. Claro que existem exceções constitucionais relativas à segurança da sociedade e do Estado, além do sigilo necessário em investigações.
+
+## Apresentadora 2
+
+Por fim, o princípio da Eficiência exige uma prestação de serviço rápida, com qualidade, boa organização e o menor custo possível. Não adianta a PRF ter procedimentos perfeitamente legais se eles forem extremamente lentos e ineficazes no atendimento de acidentes graves. O cidadão tem o direito de receber uma atuação estatal ágil e resolutiva no seu dia a dia.
+
+## Apresentador 1
+
+Uma característica fascinante do Direito Administrativo é que ele não possui um código único e unificado como acontece com o Código Penal. Suas regras estão espalhadas na Constituição Federal, em leis esparsas, na doutrina e na jurisprudência dos tribunais superiores. Isso exige que o candidato da PRF tenha uma visão integrada de todo o sistema jurídico.
+
+## Apresentadora 2
+
+Exatamente por isso as bancas adoram testar se o estudante sabe identificar a fonte primária do Direito Administrativo, que é a lei em sentido amplo. A doutrina e a jurisprudência entram como fontes secundárias, auxiliando na interpretação de como as normas devem ser aplicadas. Entender essa hierarquia evita errar questões conceituais que parecem simples, mas eliminam muitos concorrentes.
+
+## Apresentador 1
+
+Quando você assimila essa estrutura basilar das fontes e dos princípios fundamentais, todo o restante do edital começa a fazer sentido. Assuntos complexos como poderes administrativos, atos públicos e responsabilidade civil do Estado passam a ser desdobramentos naturais dessas regras iniciais. O grande segredo para vencer a banca é compreender a lógica e não apenas memorizar conceitos.
+
+## Apresentadora 2
+
+Com certeza, o candidato precisa ter em mente que o Direito Administrativo equilibra a autoridade do Estado com a proteção das garantias do cidadão. Com esses fundamentos consolidados, fica muito mais fácil analisar os casos concretos apresentados no dia do exame e identificar com facilidade as pegadinhas teóricas.
+
+## Apresentador 1
+
+Falando especificamente sobre os poderes administrativos, o Poder de Polícia é sem dúvida um dos tópicos mais cobrados para a PRF. Ele permite que o Estado limite ou discipline direitos individuais em prol do interesse público, como no caso da fiscalização de trânsito em uma rodovia federal. O segredo aqui é entender que a atuação do policial pode ser discricionária ou vinculada, dependendo do que a lei estabelece para cada situação.
+
+## Apresentadora 2
+
+Perfeitamente, e a diferença entre ato vinculado e discricionário é fonte constante de pegadinhas nas provas do Cebraspe. Quando o agente constata uma infração gravíssima com previsão de apreensão do veículo, ele não tem escolha, sendo a lavratura do auto um ato estritamente vinculado. Por outro lado, a escolha do local exato onde será realizada uma operação de patrulhamento tático envolve juízo de conveniência e oportunidade, caracterizando a discricionariedade.
+
+## Apresentador 1
+
+Outro ponto crucial dentro dos poderes é o abuso de poder, que se divide em duas espécies bem distintas: o excesso de poder e o desvio de finalidade. As bancas frequentemente trocam os conceitos de ambas as figuras para induzir o candidato desatento ao erro em questões do tipo certo ou errado. O excesso de poder ocorre quando o agente público atua fora dos limites da sua competência legal.
+
+## Apresentadora 2
+
+Já o desvio de finalidade acontece quando o policial age dentro da sua competência formal, mas busca um fim alheio ao interesse público ou diverso daquele previsto na lei. Imagine um agente que aplica uma multa válida na forma, mas movido exclusivamente por uma desavença pessoal com o motorista fiscalizado. O ato nasce viciado porque a finalidade primária de toda atuação administrativa deve ser sempre o interesse coletivo e a segurança pública.
+
+## Apresentador 1
+
+E quando olhamos para a teoria dos atos administrativos, a propriedade da autoexecutoriedade do Poder de Polícia merece destaque especial no dia a dia rodoviário. Esse atributo permite que a PRF execute diretamente suas decisões e medidas coercitivas sem a necessidade de autorização prévia do Poder Judiciário. A retenção de um veículo irregular ou a apreensão de carga contrabandeada na pista são exemplos clássicos dessa atuação imediata.
+
+## Apresentadora 2
+
+Mas atenção para a pegadinha clássica sobre a autoexecutoriedade: a cobrança de uma multa de trânsito não goza desse atributo. Se o condutor não pagar a multa voluntariamente, a administração pública não pode simplesmente penhorar os bens do cidadão por conta própria. Para reaver o valor pecuniário, o Estado precisa recorrer ao Poder Judiciário por meio de uma execução fiscal regular.
+
+## Apresentador 1
+
+Excelente ressalva, e junto da autoexecutoriedade temos o atributo da presunção de legitimidade e veracidade dos atos administrativos. Isso significa que as declarações e autos de infração lavrados por um policial rodoviário presumem-se verdadeiros e conformes ao direito até que se prove o contrário. Essa presunção opera a inversão do ônus da prova, cabendo ao condutor autuado demonstrar que o fato não ocorreu daquela forma.
+
+## Apresentadora 2
+
+O ponto alto desse conceito para o concurso da PRF é lembrar que se trata de uma presunção relativa, conhecida no direito como juris tantum. O Cebraspe adora afirmar que a presunção seria absoluta, o que tornaria a infração inquestionável e anularia o direito de defesa do cidadão, algo inteiramente falso. O cidadão pode apresentar recursos administrativos e provas documentais ou testemunhais para afastar a penalidade aplicada.
+
+## Apresentador 1
+
+Avançando para os elementos do ato administrativo, precisamos lembrar do famoso quinquênio de requisitos: competência, finalidade, forma, motivo e objeto. Uma distinção sutil e que gera muita confusão em prova é a diferença entre o motivo e a motivação do ato. O motivo é a situação de fato e de direito que autoriza a prática do ato, enquanto a motivação é a demonstração por escrito dessas razões.
+
+## Apresentadora 2
+
+E associada a essa diferença existe a Teoria dos Motivos Determinantes, um tema recorrente e decisivo nas questões mais elaboradas. Essa teoria estabelece que a validade do ato administrativo fica vinculada à veracidade dos motivos declarados pela administração para a sua prática. Se o policial fundamentar verbalmente ou por escrito a remoção de um veículo em um motivo inexistente ou falso, o ato será considerado nulo pela justiça.
+
+## Apresentador 1
+
+Entrando agora no capítulo da Responsabilidade Civil do Estado, o texto do artigo trinta e sete, parágrafo sexto da Constituição Federal é leitura obrigatória. O Brasil adotou como regra geral para a responsabilidade extracontratual do Estado a Teoria do Risco Administrativo, na modalidade objetiva. Isso implica que a União responde pelos danos causados por seus agentes nessa qualidade, independentemente de haver dolo ou culpa do policial na conduta.
+
+## Apresentadora 2
+
+Para garantir a indenização estatal, o particular lesado precisa demonstrar apenas três elementos essenciais no processo judicial: a conduta administrativa, o dano sofrido e o nexo de causalidade entre eles. O cidadão que teve seu veículo abalroado por uma viatura em serviço não precisa comprovar se o policial agiu com imprudência ou imperícia. Essa facilitação na defesa do direito da vítima é o cerne da responsabilidade estatal objetiva.
+
+## Apresentador 1
+
+Vale destacar que a responsabilidade do Estado não é irrestrita, pois existem as chamadas causas excludentes do nexo causal. Caso fique demonstrado que o acidente ocorreu por culpa exclusiva da vítima, ou decorreu de motivo de força maior, a União fica isenta do dever de indenizar. Além disso, quando o Estado é condenado a pagar a indenização, surge o direito de regressar contra o agente público causador do dano.
+
+## Apresentadora 2
+
+Aqui reside a principal pegadinha teórica da responsabilidade civil: enquanto a responsabilidade do Estado perante o cidadão é objetiva, a responsabilidade regressiva do policial perante a União é estritamente subjetiva. Isso significa que o Estado só poderá reaver o dinheiro pago do agente se comprovar que ele agiu com dolo ou culpa no exercício da função. Além disso, o Supremo Tribunal Federal firmou o entendimento de que o cidadão lesado deve processar diretamente o Estado, não podendo mover a ação contra o policial individualmente.
+
+## Apresentador 1
+
+Essa proteção dupla garante a segurança jurídica para o cidadão lesado e a tranquilidade operacional para que o policial possa exercer suas atribuições de fiscalização sem o temor constante de ser processado diretamente no seu patrimônio pessoal. Perceba como todos esses temas se conectam perfeitamente na rotina da Polícia Rodoviária Federal, desde a abordagem no posto policial até o desdobramento jurídico de uma ocorrência.
+
+## Apresentadora 2
+
+Com essa visão aprofundada sobre os poderes, os atributos dos atos e as regras de responsabilidade civil, o candidato ganha a bagagem técnica necessária para enfrentar os itens mais pragmáticos do exame. Agora que repassamos os conceitos essenciais, a melhor forma de fixar o aprendizado e identificar os padrões da banca é colocando tudo isso em prática com questões reais do Cebraspe.
+
+## Apresentador 1
+
+Exatamente, a resolução de questões é a ferramenta definitiva para calibrar o raciocínio e não cair nas pegadinhas preparadas pelo examinador na hora da prova. Vamos agora analisar alguns exercícios selecionados sobre Direito Administrativo para ver como todo esse conteúdo doutrinário e constitucional é exigido na prática dos concursos da PRF.
+
+## Apresentador 1
+
+Agora chegou a hora de testar de verdade o que você sabe. Separei quatro questões de provas anteriores da Polícia Rodoviária Federal.
+
+## Apresentadora 2
+
+A regra é simples: escute as quatro questões e marque mentalmente certo ou errado. Não vamos revelar as respostas agora. Depois das quatro, a gente volta com o gabarito oficial e explica cada uma.
+
+## Apresentador 1
+
+Como estamos usando provas anteriores, considere sempre o ano indicado e o gabarito oficial daquela prova. Legislação pode sofrer alterações ao longo do tempo.
+
+## Apresentadora 2
+
+Questão 1. PRF 2021, CEBRASPE, item 50. Atendidos os requisitos legais, o diretor-geral da PRF pode realizar contratação direta de empresa da qual um primo seja sócio. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 2. PRF 2021, CEBRASPE, item 86. O ajuizamento de mandado de segurança contra multa aplicada pela administração em contrato administrativo constitui controle judicial do mérito administrativo. Certo ou errado?
+
+## Apresentadora 2
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentadora 2
+
+Questão 3. PRF 2021, CEBRASPE, item 87. Órgão público é entidade descentralizada da administração indireta e possui personalidade jurídica própria de direito público. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 4. PRF 2021, CEBRASPE, item 88. A contratação direta de empresa de reconhecida especialização para serviço técnico singular de treinamento caracteriza hipótese de dispensa de licitação. Certo ou errado?
+
+## Apresentador 1
+
+As quatro foram apresentadas. Se você quiser mais tempo para resolver, pause o áudio agora. Quando estiver pronto, continue para conferir o gabarito.
+
+## Apresentadora 2
+
+Vamos corrigir. Mais importante do que acertar é entender exatamente por que cada item está certo ou errado.
+
+## Apresentador 1
+
+Questão 1. O gabarito oficial é CERTO.
+
+## Apresentadora 2
+
+Primo e parente em quarto grau na linha colateral. A vedacao ao nepotismo, consolidada na Sumula Vinculante 13 do STF e no regramento das licitacoes e contratos, alcanca parentes em linha reta, colateral ou por afinidade ate o terceiro grau. Como a relacao de parentesco entre primos e de quarto grau, nao ha vedacao legal automatica para a contratacao direta, desde que preenchidos todos os requisitos exigidos pela legislacao regente. A pegadinha da banca e induzir o candidato a achar que qualquer grau de parentesco gera impedimento. O candidato deveria raciocinar contando os graus de parentesco e lembrando que as proibicoes administrativas limitam-se ao terceiro grau. Assim, atendidas as exigencias legais, a contratacao e valida, confirmando o gabarito oficial como certo.
+
+## Apresentadora 2
+
+Questão 2. O gabarito oficial é ERRADO.
+
+## Apresentador 1
+
+O Poder Judiciario exerce o controle dos atos administrativos estritamente sob o aspecto da legalidade e da legitimidade. E vedado ao juiz reapreciar o merito administrativo, que e composto pelos criterios de conveniencia e oportunidade exclusivos do administrador. O mandado de seguranca impetrado contra penalidade contratual busca sanar eventual ilegalidade ou abuso de poder na aplicacao da sancao, constituindo controle de legalidade, e nao de merito. A pegadinha consiste em induzir o candidato a confundir a revisao judicial de uma penalidade abusiva com a invasao do merito administrativo. O candidato deveria lembrar que anular ato ilegal e controle de legalidade. Portanto, o item esta incorreto ao afirmar tratar-se de controle do merito.
+
+## Apresentador 1
+
+Questão 3. O gabarito oficial é ERRADO.
+
+## Apresentadora 2
+
+Os orgaos publicos sao centros de competencias despersonalizados que integram a estrutura de uma mesma pessoa juridica, sendo frutos do processo de desconcentracao administrativa. Eles nao possuem personalidade juridica propria nem constituem entidades da administracao indireta. As entidades descentralizadas com personalidade de direito publico sao as autarquias e fundacoes publicas autarquicas. A pegadinha da banca e trocar a nocao de desconcentracao interna sem personalidade por descentralizacao indireta com personalidade juridica. O raciocinio correto exige diferenciar desconcentracao de descentralizacao: a primeira cria organos sem personalidade, enquanto a segunda gera novas entidades juridicas. Por associar orgao a entidade descentralizada com personalidade, o item esta incorreto.
+
+## Apresentadora 2
+
+Questão 4. O gabarito oficial é ERRADO.
+
+## Apresentador 1
+
+A contratacao direta de empresa de notoria especializacao para a prestacao de servico tecnico de natureza singular, como o treinamento e aperfeicoamento de pessoal, e hipotese de inexigibilidade de licitacao, e nao de dispensa. A inexigibilidade decorre da inviabilidade de competencia competitiva justa diante da singularidade do servico e do notorio saber do prestador. A pegadinha classica do Cebraspe e trocar o instituto da inexigibilidade pelo da dispensa de licitacao, visto que ambos sao formas de contratacao direta. O candidato deveria raciocinar identificando que, havendo inviabilidade de comparacao objetiva entre propostas por conta da especializacao singular, o enquadramento correto e a inexigibilidade. Dessa forma, a assertiva esta errada.
+
+## Apresentador 1
+
+Se você errou alguma delas, essa é justamente a questão que merece entrar na sua lista de revisão.
+
+## Apresentadora 2
+
+E se acertou as quatro, ótimo. Mas não fique apenas no acerto: tenha certeza de que você consegue explicar o motivo de cada resposta.
+
+## Apresentador 1
+
+Continuamos no próximo episódio com outro tema e quatro novas questões. Bons estudos e até lá.

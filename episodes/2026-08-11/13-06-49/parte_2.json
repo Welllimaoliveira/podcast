@@ -1,0 +1,73 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Falando especificamente sobre os poderes administrativos, o Poder de Polícia é sem dúvida um dos tópicos mais cobrados para a PRF. Ele permite que o Estado limite ou discipline direitos individuais em prol do interesse público, como no caso da fiscalização de trânsito em uma rodovia federal. O segredo aqui é entender que a atuação do policial pode ser discricionária ou vinculada, dependendo do que a lei estabelece para cada situação."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeitamente, e a diferença entre ato vinculado e discricionário é fonte constante de pegadinhas nas provas do Cebraspe. Quando o agente constata uma infração gravíssima com previsão de apreensão do veículo, ele não tem escolha, sendo a lavratura do auto um ato estritamente vinculado. Por outro lado, a escolha do local exato onde será realizada uma operação de patrulhamento tático envolve juízo de conveniência e oportunidade, caracterizando a discricionariedade."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro ponto crucial dentro dos poderes é o abuso de poder, que se divide em duas espécies bem distintas: o excesso de poder e o desvio de finalidade. As bancas frequentemente trocam os conceitos de ambas as figuras para induzir o candidato desatento ao erro em questões do tipo certo ou errado. O excesso de poder ocorre quando o agente público atua fora dos limites da sua competência legal."
+    },
+    {
+      "speaker": "B",
+      "text": "Já o desvio de finalidade acontece quando o policial age dentro da sua competência formal, mas busca um fim alheio ao interesse público ou diverso daquele previsto na lei. Imagine um agente que aplica uma multa válida na forma, mas movido exclusivamente por uma desavença pessoal com o motorista fiscalizado. O ato nasce viciado porque a finalidade primária de toda atuação administrativa deve ser sempre o interesse coletivo e a segurança pública."
+    },
+    {
+      "speaker": "A",
+      "text": "E quando olhamos para a teoria dos atos administrativos, a propriedade da autoexecutoriedade do Poder de Polícia merece destaque especial no dia a dia rodoviário. Esse atributo permite que a PRF execute diretamente suas decisões e medidas coercitivas sem a necessidade de autorização prévia do Poder Judiciário. A retenção de um veículo irregular ou a apreensão de carga contrabandeada na pista são exemplos clássicos dessa atuação imediata."
+    },
+    {
+      "speaker": "B",
+      "text": "Mas atenção para a pegadinha clássica sobre a autoexecutoriedade: a cobrança de uma multa de trânsito não goza desse atributo. Se o condutor não pagar a multa voluntariamente, a administração pública não pode simplesmente penhorar os bens do cidadão por conta própria. Para reaver o valor pecuniário, o Estado precisa recorrer ao Poder Judiciário por meio de uma execução fiscal regular."
+    },
+    {
+      "speaker": "A",
+      "text": "Excelente ressalva, e junto da autoexecutoriedade temos o atributo da presunção de legitimidade e veracidade dos atos administrativos. Isso significa que as declarações e autos de infração lavrados por um policial rodoviário presumem-se verdadeiros e conformes ao direito até que se prove o contrário. Essa presunção opera a inversão do ônus da prova, cabendo ao condutor autuado demonstrar que o fato não ocorreu daquela forma."
+    },
+    {
+      "speaker": "B",
+      "text": "O ponto alto desse conceito para o concurso da PRF é lembrar que se trata de uma presunção relativa, conhecida no direito como juris tantum. O Cebraspe adora afirmar que a presunção seria absoluta, o que tornaria a infração inquestionável e anularia o direito de defesa do cidadão, algo inteiramente falso. O cidadão pode apresentar recursos administrativos e provas documentais ou testemunhais para afastar a penalidade aplicada."
+    },
+    {
+      "speaker": "A",
+      "text": "Avançando para os elementos do ato administrativo, precisamos lembrar do famoso quinquênio de requisitos: competência, finalidade, forma, motivo e objeto. Uma distinção sutil e que gera muita confusão em prova é a diferença entre o motivo e a motivação do ato. O motivo é a situação de fato e de direito que autoriza a prática do ato, enquanto a motivação é a demonstração por escrito dessas razões."
+    },
+    {
+      "speaker": "B",
+      "text": "E associada a essa diferença existe a Teoria dos Motivos Determinantes, um tema recorrente e decisivo nas questões mais elaboradas. Essa teoria estabelece que a validade do ato administrativo fica vinculada à veracidade dos motivos declarados pela administração para a sua prática. Se o policial fundamentar verbalmente ou por escrito a remoção de um veículo em um motivo inexistente ou falso, o ato será considerado nulo pela justiça."
+    },
+    {
+      "speaker": "A",
+      "text": "Entrando agora no capítulo da Responsabilidade Civil do Estado, o texto do artigo trinta e sete, parágrafo sexto da Constituição Federal é leitura obrigatória. O Brasil adotou como regra geral para a responsabilidade extracontratual do Estado a Teoria do Risco Administrativo, na modalidade objetiva. Isso implica que a União responde pelos danos causados por seus agentes nessa qualidade, independentemente de haver dolo ou culpa do policial na conduta."
+    },
+    {
+      "speaker": "B",
+      "text": "Para garantir a indenização estatal, o particular lesado precisa demonstrar apenas três elementos essenciais no processo judicial: a conduta administrativa, o dano sofrido e o nexo de causalidade entre eles. O cidadão que teve seu veículo abalroado por uma viatura em serviço não precisa comprovar se o policial agiu com imprudência ou imperícia. Essa facilitação na defesa do direito da vítima é o cerne da responsabilidade estatal objetiva."
+    },
+    {
+      "speaker": "A",
+      "text": "Vale destacar que a responsabilidade do Estado não é irrestrita, pois existem as chamadas causas excludentes do nexo causal. Caso fique demonstrado que o acidente ocorreu por culpa exclusiva da vítima, ou decorreu de motivo de força maior, a União fica isenta do dever de indenizar. Além disso, quando o Estado é condenado a pagar a indenização, surge o direito de regressar contra o agente público causador do dano."
+    },
+    {
+      "speaker": "B",
+      "text": "Aqui reside a principal pegadinha teórica da responsabilidade civil: enquanto a responsabilidade do Estado perante o cidadão é objetiva, a responsabilidade regressiva do policial perante a União é estritamente subjetiva. Isso significa que o Estado só poderá reaver o dinheiro pago do agente se comprovar que ele agiu com dolo ou culpa no exercício da função. Além disso, o Supremo Tribunal Federal firmou o entendimento de que o cidadão lesado deve processar diretamente o Estado, não podendo mover a ação contra o policial individualmente."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa proteção dupla garante a segurança jurídica para o cidadão lesado e a tranquilidade operacional para que o policial possa exercer suas atribuições de fiscalização sem o temor constante de ser processado diretamente no seu patrimônio pessoal. Perceba como todos esses temas se conectam perfeitamente na rotina da Polícia Rodoviária Federal, desde a abordagem no posto policial até o desdobramento jurídico de uma ocorrência."
+    },
+    {
+      "speaker": "B",
+      "text": "Com essa visão aprofundada sobre os poderes, os atributos dos atos e as regras de responsabilidade civil, o candidato ganha a bagagem técnica necessária para enfrentar os itens mais pragmáticos do exame. Agora que repassamos os conceitos essenciais, a melhor forma de fixar o aprendizado e identificar os padrões da banca é colocando tudo isso em prática com questões reais do Cebraspe."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, a resolução de questões é a ferramenta definitiva para calibrar o raciocínio e não cair nas pegadinhas preparadas pelo examinador na hora da prova. Vamos agora analisar alguns exercícios selecionados sobre Direito Administrativo para ver como todo esse conteúdo doutrinário e constitucional é exigido na prática dos concursos da PRF."
+    }
+  ]
+}

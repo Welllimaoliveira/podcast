@@ -1,0 +1,49 @@
+{
+  "disciplina": "direito administrativo",
+  "questoes": [
+    {
+      "id": "PRF-2021-050",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Administrativo",
+      "disciplina_canonica": "direito administrativo",
+      "item_original": 50,
+      "questao": "Atendidos os requisitos legais, o diretor-geral da PRF pode realizar contratação direta de empresa da qual um primo seja sócio.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 50 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-086",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Administrativo",
+      "disciplina_canonica": "direito administrativo",
+      "item_original": 86,
+      "questao": "O ajuizamento de mandado de segurança contra multa aplicada pela administração em contrato administrativo constitui controle judicial do mérito administrativo.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 86 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-087",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Administrativo",
+      "disciplina_canonica": "direito administrativo",
+      "item_original": 87,
+      "questao": "Órgão público é entidade descentralizada da administração indireta e possui personalidade jurídica própria de direito público.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 87 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-088",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Administrativo",
+      "disciplina_canonica": "direito administrativo",
+      "item_original": 88,
+      "questao": "A contratação direta de empresa de reconhecida especialização para serviço técnico singular de treinamento caracteriza hipótese de dispensa de licitação.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 88 - gabarito oficial definitivo"
+    }
+  ]
+}
