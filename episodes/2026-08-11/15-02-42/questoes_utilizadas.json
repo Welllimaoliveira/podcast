@@ -1,0 +1,49 @@
+{
+  "disciplina": "direito penal",
+  "questoes": [
+    {
+      "id": "PRF-2021-104",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 104,
+      "questao": "Uma adulteração grosseira no chassi de veículo, por si só, não transforma necessariamente a conduta em crime impossível.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 104 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-110",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 110,
+      "questao": "Se três pessoas associadas e com divisão de tarefas subtraírem substância explosiva, estará configurado crime hediondo.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 110 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-111",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 111,
+      "questao": "Para fins de abuso de autoridade, pode ser sujeito ativo agente público que não seja servidor efetivo e que atue mesmo sem receber remuneração.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 111 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-112",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 112,
+      "questao": "Mesmo quando a pessoa apresenta documento de identificação civil, a identificação criminal pode ser realizada se houver registros policiais indicando uso de outros nomes ou qualificações.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 112 - gabarito oficial definitivo"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+# DESAFIO PRF
+
+Resolva as quatro questões antes de olhar o gabarito.
+
+## Questão 1
+
+PRF 2021 - CEBRASPE - Item 104
+
+Uma adulteração grosseira no chassi de veículo, por si só, não transforma necessariamente a conduta em crime impossível.
+
+**Certo ou Errado?**
+
+## Questão 2
+
+PRF 2021 - CEBRASPE - Item 110
+
+Se três pessoas associadas e com divisão de tarefas subtraírem substância explosiva, estará configurado crime hediondo.
+
+**Certo ou Errado?**
+
+## Questão 3
+
+PRF 2021 - CEBRASPE - Item 111
+
+Para fins de abuso de autoridade, pode ser sujeito ativo agente público que não seja servidor efetivo e que atue mesmo sem receber remuneração.
+
+**Certo ou Errado?**
+
+## Questão 4
+
+PRF 2021 - CEBRASPE - Item 112
+
+Mesmo quando a pessoa apresenta documento de identificação civil, a identificação criminal pode ser realizada se houver registros policiais indicando uso de outros nomes ou qualificações.
+
+**Certo ou Errado?**
+
+---
+
+# GABARITO
+
+1. CERTO
+2. ERRADO
+3. CERTO
+4. CERTO
+
+# EXPLICAÇÕES
+
+## Questão 1
+
+Gabarito oficial: **CERTO**
+
+O item está CERTO. A adulteração grosseira de chassi pode afastar o crime do artigo 311 do Código Penal por ineficácia absoluta do meio, caso seja incapaz de ludibriar qualquer pessoa. Contudo, a assertiva afirma que essa situação "não transforma necessariamente" a conduta em crime impossível. Isso ocorre porque a análise depende da capacidade de iludir no caso concreto, além da possibilidade de caracterização de outro delito, como o estelionato tentado ou consumado. A pegadinha da questão está na palavra "necessariamente", que exige flexibilidade do candidato: o reconhecimento do crime impossível (artigo 17 do CP) exige ineficácia absoluta do meio ou absoluta impropriedade do objeto, o que não se presume de forma automática unicamente pela adulteração ser perceptível a olho nu por especialistas. O raciocínio correto envolve interpretar o advérbio e lembrar da jurisprudência sobre falsificação.
+
+## Questão 2
+
+Gabarito oficial: **ERRADO**
+
+O item está ERRADO. Com as alterações introduzidas pelo Pacote Anticrime na Lei dos Crimes Hediondos (Lei 8.072/1990), é considerado hediondo apenas o furto qualificado pelo EMPREGO de artefato explosivo ou de meio semelhante que cause perigo comum (artigo 155, § 4º-A, do Código Penal). Por outro lado, o furto cujo objeto subtraído seja a PRÓPRIA substância explosiva (artigo 155, § 7º, do Código Penal) não integra o rol taxativo dos crimes hediondos. A pegadinha da banca consistiu em inverter o papel da substância explosiva: usá-la como meio para furtar torna o crime hediondo, mas subtraí-la como objeto do furto não possui essa natureza. O candidato deveria demonstrar atenção rigorosa à legalidade estrita e ao rol taxativo da legislação especial penal, evitando a confusão entre as qualificadoras.
+
+## Questão 3
+
+Gabarito oficial: **CERTO**
+
+O item está CERTO. De acordo com o artigo 2º da Lei de Abuso de Autoridade (Lei 13.869/2019), o conceito de sujeito ativo é extremamente abrangente. É considerado agente público para os fins dessa lei qualquer pessoa que exerça, mesmo que transitoriamente ou sem remuneração, por eleição, nomeação, designação, contratação ou qualquer outra forma de vínculo, mandato, cargo, emprego ou função pública. A pegadinha da questão buscava induzir o candidato ao erro ao sugerir que a ausência de remuneração ou de vínculo efetivo (como o de servidor estatutário) afastaria a responsabilização penal do agente. O raciocínio correto que o candidato deveria adotar era associar o conceito amplo de agente público, equivalente ao do artigo 327 do Código Penal, abrangendo jurados, mesários e outros colaboradores eventuais do Estado.
+
+## Questão 4
+
+Gabarito oficial: **CERTO**
+
+O item está CERTO. A Lei 12.037/2009 estabelece a regra de que a pessoa civilmente identificada não será submetida à identificação criminal. No entanto, essa norma prevê exceções expressas em seu artigo 3º. Dentre elas, autoriza-se a identificação criminal se constarem registros policiais que indiquem o uso de outros nomes ou de qualificações diversas pelo abordado, gerando dúvida fundada sobre sua real identidade. A pegadinha do enunciado está em tentar transmitir a ideia de uma garantia absoluta do documento de identificação civil contra qualquer procedimento datiloscópico ou fotográfico. O candidato deveria recordar que a proteção do cidadão cede espaço ao interesse público de segurança e correta identificação quando houver fundada suspeita ou histórico de multiplicidade de nomes nos sistemas policiais.

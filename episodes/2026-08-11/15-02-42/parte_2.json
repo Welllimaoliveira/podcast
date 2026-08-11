@@ -1,0 +1,69 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Exatamente. E agora, avançando para a análise dos crimes em espécie, a banca dedica especial atenção aos Crimes contra a Administração Pública. Vamos focar nos delitos praticados por funcionário público contra a administração geral, com destaque inicial e indispensável para o peculato e suas diversas modalidades."
+    },
+    {
+      "speaker": "B",
+      "text": "O crime de peculato, previsto no Artigo 312 do Código Penal, pode se manifestar na forma de apropriação, desvio ou até peculato-furto, quando o servidor se aproveita da facilidade do cargo para subtrair o bem. Uma pegadinha clássica do Cebraspe envolve o peculato culposo, no qual a reparação do dano antes do trânsito em julgado extingue a punibilidade, enquanto a reparação posterior apenas reduz a pena cobrada pela metade."
+    },
+    {
+      "speaker": "A",
+      "text": "Excelente ressalva. É vital destacar para a prova que essa regra benéfica de extinção da punibilidade mediante reparação do dano aplica-se exclusivamente ao peculato culposo, sendo inacessível no peculato doloso. Avançando na matéria, outra comparação crucial ocorre entre os crimes de concussão e corrupção passiva. Na concussão, o funcionário público exige a vantagem indevida, enquanto na corrupção passiva ele solicita, recebe ou aceita a promessa dessa vantagem."
+    },
+    {
+      "speaker": "B",
+      "text": "E vale ressaltar que a concussão é frequentemente confundida pela banca com o crime de excesso de exação, tipificado no parágrafo primeiro do Artigo 316. No excesso de exação, o funcionário também exige uma prestação, mas trata-se de tributo ou contribuição social que sabe ou deveria saber indevido, ou emprega meio vexatório na cobrança. A especificidade da matéria tributária é o divisor de águas entre esses dois tipos penais."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeita análise. Passando para os crimes praticados por particular contra a administração, temos a corrupção ativa descrita no Artigo 333 do Código Penal. O tipo penal pune o particular que oferece ou promete vantagem indevida a funcionário público para determiná-lo a praticar, omitir ou retardar ato de ofício. Um questionamento frequente em provas é sobre o motorista que cede à exigência de um policial corrupto e paga a quantia cobrada."
+    },
+    {
+      "speaker": "B",
+      "text": "Esse é um ponto crucial que costuma derrubar muitos candidatos incautos nas provas do Cebraspe. Quando o particular apenas cede à exigência expressa do funcionário público que cometeu concussão, ele é considerado vítima do delito e não comete o crime de corrupção ativa. Para a caracterização da corrupção ativa, é indispensável que o particular tome a iniciativa espontânea de oferecer ou prometer a vantagem indevida ao servidor."
+    },
+    {
+      "speaker": "A",
+      "text": "Exato, a simples entrega do dinheiro exigido sob intimidação não se adequa à conduta de oferecer ou prometer. Outros dois tipos penais recorrentes na fiscalização rodoviária são os crimes de desobediência e desacato. O crime de desobediência ocorre quando o particular descumpre voluntariamente uma ordem legal emitida por funcionário público, como a ordem de parada em um bloqueio policial na rodovia."
+    },
+    {
+      "speaker": "B",
+      "text": "Já o desacato consiste no ato de ofender, desrespeitar ou desacreditar o funcionário público no exercício da função ou em razão dela, tutelando o prestígio da administração. O Cebraspe gosta de criar cenários onde a ofensa é proferida longe da presença do agente ou sem conexão direta com o cargo para afastar a tipicidade do desacato. É importante frisar que o Superior Tribunal de Justiça e o STF pacificaram que a tipificação do desacato foi recepcionada pela Constituição Federal."
+    },
+    {
+      "speaker": "A",
+      "text": "E falando sobre a jurisprudência das cortes superiores, existem súmulas específicas que despencam em provas da área policial. A Súmula 599 do Superior Tribunal de Justiça estabelece expressamente a inaplicabilidade do princípio da insignificância aos crimes contra a administração pública. A justificativa do tribunal é que bens jurídicos como a moralidade administrativa e a probidade pública inviabilizam a aplicação do vetor da insignificância."
+    },
+    {
+      "speaker": "B",
+      "text": "Isso significa que, mesmo se o valor do bem apropriado ou desviado pelo servidor for irrisório, a Súmula 599 impede o reconhecimento da atipicidade material do fato. A banca costuma elaborar questões narrando o desvio de pequenos materiais de escritório ou bens de valor insignificante para tentar induzir o candidato ao erro. O candidato bem preparado lembrará que a jurisprudência sumulada do STJ afasta peremptoriamente o princípio da insignificância nesses casos."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa lembrança da Súmula 599 garante pontos preciosíssimos na prova objetiva. Outro tópico de vital importância que conecta a Teoria Geral do Crime com a atuação prática do PRF é a distinção técnica entre dolo eventual e culpa consciente. Essa diferenciação é constantemente testada pela banca em enunciados envolvendo acidentes e condutas perigosas no trânsito rodoviário."
+    },
+    {
+      "speaker": "B",
+      "text": "Na culpa consciente, o agente prevê a possibilidade de ocorrência do resultado lesivo, mas confia sinceramente em suas habilidades pessoais ou em fatores externos para evitar o resultado. Ele não deseja nem aceita o resultado de forma alguma. No dolo eventual, por sua vez, o agente prevê a ocorrência do resultado e assume deliberadamente o risco de produzi-lo, demonstrando total indiferença quanto à sua efetivação."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa atitude mental no dolo eventual é sintetizada pela célebre fórmula de Frank, em que o agente pensa 'seja o que for, dano algum importa'. No contexto prático das rodovias federais, um motorista que realiza ultrapassagem em local proibido acreditando genuinamente na sua habilidade de evitar uma colisão atua com culpa consciente. Contudo, se ele disputa um racha em via movimentada sob o efeito de álcool, aceitando qualquer tragédia, configura-se o dolo eventual."
+    },
+    {
+      "speaker": "B",
+      "text": "O Cebraspe adora construir narrativas detalhadas de condutas na direção veicular para exigir do candidato essa identificação precisa do elemento subjetivo. A correta classificação entre culpa consciente e dolo eventual altera drasticamente a capitulação jurídica do fato, definindo a transição entre um delito culposo e um delito doloso de extrema gravidade."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, essa precisão técnica reflete diretamente a responsabilidade do Policial Rodoviário Federal na lavratura de boletins e no encaminhamento de ocorrências graves. O domínio analítico sobre os crimes funcionais, os crimes praticados por particulares e as nuanças jurisprudenciais é a fundação para uma excelente nota no bloco específico."
+    },
+    {
+      "speaker": "B",
+      "text": "Com certeza, essa visão integrada da doutrina, da lei seca e da jurisprudência garante a segurança necessária para enfrentar qualquer questão da banca. Agora que cobrimos de forma aprofundada esses tópicos cruciais do edital, é o momento ideal de colocar toda essa teoria à prova. Vamos passar para a resolução de questões anteriores do Cebraspe e testar na prática como esses conceitos são cobrados?"
+    }
+  ]
+}

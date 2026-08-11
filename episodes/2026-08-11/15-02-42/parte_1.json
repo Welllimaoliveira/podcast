@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Se você está estudando para vestir a farda da Polícia Rodoviária Federal, precisa entender que o Direito Penal não é apenas uma matéria do edital. Ele é o instrumento diário de trabalho do policial na pista, orientando cada abordagem e cada tomada de decisão. Hoje vamos pavimentar o seu caminho até a aprovação, começando pelas bases mais cobradas pela banca Cebraspe."
+    },
+    {
+      "speaker": "B",
+      "text": "Muitos candidatos acham que o trabalho na rodovia se resume a infrações de trânsito, mas a verdade é que as rodovias federais são corredores para os mais diversos crimes. O PRF se depara constantemente com tráfico de drogas, contrabando, receptação e crimes ambientais. Por isso, dominar a tipificação e os princípios penais é essencial para não errar nem na prova nem na atuação prática."
+    },
+    {
+      "speaker": "A",
+      "text": "E para começar com o pé direito, precisamos falar sobre os Princípios Fundamentais, que aparecem em quase todas as provas do Cebraspe. O carro-chefe é o Princípio da Legalidade, desdobrado na Reserva Legal e na Anterioridade da Lei Penal. De acordo com o Artigo Primeiro do Código Penal, não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal."
+    },
+    {
+      "speaker": "B",
+      "text": "Isso significa que uma conduta só passa a ser criminosa se houver lei formal editada antes da sua prática. A banca adora tentar confundir o aluno afirmando que uma Medida Provisória pode criar crimes ou agravar penas, o que é expressamente vedado. Além disso, a analogia para prejudicar o réu, conhecida como analogia in malam partem, é absolutamente proibida no nosso ordenamento."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro princípio que despenca nas provas e gera muita dúvida é o Princípio da Insignificância, também conhecido como crime de bagatela. Ele surge para afastá a tipicidade material daquela conduta que causou uma lesão irrisória ao bem jurídico tutelado. Imagine alguém que furta uma caneta usada de um grande estabelecimento comercial; formalmente há crime, mas materialmente não."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito, mas o Cebraspe não cobra apenas a definição, ele exige os requisitos fixados pelos tribunais superiores para a aplicação da insignificância. O STF estabeleceu o famoso acrônimo M.A.R.I., que engloba a Mínima ofensividade da conduta, a Ausência de periculosidade social da ação, o Reduzidíssimo grau de reprovabilidade do comportamento e a Inexpressividade da lesão jurídica provocada."
+    },
+    {
+      "speaker": "A",
+      "text": "É fundamental memorizar esses quatro vetores, porque a banca costuma inventar requisitos que não existem ou trocar os termos. Além disso, a jurisprudência sumulada é taxativa: segundo a Súmula 599 do STJ, o princípio da insignificância é inaplicável aos crimes contra a administração pública. Crimes praticados com violência ou grave ameaça à pessoa também afastam terminantemente a bagatela."
+    },
+    {
+      "speaker": "B",
+      "text": "Pensando na rotina da PRF, se a equipe flagrar um indivíduo cometendo um pequeno furto na rodovia, a polícia não pode simplesmente deixar de conduzir o suspeito alegando insignificância. Quem avalia e aplica a atipicidade material com base no princípio da insignificância é a autoridade judiciária ou o delegado na fase inquisitorial. O policial militar ou rodoviário cumpre seu dever legal de efetuar a prisão em flagrante."
+    },
+    {
+      "speaker": "A",
+      "text": "Com esses princípios consolidados, podemos dar o próximo passo rumo à Teoria Geral do Crime. Para entender a estrutura do delito na prova da PRF, adotamos a Teoria Tripartida, que define o crime sob o conceito analítico. Para que exista crime, a conduta humana precisa ser, cumulativamente, um Fato Típico, Ilícito e Culpável."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente, e se faltar qualquer um desses três elementos, o crime simplesmente deixa de existir. O Fato Típico é o primeiro substrato e é composto por quatro elementos básicos: a conduta humana, o resultado naturalístico nos crimes materiais, o nexo de causalidade entre eles e a tipicidade. A tipicidade, como já pincelamos, divide-se em formal, que é o enquadramento na lei, e material, que é a relevância da lesão."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa analogia do quebra-cabeça ajuda bastante: se a conduta não se encaixar com perfeição na descrição legal ou não lesar o bem jurídico, o fato é atípico. A conduta precisa ser uma ação ou omissão humana, consciente e voluntária. Se o agente praticar um ato sob coação física irresistível, por exemplo, ele não possui voluntariedade, o que elimina a própria conduta e gera a atipicidade do fato."
+    },
+    {
+      "speaker": "B",
+      "text": "Avançando para o segundo elemento do crime, temos a Ilicitude, que é a contrariedade entre o fato típico e o ordenamento jurídico. Em regra, todo fato típico presume-se ilícito, a menos que concorra uma das causas de exclusão da ilicitude previstas no Artigo 23 do Código Penal. Essas excludentes são o estado de necessidade, a legítima defesa, o estrito cumprimento do dever legal e o exercício regular de direito."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa parte é extremamente pragmática para a prova e para a carreira policial. Quando o PRF faz uso moderado da força para conter um criminoso armado na rodovia, ele atua respaldado pela legítima defesa ou pelo estrito cumprimento do dever legal. O Cebraspe gosta de examinar se o candidato sabe identificar quando o agente agiu dentro dos limites da lei ou quando cometeu excesso punível, seja a título de dolo ou de culpa."
+    },
+    {
+      "speaker": "B",
+      "text": "Por fim, temos a Culpabilidade, que não é um elemento do crime para algumas correntes bipartidas, mas para a teoria tripartida adotada majoritariamente pelo Cebraspe, é o terceiro substrato do delito. A culpabilidade funciona como um juízo de reprovação social sobre o autor do fato. Seus elementos integrantes são a imputabilidade penal, a potencial consciência da ilicitude e a exigibilidade de conduta diversa."
+    },
+    {
+      "speaker": "A",
+      "text": "Uma distinção importante para a prova é separar o que exclui a ilicitude do que exclui a culpabilidade. Enquanto a legítima defesa afasta a ilicitude e torna o fato lícito, a insanidade mental do agente, prevista no Artigo 26, afasta a imputabilidade e isenta o réu de pena, mas o fato continua sendo típico e ilícito. Essa diferença de nomenclatura e consequência jurídica é um prato cheio para bancas examinadoras."
+    },
+    {
+      "speaker": "B",
+      "text": "Outra pegadinha clássica envolve as causas excludentes da culpabilidade por inexigibilidade de conduta diversa. A coação moral irresistível e a obediência hierárquica a ordem não manifestamente ilegal excluem a culpabilidade do subordinado ou do coagido. Atenção: se a coação for física, exclui a conduta no fato típico; se for moral irresistível, exclui a culpabilidade!"
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeita colocação, essa pegadinha da coação física versus coação moral derruba milhares de concorrentes a cada concurso. Entender essa cadeia analítica permite resolver questões complexas de casos práticos elaborados pela banca. Quando a questão narrar uma situação de emergência na pista, você saberá analisar passo a passo se houve conduta, se o fato é típico, se foi justificável ou se o agente é culpável."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa estrutura metodológica transforma a resolução de questões do Cebraspe em um processo lógico e previsível. Dominar os princípios fundamentais e a teoria tripartida do crime garante uma pontuação sólida no bloco de conhecimentos específicos da PRF. Nosso objetivo é fazer você enxergar esses conceitos teóricos com a clareza necessária para gabaritar a prova."
+    }
+  ]
+}
