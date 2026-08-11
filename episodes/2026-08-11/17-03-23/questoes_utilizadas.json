@@ -1,0 +1,49 @@
+{
+  "disciplina": "informatica",
+  "questoes": [
+    {
+      "id": "PRF-2021-037",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Informática",
+      "disciplina_canonica": "informatica",
+      "item_original": 37,
+      "questao": "Ransomware é definido como malware cuja forma característica de propagação consiste em inserir cópias de si próprio dentro de arquivos criptografados.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 37 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-038",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Informática",
+      "disciplina_canonica": "informatica",
+      "item_original": 38,
+      "questao": "Quando o provedor oferece um ambiente de nuvem no qual o usuário constrói e publica seus próprios aplicativos, esse serviço é classificado como Software como Serviço, SaaS.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 38 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-033",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Informática",
+      "disciplina_canonica": "informatica",
+      "item_original": 33,
+      "questao": "O salvamento e a sincronização de senhas em navegadores como Firefox e Chrome só podem funcionar quando os sites estiverem em uma intranet e utilizarem HTTPS.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 33 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-034",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Informática",
+      "disciplina_canonica": "informatica",
+      "item_original": 34,
+      "questao": "No Windows 10, uma mesma conta pode sincronizar algumas configurações entre computadores, mas, por motivo de segurança, senhas não podem ser sincronizadas entre essas máquinas.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 34 - gabarito oficial definitivo"
+    }
+  ]
+}

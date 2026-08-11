@@ -1,0 +1,97 @@
+{
+  "parte": 3,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Agora chegou a hora de testar de verdade o que você sabe. Separei quatro questões de provas anteriores da Polícia Rodoviária Federal."
+    },
+    {
+      "speaker": "B",
+      "text": "A regra é simples: escute as quatro questões e marque mentalmente certo ou errado. Não vamos revelar as respostas agora. Depois das quatro, a gente volta com o gabarito oficial e explica cada uma."
+    },
+    {
+      "speaker": "A",
+      "text": "Como estamos usando provas anteriores, considere sempre o ano indicado e o gabarito oficial daquela prova. Legislação pode sofrer alterações ao longo do tempo."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 1. PRF 2021, CEBRASPE, item 37. Ransomware é definido como malware cuja forma característica de propagação consiste em inserir cópias de si próprio dentro de arquivos criptografados. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 2. PRF 2021, CEBRASPE, item 38. Quando o provedor oferece um ambiente de nuvem no qual o usuário constrói e publica seus próprios aplicativos, esse serviço é classificado como Software como Serviço, SaaS. Certo ou errado?"
+    },
+    {
+      "speaker": "B",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 3. PRF 2021, CEBRASPE, item 33. O salvamento e a sincronização de senhas em navegadores como Firefox e Chrome só podem funcionar quando os sites estiverem em uma intranet e utilizarem HTTPS. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 4. PRF 2021, CEBRASPE, item 34. No Windows 10, uma mesma conta pode sincronizar algumas configurações entre computadores, mas, por motivo de segurança, senhas não podem ser sincronizadas entre essas máquinas. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "As quatro foram apresentadas. Se você quiser mais tempo para resolver, pause o áudio agora. Quando estiver pronto, continue para conferir o gabarito."
+    },
+    {
+      "speaker": "B",
+      "text": "Vamos corrigir. Mais importante do que acertar é entender exatamente por que cada item está certo ou errado."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 1. O gabarito oficial é ERRADO."
+    },
+    {
+      "speaker": "B",
+      "text": "O item está ERRADO. Ransomware é um tipo de código malicioso cujo foco principal é sequestrar dados ou sistemas, tornando-os inacessíveis (geralmente por meio de criptografia forte) e cobrando um resgate para restabelecer o acesso. A característica descrita no enunciado — de inserir cópias de si mesmo em outros arquivos para se propagar — refere-se ao conceito clássico de vírus, e não à definição essencial de ransomware. A pegadinha da banca foi misturar o mecanismo de infecção e propagação típico de vírus de computador com a ação de criptografar dados associada ao ransomware. Para acertar, o candidato deveria lembrar que o ransomware atua restringindo o uso do sistema ou codificando arquivos para extorquir dinheiro, e não apenas replicando seu código no interior de arquivos."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 2. O gabarito oficial é ERRADO."
+    },
+    {
+      "speaker": "A",
+      "text": "O item está ERRADO. O modelo de computação em nuvem que fornece um ambiente e ferramentas para que os usuários desenvolvam, construam e publiquem seus próprios aplicativos é a Plataforma como Serviço (PaaS - Platform as a Service). Por outro lado, o Software como Serviço (SaaS - Software as a Service) entrega o aplicativo já pronto e funcional diretamente para o usuário final, como e-mails corporativos ou suítes de escritório online. A pegadinha da questão consistiu em trocar os conceitos dos modelos de serviços em nuvem, atribuindo ao SaaS uma característica que pertence ao PaaS. Para resolver o item, o candidato deveria focar na ação descrita: quando o serviço disponibiliza ambiente para construir e publicar aplicativos, trata-se de plataforma (PaaS)."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 3. O gabarito oficial é ERRADO."
+    },
+    {
+      "speaker": "B",
+      "text": "O item está ERRADO. O recurso de salvamento e sincronização de senhas em navegadores modernos, como Google Chrome e Mozilla Firefox, funciona perfeitamente na internet pública e em sites diversos, não se limitando exclusivamente a redes privadas (intranets). A pegadinha da banca Cebraspe foi utilizar a palavra restritiva 'só', tentando induzir o candidato a acreditar que haveria uma limitação de segurança exigindo que a navegação ocorresse apenas em uma intranet. O raciocínio correto que o candidato deveria aplicar é que os navegadores sincronizam dados do usuário na nuvem por meio de suas contas, permitindo o salvamento e o acesso às credenciais em qualquer site da Web, independentemente de ser intranet ou internet."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 4. O gabarito oficial é ERRADO."
+    },
+    {
+      "speaker": "A",
+      "text": "O item está ERRADO. No sistema operacional Windows 10, ao utilizar uma conta Microsoft vinculada, o usuário pode sincronizar diversas configurações entre diferentes computadores, incluindo temas, preferências de navegação e, expressamente, as senhas registradas. A pegadinha da questão residiu em afirmar que as senhas estariam excluídas dessa sincronização nativa devido a motivos de segurança. O candidato deveria recordar que o recurso de sincronização de configurações do Windows 10 contempla o salvamento e o compartilhamento de senhas do usuário entre máquinas autorizadas. Como o sistema permite sim a sincronização de senhas de forma criptografada e segura, a afirmativa da banca está incorreta."
+    },
+    {
+      "speaker": "A",
+      "text": "Se você errou alguma delas, essa é justamente a questão que merece entrar na sua lista de revisão."
+    },
+    {
+      "speaker": "B",
+      "text": "E se acertou as quatro, ótimo. Mas não fique apenas no acerto: tenha certeza de que você consegue explicar o motivo de cada resposta."
+    },
+    {
+      "speaker": "A",
+      "text": "Continuamos no próximo episódio com outro tema e quatro novas questões. Bons estudos e até lá."
+    }
+  ]
+}

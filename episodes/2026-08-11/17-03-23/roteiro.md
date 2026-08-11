@@ -1,0 +1,223 @@
+# Tema
+
+Informática para a prova da PRF
+
+## Apresentador 1
+
+Olá, futuro policial rodoviário federal, hoje vamos gabaritar uma das disciplinas mais determinantes do seu edital: a Informática. A banca Cebraspe não quer apenas decorreba de conceitos, mas sim a aplicação prática no cotidiano administrativo e operacional. Dominar esse conteúdo é o diferencial para colocar seu nome na lista dos aprovados.
+
+## Apresentadora 2
+
+Exatamente, e lembrando sempre daquele estilo clássico do Cebraspe, onde uma questão errada anula uma certa, o que exige precisão absoluta nas respostas. Para começar com o pé direito, precisamos diferenciar três ambientes fundamentais: Internet, Intranet e Extranet. A grande sacada aqui é entender que a diferença entre elas não está na tecnologia usada, mas sim no alcance e nas permissões de acesso.
+
+## Apresentador 1
+
+Perfeito, a Intranet usa exatamente o mesmo conjunto de protocolos da Internet, o famoso TCP/IP, mas é uma rede privada e restrita aos membros de uma organização. Já a Extranet é a extensão dessa rede privada para usuários externos autorizados, como parceiros ou fornecedores. Pense no agente da PRF acessando o sistema corporativo da corporação no seu plantão como Intranet, e um órgão parceiro acessando dados específicos compartilhados como Extranet.
+
+## Apresentadora 2
+
+Essa pegadinha cai direto, pois o Cebraspe adora afirmar que a Intranet precisa de equipamentos físicos totalmente diferentes da Internet, o que é falso. E falando em protocolos que sustentam essas redes, temos os serviços de navegação web: o HTTP e o HTTPS. O HTTP transmite dados em texto puro, sem qualquer proteção, enquanto o HTTPS adiciona uma camada de criptografia via SSL ou TLS, garantindo navegação segura na porta 443.
+
+## Apresentador 1
+
+Na transferência de arquivos, o protocolo padrão é o FTP, que funciona para enviar e receber arquivos, mas também não possui criptografia nativa. Se precisarmos de acesso remoto seguro com terminal criptografado, recorremos ao SSH, que é indispensável para gerenciar servidores à distância. É fundamental memorizar essas diferenças porque a banca costuma inverter as funções desses protocolos de comunicação.
+
+## Apresentadora 2
+
+Outro bloco de protocolos crucial para a prova é o de correio eletrônico, onde temos o SMTP, o POP3 e o IMAP. O SMTP é exclusivo para o envio de mensagens de e-mail, podendo ser lembrado pelo macete 'Sua Mensagem Tá Partindo'. Já para o recebimento de mensagens, a disputa é entre o POP3 e o IMAP, e o Cebraspe adora explorar a forma de funcionamento de cada um.
+
+## Apresentador 1
+
+O POP3 baixa a mensagem do servidor para a máquina local e, por padrão, remove o e-mail do servidor, impedindo a sincronização em outros dispositivos. Por outro lado, o IMAP mantém as mensagens no servidor e realiza uma sincronização em tempo real entre múltiplos dispositivos. Se a questão falar em acessar a mesma caixa de entrada do celular e do computador de forma sincronizada, a resposta é IMAP.
+
+## Apresentadora 2
+
+Saindo da infraestrutura de redes e avançando para a Computação em Nuvem, precisamos entender que ela permite acesso a recursos computacionais sob demanda via rede. Em relação aos modelos de serviço, dividimos a nuvem em IaaS, PaaS e SaaS. No modelo IaaS, que é a Infraestrutura como Serviço, você aluga poder de processamento e armazenamento bruto, como servidores virtuais.
+
+## Apresentador 1
+
+Já no modelo PaaS, a Plataforma como Serviço, o ambiente traz ferramentas de desenvolvimento e sistemas operacionais prontos para que programadores criem suas aplicações. No topo dessa pirâmide temos o SaaS, o Software como Serviço, onde o usuário final acessa o aplicativo diretamente pelo navegador, como no Google Docs ou Microsoft 365. Não há necessidade de instalar nem gerenciar nada além da própria utilização do sistema.
+
+## Apresentadora 2
+
+Quanto aos modelos de implantação da nuvem, a banca frequentemente confunde Nuvem Pública, Privada, Híbrida e Comunitária. A Pública pertence a um provedor e serve a múltiplos clientes de forma compartilhada, enquanto a Privada é dedicada exclusivamente a uma única organização. A Nuvem Híbrida combina o melhor dos dois mundos, permitindo que dados sensíveis fiquem na estrutura privada e operações escaláveis usem a pública.
+
+## Apresentador 1
+
+Vale destacar uma pegadinha clássica: a Nuvem Privada não precisa estar fisicamente localizada dentro da empresa; ela pode estar em um data center de terceiros, desde que o uso seja exclusivo. Com essa base de redes e nuvem bem consolidada, entramos no pilar mais cobrado em concursos públicos: a Segurança da Informação. Os princípios fundamentais formam a conhecida sigla CIDAN: Confidencialidade, Integridade, Disponibilidade, Autenticidade e Não-Repúdio.
+
+## Apresentadora 2
+
+Vamos detalhar cada um desses princípios para não restar dúvida na hora da prova. A Confidencialidade garante que a informação só seja acessada por pessoas expressamente autorizadas, e seu principal mecanismo de proteção é a criptografia. A Integridade garante que a informação não foi alterada ou adulterada durante o armazenamento ou envio, mantendo seu conteúdo exato e original.
+
+## Apresentador 1
+
+Já a Disponibilidade assegura que o sistema ou os dados estejam acessíveis sempre que os usuários autorizados precisarem. Ataques de negação de serviço, conhecidos como DoS ou DDoS, buscam afetar exatamente esse pilar, tirando os servidores do ar. A Autenticidade, por sua vez, é a garantia da identidade do emissor, confirmando que a pessoa ou sistema é realmente quem diz ser.
+
+## Apresentadora 2
+
+Para fechar o ciclo da segurança, temos o princípio do Não-Repúdio, também conhecido como Irretratabilidade. Ele impede que o autor de uma mensagem ou transação negue, posteriormente, ter realizado aquela ação. No ambiente digital, a assinatura digital é o exemplo perfeito, pois combina integridade e autenticidade para garantir o não-repúdio legal.
+
+## Apresentador 1
+
+Perceba como o Cebraspe articula todos esses conceitos: uma única questão pode citar um envio de e-mail seguro via HTTPS e SMTP, armazenado em nuvem IaaS e protegido por assinatura digital. Quando o candidato enxerga a conexão lógica entre esses temas, as alternativas do tipo Certo ou Errado deixam de ser uma ameaça e viram pontos garantidos.
+
+## Apresentadora 2
+
+Exatamente, a chave para ser aprovado na PRF é treinar exaustivamente a resolução de itens e identificar os gatilhos das pegadinhas da banca. Analisar o enunciado com calma e checar cada conceito técnico faz toda a diferença para evitar deslizes desnecessários. O conhecimento técnico acumulado aqui vai sustentar todo o seu estudo avançado daqui para a frente.
+
+## Apresentador 1
+
+Entrando agora na parte das ameaças digitais, o Cebraspe adora explorar a diferença entre vírus e worm. O vírus é um código malicioso que necessita de um arquivo hospedeiro para se executar e se propagar pelo sistema. Já o worm é um programa autônomo, totalmente independente, que se autorreplica explorando vulnerabilidades na rede sem precisar infectar nenhum arquivo.
+
+## Apresentadora 2
+
+Essa distinção é cobrança certa nas provas, assim como o comportamento do Cavalo de Tróia, o famoso Trojan. Ele se disfarça de um utilitário legítimo para convencer o usuário a executá-lo, abrindo portas para invasões. Outro grande destaque é o Ransomware, que criptografa os arquivos da vítima e exige um resgate, geralmente em criptomoedas, para devolver o acesso aos dados.
+
+## Apresentador 1
+
+E não podemos esquecer do Spyware, projetado para espionar as atividades do usuário através de keyloggers ou screenloggers, capturando teclas e telas. Quando esses malwares infectam milhares de computadores e passam a ser controlados remotamente por um cibercriminoso, formam uma Botnet, muito usada em ataques DDoS. Por fim, o Phishing atua por engenharia social, enganando o usuário para roubar credenciais por meio de links ou e-mails falsos.
+
+## Apresentadora 2
+
+Aqui reside uma pegadinha clássica da banca: a falsa ilusão de que o protocolo HTTPS garante que o site é seguro e isento de golpes. O HTTPS garante apenas a criptografia e a autenticidade do servidor na comunicação, mas o site em si pode ser uma página de phishing impecavelmente construída. O cadeado no navegador indica conexão cifrada, não que o dono da página seja honesto.
+
+## Apresentador 1
+
+Perfeito. Essa confusão gera muitos erros na prova. Para entender como essa proteção funciona no fundo, precisamos diferenciar a criptografia simétrica da assimétrica. Na simétrica, utiliza-se uma única chave secreta tanto para cifrar quanto para decifrar a mensagem, o que é muito rápido, mas traz o desafio do compartilhamento seguro dessa chave.
+
+## Apresentadora 2
+
+Na criptografia assimétrica, resolvemos essa distribuição usando um par de chaves matematicamente associadas: a chave pública e a chave privada. Se eu quero enviar uma mensagem confidencial para você, eu cifro o conteúdo com a sua chave pública, e só a sua chave privada poderá decifrá-lo. Já na assinatura digital, invertemos a lógica: o emissor usa sua própria chave privada para assinar, e qualquer um pode validar a autoria com a chave pública dele.
+
+## Apresentador 1
+
+Para garantir que aquela chave pública realmente pertence a quem diz pertencer, entra o Certificado Digital, mantido no Brasil pelo padrão ICP-Brasil. A Autoridade Certificadora funciona como um cartório digital que vincula uma identidade a um par de chaves. Isso blinda a transação e garante o não-repúdio e a integridade de documentos eletrônicos oficiais.
+
+## Apresentadora 2
+
+Passando para a defesa da infraestrutura, os candidatos costumam confundir as atribuições do Firewall com as do Antivírus. O Firewall atua como um filtro de tráfego de rede, inspecionando pacotes e bloqueando conexões não autorizadas com base em portas e protocolos. Ele trabalha em camadas de rede e transporte, funcionando como o porteiro do sistema.
+
+## Apresentador 1
+
+O Antivírus, por outro lado, analisa o conteúdo dos arquivos e os processos em execução no sistema em busca de assinaturas maliciosas ou comportamentos suspeitos via heurística. Aí vem outra grande pegadinha do Cebraspe: achar que o Firewall impede o download de malwares. Se o usuário solicitar o download de um arquivo infectado via porta HTTP permitida, o Firewall deixará passar; caberá ao Antivírus identificar e barrar a ameaça.
+
+## Apresentadora 2
+
+Mudando o foco para Sistemas Operacionais, a banca adora traçar comparativos entre a arquitetura do Windows e do Linux. Enquanto o Windows utiliza letras de unidade como C: e D: e possui sensibilidade relativa a maiúsculas, o Linux adota uma estrutura em árvore única a partir do diretório raiz. Além disso, o Linux é estritamente case-sensitive, diferenciando arquivos com letras maiúsculas e minúsculas.
+
+## Apresentador 1
+
+No Linux, cada diretório raiz tem um propósito específico que o candidato precisa memorizar para a prova da PRF. O diretório /etc guarda todos os arquivos de configuração do sistema. O diretório /home armazena os arquivos pessoais dos usuários comuns, enquanto o /var guarda dados variáveis, como arquivos de log, filas de impressão e e-mails.
+
+## Apresentadora 2
+
+Em termos de permissões no Linux, a estrutura é dividida em leitura, escrita e execução para dono, grupo e outros. O comando chmod é utilizado para alterar essas permissões, podendo usar a representação numérico-octal, onde a leitura vale quatro, a escrita vale dois e a execução vale um. Já o comando chown altera a propriedade do arquivo, enquanto utilitários como grep filtram textos dentro de documentos.
+
+## Apresentador 1
+
+Uma pegadinha frequente do Cebraspe é afirmar que apenas arquivos executáveis no Linux precisam de permissão de execução, o que é falso para diretórios. Em diretórios, a permissão de execução é o que permite ao usuário entrar ou navegar naquela pasta. Sem a permissão X no diretório, você nem consegue listar o conteúdo interno com o comando ls.
+
+## Apresentadora 2
+
+Revisando rapidamente os pontos de atenção: lembre-se de que o Worm se autorreplica sozinho, enquanto o Vírus precisa de hospedeiro. Lembre-se também de que o Firewall controla acessos à rede, mas não limpa arquivos infectados do disco. E nunca caia na armadilha de achar que o protocolo HTTPS impede que um site seja uma fraude de phishing.
+
+## Apresentador 1
+
+Com todos esses conceitos sobre segurança, ameaças, criptografia, redes e sistemas operacionais devidamente alinhados, cobrimos a base teórica essencial cobrada pela banca. Agora que a teoria está fixada, a melhor estratégia para sedimentar o aprendizado é confrontar a banca diretamente no formato de itens.
+
+## Apresentadora 2
+
+Com certeza. Chegou o momento de colocarmos essa bagagem teórica à prova com uma bateria de questões no estilo Certo ou Errado do Cebraspe. Vamos analisar cada pegadinha e aplicar tudo o que discutimos até aqui para gabaritar a prova da PRF.
+
+## Apresentador 1
+
+Agora chegou a hora de testar de verdade o que você sabe. Separei quatro questões de provas anteriores da Polícia Rodoviária Federal.
+
+## Apresentadora 2
+
+A regra é simples: escute as quatro questões e marque mentalmente certo ou errado. Não vamos revelar as respostas agora. Depois das quatro, a gente volta com o gabarito oficial e explica cada uma.
+
+## Apresentador 1
+
+Como estamos usando provas anteriores, considere sempre o ano indicado e o gabarito oficial daquela prova. Legislação pode sofrer alterações ao longo do tempo.
+
+## Apresentadora 2
+
+Questão 1. PRF 2021, CEBRASPE, item 37. Ransomware é definido como malware cuja forma característica de propagação consiste em inserir cópias de si próprio dentro de arquivos criptografados. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 2. PRF 2021, CEBRASPE, item 38. Quando o provedor oferece um ambiente de nuvem no qual o usuário constrói e publica seus próprios aplicativos, esse serviço é classificado como Software como Serviço, SaaS. Certo ou errado?
+
+## Apresentadora 2
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentadora 2
+
+Questão 3. PRF 2021, CEBRASPE, item 33. O salvamento e a sincronização de senhas em navegadores como Firefox e Chrome só podem funcionar quando os sites estiverem em uma intranet e utilizarem HTTPS. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 4. PRF 2021, CEBRASPE, item 34. No Windows 10, uma mesma conta pode sincronizar algumas configurações entre computadores, mas, por motivo de segurança, senhas não podem ser sincronizadas entre essas máquinas. Certo ou errado?
+
+## Apresentador 1
+
+As quatro foram apresentadas. Se você quiser mais tempo para resolver, pause o áudio agora. Quando estiver pronto, continue para conferir o gabarito.
+
+## Apresentadora 2
+
+Vamos corrigir. Mais importante do que acertar é entender exatamente por que cada item está certo ou errado.
+
+## Apresentador 1
+
+Questão 1. O gabarito oficial é ERRADO.
+
+## Apresentadora 2
+
+O item está ERRADO. Ransomware é um tipo de código malicioso cujo foco principal é sequestrar dados ou sistemas, tornando-os inacessíveis (geralmente por meio de criptografia forte) e cobrando um resgate para restabelecer o acesso. A característica descrita no enunciado — de inserir cópias de si mesmo em outros arquivos para se propagar — refere-se ao conceito clássico de vírus, e não à definição essencial de ransomware. A pegadinha da banca foi misturar o mecanismo de infecção e propagação típico de vírus de computador com a ação de criptografar dados associada ao ransomware. Para acertar, o candidato deveria lembrar que o ransomware atua restringindo o uso do sistema ou codificando arquivos para extorquir dinheiro, e não apenas replicando seu código no interior de arquivos.
+
+## Apresentadora 2
+
+Questão 2. O gabarito oficial é ERRADO.
+
+## Apresentador 1
+
+O item está ERRADO. O modelo de computação em nuvem que fornece um ambiente e ferramentas para que os usuários desenvolvam, construam e publiquem seus próprios aplicativos é a Plataforma como Serviço (PaaS - Platform as a Service). Por outro lado, o Software como Serviço (SaaS - Software as a Service) entrega o aplicativo já pronto e funcional diretamente para o usuário final, como e-mails corporativos ou suítes de escritório online. A pegadinha da questão consistiu em trocar os conceitos dos modelos de serviços em nuvem, atribuindo ao SaaS uma característica que pertence ao PaaS. Para resolver o item, o candidato deveria focar na ação descrita: quando o serviço disponibiliza ambiente para construir e publicar aplicativos, trata-se de plataforma (PaaS).
+
+## Apresentador 1
+
+Questão 3. O gabarito oficial é ERRADO.
+
+## Apresentadora 2
+
+O item está ERRADO. O recurso de salvamento e sincronização de senhas em navegadores modernos, como Google Chrome e Mozilla Firefox, funciona perfeitamente na internet pública e em sites diversos, não se limitando exclusivamente a redes privadas (intranets). A pegadinha da banca Cebraspe foi utilizar a palavra restritiva 'só', tentando induzir o candidato a acreditar que haveria uma limitação de segurança exigindo que a navegação ocorresse apenas em uma intranet. O raciocínio correto que o candidato deveria aplicar é que os navegadores sincronizam dados do usuário na nuvem por meio de suas contas, permitindo o salvamento e o acesso às credenciais em qualquer site da Web, independentemente de ser intranet ou internet.
+
+## Apresentadora 2
+
+Questão 4. O gabarito oficial é ERRADO.
+
+## Apresentador 1
+
+O item está ERRADO. No sistema operacional Windows 10, ao utilizar uma conta Microsoft vinculada, o usuário pode sincronizar diversas configurações entre diferentes computadores, incluindo temas, preferências de navegação e, expressamente, as senhas registradas. A pegadinha da questão residiu em afirmar que as senhas estariam excluídas dessa sincronização nativa devido a motivos de segurança. O candidato deveria recordar que o recurso de sincronização de configurações do Windows 10 contempla o salvamento e o compartilhamento de senhas do usuário entre máquinas autorizadas. Como o sistema permite sim a sincronização de senhas de forma criptografada e segura, a afirmativa da banca está incorreta.
+
+## Apresentador 1
+
+Se você errou alguma delas, essa é justamente a questão que merece entrar na sua lista de revisão.
+
+## Apresentadora 2
+
+E se acertou as quatro, ótimo. Mas não fique apenas no acerto: tenha certeza de que você consegue explicar o motivo de cada resposta.
+
+## Apresentador 1
+
+Continuamos no próximo episódio com outro tema e quatro novas questões. Bons estudos e até lá.

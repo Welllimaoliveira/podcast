@@ -1,0 +1,69 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Entrando agora na parte das ameaças digitais, o Cebraspe adora explorar a diferença entre vírus e worm. O vírus é um código malicioso que necessita de um arquivo hospedeiro para se executar e se propagar pelo sistema. Já o worm é um programa autônomo, totalmente independente, que se autorreplica explorando vulnerabilidades na rede sem precisar infectar nenhum arquivo."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa distinção é cobrança certa nas provas, assim como o comportamento do Cavalo de Tróia, o famoso Trojan. Ele se disfarça de um utilitário legítimo para convencer o usuário a executá-lo, abrindo portas para invasões. Outro grande destaque é o Ransomware, que criptografa os arquivos da vítima e exige um resgate, geralmente em criptomoedas, para devolver o acesso aos dados."
+    },
+    {
+      "speaker": "A",
+      "text": "E não podemos esquecer do Spyware, projetado para espionar as atividades do usuário através de keyloggers ou screenloggers, capturando teclas e telas. Quando esses malwares infectam milhares de computadores e passam a ser controlados remotamente por um cibercriminoso, formam uma Botnet, muito usada em ataques DDoS. Por fim, o Phishing atua por engenharia social, enganando o usuário para roubar credenciais por meio de links ou e-mails falsos."
+    },
+    {
+      "speaker": "B",
+      "text": "Aqui reside uma pegadinha clássica da banca: a falsa ilusão de que o protocolo HTTPS garante que o site é seguro e isento de golpes. O HTTPS garante apenas a criptografia e a autenticidade do servidor na comunicação, mas o site em si pode ser uma página de phishing impecavelmente construída. O cadeado no navegador indica conexão cifrada, não que o dono da página seja honesto."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito. Essa confusão gera muitos erros na prova. Para entender como essa proteção funciona no fundo, precisamos diferenciar a criptografia simétrica da assimétrica. Na simétrica, utiliza-se uma única chave secreta tanto para cifrar quanto para decifrar a mensagem, o que é muito rápido, mas traz o desafio do compartilhamento seguro dessa chave."
+    },
+    {
+      "speaker": "B",
+      "text": "Na criptografia assimétrica, resolvemos essa distribuição usando um par de chaves matematicamente associadas: a chave pública e a chave privada. Se eu quero enviar uma mensagem confidencial para você, eu cifro o conteúdo com a sua chave pública, e só a sua chave privada poderá decifrá-lo. Já na assinatura digital, invertemos a lógica: o emissor usa sua própria chave privada para assinar, e qualquer um pode validar a autoria com a chave pública dele."
+    },
+    {
+      "speaker": "A",
+      "text": "Para garantir que aquela chave pública realmente pertence a quem diz pertencer, entra o Certificado Digital, mantido no Brasil pelo padrão ICP-Brasil. A Autoridade Certificadora funciona como um cartório digital que vincula uma identidade a um par de chaves. Isso blinda a transação e garante o não-repúdio e a integridade de documentos eletrônicos oficiais."
+    },
+    {
+      "speaker": "B",
+      "text": "Passando para a defesa da infraestrutura, os candidatos costumam confundir as atribuições do Firewall com as do Antivírus. O Firewall atua como um filtro de tráfego de rede, inspecionando pacotes e bloqueando conexões não autorizadas com base em portas e protocolos. Ele trabalha em camadas de rede e transporte, funcionando como o porteiro do sistema."
+    },
+    {
+      "speaker": "A",
+      "text": "O Antivírus, por outro lado, analisa o conteúdo dos arquivos e os processos em execução no sistema em busca de assinaturas maliciosas ou comportamentos suspeitos via heurística. Aí vem outra grande pegadinha do Cebraspe: achar que o Firewall impede o download de malwares. Se o usuário solicitar o download de um arquivo infectado via porta HTTP permitida, o Firewall deixará passar; caberá ao Antivírus identificar e barrar a ameaça."
+    },
+    {
+      "speaker": "B",
+      "text": "Mudando o foco para Sistemas Operacionais, a banca adora traçar comparativos entre a arquitetura do Windows e do Linux. Enquanto o Windows utiliza letras de unidade como C: e D: e possui sensibilidade relativa a maiúsculas, o Linux adota uma estrutura em árvore única a partir do diretório raiz. Além disso, o Linux é estritamente case-sensitive, diferenciando arquivos com letras maiúsculas e minúsculas."
+    },
+    {
+      "speaker": "A",
+      "text": "No Linux, cada diretório raiz tem um propósito específico que o candidato precisa memorizar para a prova da PRF. O diretório /etc guarda todos os arquivos de configuração do sistema. O diretório /home armazena os arquivos pessoais dos usuários comuns, enquanto o /var guarda dados variáveis, como arquivos de log, filas de impressão e e-mails."
+    },
+    {
+      "speaker": "B",
+      "text": "Em termos de permissões no Linux, a estrutura é dividida em leitura, escrita e execução para dono, grupo e outros. O comando chmod é utilizado para alterar essas permissões, podendo usar a representação numérico-octal, onde a leitura vale quatro, a escrita vale dois e a execução vale um. Já o comando chown altera a propriedade do arquivo, enquanto utilitários como grep filtram textos dentro de documentos."
+    },
+    {
+      "speaker": "A",
+      "text": "Uma pegadinha frequente do Cebraspe é afirmar que apenas arquivos executáveis no Linux precisam de permissão de execução, o que é falso para diretórios. Em diretórios, a permissão de execução é o que permite ao usuário entrar ou navegar naquela pasta. Sem a permissão X no diretório, você nem consegue listar o conteúdo interno com o comando ls."
+    },
+    {
+      "speaker": "B",
+      "text": "Revisando rapidamente os pontos de atenção: lembre-se de que o Worm se autorreplica sozinho, enquanto o Vírus precisa de hospedeiro. Lembre-se também de que o Firewall controla acessos à rede, mas não limpa arquivos infectados do disco. E nunca caia na armadilha de achar que o protocolo HTTPS impede que um site seja uma fraude de phishing."
+    },
+    {
+      "speaker": "A",
+      "text": "Com todos esses conceitos sobre segurança, ameaças, criptografia, redes e sistemas operacionais devidamente alinhados, cobrimos a base teórica essencial cobrada pela banca. Agora que a teoria está fixada, a melhor estratégia para sedimentar o aprendizado é confrontar a banca diretamente no formato de itens."
+    },
+    {
+      "speaker": "B",
+      "text": "Com certeza. Chegou o momento de colocarmos essa bagagem teórica à prova com uma bateria de questões no estilo Certo ou Errado do Cebraspe. Vamos analisar cada pegadinha e aplicar tudo o que discutimos até aqui para gabaritar a prova da PRF."
+    }
+  ]
+}
