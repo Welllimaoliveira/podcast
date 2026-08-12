@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Olá a todos que estão na caminhada rumo à aprovação nos concursos públicos. Quantas vezes você já se pegou encarando um enunciado em inglês e sentiu aquele frio na barriga sem saber exatamente o que a banca estava perguntando? Essa trava é muito comum, mas a verdade é que dominar a estrutura das perguntas é o verdadeiro divisor de águas para acertar questões de interpretação."
+    },
+    {
+      "speaker": "B",
+      "text": "É isso mesmo, e o segredo não é traduzir palavra por palavra, mas reconhecer a arquitetura da frase em inglês. Quando a gente aprende a identificar quem comanda a pergunta, o enunciado deixa de ser um mistério e vira um mapa direto para a resposta no texto. Para começar esse raciocínio, nada é mais fundamental do que os famosos pronomes interrogativos, conhecidos como Wh-words."
+    },
+    {
+      "speaker": "A",
+      "text": "Essas palavrinhas como Who, What, Where, When, Why e How são as bússolas do candidato. Se a questão começa com Who, a banca quer uma pessoa ou entidade, enquanto Where aponta para um lugar e When para um momento no tempo. Confundir um When com um Where no meio da prova faz você buscar a informação errada no texto e perder um tempo precioso."
+    },
+    {
+      "speaker": "B",
+      "text": "E as bancas, especialmente a Cebraspe em itens de Certo ou Errado, adoram trocar essas informações de lugar para induzir o candidato ao erro. Por exemplo, o texto diz que um evento ocorreu em Washington, mas a assertiva afirma algo perguntando ou relacionando ao momento em que ocorreu, usando When de forma distorcida. Se você bate o olho no Wh-word correto, percebe na hora se o foco da pergunta é a causa, o lugar ou o sujeito."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro ponto importante nessa família de interrogativos é o How, que pode aparecer sozinho indicando modo ou acompanhado de outras palavras. Quando temos How many ou How much, a pergunta exige quantidade, enquanto How often busca frequência. Perceber essa combinação evita que você confunda uma métrica numérica com uma explicação de processo durante a leitura rápida."
+    },
+    {
+      "speaker": "B",
+      "text": "Mas não basta olhar apenas para a palavra interrogativa, porque quem realmente dá o tom do tempo verbal e da estrutura da pergunta é o verbo auxiliar. Em inglês, diferente do português onde apenas mudamos a entonação da voz, a pergunta exige a presença de um auxiliar como Do, Does ou Did. Eles funcionam como sinalizadores dizendo exatamente quando a ação aconteceu e quem a praticou."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, no português nós dizemos 'Você estuda para concurso?' mudando só o tom, enquanto no inglês precisamos inverter a estrutura e dizer 'Do you study for exams?'. Esse movimento de inversão sujeito-verbo é a marca registrada das perguntas e saber identificar o auxiliar evita muitas pegadinhas. Se aparece o Did no início ou logo após o Wh-word, você já sabe que toda aquela ação precisa ser buscada no passado do texto."
+    },
+    {
+      "speaker": "B",
+      "text": "E aqui mora uma pegadinha clássica de prova que pega muita gente desatenta na hora de comparar o enunciado com o texto base. Quando o auxiliar Did entra na pergunta, o verbo principal volta para a sua forma base no presente ou infinitivo. Então, na pergunta você verá 'Did the company grow?', mas no texto o verbo estará no passado como 'grew', e se você buscar a palavra idêntica pode achar que o texto não respondeu."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa sacada é perfeita, e o mesmo raciocínio se aplica aos verbos auxiliares dos tempos compostos, como Have e Has, e aos verbos modais. Quando encontramos Can, Could, Should ou Must na pergunta, eles não só auxiliam a estrutura, mas também acrescentam uma camada crucial de sentido. Um Should na pergunta busca uma recomendação, enquanto um Must busca uma obrigação ou certeza quase absoluta."
+    },
+    {
+      "speaker": "B",
+      "text": "Nas provas da Cebraspe, a troca de um verbo modal no enunciado é um recurso fortíssimo para alterar o gabarito. Se o texto original diz que uma medida 'pode ser adotada' usando May, e o item da questão afirma que a medida 'deve ser adotada' usando Must, a afirmação se torna errada. Identificar o modal na pergunta te dá a chave para medir a força da afirmação antes mesmo de checar o parágrafo."
+    },
+    {
+      "speaker": "A",
+      "text": "Além da estrutura interrogativa, precisamos olhar para como as respostas afirmativas e negativas se constroem para não cair em armadilhas de negação velada. Uma estrutura negativa nem sempre vem com o evidente 'not' colado ao auxiliar. Existem advérbios com carga negativa natural que transformam o sentido de toda a frase e mudam o rumo da resposta."
+    },
+    {
+      "speaker": "B",
+      "text": "Termos como 'hardly', 'rarely', 'seldom' e 'scarcely' parecem neutros para quem lê rápido, mas significam 'quase não' ou 'raramente'. Se a pergunta questiona se algo acontece com frequência e o texto usa 'hardly', a resposta correta precisa refletir essa escassez. Tratar uma frase com 'hardly' como afirmativa é um dos erros mais comuns e dolorosos em provas de alto nível."
+    },
+    {
+      "speaker": "A",
+      "text": "Para conectar tudo isso na hora de responder, o caminho mais rápido é alinhar a estrutura da pergunta com os conectivos do texto. Se a pergunta usa Why, você imediatamente escaneia o texto em busca de conectivos de causa como 'because', 'due to', 'since' ou 'as a result'. O próprio conector no texto é a ponte direta que responde à pergunta do enunciado."
+    },
+    {
+      "speaker": "B",
+      "text": "Da mesma forma, se a pergunta inicia com um verbo auxiliar sem Wh-word, estamos diante de uma questão de 'Sim ou Não', que em provas de múltipla escolha costuma virar uma busca por confirmação direta de fato. Quando a pergunta é 'Did the study demonstrate results?', você busca no texto se o estudo demonstrou ou refutou os resultados, analisando os qualificadores da frase afirmativa ou negativa no texto."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa dinâmica de checagem precisa ser automatizada pelo candidato durante o treino de questões anteriores. Identificar o núcleo da pergunta, que é a combinação do Wh-word com o auxiliar, economiza pelo menos metade do tempo de leitura do texto principal. Em vez de ler o texto inteiro como um romance, você lê o texto como um investigador procurando pistas específicas."
+    },
+    {
+      "speaker": "B",
+      "text": "E essa postura investigativa exige atenção dobrada à ordem sintática nas frases do texto que servem de resposta. Enquanto a pergunta inverte o auxiliar com o sujeito, o texto em sua forma afirmativa manterá a ordem direta de sujeito, verbo e complemento. Fazer essa tradução estrutural na mente facilita muito a localização das informações essenciais sem depender do dicionário."
+    },
+    {
+      "speaker": "A",
+      "text": "Na prática, entender como perguntas e respostas se articulam é construir uma base sólida para qualquer tipo de cobrança gramatical ou textual. Os elementos que vimos aqui — os pronomes interrogativos, a inversão com auxiliares e as marcas de afirmativa e negativa — formam o esqueleto de toda a comunicação formal em inglês usada nas provas."
+    },
+    {
+      "speaker": "B",
+      "text": "Com esses fundamentos bem consolidados, o enunciado deixa de ser uma barreira e passa a ser a ferramenta que trabalha a seu favor durante a prova. Quando você domina a mecânica da pergunta, identificar a resposta correta no texto vira um processo lógico, rápido e extremamente preciso."
+    }
+  ]
+}

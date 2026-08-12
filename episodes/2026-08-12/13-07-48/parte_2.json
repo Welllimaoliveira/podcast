@@ -1,0 +1,69 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "E quando pensamos nessa estrutura de frases, um ponto onde muitos candidatos se perdem é na transição entre perguntas diretas e indiretas, as chamadas Indirect Questions. Numa pergunta direta como 'Where is the file?', o verbo auxiliar vem antes do sujeito, mas na estrutura indireta essa inversão desaparece completamente. Se o enunciado traz 'Do you know where the file is?', a ordem das palavras volta a ser a de uma frase afirmativa simples."
+    },
+    {
+      "speaker": "B",
+      "text": "Isso é uma verdadeira mina de ouro para bancas como o Cebraspe, que adoram reescrever trechos do texto usando perguntas indiretas para testar a gramática do candidato. Eles colocam algo como 'The text clarifies where did the researcher find the data', inserindo uma inversão indevida na oração subordinada. O candidato desatento lê aquilo, acha que soa como pergunta e deixa passar um erro crasso de estrutura sintática."
+    },
+    {
+      "speaker": "A",
+      "text": "Outra armadilha clássica aparece no formato das Negative Questions, quando a pergunta já começa negando, como em 'Didn't the authors consider the impact?'. Em português, a nossa tendência é responder 'sim' concordando com a negação, o que gera uma confusão mental imediata na hora de julgar o item. No inglês, a lógica é puramente factual: você responde 'Yes' se eles consideraram e 'No' se eles não consideraram, independentemente de a pergunta ser negativa."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa simplicidade do inglês confunde demais quem tenta traduzir ao pé da letra o raciocínio do português. Se a banca pergunta 'Isn't the technique effective?' e o texto mostra que a técnica funciona, a resposta afirmativa confirma o fato, sem se importar com o 'not' do enunciado. Entender esse gatilho evita que você marque o oposto do que o texto afirma por causa de uma dupla negação mal interpretada."
+    },
+    {
+      "speaker": "A",
+      "text": "Além das estruturas interrogativas, o vocabulário do próprio enunciado ou das alternativas esconde perigos gigantescos, principalmente com os falsos cognatos, os famosos false friends. Uma palavra muito comum em opções de prova é 'actually', que muitos traduzem mentalmente como 'atualmente', quando na verdade significa 'na verdade' ou 'de fato'. Se o enunciado pergunta o que o texto afirma 'actually', ele quer a realidade factual, não o momento presente."
+    },
+    {
+      "speaker": "B",
+      "text": "O mesmo acontece com verbos e adjetivos recorrentes como 'intend', que significa 'pretender' e não 'entender', ou 'comprehensive', que significa 'abrangente' ou 'completo' e nada tem a ver com 'compreensivo'. Imagine uma alternativa dizendo que o estudo apresentou uma 'comprehensive analysis'; o candidato que traduz como 'análise compreensiva' erra a interpretação do alcance da pesquisa. Outro caso clássico é 'eventually', que significa 'no final das contas' ou 'com o tempo', e não 'eventualmente'."
+    },
+    {
+      "speaker": "A",
+      "text": "As bancas usam esses falsos cognatos estrategicamente nas alternativas incorretas porque sabem que o cérebro cansado do candidato busca conexões visuais rápidas com o português. Quando a alternativa usa 'pretend' no sentido de fingir, mas o texto falava de intenção com 'intend', a questão cria uma ilusão de facilidade que captura o desatento. Por isso, ao ler qualquer opção de resposta, faça uma pausa consciente para validar o real sentido de palavras que parecem idênticas ao nosso idioma."
+    },
+    {
+      "speaker": "B",
+      "text": "E para amarrar a interpretação do texto com as opções da questão, precisamos olhar com lupa para os conectivos de contraste e de causa e efeito. Conectivos de contraste como 'however', 'nevertheless', 'although' e 'despite' mudam a direção do argumento e costumam indicar onde está a resposta correta para perguntas sobre ressalvas do autor. Se você ignora um 'however', corre o risco de pegar a ideia inicial que o autor acabou de refutar na frase seguinte."
+    },
+    {
+      "speaker": "A",
+      "text": "Da mesma forma, os conectivos de causa e efeito como 'therefore', 'consequently', 'thus' e 'due to' estabelecem o nexo causal exigido em questões que perguntam por razões ou consequências. Se a questão pede a causa de um fenômeno, a resposta estará amarrada diretamente ao termo que introduz essa explicação no texto. Se o texto diz 'The results failed due to lack of funding', o 'due to' é o farol que aponta a razão exata do fracasso."
+    },
+    {
+      "speaker": "B",
+      "text": "É justamente analisando a presença desses conectivos que conseguimos desmascarar as alternativas construídas para induzir ao erro, como as bancas fazem com a extrapolação. A extrapolação acontece quando a alternativa traz uma afirmação que parece totalmente lógica ou verdadeira no mundo real, mas que não tem respaldo direto no texto lido. O examinador pega uma verdade geral e coloca na opção, sabendo que o candidato vai concordar com o fato e esquecer de checar se o texto disse aquilo."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro tipo de distrator perigoso é a contradição, onde a alternativa usa exatamente as mesmas palavras do texto, mas altera um único elemento lógico. Pode ser a troca de um 'always' por 'frequently', ou a inserção de uma negação discreta que inverte completamente o sentido do parágrafo original. A banca aproveita que o candidato reconhece o vocabulário da frase e marca a opção sem perceber que o sentido foi diametralmente oposto."
+    },
+    {
+      "speaker": "B",
+      "text": "Uma dica valiosa para pegar esse tipo de pegadinha é ficar atento a termos absolutistas nas alternativas, como 'only', 'never', 'completely' ou 'exclusively'. Textos acadêmicos e jornalísticos em inglês, que dominam as provas de concurso, raramente usam certezas absolutas, preferindo modalizadores como 'may', 'suggests' ou 'often'. Se a alternativa transforma uma probabilidade do texto em uma certeza absoluta na opção, você provavelmente encontrou uma incorreção por extrapolação ou distorção."
+    },
+    {
+      "speaker": "A",
+      "text": "Integrar todas essas estratégias transforma a forma como você encara a prova, porque você deixa de ser um mero leitor e vira um analista de padrões do examinador. Você passa a identificar a pergunta indireta na estrutura, reconhece o falso cognato na alternativa, rastreia o conectivo no texto e elimina o distrator absolutista com extrema firmeza. Essa clareza tira o peso da incerteza e acelera absurdamente a sua resolução de itens."
+    },
+    {
+      "speaker": "B",
+      "text": "E o mais bonito desse método é que ele funciona de forma consistente, não importa se a prova é de múltipla escolha ou do estilo Certo ou Errado do Cebraspe. Ao bater o olho no enunciado, o checklist mental já entra em ação: qual é a estrutura da pergunta, quais são as palavras de ligação e onde estão as possíveis armadilhas de vocabulário. O texto deixa de ser um emaranhado de palavras em inglês e vira um mapa com sinalizações claras."
+    },
+    {
+      "speaker": "A",
+      "text": "Com todo esse arsenal teórico e estratégico dominado, o próximo passo lógico é ver como essa dinâmica se comporta na prática diante de questões reais de concurso. Aplicar esses filtros sintáticos e semânticos em itens concretos é o que fixa o aprendizado e constrói a velocidade necessária para o dia do exame."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente, nada substitui o treino com a mão na massa para calibrar o olhar e ganhar confiança absoluta. Então, vamos colocar todo esse conhecimento à prova agora mesmo resolvendo algumas questões no detalhe."
+    }
+  ]
+}
