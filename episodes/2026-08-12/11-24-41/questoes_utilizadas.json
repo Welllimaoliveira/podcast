@@ -1,0 +1,49 @@
+{
+  "disciplina": "transito",
+  "questoes": [
+    {
+      "id": "PRF-2021-060",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Trânsito",
+      "disciplina_canonica": "transito",
+      "item_original": 60,
+      "questao": "Pessoa penalmente inimputável não pode obter habilitação para conduzir veículo automotor e elétrico.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 60 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-061",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Trânsito",
+      "disciplina_canonica": "transito",
+      "item_original": 61,
+      "questao": "Na fiscalização de trânsito por videomonitoramento, a constatação da infração independe de sinalização específica na via, devendo o agente registrar no auto informações sobre a forma de constatação.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 61 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-062",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Trânsito",
+      "disciplina_canonica": "transito",
+      "item_original": 62,
+      "questao": "A emissão do CRLV-e é obrigatória quando há transferência de propriedade, mas seria dispensável quando o proprietário muda de município de residência.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 62 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-063",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Trânsito",
+      "disciplina_canonica": "transito",
+      "item_original": 63,
+      "questao": "A campanha educativa de trânsito de 2021 previa temas mensais que incluíam reflexões sobre impactos físicos, psicológicos e sociais dos sinistros de trânsito na vida das vítimas e de seus familiares.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 63 - gabarito oficial definitivo"
+    }
+  ]
+}
