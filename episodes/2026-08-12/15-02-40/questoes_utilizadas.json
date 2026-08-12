@@ -1,0 +1,49 @@
+{
+  "disciplina": "raciocinio logico",
+  "questoes": [
+    {
+      "id": "PRF-2021-029",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Raciocínio lógico",
+      "disciplina_canonica": "raciocinio logico",
+      "item_original": 29,
+      "questao": "No modelo de espalhamento dado por p vezes (1 - p), com p entre zero e um, é possível que a taxa de espalhamento de uma notícia ultrapasse 50% por unidade de tempo.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 29 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-030",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Raciocínio lógico",
+      "disciplina_canonica": "raciocinio logico",
+      "item_original": 30,
+      "questao": "No mesmo modelo, quanto maior for o número de pessoas que já conhecem uma notícia, maior será necessariamente sua taxa de espalhamento.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 30 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-031",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Raciocínio lógico",
+      "disciplina_canonica": "raciocinio logico",
+      "item_original": 31,
+      "questao": "Em uma operação, os totais acumulados de veículos fiscalizados ao fim das cinco primeiras horas foram 20, 60, 120, 200 e 300, mantendo-se o padrão. Nesse caso, ao final da sétima hora o total acumulado será superior a 550 veículos.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 31 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-032",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Raciocínio lógico",
+      "disciplina_canonica": "raciocinio logico",
+      "item_original": 32,
+      "questao": "Com os totais acumulados 20, 60, 120, 200 e 300 veículos ao fim das cinco primeiras horas e manutenção do padrão, a quantidade fiscalizada apenas em cada hora forma uma progressão aritmética.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 32 - gabarito oficial definitivo"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Agora que entendemos os conectivos, precisamos entrar no terreno onde as bancas, principalmente o Cebraspe, filtram os candidatos: as equivalências e negações. A equivalência mais cobrada da condicional é a contrapositiva, onde nós invertemos as duas proposições e negamos ambas. Por exemplo, dizer 'Se estudo, passo' equivale exatamente a 'Se não passei, não estudei'."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito, e essa troca mantendo a equivalência lógica salva muitas questões. Mas além da contrapositiva, temos a regra do silogismo disjuntivo, conhecida no meio dos concursos como o macete do NEGA-OU. Para transformar a condicional 'Se P, então Q' em uma disjunção, você nega a primeira parte, troca o conectivo pelo 'OU' e mantém a segunda parte intacta, gerando 'Não P ou Q'."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa dupla de equivalências é fantástica, mas aqui mora uma das maiores pegadinhas de prova: a confusão entre achar a equivalência e fazer a negação de uma condicional. Além disso, as bancas adoram esconder a estrutura condicional usando sinônimos gramaticais do 'se', como 'caso', 'quando', 'desde que' ou até 'como'. O candidato precisa treinar o olhar para reescrever a frase na forma padrão antes de aplicar a regra."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa dica dos sinônimos é fundamental, porque se você não reconhece o conectivo de origem, erra a regra aplicada. E falando especificamente da negação da condicional, a regra correta é totalmente diferente da equivalência, sendo famosa pelo macete do MANE. Para negar um 'Se P, então Q', você mantém a primeira parte E nega a segunda parte, resultando em 'P e não Q'."
+    },
+    {
+      "speaker": "A",
+      "text": "Isso mesmo, e repare que a negação de uma condicional vira uma conjunção, o conectivo 'E', e nunca outra condicional. Muita gente cai na armadilha de achar que a negação de 'Se chover, levo guarda-chuva' seria 'Se chover, não levo guarda-chuva'. Na verdade, a negação lógica é 'Chove E não levo guarda-chuva', pois é a única situação que desmente a promessa original."
+    },
+    {
+      "speaker": "B",
+      "text": "Já para negar os conectivos 'E' e 'OU', nós recorremos às famosas Leis de De Morgan. A regra aqui é simples de memorizar: para negar uma conjunção ou disjunção, você nega ambas as proposições simples e inverte o conectivo principal. Ou seja, o 'E' passa a ser 'OU', e o 'OU' passa a ser 'E'."
+    },
+    {
+      "speaker": "A",
+      "text": "É aquela história: se a afirmação é 'João é auditor E Maria é analista', para negar basta dizer 'João não é auditor OU Maria não é analista'. O Cebraspe gosta de colocar opções afirmando que ambos não são, tentando induzir o candidato a trocar o 'E' por outro 'E', o que é um erro clássico de lógica formal."
+    },
+    {
+      "speaker": "B",
+      "text": "Passando para outro tópico campeão de audiência nas provas, temos a lógica categórica e seus quantificadores: 'Todo', 'Nenhum', 'Algum' e 'Existe'. O quantificador 'Todo' indica uma inclusão total, enquanto 'Nenhum' mostra uma exclusão total. Já 'Algum', 'Existe' e 'Pelo menos um' são quantificadores particulares ou existenciais."
+    },
+    {
+      "speaker": "A",
+      "text": "E a negação dessas proposições categóricas gera a maior pegadinha de todas no raciocínio lógico. O erro mais comum do concurseiro desatento é achar que a negação de 'Todo político é honesto' seria 'Nenhum político é honesto'. Na lógica formal, para quebrar uma afirmação universal, você não precisa ir ao extremo oposto, basta mostrar um único contraexemplo."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente por isso usamos a técnica do PEA mais NÃO para negar o quantificador 'Todo'. Você substitui o 'Todo' por 'Pelo menos um', 'Existe' ou 'Algum' — que formam a sigla PEA — e acrescenta a negação no verbo. Então, a negação de 'Todo aluno passou' fica 'Pelo menos um aluno não passou', ou 'Existe aluno que não passou'."
+    },
+    {
+      "speaker": "A",
+      "text": "Da mesma forma, para negar o 'Nenhum', a regra do PEA também se aplica, mas sem a necessidade de negar o verbo, já que o 'Nenhum' já carrega uma ideia de exclusão. Sendo assim, a negação de 'Nenhum policial faltou' passa a ser 'Pelo menos um policial faltou' ou simplesmente 'Algum policial faltou'."
+    },
+    {
+      "speaker": "B",
+      "text": "E o caminho inverso também é válido: para negar um quantificador existencial como 'Algum candidato foi aprovado', você deve usar o universal negativo 'Nenhum'. Fica simplesmente 'Nenhum candidato foi aprovado'. Essa simetria entre universais e existenciais precisa estar totalmente automatizada na mente do candidato para economizar tempo."
+    },
+    {
+      "speaker": "A",
+      "text": "Além da parte de equivalências e negações, as bancas costumam cobrar muito a análise de validade de argumentos. Um argumento é válido quando, assumindo que todas as premissas são verdades absolutas, a conclusão é uma consequência lógica inevitável. O perigo é confundir a verdade dos fatos do mundo real com a validade formal da estrutura lógica."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa diferença é vital, porque uma questão pode trazer premissas absurdas do ponto de vista da realidade, mas que geram um argumento perfeitamente válido. Por exemplo, se a premissa diz 'Todo gato voa' e 'Miau é um gato', a conclusão 'Miau voa' é logicamente válida dentro daquele argumento, mesmo sendo uma falsidade biológica."
+    },
+    {
+      "speaker": "A",
+      "text": "O candidato também deve ficar atento às falácias formais clássicas em provas, como a afirmação do consequente e a negação do antecedente. Saber que 'Se chove, a rua molha' não permite concluir que 'Se a rua molhou, choveu', pois a rua poderia ter sido lavada. Identificar essas estruturas evita cair em conclusões precipitadas."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito! Quando você domina as equivalências, grava as regras de negação como o MANE e o PEA mais NÃO, e não cai nessas armadilhas de validade, a prova deixa de ser um bicho de sete cabeças. Você passa a resolver as questões de forma operacional e muito mais rápida."
+    },
+    {
+      "speaker": "A",
+      "text": "Com toda essa bagagem teórica bem consolidada, o passo seguinte é ver como esses conceitos e pegadinhas aparecem na prática das provas. Treinar com itens reais é a melhor forma de calibrar a atenção e garantir que a teoria se transforme em pontos."
+    },
+    {
+      "speaker": "B",
+      "text": "Com certeza, a teoria só se fixa de verdade quando enfrentamos os desafios propostos pelas bancas examinadoras. Então, vamos colocar todo esse conhecimento à prova analisando algumas questões clássicas e aplicando cada uma dessas regras na prática."
+    }
+  ]
+}

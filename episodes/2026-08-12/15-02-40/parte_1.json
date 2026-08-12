@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Fala pessoal! Se tem uma disciplina que divide opiniões na preparação para concursos da área policial, com certeza é o Raciocínio Lógico Matemático. Quando a banca é o Cebraspe, essa matéria ganha um peso ainda mais estratégico, porque o método de Certo ou Errado pune severamente o chute e exige precisão total do candidato."
+    },
+    {
+      "speaker": "B",
+      "text": "É exatamente isso, a galera que mira em editais como Polícia Federal ou Polícia Rodoviária Federal sabe que não dá para ignorar essa parte da prova. O segredo para não se desesperar com o Cebraspe é dominar a base conceitual antes de tentar resolver questões complexas. E a pedra angular de tudo é entender o conceito de proposição lógica."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito! Uma proposição lógica é, em essência, uma frase declarativa que possui um sentido completo e a qual podemos atribuir, de forma inequívoca, um valor lógico: ou ela é Verdadeira, ou ela é Falsa. Não existe meio-termo, nem dupla interpretação, graças aos princípios básicos da lógica clássica. Por exemplo, a frase 'A Polícia Rodoviária Federal fiscaliza rodovias federais' é uma proposição válida e verdadeira."
+    },
+    {
+      "speaker": "B",
+      "text": "Por outro lado, a banca ama colocar frases que parecem proposições, mas não são, para derrubar o candidato desatento. Sentenças interrogativas como 'Qual é o seu cargo?', exclamativas como 'Que excelente desempenho!', ou imperativas como 'Estude todo o edital!' jamais serão proposições. Como elas não afirmam nem negam algo que possa ser julgado como verdadeiro ou falso, ficam totalmente fora desse conceito."
+    },
+    {
+      "speaker": "A",
+      "text": "E tem um caso clássico de pegadinha do Cebraspe que é a sentença aberta. Uma sentença aberta ocorre quando temos um elemento indeterminado na frase, como uma variável ou um pronome indefinido sem referência clara. Se eu digo 'Ele é um excelente perito criminal', você não pode julgar em V ou F sem saber quem é 'ele'."
+    },
+    {
+      "speaker": "B",
+      "text": "O mesmo vale para a matemática pura, quando aparece uma equação como 'x mais cinco é igual a nove'. Se o valor de x não foi definido previamente no texto, essa frase continua sendo uma sentença aberta e, portanto, não é uma proposição lógica. É crucial guardar essa regra: sem determinação do sujeito ou da variável, não há valoração possível."
+    },
+    {
+      "speaker": "A",
+      "text": "Uma vez que identificamos as proposições simples, precisamos entender como elas se conectam para formar proposições compostas através dos operadores lógicos. O primeiro conectivo fundamental é a conjunção, representada pela palavra 'E'. A conjunção exige uma postura bastante rigorosa para que o resultado final seja considerado verdadeiro."
+    },
+    {
+      "speaker": "B",
+      "text": "Pensa comigo: para ingressar em um determinado cargo policial, o edital exige que o candidato 'tenha nível superior E possua CNH na categoria B'. Se o candidato cumpre apenas um dos requisitos, a exigência global não foi atendida. Na tabela-verdade da conjunção, o resultado só é verdadeiro se todas as proposições componentes forem simultaneamente verdadeiras."
+    },
+    {
+      "speaker": "A",
+      "text": "Já a disjunção inclusiva, que é o nosso 'OU' simples, funciona de maneira mais flexível. Basta que pelo menos uma das partes seja verdadeira para que toda a frase composta seja considerada verdadeira. Se dissermos 'O agente fará o patrulhamento OU redigirá o relatório', a sentença só será falsa se ele não fizer nenhuma das duas coisas."
+    },
+    {
+      "speaker": "B",
+      "text": "Mas cuidado para não confundir a disjunção inclusiva com a disjunção exclusiva, o famoso 'OU... OU'. Na disjunção exclusiva, as duas situações não podem acontecer ao mesmo tempo sob hipótese alguma. Se afirmamos 'Ou o suspeito está em Brasília ou está em Goiânia', é impossível que ele esteja nos dois locais simultaneamente, então uma opção exclui a outra."
+    },
+    {
+      "speaker": "A",
+      "text": "Agora chegamos ao conectivo preferido de dez entre dez examinadores de concurso: a condicional, expressa por 'SE... ENTÃO'. A condicional estabelece uma relação de causa e efeito, onde a primeira parte é a condição suficiente, chamada de antecedente, e a segunda é a consequente. É aqui que o Cebraspe costuma concentrar a maioria das suas questões de raciocínio dedutivo."
+    },
+    {
+      "speaker": "B",
+      "text": "A dinâmica da tabela-verdade da condicional tem um detalhe decisivo que todo concurseiro precisa memorizar. A condicional só resulta em valor falso em uma única combinação específica: quando a primeira parte é verdadeira e a segunda parte é falsa. Nos cursinhos, o pessoal usa macetes conhecidos para lembrar que V e F gera F, mantendo todas as outras combinações como verdadeiras."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente. Se eu prometo 'Se você for aprovado no concurso da Polícia Federal, então eu te pago um almoço', a única forma de eu ter mentido é se você for aprovado e eu não pagar o almoço. Se você não for aprovado, a condição inicial não se cumpriu, logo a promessa não foi quebrada, e a estrutura lógica permanece verdadeira."
+    },
+    {
+      "speaker": "B",
+      "text": "E para fechar os conectivos principais, temos a bicondicional, traduzida pela expressão 'SE E SOMENTE SE'. Ela representa uma via de mão dupla rigorosa, onde as duas proposições estão interligadas de forma equivalente. Na tabela-verdade da bicondicional, o resultado será verdadeiro quando ambas as proposições tiverem exatamente o mesmo valor lógico, seja ambas verdadeiras ou ambas falsas."
+    },
+    {
+      "speaker": "A",
+      "text": "Tudo isso ganha vida quando organizamos as possibilidades na Tabela-Verdade, que nada mais é do que um mapa estruturado de todas as combinações possíveis. Para montar essa tabela, a gente usa a fórmula dois elevado a N, onde N representa o número de proposições simples distintas envolvidas no problema."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa fórmula de dois elevado a N é muito cobrada pelo Cebraspe em itens teóricos do tipo Certo ou Errado. Se uma questão apresenta uma estrutura com três proposições simples diferentes, o candidato já deve saber de cabeça que a tabela-verdade terá exatamente oito linhas. Entender a construção dessa tabela evita que você se perca na hora de analisar argumentos mais longos."
+    },
+    {
+      "speaker": "A",
+      "text": "O segredo para encarar a prova é olhar para cada questão do Cebraspe com um filtro analítico bem definido. Primeiro você identifica se o texto é uma proposição válida, eliminando perguntas, ordens ou sentenças abertas. Depois, você isola os conectivos envolvidos para aplicar as regras exatas de valoração lógica sem misturar interpretação de texto convencional com a lógica formal."
+    },
+    {
+      "speaker": "B",
+      "text": "Dominar essa estrutura transforma o raciocínio lógico em uma das matérias mais previsíveis da prova, já que a banca segue padrões matemáticos rígidos. Quando você entende como a tabela-verdade reage a cada operador, deixa de adivinhar e passa a deduzir as respostas com total segurança técnica."
+    }
+  ]
+}
