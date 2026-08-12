@@ -1,0 +1,73 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "E já que mencionamos a atuação prática do policial na fiscalização de trânsito, é fundamental aprofundar o estudo do Poder de Polícia. Essa prerrogativa estatal permite condicionar ou restringir o uso de bens, direitos e atividades individuais em prol da coletividade nas rodovias federais. Quando a PRF fiscaliza veículos ou aplica medidas cautelares, ela está exercendo justamente essa supremacia do interesse público."
+    },
+    {
+      "speaker": "B",
+      "text": "Para a prova do Cebraspe, você precisa ter na ponta da língua os três atributos clássicos do poder de polícia: a discrecionariedade, a autoexecutariedade e a coercibilidade. A discrecionariedade permite ao agente público certa margem de escolha no momento da fiscalização, dentro dos limites da lei. Já a autoexecutariedade garante que a Administração possa executar suas decisões diretamente, sem necessidade de autorização prévia do Poder Judiciário."
+    },
+    {
+      "speaker": "A",
+      "text": "Um exemplo claro dessa autoexecutariedade na rotina da PRF é a apreensão imediata de um veículo irregular ou a interdição de uma pista com risco iminente de desabamento. O agente não precisa entrar com uma ação judicial para recolher um automóvel sem condições de trafegabilidade; ele age de imediato. Somada a isso, temos a coercibilidade, que é a faculdade de impor as determinações estatais de forma imperativa, inclusive com o uso moderado da força física, se necessário."
+    },
+    {
+      "speaker": "B",
+      "text": "É exatamente no exercício do poder de polícia que surge um dos tópicos mais cobrados pela banca: o abuso de poder. O abuso de poder é o gênero do qual derivam duas espécies bem distintas que a Cebraspe ama trocar nas questões: o excesso de poder e o desvio de poder. O segredo para não cair nessa pegadinha está em identificar qual elemento do ato administrativo foi violado pelo agente."
+    },
+    {
+      "speaker": "A",
+      "text": "No excesso de poder, o vício incide diretamente na competência. O agente público atua fora dos limites previstos em lei para o seu cargo ou vai além do estritamente necessário para cumprir sua função. Imagine um PRF que aplica uma sanção grave que a legislação reserva exclusivamente ao Diretor-Geral do órgão; ele agiu com excesso de poder porque não tinha competência legal para aquele ato específico."
+    },
+    {
+      "speaker": "B",
+      "text": "Por outro lado, no desvio de poder, também chamado de desvio de finalidade, o agente atua dentro da sua esfera de competência, mas busca uma finalidade alheia ao interesse público. Se um policial utiliza o seu cargo para multar reiteradamente um vizinho com quem tem uma desavença pessoal, a competência para fiscalizar existia, mas o ato é nulo porque a finalidade foi privada e vingativa."
+    },
+    {
+      "speaker": "A",
+      "text": "Analisado o vício do ato, precisamos entender como a Administração lida com esses atos defeituosos ou desnecessários no mundo jurídico. Entramos no confronto direto entre anulação e revogação, dois institutos que despencam nas provas para carreiras policiais. A banca vai tentar confundir os motivos, os efeitos temporais e as competências de cada um desses procedimentos de desfazimento."
+    },
+    {
+      "speaker": "B",
+      "text": "A anulação ocorre sempre diante de um ato administrativo ilegal, ou seja, praticado em desconformidade com o ordenamento jurídico. Como a ilegalidade nasce com o ato, a anulação produz efeitos ex tunc, retroagindo ao momento da sua edição para apagar todos os efeitos gerados. E um detalhe crucial para a prova: a anulação pode ser feita tanto pela própria Administração, pelo dever de autotutela, quanto pelo Poder Judiciário."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeitamente. Já a revogação recai sobre um ato perfeitamente legítimo e legal, mas que se tornou inoportuno ou inconveniente para a Administração Pública. Como o ato era válido, a revogação opera efeitos ex nunc, ou seja, prospectivos, respeitando os direitos adquiridos até aquele momento. E preste muita atenção na pegadinha: a revogação é matéria de mérito administrativo, sendo feita exclusivamente pela Administração, jamais pelo Judiciário no seu função jurisdicional."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa diferença é um prato cheio para o Cebraspe. Guarde o macete: se a questão falar em ilegalidade e efeito retroativo ex tunc, o tema é anulação. Se falar em conveniência, oportunidade e efeito prospectivo ex nunc, a resposta é revogação. E nunca se esqueça de que o Poder Judiciário só anula atos ilegais, nunca revoga atos discricionários do Poder Executivo."
+    },
+    {
+      "speaker": "A",
+      "text": "Avançando para o nosso último grande tema teórico da aula, temos a Responsabilidade Civil do Estado, fundamentada no artigo 37, parágrafo sexto, da Constituição Federal. O Brasil adotou a Teoria do Risco Administrativo, que consagra a responsabilidade civil objetiva da Administração Pública pelos danos que seus agentes, nessa qualidade, causarem a terceiros. Esse modelo protege o cidadão que sofre um prejuízo causado pela atuação estatal."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. Na responsabilidade objetiva, o particular prejudicado não precisa comprovar que o agente público atuou com dolo ou culpa, como imprudência, negligência ou imperícia. Para garantir o direito à indenização, basta à vítima demonstrar a conduta do agente estatal, o dano efetivo sofrido e o nexo de causalidade entre a ação do Estado e o prejuízo resultante."
+    },
+    {
+      "speaker": "A",
+      "text": "Entretanto, a Teoria do Risco Administrativo admite causas de exclusão ou de atenuação dessa responsabilidade estatal. Se o dano decorrer de culpa exclusiva da vítima, caso fortuito ou força maior, o Estado fica isento de indenizar, pois rompe-se o nexo causal. Já se houver culpa concorrente da vítima, a responsabilidade do Estado permanece, mas a indenização será abatida proporcionalmente à gravidade da conduta do particular."
+    },
+    {
+      "speaker": "B",
+      "text": "Após indenizar a vítima do dano, o Estado possui o direito de regresso contra o agente público causador da lesão. Mas fiquem atentos à regra do jogo na ação regressiva: para que o servidor seja obrigado a ressarcir o erário, é indispensável comprovar que ele agiu com dolo ou culpa. Ou seja, em relação ao agente público, a responsabilidade civil é subjetiva e exige esse elemento voluntário ou culposo."
+    },
+    {
+      "speaker": "A",
+      "text": "E a grande pegadinha do Cebraspe sobre a ação regressiva envolve quem deve figurar no polo passivo da ação movida pelo cidadão lesado. O Supremo Tribunal Federal fixou o entendimento de que a vítima não pode processar diretamente o agente público; ela deve ajuizar a ação indenizatória contra o Estado. Se for condenado, o Estado é quem ingressará posteriormente com a ação de regresso contra o policial responsável."
+    },
+    {
+      "speaker": "B",
+      "text": "Dominar essa linha de raciocínio, integrando os atributos do poder de polícia, a dicotomia do abuso de poder, o desfazimento dos atos e a responsabilidade civil do Estado, consolida a sua preparação teórica. Todos esses conceitos formam a espinha dorsal do Direito Administrativo exigido na prova da PRF. Agora que cobrimos com profundidade cada detalhe da teoria, é o momento ideal para testarmos a absorção desse conhecimento na prática."
+    },
+    {
+      "speaker": "A",
+      "text": "Com certeza. Nada fixa melhor o conteúdo e revela as nuances da banca do que resolver itens do Cebraspe no formato Certo ou Errado. Vamos colocar à prova cada uma dessas regras e pegadinhas para que você chegue no dia do exame respondendo com total convicção. Separe o seu caderno de anotações porque a nossa maratona de questões comentadas começa agora."
+    }
+  ]
+}

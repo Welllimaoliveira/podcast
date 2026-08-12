@@ -1,0 +1,49 @@
+{
+  "disciplina": "direito administrativo",
+  "questoes": [
+    {
+      "id": "PRF-2021-090",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Administrativo",
+      "disciplina_canonica": "direito administrativo",
+      "item_original": 90,
+      "questao": "O uso de ação judicial para conter eventual abuso praticado pela administração pública concretiza o princípio da sindicabilidade.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 90 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-046",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Administrativo",
+      "disciplina_canonica": "direito administrativo",
+      "item_original": 46,
+      "questao": "Segundo o Código de Ética do Servidor Público Civil do Poder Executivo Federal, a ausência injustificada do servidor de seu local de trabalho pode desmoralizar o serviço público por provocar desordem nas relações humanas.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 46 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-047",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Administrativo",
+      "disciplina_canonica": "direito administrativo",
+      "item_original": 47,
+      "questao": "No contexto da governança pública, estratégia compreende a definição de diretrizes, objetivos, planos e ações voltados ao alcance dos resultados pretendidos pela organização.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 47 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-048",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Administrativo",
+      "disciplina_canonica": "direito administrativo",
+      "item_original": 48,
+      "questao": "Em procedimento investigatório perante comissão de ética, o investigado pode ter acesso aos autos e obter cópia mesmo antes de ser notificado da existência do procedimento.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 48 - gabarito oficial definitivo"
+    }
+  ]
+}

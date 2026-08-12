@@ -1,0 +1,235 @@
+# Tema
+
+Direito Administrativo para a prova da PRF
+
+## Apresentador 1
+
+Que prazer ter você com a gente no Foco PRF para encararmos juntos uma das disciplinas mais determinantes da sua preparação. Para o futuro Policial Rodoviário Federal, o Direito Administrativo não é apenas um amontoado de teorias secas, mas a régua que guia cada abordagem nas rodovias. Quando você veste a farda e liga a sirene, você encarna a própria Administração Pública exercendo suas prerrogativas no asfalto.
+
+## Apresentadora 2
+
+Exatamente, e para entender essa dinâmica nas pistas, a gente precisa começar pelo coração de toda a matéria: o supraprincípio da Supremacia do Interesse Público sobre o privado. Imagine uma situação em que a PRF precisa interditar uma faixa da rodovia por conta de um acidente grave com carga perigosa. A vontade individual do motorista de seguir viagem cede imediatamente diante da necessidade de proteger a coletividade e manter a segurança de todos.
+
+## Apresentador 1
+
+Perfeito, e ao lado da Supremacia, anda junta a Indisponibilidade do Interesse Público, que funciona como a verdadeira trava de segurança do agente estatal. Enquanto a Supremacia concede poderes e prerrogativas para a polícia atuar, a Indisponibilidade lembra que o policial não é dono do interesse público, mas apenas um gestor. O Cebraspe adora inventar questões onde o agente flexibiliza regras por mera cortesia, o que fere frontalmente a Indisponibilidade.
+
+## Apresentadora 2
+
+Essa trava nos leva diretamente aos princípios expressos no artigo trinta e sete da Constituição Federal, o famoso macete do LIMPE. A Legalidade é a base absoluta, significando que na vida privada a gente pode fazer tudo o que a lei não proíbe, mas o policial na rodovia só pode fazer estritamente o que a lei autoriza. Se não houver previsão legal expressa para uma exigência no edital ou na fiscalização, o ato simplesmente não pode existir.
+
+## Apresentador 1
+
+E dentro desse bloco constitucional, a Impessoalidade e a Moralidade andam de mãos dadas para evitar qualquer tipo de favoritismo ou perseguição pessoal. A Impessoalidade exige neutralidade absoluta, garantindo que o auto de infração seja aplicado com o mesmo rigor para um desconhecido ou para um parente do agente. Já a Moralidade vai além da simples lei, exigindo ética, boa-fé e lealdade institucional em todas as atitudes da corporação.
+
+## Apresentadora 2
+
+Fechando o LIMPE, temos a Publicidade, que garante a transparência dos atos administrativos, e a Eficiência, que busca a otimização dos recursos públicos com máxima presteza. Vale um alerta para a prova: a Eficiência não estava na redação original de 1988, pois foi incluída pela Emenda Constitucional número dezenove de 1998. O Cebraspe adora trocar essa data ou afirmar que ela sempre esteve lá desde a promulgação da Carta Magna.
+
+## Apresentador 1
+
+Excelente lembrança, e além dos expressos, a banca cobra com muita força os princípios implícitos, com destaque total para a Razoabilidade e Proporcionalidade. Na prática policial, isso significa que as sanções e medidas cautelares devem ser adequadas e estritamente necessárias para alcançar a finalidade pública. Seria completamente desproporcional, por exemplo, apreender um veículo por uma pequena infração sanitária que poderia ser sanada imediatamente no local.
+
+## Apresentadora 2
+
+Outro princípio implícito essencial para a prova é o da Autotutela, que concede à própria Administração o poder-dever de controlar seus próprios atos. Segundo a célebre Súmula 473 do Supremo Tribunal Federal, a Administração pode anular seus atos quando eivados de ilegalidade, ou revogá-los por motivo de conveniência e oportunidade. Essa distinção entre anulação de ato ilegal e revogação de ato inoportuno cai em quase todo concurso da área policial.
+
+## Apresentador 1
+
+Agora que construímos a base principiológica, precisamos entender como a estrutura do Estado se organiza para executar essas funções nas rodovias. A Administração Pública se divide em Direta e Indireta, e a dinâmica entre elas envolve os conceitos de desconcentração e descentralização. Um grande macete para não errar na prova é lembrar das letras no meio das palavras: desconcentração cria órgãos, enquanto descentralização cria entidades.
+
+## Apresentadora 2
+
+Perfeitamente, a desconcentração é uma divisão interna de competências dentro da mesma pessoa jurídica, mantendo a hierarquia e a subordinação. A Polícia Rodoviária Federal é um exemplo clássico de órgão público integrante da União, ou seja, da Administração Direta. Por ser um órgão, a PRF não possui personalidade jurídica própria nem patrimônio próprio, atuando sempre em nome do ente federativo União.
+
+## Apresentador 1
+
+Já na descentralização, o Estado transfere a execução ou a titularidade de um serviço para outra pessoa jurídica, integrante da Administração Indireta. Aqui surgem as Autarquias, Fundações Públicas, Empresas Públicas e Sociedades de Economia Mista, criadas ou autorizadas por lei específica. Uma Autarquia, como o DNIT ou a ANTT que atuam em parceria com a PRF nas rodovias, possui personalidade jurídica de direito público e autonomia administrativa.
+
+## Apresentadora 2
+
+Uma pegadinha clássica do Cebraspe é misturar o regime jurídico dessas entidades da Administração Indireta durante as questões conceituais. Lembre-se de que enquanto as Autarquias são pessoas jurídicas de direito público, as Empresas Públicas e Sociedades de Economia Mista possuem personalidade jurídica de direito privado. Essa diferença impacta diretamente a forma de contratação de pessoal, a responsabilidade civil e a penhorabilidade dos bens de cada entidade.
+
+## Apresentador 1
+
+Avançando para o ápice da nossa aula teórica, precisamos dominar o conceito e a estrutura do Ato Administrativo. O ato nada mais é do que uma declaração de vontade do Estado, emitida no exercício de prerrogativas de direito público, que produz efeitos jurídicos imediatos. Toda abordagem, multa aplicada ou interdição de pista feita por um PRF materializa-se por meio de atos administrativos específicos.
+
+## Apresentadora 2
+
+Para que um ato administrativo seja válido no ordenamento jurídico, ele precisa preencher obrigatoriamente cinco elementos constituintes: competência, finalidade, forma, motivo e objeto. A competência é o poder atribuído pela lei ao agente público para praticar aquele ato específico, sendo um elemento imprescritível e irrenunciável. Já a finalidade é sempre o interesse público geral, nunca podendo satisfazer caprichos ou interesses pessoais do agente.
+
+## Apresentador 1
+
+A forma é a exteriorização do ato, que em regra no Direito Administrativo é escrita para garantir a segurança jurídica e o controle. O motivo, por sua vez, traz a situação de fato e o fundamento de direito que autorizam ou determinam a prática do ato. Quando um PRF lavra um auto de infração por excesso de velocidade, o motivo é a medição do radar somada ao artigo do Código de Trânsito.
+
+## Apresentadora 2
+
+E o objeto é o conteúdo do ato, aquilo que o ato produz imediatamente no mundo jurídico, como a própria aplicação da penalidade. Aqui vale ressaltar a Teoria dos Motivos Determinantes, um tema queridinho das bancas examinadoras. Se o agente público fundamentar o ato em um motivo falso ou inexistente, o ato será nulo de pleno direito, mesmo que o motivo não fosse obrigatoriamente exigido por lei.
+
+## Apresentador 1
+
+Veja como tudo se encaixa com perfeição quando analisamos uma abordagem real do seu dia a dia como futuro policial rodoviário federal. O agente competente aplica a medida prevista em lei, seguindo a forma escrita, motivado no fato concreto e buscando a finalidade do interesse público. Se qualquer um desses cinco requisitos falhar ou for adulterado, o ato administrativo padece de vício e fica sujeito ao controle judicial ou à autotutela.
+
+## Apresentadora 2
+
+Compreender essa engrenagem completa, desde os princípios fundamentais até os elementos formadores do ato administrativo, é o passo divisor de águas para o seu desempenho. Quando você domina a lógica por trás de cada conceito, as questões do Cebraspe deixam de ser armadilhas e passam a ser pontos garantidos no seu gabarito. Vamos guardar bem essas premissas para aplicá-las com precisão cirúrgica na resolução de exercícios práticos.
+
+## Apresentador 1
+
+E já que mencionamos a atuação prática do policial na fiscalização de trânsito, é fundamental aprofundar o estudo do Poder de Polícia. Essa prerrogativa estatal permite condicionar ou restringir o uso de bens, direitos e atividades individuais em prol da coletividade nas rodovias federais. Quando a PRF fiscaliza veículos ou aplica medidas cautelares, ela está exercendo justamente essa supremacia do interesse público.
+
+## Apresentadora 2
+
+Para a prova do Cebraspe, você precisa ter na ponta da língua os três atributos clássicos do poder de polícia: a discrecionariedade, a autoexecutariedade e a coercibilidade. A discrecionariedade permite ao agente público certa margem de escolha no momento da fiscalização, dentro dos limites da lei. Já a autoexecutariedade garante que a Administração possa executar suas decisões diretamente, sem necessidade de autorização prévia do Poder Judiciário.
+
+## Apresentador 1
+
+Um exemplo claro dessa autoexecutariedade na rotina da PRF é a apreensão imediata de um veículo irregular ou a interdição de uma pista com risco iminente de desabamento. O agente não precisa entrar com uma ação judicial para recolher um automóvel sem condições de trafegabilidade; ele age de imediato. Somada a isso, temos a coercibilidade, que é a faculdade de impor as determinações estatais de forma imperativa, inclusive com o uso moderado da força física, se necessário.
+
+## Apresentadora 2
+
+É exatamente no exercício do poder de polícia que surge um dos tópicos mais cobrados pela banca: o abuso de poder. O abuso de poder é o gênero do qual derivam duas espécies bem distintas que a Cebraspe ama trocar nas questões: o excesso de poder e o desvio de poder. O segredo para não cair nessa pegadinha está em identificar qual elemento do ato administrativo foi violado pelo agente.
+
+## Apresentador 1
+
+No excesso de poder, o vício incide diretamente na competência. O agente público atua fora dos limites previstos em lei para o seu cargo ou vai além do estritamente necessário para cumprir sua função. Imagine um PRF que aplica uma sanção grave que a legislação reserva exclusivamente ao Diretor-Geral do órgão; ele agiu com excesso de poder porque não tinha competência legal para aquele ato específico.
+
+## Apresentadora 2
+
+Por outro lado, no desvio de poder, também chamado de desvio de finalidade, o agente atua dentro da sua esfera de competência, mas busca uma finalidade alheia ao interesse público. Se um policial utiliza o seu cargo para multar reiteradamente um vizinho com quem tem uma desavença pessoal, a competência para fiscalizar existia, mas o ato é nulo porque a finalidade foi privada e vingativa.
+
+## Apresentador 1
+
+Analisado o vício do ato, precisamos entender como a Administração lida com esses atos defeituosos ou desnecessários no mundo jurídico. Entramos no confronto direto entre anulação e revogação, dois institutos que despencam nas provas para carreiras policiais. A banca vai tentar confundir os motivos, os efeitos temporais e as competências de cada um desses procedimentos de desfazimento.
+
+## Apresentadora 2
+
+A anulação ocorre sempre diante de um ato administrativo ilegal, ou seja, praticado em desconformidade com o ordenamento jurídico. Como a ilegalidade nasce com o ato, a anulação produz efeitos ex tunc, retroagindo ao momento da sua edição para apagar todos os efeitos gerados. E um detalhe crucial para a prova: a anulação pode ser feita tanto pela própria Administração, pelo dever de autotutela, quanto pelo Poder Judiciário.
+
+## Apresentador 1
+
+Perfeitamente. Já a revogação recai sobre um ato perfeitamente legítimo e legal, mas que se tornou inoportuno ou inconveniente para a Administração Pública. Como o ato era válido, a revogação opera efeitos ex nunc, ou seja, prospectivos, respeitando os direitos adquiridos até aquele momento. E preste muita atenção na pegadinha: a revogação é matéria de mérito administrativo, sendo feita exclusivamente pela Administração, jamais pelo Judiciário no seu função jurisdicional.
+
+## Apresentadora 2
+
+Essa diferença é um prato cheio para o Cebraspe. Guarde o macete: se a questão falar em ilegalidade e efeito retroativo ex tunc, o tema é anulação. Se falar em conveniência, oportunidade e efeito prospectivo ex nunc, a resposta é revogação. E nunca se esqueça de que o Poder Judiciário só anula atos ilegais, nunca revoga atos discricionários do Poder Executivo.
+
+## Apresentador 1
+
+Avançando para o nosso último grande tema teórico da aula, temos a Responsabilidade Civil do Estado, fundamentada no artigo 37, parágrafo sexto, da Constituição Federal. O Brasil adotou a Teoria do Risco Administrativo, que consagra a responsabilidade civil objetiva da Administração Pública pelos danos que seus agentes, nessa qualidade, causarem a terceiros. Esse modelo protege o cidadão que sofre um prejuízo causado pela atuação estatal.
+
+## Apresentadora 2
+
+Exatamente. Na responsabilidade objetiva, o particular prejudicado não precisa comprovar que o agente público atuou com dolo ou culpa, como imprudência, negligência ou imperícia. Para garantir o direito à indenização, basta à vítima demonstrar a conduta do agente estatal, o dano efetivo sofrido e o nexo de causalidade entre a ação do Estado e o prejuízo resultante.
+
+## Apresentador 1
+
+Entretanto, a Teoria do Risco Administrativo admite causas de exclusão ou de atenuação dessa responsabilidade estatal. Se o dano decorrer de culpa exclusiva da vítima, caso fortuito ou força maior, o Estado fica isento de indenizar, pois rompe-se o nexo causal. Já se houver culpa concorrente da vítima, a responsabilidade do Estado permanece, mas a indenização será abatida proporcionalmente à gravidade da conduta do particular.
+
+## Apresentadora 2
+
+Após indenizar a vítima do dano, o Estado possui o direito de regresso contra o agente público causador da lesão. Mas fiquem atentos à regra do jogo na ação regressiva: para que o servidor seja obrigado a ressarcir o erário, é indispensável comprovar que ele agiu com dolo ou culpa. Ou seja, em relação ao agente público, a responsabilidade civil é subjetiva e exige esse elemento voluntário ou culposo.
+
+## Apresentador 1
+
+E a grande pegadinha do Cebraspe sobre a ação regressiva envolve quem deve figurar no polo passivo da ação movida pelo cidadão lesado. O Supremo Tribunal Federal fixou o entendimento de que a vítima não pode processar diretamente o agente público; ela deve ajuizar a ação indenizatória contra o Estado. Se for condenado, o Estado é quem ingressará posteriormente com a ação de regresso contra o policial responsável.
+
+## Apresentadora 2
+
+Dominar essa linha de raciocínio, integrando os atributos do poder de polícia, a dicotomia do abuso de poder, o desfazimento dos atos e a responsabilidade civil do Estado, consolida a sua preparação teórica. Todos esses conceitos formam a espinha dorsal do Direito Administrativo exigido na prova da PRF. Agora que cobrimos com profundidade cada detalhe da teoria, é o momento ideal para testarmos a absorção desse conhecimento na prática.
+
+## Apresentador 1
+
+Com certeza. Nada fixa melhor o conteúdo e revela as nuances da banca do que resolver itens do Cebraspe no formato Certo ou Errado. Vamos colocar à prova cada uma dessas regras e pegadinhas para que você chegue no dia do exame respondendo com total convicção. Separe o seu caderno de anotações porque a nossa maratona de questões comentadas começa agora.
+
+## Apresentador 1
+
+Agora chegou a hora de testar de verdade o que você sabe. Separei quatro questões de provas anteriores da Polícia Rodoviária Federal.
+
+## Apresentadora 2
+
+A regra é simples: escute as quatro questões e marque mentalmente certo ou errado. Não vamos revelar as respostas agora. Depois das quatro, a gente volta com o gabarito oficial e explica cada uma.
+
+## Apresentador 1
+
+Como estamos usando provas anteriores, considere sempre o ano indicado e o gabarito oficial daquela prova. Legislação pode sofrer alterações ao longo do tempo.
+
+## Apresentadora 2
+
+Questão 1. PRF 2021, CEBRASPE, item 90. O uso de ação judicial para conter eventual abuso praticado pela administração pública concretiza o princípio da sindicabilidade. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 2. PRF 2021, CEBRASPE, item 46. Segundo o Código de Ética do Servidor Público Civil do Poder Executivo Federal, a ausência injustificada do servidor de seu local de trabalho pode desmoralizar o serviço público por provocar desordem nas relações humanas. Certo ou errado?
+
+## Apresentadora 2
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentadora 2
+
+Questão 3. PRF 2021, CEBRASPE, item 47. No contexto da governança pública, estratégia compreende a definição de diretrizes, objetivos, planos e ações voltados ao alcance dos resultados pretendidos pela organização. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 4. PRF 2021, CEBRASPE, item 48. Em procedimento investigatório perante comissão de ética, o investigado pode ter acesso aos autos e obter cópia mesmo antes de ser notificado da existência do procedimento. Certo ou errado?
+
+## Apresentador 1
+
+As quatro foram apresentadas. Se você quiser mais tempo para resolver, pause o áudio agora. Quando estiver pronto, continue para conferir o gabarito.
+
+## Apresentadora 2
+
+Vamos corrigir. Mais importante do que acertar é entender exatamente por que cada item está certo ou errado.
+
+## Apresentador 1
+
+Questão 1. O gabarito oficial é CERTO.
+
+## Apresentadora 2
+
+O princípio da sindicabilidade estabelece que todo ato administrativo é passível de controle e fiscalização, não havendo atos imunes ao exame de legalidade e legitimidade. A utilização da via judicial para combater abusos da Administração Pública é a concretização direta desse princípio, alinhada à garantia constitucional da inafastabilidade da jurisdição. A pegadinha consiste em tentar fazer o candidato associar o termo sindicabilidade apenas a processos disciplinares de sindicância ou ao controle meramente interno. Na verdade, a sindicabilidade é o gênero que abrange o controle sob todas as suas formas, inclusive o controle judicial promovido pelos administrados. Portanto, o candidato deveria reconhecer que acionar o Judiciário contra arbitrariedades estatais é a manifestação tática e material de sindicar os atos administrativos, tornando a assertiva correta.
+
+## Apresentadora 2
+
+Questão 2. O gabarito oficial é CERTO.
+
+## Apresentador 1
+
+O Código de Ética do Servidor Público Civil do Poder Executivo Federal (Decreto nº 1.171/1994) determina expressamente no seu texto regulamentar que a ausência injustificada do servidor de seu local de trabalho é fator de desmoralização do serviço público, o que quase sempre conduz à desordem nas relações humanas. A pegadinha da banca reside em formular uma frase com tom filosófico e comportamental, levando o estudante a achar que se trata de uma interpretação doutrinária pessoal do examinador ou de uma afirmação genérica incorreta. No entanto, o candidato deveria identificar que a questão reproduziu com exatidão a letra da norma ética. Como o preceito normativo associa diretamente a falta injustificada ao prejuízo moral e à desordem organizacional, o item está perfeito e correto.
+
+## Apresentador 1
+
+Questão 3. O gabarito oficial é CERTO.
+
+## Apresentadora 2
+
+No âmbito da governança pública, a estratégia abrange a definição clara de diretrizes, objetivos, planos e ações alinhados à missão institucional para alcançar os resultados esperados. De acordo com os referenciais teóricos e normativos sobre governança, ela é composta por três mecanismos principais: liderança, estratégia e controle. A pegadinha da questão está na tentativa de confundir o conceito de estratégia com a própria definição ampla de governança ou com a etapa de controle. O candidato atento deveria focar no papel específico da estratégia, que é o direcionamento, o planejamento e o estabelecimento de caminhos para atingir metas organizacionais. Assim, ao descrever com precisão as atribuições da dimensão estratégica dentro da governança pública, a assertiva apresenta-se inteiramente correta.
+
+## Apresentadora 2
+
+Questão 4. O gabarito oficial é CERTO.
+
+## Apresentador 1
+
+Nos procedimentos instaurados no âmbito das Comissões de Ética, assegura-se ao investigado o direito ao amplo acesso aos autos, bem como à obtenção de cópias de documentos, a qualquer momento, mesmo antes de sua notificação formal. A pegadinha do item reside na ideia intuitiva de que o direito de vista ou cópia estaria condicionado à prévia notificação do investigado ou que haveria sigilo absoluto do procedimento nessa fase inicial. O candidato deveria recordar que o direito de defesa e a transparência em relação ao investigado prevalecem desde a instauração da investigação ética. Portanto, o acesso não depende de notificação antecedente, visando garantir a ampla defesa e o contraditório de forma irrestrita, o que confirma a veracidade do item.
+
+## Apresentador 1
+
+Se você errou alguma delas, essa é justamente a questão que merece entrar na sua lista de revisão.
+
+## Apresentadora 2
+
+E se acertou as quatro, ótimo. Mas não fique apenas no acerto: tenha certeza de que você consegue explicar o motivo de cada resposta.
+
+## Apresentador 1
+
+Continuamos no próximo episódio com outro tema e quatro novas questões. Bons estudos e até lá.
