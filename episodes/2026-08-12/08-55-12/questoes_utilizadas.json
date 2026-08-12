@@ -1,0 +1,49 @@
+{
+  "disciplina": "portugues",
+  "questoes": [
+    {
+      "id": "PRF-2021-017",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Português",
+      "disciplina_canonica": "portugues",
+      "item_original": 17,
+      "questao": "No contexto do texto, o emprego da palavra 'irrupção' indica que a violência podia atingir os indivíduos de maneira súbita.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 17 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-022",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Português",
+      "disciplina_canonica": "portugues",
+      "item_original": 22,
+      "questao": "Segundo o Manual de Redação da Presidência da República, informatividade integra, ao lado de objetividade e impessoalidade, o conjunto de características expressamente indicado para a redação oficial.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 22 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-023",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Português",
+      "disciplina_canonica": "portugues",
+      "item_original": 23,
+      "questao": "Na identificação da signatária de uma comunicação oficial, quando o cargo é ocupado por mulher, o nome do cargo não deve ser flexionado para o gênero feminino.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 23 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-024",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Português",
+      "disciplina_canonica": "portugues",
+      "item_original": 24,
+      "questao": "Nas comunicações oficiais, o vocativo deve ser seguido de vírgula.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 24 - gabarito oficial definitivo"
+    }
+  ]
+}
