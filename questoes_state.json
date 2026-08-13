@@ -21,14 +21,18 @@
     "PRF-2021-027",
     "PRF-2021-028",
     "PRF-2021-029",
-    "PRF-2021-030"
+    "PRF-2021-030",
+    "PRF-2021-049",
+    "PRF-2021-050",
+    "PRF-2021-086",
+    "PRF-2021-087"
   ],
-  "ultima_disciplina": "raciocinio logico",
+  "ultima_disciplina": "direito administrativo",
   "ultimas_questoes": [
-    "PRF-2021-027",
-    "PRF-2021-028",
-    "PRF-2021-029",
-    "PRF-2021-030"
+    "PRF-2021-049",
+    "PRF-2021-050",
+    "PRF-2021-086",
+    "PRF-2021-087"
   ],
-  "ultima_execucao": "2026-08-13T18:57:15.972051-03:00"
+  "ultima_execucao": "2026-08-13T20:53:35.731804-03:00"
 }

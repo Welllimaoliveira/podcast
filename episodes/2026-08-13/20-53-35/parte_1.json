@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Quando um policial rodoviário federal sinaliza a parada de um veículo na rodovia, ele não está agindo por vontade própria, mas exercendo prerrogativas conferidas pelo Direito Administrativo. Para a prova da PRF, a banca Cebraspe não exige apenas memorização de regras, mas a compreensão prática de como essa disciplina fundamenta cada intervenção na pista. Dominar essa lógica transforma conceitos abstratos em pontos garantidos na sua classificação."
+    },
+    {
+      "speaker": "B",
+      "text": "Toda essa atuação operacional está ancorada no Regime Jurídico-Administrativo, que se sustenta sobre dois grandes pilares: a supremacia do interesse público e a indisponibilidade desse interesse. A supremacia confere prerrogativas especiais ao Estado para agir em prol da coletividade, estabelecendo uma relação de verticalidade com o particular. Já a indisponibilidade atua no sentido oposto, impondo restrições rígidas para que o agente público jamais disponha do bem comum a seu bel-prazer."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa balança entre prerrogativas e restrições cai com frequência nas provas do Cebraspe. Na prática, a supremacia justifica medidas como a apreensão de mercadorias irregulares ou a interdição de uma pista com risco de desmoronamento. Por sua vez, a indisponibilidade lembra que o policial é apenas o gestor daquele dever legal, não podendo renunciar à fiscalização por mera conveniência. Desse regime fundamental derivam os princípios expressos no artigo 37 da Constituição Federal, o clássico LIMPE."
+    },
+    {
+      "speaker": "B",
+      "text": "O primeiro deles é a Legalidade, que tem sentidos opostos para o particular e para a Administração. Enquanto o cidadão pode fazer tudo o que a lei não proíbe, o agente público só pode agir quando e como a lei expressamente autoriza ou determina. Em seguida temos a Impessoalidade, que impõe a busca exclusiva da finalidade pública e veda qualquer tipo de favoritismo, perseguição ou promoção pessoal de autoridades em atos e obras estatais."
+    },
+    {
+      "speaker": "A",
+      "text": "A vedação à promoção pessoal, inclusive, é tema recorrente em questões que tratam da publicidade institucional. Já o princípio da Moralidade exige uma conduta pautada na ética, probidade e boa-fé objetiva, indo além da simples conformidade formal com a lei. Isso significa que um ato administrativo pode até cumprir os trâmites legais aparentes, mas será nulo se for concebido com desvio ético ou desonestidade."
+    },
+    {
+      "speaker": "B",
+      "text": "Completando os princípios expressos, a Publicidade estabelece que a transparência e a divulgação oficial são a regra geral dos atos administrativos, admitindo sigilo apenas em exceções constitucionais de segurança nacional ou intimidade pessoal. Por fim, a Eficiência, inserida pela Emenda 19 de 98, cobra produtividade, rapidez e o melhor aproveitamento possível dos recursos públicos na prestação do serviço policial."
+    },
+    {
+      "speaker": "A",
+      "text": "Ao lado dos princípios expressos, os implícitos desempenham papel decisivo no dia a dia da PRF, começando pela Autotutela. O Supremo Tribunal Federal, por meio das Súmulas 346 e 473, consagrou que a Administração tem o poder-dever de controlar seus próprios atos. Isso significa que a instituição anula atos ilegais, porque deles não se originam direitos, e revoga atos legais que se tornaram inoportunos ou inconvenientes."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa distinção entre anulação e revogação é clássica em provas. A anulação decorre de ilegalidade e gera efeitos retroativos, o famoso ex tunc, enquanto a revogação se baseia em mérito administrativo e gera efeitos prospectivos, o ex nunc. Além da autotutela, a Razoabilidade, a Proporcionalidade e a Motivação limitam o uso da força e impõem que o agente justifique formalmente os motivos de fato e de direito de suas decisões."
+    },
+    {
+      "speaker": "A",
+      "text": "Esses princípios ganham corpo quando analisamos a Organização Administrativa do Estado. Para estruturar suas atividades, a Administração utiliza duas técnicas fundamentais que o Cebraspe adora contrastar: a Desconcentração e a Descentralização. Para memorizar com facilidade, a Desconcentração cria órgãos dentro da mesma pessoa jurídica, mantendo a hierarquia interna."
+    },
+    {
+      "speaker": "B",
+      "text": "A PRF é um exemplo perfeito de desconcentração: ela é um órgão público da União, sem personalidade jurídica própria e sem patrimônio autônomo. Já na Descentralização, a execução ou a titularidade de serviços é transferida para outras pessoas jurídicas, compondo a Administração Indireta. Essa estrutura abrange as Autarquias, Fundações Públicas, Empresas Públicas e Sociedades de Economia Mista."
+    },
+    {
+      "speaker": "A",
+      "text": "Uma pegadinha típica de concurso é afirmar que existe subordinação hierárquica entre a Administração Direta e as entidades da Indireta. Na verdade, existe apenas controle finalístico, também chamado de tutela ou supervisão ministerial. As autarquias, por exemplo, como o DNIT e a ANTT, exercem atividades típicas de Estado com patrimônio e orçamento próprios, cooperando na malha rodoviária sem subordinação direta à PRF."
+    },
+    {
+      "speaker": "B",
+      "text": "Quando esses órgãos e entidades atuam nas rodovias, eles manifestam a vontade estatal por meio de atos administrativos. Aqui precisamos diferenciar o ato administrativo do fato administrativo. O fato administrativo é qualquer acontecimento material que gera repercussão jurídica, como a queda de uma barreira na pista ou o tempo decorrido para a aposentadoria do policial."
+    },
+    {
+      "speaker": "A",
+      "text": "O ato administrativo, por sua vez, é uma declaração formal de vontade do Estado, ou de quem aja em seu nome, voltada a produzir efeitos jurídicos imediatos sob o regime de direito público. Um auto de infração de trânsito ou a concessão de uma licença são atos administrativos típicos. E para que esse ato nasça válido no ordenamento jurídico, ele precisa cumprir rigorosamente cinco requisitos essenciais."
+    },
+    {
+      "speaker": "B",
+      "text": "Esses cinco elementos de validade são Competência, Finalidade, Forma, Motivo e Objeto, sintetizados no mnemônico CO-FI-FO-MO-OB. Se qualquer um desses elementos apresentar um vício insanável, o ato será considerado ilegal e deverá ser anulado. O segredo para a prova é identificar quais desses requisitos são sempre vinculados e quais admitem margem de discricionariedade."
+    },
+    {
+      "speaker": "A",
+      "text": "A Competência, a Finalidade e a Forma são elementos sempre vinculados pela lei. A competência define qual agente público detém atribuição legal para a prática daquele ato, sendo intransferível e improrrogável por vontade própria. A finalidade busca o interesse coletivo específico previsto na norma, e a forma é o modo solene exigido para exteriorizar a decisão, geralmente a forma escrita."
+    },
+    {
+      "speaker": "B",
+      "text": "Já o Motivo e o Objeto compõem o mérito administrativo e podem ser vinculados ou discricionários, dependendo da previsão legal. O Motivo é a situação de fato que ocorreu no mundo real somada ao fundamento jurídico aplicável, como constatar um condutor embriagado. O Objeto é o resultado prático imediato criado pelo ato, como a aplicação da penalidade administrativa prevista no Código de Trânsito."
+    },
+    {
+      "speaker": "A",
+      "text": "O Cebraspe explora muito a diferença técnica entre Motivo e Motivação. O Motivo é o pressuposto fático e legal indispensável para a existência do ato, enquanto a Motivação é a justificativa escrita em que a autoridade demonstra por que agiu daquela maneira. Salvo exceções muito pontuais, a motivação é obrigatória para permitir o controle de legalidade dos atos de trânsito e das decisões operacionais."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa distinção mostra como a teoria se conecta diretamente à prática fiscalizatória. Quando a lei determina expressamente que uma infração gera retenção do veículo, não há margem de escolha para o policial, tratando-se de ato vinculado quanto ao objeto e ao motivo. Entender como esses elementos operam é a chave para analisar a validade, a anulação e a eficácia de cada medida adotada pelo Estado."
+    }
+  ]
+}

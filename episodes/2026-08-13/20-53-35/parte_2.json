@@ -1,0 +1,69 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Essa dinâmica nos leva diretamente aos poderes administrativos, que são verdadeiros instrumentos de trabalho para o policial rodoviário federal. O poder de polícia, em especial, é a base da fiscalização nas rodovias. Ele representa a prerrogativa que o Estado possui de condicionar e restringir o uso de bens, o exercício de direitos e a prática de atividades individuais em prol do interesse público."
+    },
+    {
+      "speaker": "B",
+      "text": "E para a prova da PRF, é indispensável saber diferenciar a polícia administrativa da polícia judiciária. A polícia administrativa atua de forma predominantemente preventiva, mas também repressiva, incidindo sobre bens, direitos e atividades, como na aplicação de multas ou retenção de cargas irregulares. Já a polícia judiciária tem caráter essencialmente repressivo, atua sobre pessoas e destina-se a subsidiar a persecução penal da justiça criminal."
+    },
+    {
+      "speaker": "A",
+      "text": "Excelente diferenciação. A doutrina e as bancas costumam esquematizar o poder de polícia no chamado ciclo de polícia, dividido em quatro fases: a ordem de polícia, que é a norma abstrata; o consentimento, como a expedição da CNH; a fiscalização, que é a ronda e a blitz no trecho; e a sanção de polícia, que pune o infrator. Vale lembrar que a fiscalização e a sanção são atos tipicamente autoexecutórios."
+    },
+    {
+      "speaker": "B",
+      "text": "Falando em autoexecutoriedade, ela é um dos três atributos clássicos do poder de polícia, ao lado da discricionariedade e da coercibilidade. A autoexecutoriedade permite que a Administração execute suas decisões diretamente no plano material, sem precisar pedir autorização prévia ao Poder Judiciário. Se um caminhão está com excesso perigoso de peso, a equipe pode retê-lo imediatamente para garantir a segurança viária."
+    },
+    {
+      "speaker": "A",
+      "text": "Ao lado disso, não podemos confundir os atributos do poder de polícia com os atributos dos atos administrativos em geral. No caso dos atos, o mnemônico clássico é o PATI: Presunção de legitimidade e veracidade, Autoexecutoriedade, Tipicidade e Imperatividade. A presunção de legitimidade faz com que o ato do policial seja considerado legal e os fatos por ele relatados sejam presumidos verdadeiros até prova em contrário, operando a inversão do ônus da prova."
+    },
+    {
+      "speaker": "B",
+      "text": "A tipicidade garante que o ato corresponda a figuras previamente definidas em lei, impedindo a criação de atos totalmente inominados ou arbitrários pelo agente. Já a imperatividade é o atributo que impõe a obrigação a terceiros independentemente de sua concordância. Mas todo esse poder encontra limites rígidos no princípio da legalidade, e quando o agente extrapola esses limites, ingressamos na seara do abuso de poder."
+    },
+    {
+      "speaker": "A",
+      "text": "O Cebraspe adora cobrar a divisão técnica do abuso de poder, que é gênero composto por duas espécies: o excesso de poder e o desvio de finalidade, também chamado de desvio de poder. O excesso de poder ocorre quando o agente público atua fora dos limites de sua competência legal. Ou seja, ele até possui um cargo público, mas pratica um ato para o qual a lei não lhe conferiu competência."
+    },
+    {
+      "speaker": "B",
+      "text": "Já o desvio de finalidade ocorre quando o agente atua dentro da sua esfera de competência, mas pratica o ato buscando um fim diverso daquele previsto na lei ou visando a um interesse puramente pessoal. Um exemplo clássico seria a remoção punitiva de um servidor por pura perseguição política. O ato aparenta conformidade externa, mas o vício reside na intenção e no resultado pretendido."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro ponto crucial ligado à competência são os limites para delegação e avocação previstos na Lei 9.784. O candidato precisa guardar que a competência é, em regra, irrenunciável, mas admite delegação e avocação em casos justificáveis. Contudo, jamais podem ser delegados três atos: edição de atos de caráter normativo, decisão de recursos administrativos e matérias de competência exclusiva de determinado órgão ou autoridade."
+    },
+    {
+      "speaker": "B",
+      "text": "Quando um ato nasce contaminado por vício de legalidade ou deixa de ser conveniente para o interesse público, ocorrem as formas de extinção, com destaque para anulação e revogação. A anulação incide sobre atos ilegais ou ilegítimos, gera efeitos retroativos, o famoso 'ex tunc', e pode ser realizada tanto pela própria Administração pelo dever de autotutela quanto pelo Poder Judiciário."
+    },
+    {
+      "speaker": "A",
+      "text": "Por outro lado, a revogação só recai sobre atos que nasceram válidos e legais, mas que se tornaram inoportunos ou inconvenientes diante do mérito administrativo. Os efeitos da revogação são prospectivos, 'ex nunc', não retroagindo para prejudicar direitos adquiridos. E guardem esta regra de ouro: a revogação é privativa da Administração Pública, pois o Judiciário não pode julgar o mérito administrativo dos outros poderes."
+    },
+    {
+      "speaker": "B",
+      "text": "Fechando esse ciclo de temas fundamentais, temos a responsabilidade civil do Estado, disciplinada pelo artigo 37, parágrafo sexto, da Constituição. O Brasil adotou expressamente a Teoria do Risco Administrativo para as condutas comissivas do Estado. Isso significa que a responsabilidade civil da Administração Pública é objetiva, não dependendo de dolo ou culpa do agente estatal causador do evento."
+    },
+    {
+      "speaker": "A",
+      "text": "Para a vítima obter a indenização, basta demonstrar a conduta administrativa, o dano suportado e o nexo de causalidade entre eles. Porém, como se trata da teoria do risco administrativo e não do risco integral, admitem-se causas excludentes de responsabilidade. Essas excludentes rompem o nexo causal, como a culpa exclusiva da vítima, o fato exclusivo de terceiro e o caso fortuito ou força maior absoluta."
+    },
+    {
+      "speaker": "B",
+      "text": "Caso haja culpa concorrente da vítima, a responsabilidade do Estado não é eliminada, mas apenas atenuada proporcionalmente na fixação da indenização. E depois que a Administração indeniza o cidadão, surge o direito de regresso contra o agente público causador do prejuízo. Ação de regresso que exige a comprovação de dolo ou culpa, pois a responsabilidade pessoal do policial perante o Estado é sempre de natureza subjetiva."
+    },
+    {
+      "speaker": "A",
+      "text": "Vale destacar a tese fixada pelo STF no Tema 940: a vítima deve ajuizar a ação indenizatória diretamente contra a pessoa jurídica de direito público, sendo vedado o ajuizamento direto contra o agente público. Todas essas balizas mostram como o Direito Administrativo equilibra a autoridade indispensável para a fiscalização com as garantias fundamentais do cidadão nas rodovias federais."
+    },
+    {
+      "speaker": "B",
+      "text": "A proporcionalidade precisa guiar desde a fiscalização diária até a aplicação de medidas cautelares no trânsito, evitando excessos e assegurando a validade das intervenções policiais. Agora que mapeamos toda essa estrutura teórica e as principais armadilhas cobradas pelas bancas, é o momento perfeito para consolidar esses conceitos resolvendo algumas questões práticas de prova."
+    }
+  ]
+}
