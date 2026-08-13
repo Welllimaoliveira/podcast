@@ -1,0 +1,69 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Falando em tag questions, existem algumas exceções que são verdadeiros ímãs de pegadinhas em provas de concurso. A primeira delas é o pronome de primeira pessoa do singular no presente afirmativo: quando dizemos 'I am right', a tag question correspondente não é 'am not I', mas sim 'aren't I?'. Além disso, quando a frase principal contém palavras com carga negativa implícita, a banca adora tentar induzir o candidato ao erro."
+    },
+    {
+      "speaker": "B",
+      "text": "Esse detalhe dos advérbios de frequência negativa é fundamental. Termos como 'hardly', 'scarcely', 'barely', 'seldom', 'rarely' e o clássico 'never' tornam a oração principal semanticamente negativa, mesmo que o verbo não esteja acompanhado de 'not'. Por isso, se a frase for 'She seldom arrives late', a tag question correta deve ser afirmativa, ou seja, 'does she?', e não 'doesn't she?'. Se você vir um item do Cebraspe propondo 'She rarely complains, doesn't she?', pode marcar como incorreto sem hesitar."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito. E temos também as tag questions com o modo imperativo e com a estrutura 'Let's'. Quando damos uma ordem, um comando ou fazemos um pedido, como em 'Open the window', a confirmação padrão é 'will you?' ou 'won't you?'. Já quando fazemos uma sugestão coletiva com 'Let's', como em 'Let's analyze this chart', a tag question obrigatória é 'shall we?'. Essas estruturas não seguem a regra direta do tempo verbal, e sim convenções pragmáticas da língua inglesa que costumam aparecer em questões de gramática aplicada."
+    },
+    {
+      "speaker": "B",
+      "text": "Com certeza. Agora, saindo das tag questions, outro tópico que gera uma quantidade enorme de erros em provas de alto nível são as 'Indirect Questions', conhecidas também como perguntas indiretas ou orações interrogativas embutidas. Isso acontece quando inserimos uma pergunta dentro de outra frase ou após expressões introdutórias, como 'Could you tell me...?', 'Do you know...?' ou 'I wonder...'. O grande segredo aqui é que a ordem da frase subordinada volta a ser afirmativa."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente. Em uma pergunta direta tradicional, nós invertemos o sujeito e o verbo auxiliar: 'Where does he live?'. Porém, ao transformar isso em uma pergunta indireta, o auxiliar 'does' desaparece e o verbo principal é conjugado normalmente: 'Could you tell me where he lives?'. O candidato que decora apenas a fórmula básica da pergunta direta tende a achar que 'Could you tell me where does he live?' está certo, mas essa dupla inversão é um erro gramatical gravíssimo na língua culta."
+    },
+    {
+      "speaker": "B",
+      "text": "É uma das pegadinhas mais clássicas em questões de reescrita textual e identificação de erros. Se a pergunta original for no passado com 'did', por exemplo, 'What time did the train arrive?', a versão indireta será 'Do you know what time the train arrived?'. O verbo principal 'arrive' assume a terminação de passado simples, e o auxiliar 'did' não deve ser empregado. A banca muitas vezes cria períodos longos em textos institucionais justamente para esconder essa inversão indevida no meio da frase."
+    },
+    {
+      "speaker": "A",
+      "text": "E o mesmo raciocínio se aplica quando a pergunta original for do tipo 'Yes/No Question', ou seja, sem pronome interrogativo. Se a pergunta direta for 'Is the library open on Sundays?', ao torná-la indireta precisamos utilizar as conjunções 'if' ou 'whether': 'I would like to know if the library is open on Sundays'. Repare que 'is' vai para depois do sujeito 'the library'. É a estrutura clássica de oração declarativa acoplada a uma oração principal interrogativa ou afirmativa."
+    },
+    {
+      "speaker": "B",
+      "text": "Muito bem lembrado. Outra particularidade muito cobrada, especialmente na transição entre registros formais e informais, é o posicionamento das preposições em perguntas, fenômeno conhecido na linguística como 'preposition stranding'. No inglês do dia a dia e até em textos jornalísticos formais, é padrão deixar a preposição no final da frase: 'What are you looking at?' ou 'Who did you talk to?'. Para o falante de português, parece estranho terminar uma frase com 'at' ou 'to', mas isso é perfeitamente correto."
+    },
+    {
+      "speaker": "A",
+      "text": "Ao mesmo tempo, em textos acadêmicos, jurídicos ou muito formais, a preposição pode ser deslocada para o início da pergunta, antes do pronome relativo ou interrogativo. Nesses casos, o pronome 'who' obrigatoriamente se transforma em 'whom': dizemos 'To whom did you talk?' em vez de 'Who did you talk to?'. O Cebraspe adora colocar trechos formais de relatórios internacionais ou artigos científicos e perguntar se a substituição de uma estrutura pela outra preserva a correção gramatical e o sentido original."
+    },
+    {
+      "speaker": "B",
+      "text": "E a resposta geralmente é sim, preserva a correção e o sentido, alterando apenas o nível de formalidade do discurso. Outro exemplo comum com preposição final ocorre com a palavra 'like' para pedir descrições: 'What is the new system like?'. Isso não significa 'do que o novo sistema gosta', mas sim 'como é o novo sistema?'. Muitos candidatos confundem 'What is it like?', que pede uma descrição de características, com 'How is it?', que geralmente pergunta sobre o estado momentâneo ou a qualidade de uma experiência."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa distinção entre 'What is it like?' e 'How is it?' é cirúrgica. E já que estamos falando sobre respostas e interações, não podemos deixar de analisar as fórmulas de concordância rápida em diálogos, como 'So do I' e 'Neither do I'. Elas funcionam como respostas curtas para concordar com declarações anteriores, equivalendo ao nosso 'eu também' ou 'eu também não'. A regra aqui exige manter a simetria com o verbo auxiliar da sentença anterior, mas com uma inversão de sujeito."
+    },
+    {
+      "speaker": "B",
+      "text": "Vamos ver na prática como isso funciona. Se alguém afirma no presente simples 'I enjoy studying foreign languages', e você quer concordar dizendo que também gosta, a resposta correta é 'So do I', usando o auxiliar 'do'. Mas se a afirmação for com o verbo 'to be', como 'I am ready for the exam', você não pode dizer 'So do I', e sim 'So am I'. A concordância precisa espelhar com exatidão a categoria verbal utilizada na oração de referência."
+    },
+    {
+      "speaker": "A",
+      "text": "E o mesmo cuidado é exigido na concordância negativa. Se a frase de partida for 'I don't have enough time', para dizer 'eu também não', usamos 'Neither do I'. Como a palavra 'Neither' já carrega o sentido de negação, o verbo auxiliar seguinte fica na forma afirmativa. Um erro muito comum é dizer 'Neither don't I', criando uma dupla negação agramatical no padrão culto da língua inglesa."
+    },
+    {
+      "speaker": "B",
+      "text": "Uma alternativa legítima para concordar com uma negativa é usar 'either' no final da frase com o verbo conjugado na forma negativa: 'I don't either'. Ou seja, 'Neither do I' e 'I don't either' são semanticamente idênticas e totalmente intercambiáveis. Em questões de compreensão de diálogos ou reescrita, reconhecer essa equivalência evita que o estudante perca pontos preciosos por achar que uma das duas opções está incorreta."
+    },
+    {
+      "speaker": "A",
+      "text": "Com certeza. Se analisarmos o conjunto de tudo o que vimos até aqui, o domínio das estruturas de perguntas e respostas vai muito além de saber traduzir pronomes interrogativos básicos. Envolve compreender a hierarquia dos auxiliares, o papel sintático do sujeito nas perguntas diretas, o equilíbrio das tag questions, a ordem direta nas perguntas indiretas e a precisão nas respostas curtas de concordância."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. Quem domina essas engrenagens não apenas resolve questões de gramática com segurança e rapidez, mas também ganha uma vantagem enorme na interpretação de textos densos, identificando com clareza as intenções do autor e os tópicos centrais de cada parágrafo. E agora que detalhamos todos esses conceitos, estruturas e armadilhas frequentes, chegou o momento ideal de colocarmos todo esse conhecimento à prova resolvendo algumas questões práticas."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "disciplina": "ingles",
+  "questoes": [
+    {
+      "id": "PRF-2021-003-ING",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Inglês",
+      "disciplina_canonica": "ingles",
+      "item_original": 3,
+      "questao": "According to the text, despite the extremely cold weather, energy production in Texas continued without significant disruption.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 3 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-004-ING",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Inglês",
+      "disciplina_canonica": "ingles",
+      "item_original": 4,
+      "questao": "The text states that problems affecting energy production in Texas were producing consequences in other parts of the United States.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 4 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-005-ING",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Inglês",
+      "disciplina_canonica": "ingles",
+      "item_original": 5,
+      "questao": "According to the text, Florida produces electricity at a level approximately equal to that of Texas.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 5 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-006-ING",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Inglês",
+      "disciplina_canonica": "ingles",
+      "item_original": 6,
+      "questao": "The text indicates that some colder places successfully rely on wind power, showing that wind generation can work in freezing climates.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 6 - gabarito oficial definitivo"
+    }
+  ]
+}

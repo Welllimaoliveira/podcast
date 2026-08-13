@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Quando a gente começa a estudar inglês, uma das primeiras barreiras mentais é perceber que uma pergunta não depende apenas do tom de voz. No português, basta mudar a entonação no final da frase para transformar uma afirmação em dúvida, mas a língua inglesa exige uma reorganização estrutural completa. Entender como funcionam as perguntas e respostas é a chave para destravar tanto a conversação quanto a interpretação de textos em provas."
+    },
+    {
+      "speaker": "B",
+      "text": "É exatamente isso, porque o inglês é uma língua muito mais rígida na sua sintaxe. Enquanto nós dizemos 'você gosta de café?' apenas elevando o tom no final, o inglês precisa de um sinalizador logo no começo, que são os verbos auxiliares. Se você não coloca o 'Do' ou o 'Does' ali na frente, a estrutura gramatical simplesmente não existe como pergunta padrão."
+    },
+    {
+      "speaker": "A",
+      "text": "Esse sinalizador inicial funciona como uma placa de trânsito que avisa o interlocutor: prepare-se, lá vem uma pergunta. Os auxiliares como 'do' e 'does' no presente e 'did' no passado não têm tradução literal nesses casos, mas cumprem o papel fundamental de indicar o tempo verbal e o sujeito. Saber identificar esse padrão economiza um tempo precioso quando estamos diante de um texto complexo."
+    },
+    {
+      "speaker": "B",
+      "text": "E essa regra básica já começa a dividir as perguntas em dois grandes blocos: as 'Yes or No questions' e as 'Wh-questions'. As perguntas de sim ou não são aquelas que começam diretamente com o verbo auxiliar ou com o verbo 'to be'. Por exemplo, 'Are you ready?' ou 'Did they finish the project?', cuja resposta direta vai apenas confirmar ou negar a proposição."
+    },
+    {
+      "speaker": "A",
+      "text": "Muito bom você pontuar isso, porque as respostas curtas a essas perguntas também têm uma mecânica própria. Em português, respondemos apenas 'sim' ou 'não', ou repetimos o verbo principal como 'gosto' ou 'fui'. No inglês padrão, a resposta curta elegante e correta espelha o auxiliar da pergunta, como em 'Yes, I do' ou 'No, they didn't'."
+    },
+    {
+      "speaker": "B",
+      "text": "Isso é uma pegadinha clássica em bancas como o Cebraspe, que adora avaliar a coesão textual em diálogos ou transcrições. A banca coloca uma pergunta com o auxiliar 'Did you see that?' e traz nas opções uma resposta incorreta como 'Yes, I saw' ou 'Yes, I am', tentando induzir o candidato ao erro. A harmonia entre o auxiliar da pergunta e a resposta curta é um princípio inegociável da gramática normativa."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro ponto fundamental é quando entram em cena os verbos modais, como 'can', 'should', 'must' e 'will'. Nesses casos, o próprio modal assume o papel do auxiliar e vai para o início da frase para formar a pergunta. Se você quer perguntar se alguém pode ajudar, a inversão ocorre imediatamente: 'Can you help me?' em vez de usar qualquer outro operador."
+    },
+    {
+      "speaker": "B",
+      "text": "E o mesmo acontece com o verbo 'to be' no presente e no passado simples, onde ele não aceita 'do' ou 'does' de jeito nenhum. Dizer 'Do you be happy?' é um erro que muitos cometem por tentar aplicar a regra do auxiliar cegamente. O verbo 'to be' é autossuficiente, então invertemos diretamente para 'Are you happy?' ou 'Were they present at the meeting?'."
+    },
+    {
+      "speaker": "A",
+      "text": "Agora, quando passamos para as 'Wh-questions', a complexidade sobe um degrau, porque não queremos apenas um sim ou não, queremos uma informação específica. Essas perguntas são encabeçadas por pronomes interrogativos como 'What', 'Where', 'When', 'Why', 'Who', 'Which' e a família do 'How'. Cada uma dessas palavras exige um tipo de resposta completamente diferente."
+    },
+    {
+      "speaker": "B",
+      "text": "E a confusão entre 'What' e 'Which' é uma das mais frequentes entre estudantes brasileiros. Usamos 'What' quando o universo de escolhas é aberto e amplo, como em 'What is your favorite color?'. Já o 'Which' pressupõe um conjunto limitado de opções prévias, como em 'Which color do you prefer, blue or red?'. Em provas de concurso, trocar esses pronomes altera o sentido semântico do enunciado."
+    },
+    {
+      "speaker": "A",
+      "text": "Excelente lembrete. Outra distinção que costuma derrubar muita gente envolve as expressões formadas com 'How'. As bancas adoram explorar a diferença entre 'How long', que mede duração temporal, e 'How often', que investiga a frequência de um hábito. Se o texto fala sobre rotina e a pergunta do item usa 'How long', a assertiva já se torna conceitualmente incorreta."
+    },
+    {
+      "speaker": "B",
+      "text": "Exato, assim como a clássica distinção de quantidade entre 'How much', usado para substantivos incontáveis, e 'How many', para itens contáveis no plural. 'How much time do we have?' trata o tempo como grandeza contínua, enquanto 'How many hours did you study?' conta unidades discretas. Dominar essas nuances evita que você responda a algo diferente do que o examinador realmente perguntou."
+    },
+    {
+      "speaker": "A",
+      "text": "E não podemos deixar de lado uma das estruturas mais sofisticadas do inglês: as 'Subject Questions', ou perguntas sobre o sujeito. Normalmente, a regra de ouro diz que toda pergunta no passado precisa do auxiliar 'did', certo? Mas se a palavra interrogativa for o próprio sujeito da ação, a regra muda completamente e o auxiliar simplesmente desaparece."
+    },
+    {
+      "speaker": "B",
+      "text": "Esse é um ponto crucial em itens de certo ou errado da banca Cebraspe. Se você quer saber quem viu o acidente, a pergunta correta é 'Who saw the accident?' e não 'Who did see the accident?'. Como a palavra 'Who' está executando a ação e ocupando a posição do sujeito, o verbo principal é conjugado diretamente no passado, sem a presença do auxiliar."
+    },
+    {
+      "speaker": "A",
+      "text": "Já se a pergunta for sobre o objeto da ação, ou seja, quem você viu, a estrutura com o auxiliar volta a ser obrigatória: 'Who did you see?'. Perceba o contraste nítido: 'Who saw you?' significa 'quem viu você?', onde 'who' é o sujeito. Já 'Who did you see?' significa 'quem você viu?', onde 'you' é o sujeito e 'who' funciona como objeto direto."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa diferença sutil entre pergunta de sujeito e pergunta de objeto muda todo o sentido de uma frase e é cobrada com frequência em reescritas textuais. O candidato desatento olha para a frase 'Who called the police?' e pensa que falta um auxiliar, julgando o item como gramaticalmente incorreto. Saber identificar quem pratica a ação na pergunta é essencial para não cair nessa armadilha estrutural."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro aspecto indispensável nas perguntas em inglês são as 'Tag Questions', aquelas pequenas confirmações no final da frase, semelhantes ao nosso 'né?'. A regra geral aqui é a simetria inversa: se a oração principal for afirmativa, a tag question será negativa; se a oração principal for negativa, a tag question será afirmativa."
+    },
+    {
+      "speaker": "B",
+      "text": "Por exemplo, dizemos 'You are studying hard, aren't you?' ou 'She didn't call, did she?'. Além de inverter a polaridade, a tag question sempre resgata o verbo auxiliar correspondente ao tempo da frase principal e utiliza um pronome pessoal. É um recurso de confirmação muito frequente em diálogos e na interpretação de intenções em textos formais."
+    }
+  ]
+}
