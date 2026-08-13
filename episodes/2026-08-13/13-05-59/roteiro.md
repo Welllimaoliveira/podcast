@@ -1,0 +1,247 @@
+# Tema
+
+Português para a prova da PRF
+
+## Apresentador 1
+
+Que bom ter você aqui com a gente para ajustar a rota rumo à aprovação na Polícia Rodoviária Federal. Se existe uma disciplina que separa os candidatos que vão vestir a farda daqueles que apenas fazem número no dia da prova, essa disciplina é a Língua Portuguesa. Muita gente comete o erro de achar que a prova é puramente intuitiva, mas o concurso exige uma análise cirúrgica e funcional do texto.
+
+## Apresentadora 2
+
+É exatamente isso, e o Cebraspe adora transformar o Português no grande divisor de águas da pontuação final. A banca não quer saber apenas se você decorou uma lista estática de regras gramaticais, mas se entende o impacto de cada palavra na construção do sentido. Quando o candidato aprende a enxergar a intenção por trás de cada estrutura textual, a prova deixa de ser um mistério.
+
+## Apresentador 1
+
+Para começar com uma base sólida, a primeira grande chave é diferenciar compreensão de interpretação de texto. A compreensão lida diretamente com o que está explícito, ou seja, escrito com todas as letras no corpo do texto. Já a interpretação exige ir um passo além, deduzindo conclusões lógicas que são autorizadas pelo que o autor escreveu, sem inventar informações.
+
+## Apresentadora 2
+
+Nas questões de Certo ou Errado do Cebraspe, essa distinção é de onde saem as pegadinhas mais perigosas. A banca costuma colocar uma assertiva que parece perfeita, mas que extrapola o texto ou contradiz um detalhe sutil do argumento original. Além de dominar essa leitura atenta, o candidato precisa reconhecer a tipologia textual, identificando se o texto é predominantemente narrativo, descritivo, injuntivo ou dissertativo.
+
+## Apresentador 1
+
+Em provas da área policial, os textos dissertativo-argumentativos e os expositivos reinam absolutos nas questões. E para que esse texto se sustente de forma elegante e clara, entram em cena os mecanismos de coesão e coerência. A coesão funciona como a argamassa do texto, utilizando conectivos, pronomes e sinônimos para encadear as frases sem repetições cansativas.
+
+## Apresentadora 2
+
+Por outro lado, a coerência garante a harmonia das ideias, evitando contradições e mantendo a lógica do pensamento ao longo dos parágrafos. Uma questão clássica do Cebraspe em coesão é perguntar se a substituição de um pronome por outro altera os sentidos originais do trecho. Por exemplo, trocar o pronome relativo 'cujo' por 'do qual' sem ajustar a frase destrói a coesão, pois 'cujo' possui um valor possessivo único.
+
+## Apresentador 1
+
+E essa noção de encaixe perfeito das peças nos leva diretamente para a estrutura sintática da oração e do período. Dominar quem é o sujeito, a transitividade do verbo e os complementos é a base para não cair em armadilhas de reescrita. Quando você visualiza a ordem direta da frase, fica muito mais fácil julgar se o deslocamento de um adjunto adverbial altera a gramática ou o sentido.
+
+## Apresentadora 2
+
+Falando em estrutura sintática, a concordância verbal e nominal é um dos tópicos mais cobrados e que exige atenção total. O verbo 'haver', quando empregado no sentido de existir ou ocorrer, é impessoal e deve ser mantido obrigatoriamente no singular. Portanto, em frases como 'havia muitos veículos na rodovia', o verbo não vai para o plural sob hipótese alguma, pois 'muitos veículos' é objeto direto e não sujeito.
+
+## Apresentador 1
+
+Essa regra do verbo 'haver' pega muita gente desprevenida, especialmente quando a banca insere um verbo auxiliar na jogada. Na locução 'deve haver novos fiscais', a impessoalidade do verbo principal contamina o auxiliar, mantendo a expressão no singular como 'deve haver' e jamais 'devem haver'. Já na concordância nominal, palavras como 'anexo', 'incluso' e 'obrigado' variam em gênero e número para concordar com o termo a que se referem.
+
+## Apresentadora 2
+
+Avançando para a regência verbal e nominal, o grande desafio é filtrar o uso cotidiano e aplicar estritamente a norma-padrão. Um exemplo clássico é o verbo 'assistir', que no sentido de ver ou presenciar exige a preposição 'a', resultando em 'assistimos ao debate'. No dia a dia as pessoas costumam omitir a preposição, mas o Cebraspe cobra a regência correta de forma implacável nas questões de reescrita.
+
+## Apresentador 1
+
+E o domínio da regência é o pré-requisito indispensável para acertar todas as questões sobre o uso do sinal indicativo de crase. A crase nada mais é do que a fusão da preposição 'a' exigida por um termo regente com o artigo feminino 'a' aceito pelo termo regido. Uma macete prático para testar é substituir o termo feminino por um masculino correlato; se surgir a forma 'ao', a crase é confirmada.
+
+## Apresentadora 2
+
+Apesar do macete ajudar bastante, o candidato precisa ter na ponta da língua os casos onde a crase é expressamente proibida. Jamais se usa crase antes de verbos, de palavras masculinas, de pronomes pessoais ou quando o 'a' estiver no singular diante de um termo no plural. Se a banca trouxer 'prestou socorro a pessoas acidentadas', esse 'a' é apenas preposição pura, tornando o acento grave um erro crasso.
+
+## Apresentador 1
+
+Outro detalhe que o Cebraspe ama explorar são os casos de crase facultativa, que frequentemente aparecem em propostas de alteração de texto. O acento grave é opcional antes de pronomes possessivos femininos no singular, antes de nomes próprios femininos e após a preposição 'até'. Entender esses cenários impede que você marque como errada uma frase que apenas optou por não usar o artigo.
+
+## Apresentadora 2
+
+Para fechar esse conjunto fundamental da disciplina, a acentuação gráfica é outro ponto que exige precisão cirúrgica na prova. O grande segredo aqui não é apenas saber se a palavra leva acento, mas sim entender a regra gramatical exata que justifica aquela acentuação. A banca adora agrupar palavras diferentes e afirmar que todas seguem a mesma regra, o que muitas vezes é uma armadilha.
+
+## Apresentador 1
+
+Um exemplo clássico de pegadinha é comparar as palavras 'história' e 'também'. A palavra 'história' é acentuada por ser uma paroxítona terminada em ditongo crescente, enquanto 'também' é uma palavra oxítona terminada em 'em'. Ambas recebem acento agudo, mas a fundamentação gramatical de cada uma é completamente diferente, tornando a assertiva da banca errada.
+
+## Apresentadora 2
+
+O mesmo cuidado de análise deve ser aplicado às regras dos hiatos, como nas palavras 'baú' e 'saída'. Nesses casos, as vogais 'i' e 'u' tônicas recebem acento por estarem isoladas na sílaba ou acompanhadas de 's', formando hiato com a vogal anterior. É vital não confundir essa regra específica dos hiatos com as regras gerais das paroxítonas ou das oxítonas para não perder pontos preciosos.
+
+## Apresentador 1
+
+O grande aprendizado ao construir essa base é perceber que a prova da PRF exige raciocínio lógico aplicado à linguagem. Quando você enxerga a gramática não como um conjunto de regras isoladas, mas como ferramentas de precisão textual, seu rendimento muda drasticamente. É essa visão estratégica que transforma o candidato em um verdadeiro especialista na banca examinadora.
+
+## Apresentadora 2
+
+Com certeza, assumir essa postura analítica e integrada é o caminho mais seguro para garantir uma excelente pontuação em Português. Dominar a interpretação, a sintaxe e os detalhes gramaticais cria uma fundação inabalável para todo o restante da sua preparação. Ter essa clareza conceitual desde o início é exatamente o que vai te colocar nas vagas da Polícia Rodoviária Federal.
+
+## Apresentador 1
+
+Entrando justamente na dinâmica do Cebraspe, o estilo de julgamento de itens em Certo ou Errado transforma a reescrita de frases em uma das ferramentas mais perigosas da prova. A banca costuma alterar uma única palavra ou a posição de um termo e perguntar se o sentido original e a correção gramatical foram mantidos. Essa estratégia exige que o candidato faça uma dupla verificação minuciosa antes de assinalar a resposta final.
+
+## Apresentadora 2
+
+Exatamente, e uma troca clássica acontece quando a banca substitui um conectivo explicativo por um causativo ou concessivo, o que parece perfeito em uma leitura superficial. Se você troca uma conjunção como 'visto que' por 'embora', você altera completamente a lógica da frase, transformando uma causa em uma concessão. Mesmo que a nova frase permaneça gramaticalmente correta, a mudança do sentido original torna a assertiva incorreta.
+
+## Apresentador 1
+
+Outra pegadinha muito frequente envolve o deslocamento de adjuntos adverbiais ou de termos restritivos dentro do período sintático. Colocar um termo entre vírgulas ou alterar a sua posição na frase pode transformar uma informação que era restritiva em explicativa, alterando profundamente a mensagem do texto. O Cebraspe adora afirmar que o deslocamento não altera os sentidos do texto, quando na verdade muda toda a interpretação.
+
+## Apresentadora 2
+
+E por falar em termos que parecem idênticos, a prova da PRF adora explorar expressões com grafias semelhantes, mas com significados e usos sintáticos totalmente opostos. A expressão 'acerca de', escrita de forma aglutinada, equivale semanticamente a 'sobre' ou 'a respeito de', sendo muito comum em textos oficiais sobre fiscalização e legislação de trânsito.
+
+## Apresentador 1
+
+Já a forma 'há cerca de', construída com o verbo haver flexionado no sentido de tempo decorrido ou quantidade aproximada, refere-se a algo ocorrido no passado ou a uma estimativa numérica. Por outro lado, a estrutura 'a cerca de', composta apenas pela preposição 'a' e o substantivo ou numeral, indica distância espacial ou tempo futuro, como na frase 'a operação ocorrerá a cerca de dez quilômetros daqui'.
+
+## Apresentadora 2
+
+Confundir essas três formas é um prato cheio para o Cebraspe elaborar itens incorretos que parecem perfeitamente naturais ao leitor apressado. O segredo prático é sempre fazer a substituição mental imediata: 'acerca de' por 'sobre', e 'há cerca de' por 'faz aproximadamente'. Se você treinar essa substituição durante os estudos, elimina o risco de cair nessa armadilha no dia do concurso.
+
+## Apresentador 1
+
+Avançando para a análise sintática, outro ponto crucial que define a pontuação do candidato é o domínio completo das funções da palavra 'que'. Esse elemento aparece em praticamente todas as provas da banca examinadora, alternando-se principalmente entre as funções de pronome relativo e de conjunção integrante.
+
+## Apresentadora 2
+
+O macete para essa diferenciação é simples, mas exige bastante atenção e treino constante durante a leitura dos textos do edital. Quando o 'que' atua como pronome relativo, ele retoma um substantivo ou pronome anterior e pode ser perfeitamente substituído por 'o qual', 'a qual' ou suas respetivas flexões no plural.
+
+## Apresentador 1
+
+Além disso, quando o 'que' funciona como pronome relativo, ele introduz uma oração subordinada adjetiva, que exige atenção redobrada quanto à pontuação. Se a oração estiver isolada por vírgulas, ela terá caráter explicativo, mas se estiver sem vírgulas, terá valor restritivo. Mudar a pontuação nesses casos altera diretamente o sentido do texto, algo que a banca cobra com muita frequência.
+
+## Apresentadora 2
+
+Por outro lado, se a palavra 'que' for uma conjunção integrante, ela introduzirá uma oração subordinada substantiva e não exercerá função sintática de retomada. Nesse caso, a dica de ouro é substituir toda a oração iniciada pelo 'que' pela palavra 'isso'. Por exemplo, em 'o policial verificou que os documentos estavam regulares', podemos dizer 'o policial verificou isso'.
+
+## Apresentador 1
+
+Entrando na parte de pontuação, os desvios proibidos pela norma-padrão são explorados de forma extremamente rigorosa nas questões do Cebraspe. O erro mais clássico cobrado nas provas é a interrupção da ordem direta da oração, especialmente a separação indevida entre os termos essenciais e integrantes.
+
+## Apresentadora 2
+
+É fundamental memorizar que nunca, sob hipótese alguma, se deve colocar uma vírgula entre o sujeito e o seu verbo principal. A banca adora construir sujeitos extensos, repletos de adjuntos adnominais e orações intercaladas, justamente para induzir o candidato a colocar uma vírgula antes do verbo pensando ser uma pausa respiratória.
+
+## Apresentador 1
+
+Essa mesma regra de proibição se aplica de forma rigorosa entre o verbo e os seus complementos, sejam eles diretos ou indiretos. Inserir uma vírgula entre o verbo 'apresentar' e o seu complemento 'a carteira de habilitação' quebra a coesão sintática da frase e torna a assertiva imediatamente errada, independentemente de quão longa seja a estrutura.
+
+## Apresentadora 2
+
+Além dos erros de pontuação, a regência verbal é uma das matérias em que o uso coloquial da linguagem mais prejudica o desempenho do candidato na prova. O verbo 'implicar', por exemplo, quando empregado no sentido de acarretar, causar ou trazer como consequência, é transitivo direto e não aceita a preposição 'em'.
+
+## Apresentador 1
+
+No cotidiano, estamos acostumados a ouvir expressões como 'a infração implica em penalidade', mas para a norma-padrão exigida pela PRF isso é um desvio gramatical. O correto é dizer 'a infração implica penalidade', sem a preposição 'em'. O Cebraspe adora colocar essa preposição nas propostas de reescrita para testar se o aluno está atento.
+
+## Apresentadora 2
+
+O mesmo cuidado deve ser tomado com o verbo 'visar', que apresenta mudanças de regência de acordo com o seu significado no texto. Quando empregado com o sentido de almejar, ter como objetivo ou pretender, ele exige obrigatoriamente a preposição 'a', sendo um verbo transitivo indireto.
+
+## Apresentador 1
+
+Sendo assim, a frase correta deve ser 'as novas campanhas de trânsito visam à conscientização dos motoristas', com o uso obrigatório do acento grave. Se a frase trouxer o verbo 'visar' no sentido de mirar ou assinar um documento, aí ele será transitivo direto, como em 'o agente visou o passaporte', sem nenhuma preposição.
+
+## Apresentadora 2
+
+Para encerrar esses casos especiais de regência, vale destacar o verbo 'assistir', que também é um campeão de pegadinhas em provas de concursos públicos. No sentido de ver ou presenciar, ele é transitivo indireto e exige a preposição 'a', enquanto no sentido de prestar auxílio ou socorro, ele pode ser usado como transitivo direto.
+
+## Apresentador 1
+
+Portanto, dizer que 'o agente assistiu o acidente' no sentido de presenciar é considerado um erro gramatical na prova, devendo ser 'assistiu ao acidente'. Já na frase 'o socorrista assistiu o ferido', o uso sem preposição está correto por se tratar de prestação de ajuda médica ou emergencial.
+
+## Apresentadora 2
+
+Compreender essas nuances teóricas de reescrita, pontuação e regência transforma a maneira como você encara as questões da banca. Agora que consolidamos todos esses conceitos e entendemos onde estão as principais armadilhas, o próximo passo natural é aplicar todo esse conhecimento na prática resolvendo algumas questões no estilo da prova.
+
+## Apresentador 1
+
+Agora chegou a hora de testar de verdade o que você sabe. Separei quatro questões de provas anteriores da Polícia Rodoviária Federal.
+
+## Apresentadora 2
+
+A regra é simples: escute as quatro questões e marque mentalmente certo ou errado. Não vamos revelar as respostas agora. Depois das quatro, a gente volta com o gabarito oficial e explica cada uma.
+
+## Apresentador 1
+
+Como estamos usando provas anteriores, considere sempre o ano indicado e o gabarito oficial daquela prova. Legislação pode sofrer alterações ao longo do tempo.
+
+## Apresentadora 2
+
+Questão 1. PRF 2021, CEBRASPE, item 25. Todo e-mail institucional possui automaticamente valor documental equivalente ao de documento original, independentemente de outros requisitos. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 2. PRF 2021, CEBRASPE, item 26. No padrão de redação oficial, o campo assunto deve sintetizar de forma geral o conteúdo que será tratado na comunicação e seguir a formatação prevista pelo manual. Certo ou errado?
+
+## Apresentadora 2
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentadora 2
+
+Questão 3. PRF 2021, CEBRASPE, item 9. No texto sobre a evolução histórica da polícia, a transferência da polícia do sistema de justiça para o governo da cidade é apresentada como uma mudança de paradigma quanto ao papel policial na sociedade. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 4. PRF 2021, CEBRASPE, item 10. A reescrita que atribui diretamente aos países europeus o empenho em prevenir crimes e apresenta esse empenho como causa do desenvolvimento de uma habilidade policial específica mantém integralmente a correção gramatical e os sentidos do trecho original. Certo ou errado?
+
+## Apresentador 1
+
+As quatro foram apresentadas. Se você quiser mais tempo para resolver, pause o áudio agora. Quando estiver pronto, continue para conferir o gabarito.
+
+## Apresentadora 2
+
+Vamos corrigir. Mais importante do que acertar é entender exatamente por que cada item está certo ou errado.
+
+## Apresentador 1
+
+Questão 1. O gabarito oficial é ERRADO.
+
+## Apresentadora 2
+
+O item esta ERRADO. Segundo o Manual de Redacao da Presidencia da Republica, o e-mail institucional e um meio celere de transmissao de mensagens, mas nao possui valor documental equivalente ao de um documento original de forma automatica. Para que uma mensagem de e-mail tenha eficacia documental e validade legal equivalentes ao original, e indispensavel o cumprimento de requisitos especificos, como o uso de certificacao digital ICP-Brasil. A pegadinha da banca reside no uso de termos absolutistas como automaticamente e independentemente de outros requisitos, induzindo o candidato a erro ao simplificar as exigencias de seguranca juridica. O candidato deveria perceber que a validade juridica exige garantias formais de autenticidade e integridade.
+
+## Apresentadora 2
+
+Questão 2. O gabarito oficial é CERTO.
+
+## Apresentador 1
+
+O item esta CERTO. De acordo com o Manual de Redacao da Presidencia da Republica, o campo Assunto na estrutura dos expedientes oficiais tem como finalidade apresentar o tema da comunicacao de modo sucinto e claro, permitindo ao leitor identificar imediatamente o conteudo abordado. Alem disso, a mensagem deve seguir estritamente as diretrizes de formatacao estabelecidas pelo manual, como o uso de destaque adequado e pontuacao correta. A pegadinha poderia ser achar que o assunto deve ser extremamente detalhado, quando na verdade ele deve ser sintetico. O candidato deveria raciocinar que a concisao e a padronizacao estetica sao pilares fundamentais da Redacao Oficial, garantindo a eficiencia e a clareza na tramitacao dos documentos.
+
+## Apresentador 1
+
+Questão 3. O gabarito oficial é CERTO.
+
+## Apresentadora 2
+
+O item esta CERTO. A questao cobra a interpretacao do texto referente ao desenvolvimento historico da instituicao policial. A passagem do texto demonstra que a vinculacao da policia ao governo local da cidade, em vez de atuar estritamente no ambito do sistema de justica tradicional, alterou profundamente sua funcao social, caracterizando uma verdadeira mudanca de paradigma. A pegadinha consistia em tentar confundir o candidato quanto ao conceito de mudanca de paradigma, sugerindo que se tratava apenas de uma reorganizacao administrativa sem impacto na atuacao policial. O candidato deveria analisar a relacao de causa e efeito expressa no texto, identificando que a reestruturacao institucional transformou o proprio papel da policia perante a sociedade civil.
+
+## Apresentadora 2
+
+Questão 4. O gabarito oficial é ERRADO.
+
+## Apresentador 1
+
+O item esta ERRADO. Nas questoes de reescrita, exige-se a preservacao simultanea da correcao gramatical e da coerencia semantica do trecho original. Ao alterar o agente da acao e atribuir diretamente aos paises europeus o empenho na prevencao de crimes como causa direta do desenvolvimento de uma habilidade policial especifica, a proposta de reescrita modificou a relacao logica e os sentidos originais do texto. A pegadinha da banca foi apresentar uma estrutura perfeitamente correta sob o ponto de vista sintatico para mascarar a alteracao de sentido. O candidato deveria observar com atencao as relacoes de causa e efeito, notando que a nova redacao alterou o sentido original do texto de referencia.
+
+## Apresentador 1
+
+Se você errou alguma delas, essa é justamente a questão que merece entrar na sua lista de revisão.
+
+## Apresentadora 2
+
+E se acertou as quatro, ótimo. Mas não fique apenas no acerto: tenha certeza de que você consegue explicar o motivo de cada resposta.
+
+## Apresentador 1
+
+Continuamos no próximo episódio com outro tema e quatro novas questões. Bons estudos e até lá.

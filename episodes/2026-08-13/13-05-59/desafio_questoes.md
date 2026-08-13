@@ -1,0 +1,70 @@
+# DESAFIO PRF
+
+Resolva as quatro questões antes de olhar o gabarito.
+
+## Questão 1
+
+PRF 2021 - CEBRASPE - Item 25
+
+Todo e-mail institucional possui automaticamente valor documental equivalente ao de documento original, independentemente de outros requisitos.
+
+**Certo ou Errado?**
+
+## Questão 2
+
+PRF 2021 - CEBRASPE - Item 26
+
+No padrão de redação oficial, o campo assunto deve sintetizar de forma geral o conteúdo que será tratado na comunicação e seguir a formatação prevista pelo manual.
+
+**Certo ou Errado?**
+
+## Questão 3
+
+PRF 2021 - CEBRASPE - Item 9
+
+No texto sobre a evolução histórica da polícia, a transferência da polícia do sistema de justiça para o governo da cidade é apresentada como uma mudança de paradigma quanto ao papel policial na sociedade.
+
+**Certo ou Errado?**
+
+## Questão 4
+
+PRF 2021 - CEBRASPE - Item 10
+
+A reescrita que atribui diretamente aos países europeus o empenho em prevenir crimes e apresenta esse empenho como causa do desenvolvimento de uma habilidade policial específica mantém integralmente a correção gramatical e os sentidos do trecho original.
+
+**Certo ou Errado?**
+
+---
+
+# GABARITO
+
+1. ERRADO
+2. CERTO
+3. CERTO
+4. ERRADO
+
+# EXPLICAÇÕES
+
+## Questão 1
+
+Gabarito oficial: **ERRADO**
+
+O item esta ERRADO. Segundo o Manual de Redacao da Presidencia da Republica, o e-mail institucional e um meio celere de transmissao de mensagens, mas nao possui valor documental equivalente ao de um documento original de forma automatica. Para que uma mensagem de e-mail tenha eficacia documental e validade legal equivalentes ao original, e indispensavel o cumprimento de requisitos especificos, como o uso de certificacao digital ICP-Brasil. A pegadinha da banca reside no uso de termos absolutistas como automaticamente e independentemente de outros requisitos, induzindo o candidato a erro ao simplificar as exigencias de seguranca juridica. O candidato deveria perceber que a validade juridica exige garantias formais de autenticidade e integridade.
+
+## Questão 2
+
+Gabarito oficial: **CERTO**
+
+O item esta CERTO. De acordo com o Manual de Redacao da Presidencia da Republica, o campo Assunto na estrutura dos expedientes oficiais tem como finalidade apresentar o tema da comunicacao de modo sucinto e claro, permitindo ao leitor identificar imediatamente o conteudo abordado. Alem disso, a mensagem deve seguir estritamente as diretrizes de formatacao estabelecidas pelo manual, como o uso de destaque adequado e pontuacao correta. A pegadinha poderia ser achar que o assunto deve ser extremamente detalhado, quando na verdade ele deve ser sintetico. O candidato deveria raciocinar que a concisao e a padronizacao estetica sao pilares fundamentais da Redacao Oficial, garantindo a eficiencia e a clareza na tramitacao dos documentos.
+
+## Questão 3
+
+Gabarito oficial: **CERTO**
+
+O item esta CERTO. A questao cobra a interpretacao do texto referente ao desenvolvimento historico da instituicao policial. A passagem do texto demonstra que a vinculacao da policia ao governo local da cidade, em vez de atuar estritamente no ambito do sistema de justica tradicional, alterou profundamente sua funcao social, caracterizando uma verdadeira mudanca de paradigma. A pegadinha consistia em tentar confundir o candidato quanto ao conceito de mudanca de paradigma, sugerindo que se tratava apenas de uma reorganizacao administrativa sem impacto na atuacao policial. O candidato deveria analisar a relacao de causa e efeito expressa no texto, identificando que a reestruturacao institucional transformou o proprio papel da policia perante a sociedade civil.
+
+## Questão 4
+
+Gabarito oficial: **ERRADO**
+
+O item esta ERRADO. Nas questoes de reescrita, exige-se a preservacao simultanea da correcao gramatical e da coerencia semantica do trecho original. Ao alterar o agente da acao e atribuir diretamente aos paises europeus o empenho na prevencao de crimes como causa direta do desenvolvimento de uma habilidade policial especifica, a proposta de reescrita modificou a relacao logica e os sentidos originais do texto. A pegadinha da banca foi apresentar uma estrutura perfeitamente correta sob o ponto de vista sintatico para mascarar a alteracao de sentido. O candidato deveria observar com atencao as relacoes de causa e efeito, notando que a nova redacao alterou o sentido original do texto de referencia.

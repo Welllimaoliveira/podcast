@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Que bom ter você aqui com a gente para ajustar a rota rumo à aprovação na Polícia Rodoviária Federal. Se existe uma disciplina que separa os candidatos que vão vestir a farda daqueles que apenas fazem número no dia da prova, essa disciplina é a Língua Portuguesa. Muita gente comete o erro de achar que a prova é puramente intuitiva, mas o concurso exige uma análise cirúrgica e funcional do texto."
+    },
+    {
+      "speaker": "B",
+      "text": "É exatamente isso, e o Cebraspe adora transformar o Português no grande divisor de águas da pontuação final. A banca não quer saber apenas se você decorou uma lista estática de regras gramaticais, mas se entende o impacto de cada palavra na construção do sentido. Quando o candidato aprende a enxergar a intenção por trás de cada estrutura textual, a prova deixa de ser um mistério."
+    },
+    {
+      "speaker": "A",
+      "text": "Para começar com uma base sólida, a primeira grande chave é diferenciar compreensão de interpretação de texto. A compreensão lida diretamente com o que está explícito, ou seja, escrito com todas as letras no corpo do texto. Já a interpretação exige ir um passo além, deduzindo conclusões lógicas que são autorizadas pelo que o autor escreveu, sem inventar informações."
+    },
+    {
+      "speaker": "B",
+      "text": "Nas questões de Certo ou Errado do Cebraspe, essa distinção é de onde saem as pegadinhas mais perigosas. A banca costuma colocar uma assertiva que parece perfeita, mas que extrapola o texto ou contradiz um detalhe sutil do argumento original. Além de dominar essa leitura atenta, o candidato precisa reconhecer a tipologia textual, identificando se o texto é predominantemente narrativo, descritivo, injuntivo ou dissertativo."
+    },
+    {
+      "speaker": "A",
+      "text": "Em provas da área policial, os textos dissertativo-argumentativos e os expositivos reinam absolutos nas questões. E para que esse texto se sustente de forma elegante e clara, entram em cena os mecanismos de coesão e coerência. A coesão funciona como a argamassa do texto, utilizando conectivos, pronomes e sinônimos para encadear as frases sem repetições cansativas."
+    },
+    {
+      "speaker": "B",
+      "text": "Por outro lado, a coerência garante a harmonia das ideias, evitando contradições e mantendo a lógica do pensamento ao longo dos parágrafos. Uma questão clássica do Cebraspe em coesão é perguntar se a substituição de um pronome por outro altera os sentidos originais do trecho. Por exemplo, trocar o pronome relativo 'cujo' por 'do qual' sem ajustar a frase destrói a coesão, pois 'cujo' possui um valor possessivo único."
+    },
+    {
+      "speaker": "A",
+      "text": "E essa noção de encaixe perfeito das peças nos leva diretamente para a estrutura sintática da oração e do período. Dominar quem é o sujeito, a transitividade do verbo e os complementos é a base para não cair em armadilhas de reescrita. Quando você visualiza a ordem direta da frase, fica muito mais fácil julgar se o deslocamento de um adjunto adverbial altera a gramática ou o sentido."
+    },
+    {
+      "speaker": "B",
+      "text": "Falando em estrutura sintática, a concordância verbal e nominal é um dos tópicos mais cobrados e que exige atenção total. O verbo 'haver', quando empregado no sentido de existir ou ocorrer, é impessoal e deve ser mantido obrigatoriamente no singular. Portanto, em frases como 'havia muitos veículos na rodovia', o verbo não vai para o plural sob hipótese alguma, pois 'muitos veículos' é objeto direto e não sujeito."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa regra do verbo 'haver' pega muita gente desprevenida, especialmente quando a banca insere um verbo auxiliar na jogada. Na locução 'deve haver novos fiscais', a impessoalidade do verbo principal contamina o auxiliar, mantendo a expressão no singular como 'deve haver' e jamais 'devem haver'. Já na concordância nominal, palavras como 'anexo', 'incluso' e 'obrigado' variam em gênero e número para concordar com o termo a que se referem."
+    },
+    {
+      "speaker": "B",
+      "text": "Avançando para a regência verbal e nominal, o grande desafio é filtrar o uso cotidiano e aplicar estritamente a norma-padrão. Um exemplo clássico é o verbo 'assistir', que no sentido de ver ou presenciar exige a preposição 'a', resultando em 'assistimos ao debate'. No dia a dia as pessoas costumam omitir a preposição, mas o Cebraspe cobra a regência correta de forma implacável nas questões de reescrita."
+    },
+    {
+      "speaker": "A",
+      "text": "E o domínio da regência é o pré-requisito indispensável para acertar todas as questões sobre o uso do sinal indicativo de crase. A crase nada mais é do que a fusão da preposição 'a' exigida por um termo regente com o artigo feminino 'a' aceito pelo termo regido. Uma macete prático para testar é substituir o termo feminino por um masculino correlato; se surgir a forma 'ao', a crase é confirmada."
+    },
+    {
+      "speaker": "B",
+      "text": "Apesar do macete ajudar bastante, o candidato precisa ter na ponta da língua os casos onde a crase é expressamente proibida. Jamais se usa crase antes de verbos, de palavras masculinas, de pronomes pessoais ou quando o 'a' estiver no singular diante de um termo no plural. Se a banca trouxer 'prestou socorro a pessoas acidentadas', esse 'a' é apenas preposição pura, tornando o acento grave um erro crasso."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro detalhe que o Cebraspe ama explorar são os casos de crase facultativa, que frequentemente aparecem em propostas de alteração de texto. O acento grave é opcional antes de pronomes possessivos femininos no singular, antes de nomes próprios femininos e após a preposição 'até'. Entender esses cenários impede que você marque como errada uma frase que apenas optou por não usar o artigo."
+    },
+    {
+      "speaker": "B",
+      "text": "Para fechar esse conjunto fundamental da disciplina, a acentuação gráfica é outro ponto que exige precisão cirúrgica na prova. O grande segredo aqui não é apenas saber se a palavra leva acento, mas sim entender a regra gramatical exata que justifica aquela acentuação. A banca adora agrupar palavras diferentes e afirmar que todas seguem a mesma regra, o que muitas vezes é uma armadilha."
+    },
+    {
+      "speaker": "A",
+      "text": "Um exemplo clássico de pegadinha é comparar as palavras 'história' e 'também'. A palavra 'história' é acentuada por ser uma paroxítona terminada em ditongo crescente, enquanto 'também' é uma palavra oxítona terminada em 'em'. Ambas recebem acento agudo, mas a fundamentação gramatical de cada uma é completamente diferente, tornando a assertiva da banca errada."
+    },
+    {
+      "speaker": "B",
+      "text": "O mesmo cuidado de análise deve ser aplicado às regras dos hiatos, como nas palavras 'baú' e 'saída'. Nesses casos, as vogais 'i' e 'u' tônicas recebem acento por estarem isoladas na sílaba ou acompanhadas de 's', formando hiato com a vogal anterior. É vital não confundir essa regra específica dos hiatos com as regras gerais das paroxítonas ou das oxítonas para não perder pontos preciosos."
+    },
+    {
+      "speaker": "A",
+      "text": "O grande aprendizado ao construir essa base é perceber que a prova da PRF exige raciocínio lógico aplicado à linguagem. Quando você enxerga a gramática não como um conjunto de regras isoladas, mas como ferramentas de precisão textual, seu rendimento muda drasticamente. É essa visão estratégica que transforma o candidato em um verdadeiro especialista na banca examinadora."
+    },
+    {
+      "speaker": "B",
+      "text": "Com certeza, assumir essa postura analítica e integrada é o caminho mais seguro para garantir uma excelente pontuação em Português. Dominar a interpretação, a sintaxe e os detalhes gramaticais cria uma fundação inabalável para todo o restante da sua preparação. Ter essa clareza conceitual desde o início é exatamente o que vai te colocar nas vagas da Polícia Rodoviária Federal."
+    }
+  ]
+}
