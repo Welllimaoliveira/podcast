@@ -1,0 +1,69 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Falando sobre as excludentes de ilicitude, a legítima defesa é um ponto de atenção vital no contexto policial, especialmente após as alterações trazidas pelo Pacote Anticrime. A lei deixou explícito que o agente de segurança pública que repele agressão ou risco de agressão a refém atua amparado pela legítima defesa. Isso reforça a necessidade de identificar rigorosamente os requisitos legais antes de qualificar a conduta em serviço."
+    },
+    {
+      "speaker": "B",
+      "text": "É essencial lembrar que a legítima defesa exige agressão injusta, humana, atual ou iminente, a direito próprio ou de terceiro, com uso moderado dos meios necessários. Já no estrito cumprimento do dever legal, o policial cumpre uma determinação direta prevista em lei, como efetuar uma prisão em flagrante. A pegadinha clássica da Cebraspe é tentar enquadrar o disparo de arma de fogo contra um suspeito em fuga apenas como dever legal, quando na verdade o dever legal nunca autoriza matar por si só."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, o disparo com resultado morte para repelir perigo iminente à vida deve ser analisado sob o pálio da legítima defesa, e não do simples cumprimento do dever. Outro ponto decisivo para a prova da PRF é a diferença entre Erro de Tipo e Erro de Proibição, dois institutos que as bancas adoram misturar nas questões conceituais. No erro de tipo, o agente se engana sobre um elemento fático do tipo penal, ou seja, ele não sabe exatamente o que está fazendo na realidade."
+    },
+    {
+      "speaker": "B",
+      "text": "Um exemplo bem prático de erro de tipo é o motorista que transporta uma mala alheia no porta-malas acreditando sinceramente conter roupas, quando na verdade há drogas escondidas nela. Ele não tem a intenção de transportar substância ilícita porque desconhece a realidade do fato. Se esse erro de tipo for essencial e inevitável, exclui-se o dolo e a culpa, tornando o fato atípico, mas se for evitável, afasta apenas o dolo, permitindo a punição por crime culposo se houver previsão em lei."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa consequência é crucial para a prova, pois o erro de tipo incide diretamente sobre o fato típico, eliminando a conduta dolosa. Já no Erro de Proibição, a situação muda completamente de figura, pois o agente sabe exatamente o que faz no plano fático, mas ignora ou interpreta mal a ilicitude da sua conduta. Ele tem perfeita noção do fato, mas acredita erroneamente que a sua ação é permitida pelo ordenamento jurídico."
+    },
+    {
+      "speaker": "B",
+      "text": "Pense no caso de um estrangeiro recém-chegado ao Brasil que realiza uma conduta totalmente permitida no seu país de origem, mas proibida pela nossa legislação, desconhecendo essa proibição. Como ele tem plena consciência do ato físico em si, o erro de proibição não afasta o dolo nem exclui o fato típico. Esse instituto atua no terceiro degrau da estrutura analítica, a culpabilidade, afastando ou reduzindo a potencial consciência da ilicitude."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito, e a Cebraspe cobra constantemente essa regra de transição da pena: se o erro de proibição for inevitável, ele isenta o agente de pena, mas se for evitável, a pena é reduzida de um sexto a um terço. Dominar em qual elemento analítico cada erro atua garante pontos valiosos nas questões de certo ou errado. Agora, precisamos voltar a nossa atenção para os Crimes contra a Administração Pública, um dos tópicos mais recorrentes nos concursos policiais."
+    },
+    {
+      "speaker": "B",
+      "text": "Dentre essas infrações penais, o Peculato, previsto no artigo 312 do Código Penal, lidera o índice de cobrança da banca. O peculato-apropriação e o peculato-desvio exigem que o funcionário público tenha a posse prévia do bem em razão do cargo exercido. Por outro lado, no peculato-furto, o servidor não tem a posse do bem, mas o subtrai ou concorre para que seja subtraído, valendo-se das facilidades que o cargo lhe proporciona."
+    },
+    {
+      "speaker": "A",
+      "text": "E vale destacar com bastante atenção o peculato culposo, no qual o servidor, por negligência, imprudência ou imperícia, concorre involuntariamente para o crime de outrem. Existe uma regra de ouro em relação à reparação do dano no peculato culposo que é alvo constante de pegadinhas. Se o agente repara o dano antes da sentença irrecorrível, extingue-se a punibilidade, mas se a reparação ocorre após o trânsito em julgado, a pena imposta é reduzida pela metade."
+    },
+    {
+      "speaker": "B",
+      "text": "Outro par de crimes que gera recorrente confusão na mente dos candidatos é a Concussão e a Corrupção Passiva. O segredo definitivo para não errar a diferenciação na hora da prova está na análise precisa do núcleo do verbo do tipo penal. Na concussão, tipificada no artigo 316, o núcleo é o verbo exigir vantagem indevida, direta ou indiretamente, em razão da função pública."
+    },
+    {
+      "speaker": "A",
+      "text": "A marca registrada da concussão é justamente a imposição ou o constrangimento imposto pelo agente público para obter a vantagem. Na corrupção passiva, descrita no artigo 317, os núcleos do verbo são solicitar, receber ou aceitar promessa de vantagem indevida. Portanto, se o fiscal ou o policial solicita determinado valor para deixar de aplicar uma multa de trânsito, o crime praticado é a corrupção passiva, pois a conduta partiu do ato de solicitar."
+    },
+    {
+      "speaker": "B",
+      "text": "É fundamental destacar que, se o motorista toma a iniciativa de oferecer ou prometer a vantagem indevida para que o policial omita um ato de ofício, quem responde por crime é o particular, incorrendo em Corrupção Ativa. Contudo, se o particular cede à exigência feita pelo policial no crime de concussão, ele não comete delito algum, sendo considerado pela doutrina e jurisprudência como vítima da exigência."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa distinção da posição do particular como vítima na concussão e como autor na corrupção ativa é um prato cheio para a Cebraspe montar assertivas truncadas. Além disso, as bancas adoram inverter as penas abstratas ou trocar os verbos exigidos no texto legal para induzir o candidato desatento ao erro. O conhecimento exato do texto da lei seca somado aos conceitos doutrinários consolidados garante a resolução correta de qualquer questão do bloco."
+    },
+    {
+      "speaker": "B",
+      "text": "Perceba como todos esses tópicos, desde as excludentes de ilicitude e os erros de tipo e proibição até os crimes funcionais, formam uma estrutura lógica totalmente encadeada. Para fixar esse conteúdo com maestria, o candidato precisa dominar os verbos dos tipos penais e a exata alocação de cada instituto dentro do conceito analítico do crime."
+    },
+    {
+      "speaker": "A",
+      "text": "Fizemos uma revisão completa dos aspectos teóricos mais cobrados e cheios de detalhes que costumam aparecer nas provas para a carreira policial. Com essa base conceitual sólida sobre a teoria do crime e os crimes administrativos, o próximo passo lógico para garantir a sua aprovação é ver como a banca cobra tudo isso na prática."
+    },
+    {
+      "speaker": "B",
+      "text": "Com certeza, a teoria ganha vida e fixação quando aplicada diretamente na resolução de exercícios práticos do edital. Chegou o momento ideal para testarmos esse conhecimento acumulado com algumas questões selecionadas no estilo exato da sua prova."
+    }
+  ]
+}

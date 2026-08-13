@@ -1,0 +1,49 @@
+{
+  "disciplina": "direito penal",
+  "questoes": [
+    {
+      "id": "PRF-2021-113",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 113,
+      "questao": "Entre as atividades de prevenção ao uso indevido de drogas está o fortalecimento da autonomia e da responsabilidade individual em relação ao uso dessas substâncias.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 113 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-114",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 114,
+      "questao": "Transportar ou conduzir arma de fogo sem autorização, no exercício de atividade comercial, pode configurar comércio ilegal de arma de fogo.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 114 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-115",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 115,
+      "questao": "Policiais que submetam autor de crime a sofrimento físico dentro de um posto policial praticam necessariamente tortura, independentemente da intensidade do sofrimento e das demais circunstâncias exigidas pelo tipo penal.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 115 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-100",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 100,
+      "questao": "A remarcação de novo número no chassi de um veículo e a falsificação de seu certificado de registro configuram, em conjunto, um único crime de falsificação de documento público.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 100 - gabarito oficial definitivo"
+    }
+  ]
+}

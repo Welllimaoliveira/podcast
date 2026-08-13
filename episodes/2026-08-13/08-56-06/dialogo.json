@@ -1,0 +1,276 @@
+{
+  "tema": "Direito Penal para a prova da PRF",
+  "disciplina": "direito penal",
+  "plano": {
+    "parte_1": "Boas-vindas ao podcast! Hoje vamos dar o pontapé inicial na preparação de Direito Penal focado no concurso da Polícia Rodoviária Federal (PRF). Começamos com os Princípios Fundamentais, como a Legalidade, Anterioridade e Insignificância, indispensáveis para entender o direcionamento das bancas. Em seguida, abordaremos a Aplicação da Lei Penal: a regra da Irretroatividade da Lei Penal Maléfica, a Retroatividade da Lei Mais Benéfica, além das teorias para Tempo do Crime (Teoria da Atividade) e Lugar do Crime (Teoria da Ubiquidade). Para fechar este bloco introdutório, vamos estruturar o Conceito Analítico de Crime em seu aspecto tripartido: Fato Típico, Ilicitude e Culpabilidade, detalhando os elementos da conduta, resultado, nexo causal e tipicidade.",
+    "parte_2": "Na segunda parte do nosso episódio, aprofundamos os temas cruciais que costumam ser objeto de pegadinhas nas provas da PRF. Analisaremos as Causas de Exclusão da Ilicitude, com atenção especial para a Legítima Defesa e o Estrito Cumpriremto do Dever Legal, fundamentais para a atividade policial. Faremos a diferenciação prática e conceitual entre Erro de Tipo e Erro de Proibição, explicando os impactos no dolo e na culpa. Por fim, exploraremos as especificidades dos Crimes contra a Administração Pública mais cobrados para carreiras policiais, como Peculato, Concussão e Corrupção Passiva, comparando os núcleos dos verbos e alertando sobre as nuances doutrinárias que a banca utiliza para induzir o candidato ao erro."
+  },
+  "questoes": [
+    {
+      "id": "PRF-2021-113",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 113,
+      "questao": "Entre as atividades de prevenção ao uso indevido de drogas está o fortalecimento da autonomia e da responsabilidade individual em relação ao uso dessas substâncias.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 113 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-114",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 114,
+      "questao": "Transportar ou conduzir arma de fogo sem autorização, no exercício de atividade comercial, pode configurar comércio ilegal de arma de fogo.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 114 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-115",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 115,
+      "questao": "Policiais que submetam autor de crime a sofrimento físico dentro de um posto policial praticam necessariamente tortura, independentemente da intensidade do sofrimento e das demais circunstâncias exigidas pelo tipo penal.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 115 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-100",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Direito Penal",
+      "disciplina_canonica": "direito penal",
+      "item_original": 100,
+      "questao": "A remarcação de novo número no chassi de um veículo e a falsificação de seu certificado de registro configuram, em conjunto, um único crime de falsificação de documento público.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 100 - gabarito oficial definitivo"
+    }
+  ],
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Fala, futura policial rodoviária, futuro patrulheiro das estradas brasileiras! Se você quer vestir essa farda, saiba que o Direito Penal é uma das matérias mais decisivas na sua prova da PRF. Hoje vamos construir uma base extremamente sólida, sem enrolação e focando exatamente naquilo que a banca adora cobrar no dia do exame."
+    },
+    {
+      "speaker": "B",
+      "text": "E nada melhor do que começar pelas fundações do Direito Penal, que são os Princípios Fundamentais. O princípio da Legalidade é o nosso ponto de partida absoluto, traduzido naquela famosa frase que exige lei prévia para definir crime e pena. Sem uma lei anterior escrita, estrita e formal, o Estado simplesmente não pode punir ninguém nas rodovias ou fora delas."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, e a banca Cebraspe ama testar o candidato perguntando se Medida Provisória pode criar crimes ou aumentar penas. Lembre-se sempre de que Medida Provisória não pode tratar de matéria penal incriminadora, garantindo a reserva legal. Além disso, a anterioridade exige que a lei esteja em vigor antes da prática da conduta, proibindo a criação de leis penais retroativas para prejudicar o cidadão."
+    },
+    {
+      "speaker": "B",
+      "text": "Outro princípio crucial para a PRF é o da Insignificância, também conhecido como princípio da bagatela. Ele exclui a própria tipicidade material da conduta quando a lesão ao bem jurídico é irrelevante. Para a prova, você precisa memorizar os quatro requisitos vetores exigidos pelos tribunais superiores: mínima ofensividade da conduta, nenhuma periculosidade social da ação, reducidíssimo grau de reprovabilidade e inexpressividade da lesão jurídica."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito, e vale destacar uma pegadinha clássica de concurso envolvendo crimes de trânsito ou contrabando. Em regra, não se aplica a insignificância ao crime de contrabando, mas ela pode ser aceita no descaminho dentro do limite fiscal estabelecido. Já nos crimes de trânsito, por envolverem a segurança coletiva na via pública, a aplicação da bagatela é extremamente restrita e quase sempre afastada pela jurisprudência."
+    },
+    {
+      "speaker": "B",
+      "text": "Passando agora para a Aplicação da Lei Penal no tempo, vigora a regra geral da irretroatividade da lei penal maléfica. Se uma nova lei surge tornando a conduta mais severa ou criando um novo crime, ela jamais retroage para alcançar fatos passados. Porém, se a nova norma for benéfica, a famosa lex mitior, ela retroagirá obrigatoriamente, mesmo se já houver condenação transitada em julgado."
+    },
+    {
+      "speaker": "A",
+      "text": "Isso é fundamental porque a retroatividade da lei mais benéfica é uma garantia constitucional absoluta. Se uma lei nova deixa de considerar determinada conduta como crime, ocorre a abolitio criminis, cessando imediatamente a execução e os efeitos penais da condenação. Mas atenção na prova: os efeitos civis da sentença condenatória continuam existindo, pois apenas os efeitos penais são extintos."
+    },
+    {
+      "speaker": "B",
+      "text": "Agora, como identificar o exato momento e o local em que o crime aconteceu? Para não errar na hora do teste, guarde o clássico mnemônico LUTA, que salva milhares de candidatos. Ele significa que para o Lugar do crime adotamos a Teoria da Ubiquidade, e para o Tempo do crime adotamos a Teoria da Atividade."
+    },
+    {
+      "speaker": "A",
+      "text": "Vamos detalhar isso melhor para ficar bem fixado na sua mente. Pela Teoria da Atividade, considera-se praticado o crime no momento da ação ou omissão, mesmo que outro seja o momento do resultado. Uma pegadinha muito comum da Cebraspe envolve o agente com dezessete anos que atira na vítima, mas ela falece dias depois quando ele já completou dezoito anos. Como vale o momento da conduta, ele responderá por ato infracional, pois era inimputável no momento da ação."
+    },
+    {
+      "speaker": "B",
+      "text": "Já pela Teoria da Ubiquidade, o lugar do crime é tanto o local onde ocorreu a ação ou omissão quanto onde se produziu ou deveria produzir-se o resultado. Essa teoria é fundamental para definir a competência de jurisdição em crimes à distância ou transnacionais, muito comuns na fiscalização de fronteiras pela PRF. Se uma carga ilícita é despachada em um estado e apreendida em outro, ambos os locais são considerados lugar do crime."
+    },
+    {
+      "speaker": "A",
+      "text": "Entendido o tempo e o lugar, precisamos entrar no coração do Direito Penal, que é o Conceito Analítico de Crime. Adotamos majoritariamente a teoria tripartida, que estrutura o crime em três elementos essenciais e cumulativos: fato típico, ilicitude e culpabilidade. Se faltar qualquer um desses três degraus, o crime simplesmente não se consolida do ponto de vista analítico."
+    },
+    {
+      "speaker": "B",
+      "text": "O primeiro degrau dessa estrutura é o Fato Típico, composto por quatro elementos fundamentais: conduta, resultado, nexo de causalidade e tipicidade. A conduta deve ser uma ação ou omissão humana, voluntária e consciente, voltada a uma finalidade. Se o motorista tem um ataque epilético súbito ao volante sem histórico prévio, faltará voluntariedade, excluindo a própria conduta."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, e o resultado é a modificação no mundo exterior causada pela conduta, exigido nos crimes materiais. Já o nexo causal é o elo físico de causa e efeito que liga a conduta do agente ao resultado produzido. Para o Código Penal, considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido, aplicando a teoria da equivalência dos antecedentes causais."
+    },
+    {
+      "speaker": "B",
+      "text": "Por fim, dentro do Fato Típico, temos a Tipicidade, que se divide em formal e material. A tipicidade formal é o enquadramento perfeito do fato real à norma abstrata prevista na lei penal. Já a tipicidade material é a efetiva e relevante lesão ou ameaça de lesão ao bem jurídico tutelado, que nos conecta de volta ao princípio da insignificância que vimos anteriormente."
+    },
+    {
+      "speaker": "A",
+      "text": "Avançando para o segundo degrau do conceito tripartido, temos a Ilicitude, que é a contrariedade entre a conduta e o ordenamento jurídico. Em regra, todo fato típico presume-se ilícito, a menos que concorra alguma excludente de ilicitude. As excludentes legais clássicas são o estado de necessidade, a legítima defesa, o estrito cumprimento do dever legal e o exercício regular de direito, fundamentais na atuação policial."
+    },
+    {
+      "speaker": "B",
+      "text": "E para fechar a nossa estrutura analítica, o terceiro degrau é a Culpabilidade, que é o juízo de reprovação social incidente sobre o autor do fato. Seus elementos são a imputabilidade penal, o potencial conhecimento da ilicitude e a exigibilidade de conduta diversa. Sem esses três pilares da culpabilidade, o agente praticou um fato típico e ilícito, mas não poderá receber uma pena criminal."
+    },
+    {
+      "speaker": "A",
+      "text": "Falando sobre as excludentes de ilicitude, a legítima defesa é um ponto de atenção vital no contexto policial, especialmente após as alterações trazidas pelo Pacote Anticrime. A lei deixou explícito que o agente de segurança pública que repele agressão ou risco de agressão a refém atua amparado pela legítima defesa. Isso reforça a necessidade de identificar rigorosamente os requisitos legais antes de qualificar a conduta em serviço."
+    },
+    {
+      "speaker": "B",
+      "text": "É essencial lembrar que a legítima defesa exige agressão injusta, humana, atual ou iminente, a direito próprio ou de terceiro, com uso moderado dos meios necessários. Já no estrito cumprimento do dever legal, o policial cumpre uma determinação direta prevista em lei, como efetuar uma prisão em flagrante. A pegadinha clássica da Cebraspe é tentar enquadrar o disparo de arma de fogo contra um suspeito em fuga apenas como dever legal, quando na verdade o dever legal nunca autoriza matar por si só."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, o disparo com resultado morte para repelir perigo iminente à vida deve ser analisado sob o pálio da legítima defesa, e não do simples cumprimento do dever. Outro ponto decisivo para a prova da PRF é a diferença entre Erro de Tipo e Erro de Proibição, dois institutos que as bancas adoram misturar nas questões conceituais. No erro de tipo, o agente se engana sobre um elemento fático do tipo penal, ou seja, ele não sabe exatamente o que está fazendo na realidade."
+    },
+    {
+      "speaker": "B",
+      "text": "Um exemplo bem prático de erro de tipo é o motorista que transporta uma mala alheia no porta-malas acreditando sinceramente conter roupas, quando na verdade há drogas escondidas nela. Ele não tem a intenção de transportar substância ilícita porque desconhece a realidade do fato. Se esse erro de tipo for essencial e inevitável, exclui-se o dolo e a culpa, tornando o fato atípico, mas se for evitável, afasta apenas o dolo, permitindo a punição por crime culposo se houver previsão em lei."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa consequência é crucial para a prova, pois o erro de tipo incide diretamente sobre o fato típico, eliminando a conduta dolosa. Já no Erro de Proibição, a situação muda completamente de figura, pois o agente sabe exatamente o que faz no plano fático, mas ignora ou interpreta mal a ilicitude da sua conduta. Ele tem perfeita noção do fato, mas acredita erroneamente que a sua ação é permitida pelo ordenamento jurídico."
+    },
+    {
+      "speaker": "B",
+      "text": "Pense no caso de um estrangeiro recém-chegado ao Brasil que realiza uma conduta totalmente permitida no seu país de origem, mas proibida pela nossa legislação, desconhecendo essa proibição. Como ele tem plena consciência do ato físico em si, o erro de proibição não afasta o dolo nem exclui o fato típico. Esse instituto atua no terceiro degrau da estrutura analítica, a culpabilidade, afastando ou reduzindo a potencial consciência da ilicitude."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito, e a Cebraspe cobra constantemente essa regra de transição da pena: se o erro de proibição for inevitável, ele isenta o agente de pena, mas se for evitável, a pena é reduzida de um sexto a um terço. Dominar em qual elemento analítico cada erro atua garante pontos valiosos nas questões de certo ou errado. Agora, precisamos voltar a nossa atenção para os Crimes contra a Administração Pública, um dos tópicos mais recorrentes nos concursos policiais."
+    },
+    {
+      "speaker": "B",
+      "text": "Dentre essas infrações penais, o Peculato, previsto no artigo 312 do Código Penal, lidera o índice de cobrança da banca. O peculato-apropriação e o peculato-desvio exigem que o funcionário público tenha a posse prévia do bem em razão do cargo exercido. Por outro lado, no peculato-furto, o servidor não tem a posse do bem, mas o subtrai ou concorre para que seja subtraído, valendo-se das facilidades que o cargo lhe proporciona."
+    },
+    {
+      "speaker": "A",
+      "text": "E vale destacar com bastante atenção o peculato culposo, no qual o servidor, por negligência, imprudência ou imperícia, concorre involuntariamente para o crime de outrem. Existe uma regra de ouro em relação à reparação do dano no peculato culposo que é alvo constante de pegadinhas. Se o agente repara o dano antes da sentença irrecorrível, extingue-se a punibilidade, mas se a reparação ocorre após o trânsito em julgado, a pena imposta é reduzida pela metade."
+    },
+    {
+      "speaker": "B",
+      "text": "Outro par de crimes que gera recorrente confusão na mente dos candidatos é a Concussão e a Corrupção Passiva. O segredo definitivo para não errar a diferenciação na hora da prova está na análise precisa do núcleo do verbo do tipo penal. Na concussão, tipificada no artigo 316, o núcleo é o verbo exigir vantagem indevida, direta ou indiretamente, em razão da função pública."
+    },
+    {
+      "speaker": "A",
+      "text": "A marca registrada da concussão é justamente a imposição ou o constrangimento imposto pelo agente público para obter a vantagem. Na corrupção passiva, descrita no artigo 317, os núcleos do verbo são solicitar, receber ou aceitar promessa de vantagem indevida. Portanto, se o fiscal ou o policial solicita determinado valor para deixar de aplicar uma multa de trânsito, o crime praticado é a corrupção passiva, pois a conduta partiu do ato de solicitar."
+    },
+    {
+      "speaker": "B",
+      "text": "É fundamental destacar que, se o motorista toma a iniciativa de oferecer ou prometer a vantagem indevida para que o policial omita um ato de ofício, quem responde por crime é o particular, incorrendo em Corrupção Ativa. Contudo, se o particular cede à exigência feita pelo policial no crime de concussão, ele não comete delito algum, sendo considerado pela doutrina e jurisprudência como vítima da exigência."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa distinção da posição do particular como vítima na concussão e como autor na corrupção ativa é um prato cheio para a Cebraspe montar assertivas truncadas. Além disso, as bancas adoram inverter as penas abstratas ou trocar os verbos exigidos no texto legal para induzir o candidato desatento ao erro. O conhecimento exato do texto da lei seca somado aos conceitos doutrinários consolidados garante a resolução correta de qualquer questão do bloco."
+    },
+    {
+      "speaker": "B",
+      "text": "Perceba como todos esses tópicos, desde as excludentes de ilicitude e os erros de tipo e proibição até os crimes funcionais, formam uma estrutura lógica totalmente encadeada. Para fixar esse conteúdo com maestria, o candidato precisa dominar os verbos dos tipos penais e a exata alocação de cada instituto dentro do conceito analítico do crime."
+    },
+    {
+      "speaker": "A",
+      "text": "Fizemos uma revisão completa dos aspectos teóricos mais cobrados e cheios de detalhes que costumam aparecer nas provas para a carreira policial. Com essa base conceitual sólida sobre a teoria do crime e os crimes administrativos, o próximo passo lógico para garantir a sua aprovação é ver como a banca cobra tudo isso na prática."
+    },
+    {
+      "speaker": "B",
+      "text": "Com certeza, a teoria ganha vida e fixação quando aplicada diretamente na resolução de exercícios práticos do edital. Chegou o momento ideal para testarmos esse conhecimento acumulado com algumas questões selecionadas no estilo exato da sua prova."
+    },
+    {
+      "speaker": "A",
+      "text": "Agora chegou a hora de testar de verdade o que você sabe. Separei quatro questões de provas anteriores da Polícia Rodoviária Federal."
+    },
+    {
+      "speaker": "B",
+      "text": "A regra é simples: escute as quatro questões e marque mentalmente certo ou errado. Não vamos revelar as respostas agora. Depois das quatro, a gente volta com o gabarito oficial e explica cada uma."
+    },
+    {
+      "speaker": "A",
+      "text": "Como estamos usando provas anteriores, considere sempre o ano indicado e o gabarito oficial daquela prova. Legislação pode sofrer alterações ao longo do tempo."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 1. PRF 2021, CEBRASPE, item 113. Entre as atividades de prevenção ao uso indevido de drogas está o fortalecimento da autonomia e da responsabilidade individual em relação ao uso dessas substâncias. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 2. PRF 2021, CEBRASPE, item 114. Transportar ou conduzir arma de fogo sem autorização, no exercício de atividade comercial, pode configurar comércio ilegal de arma de fogo. Certo ou errado?"
+    },
+    {
+      "speaker": "B",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 3. PRF 2021, CEBRASPE, item 115. Policiais que submetam autor de crime a sofrimento físico dentro de um posto policial praticam necessariamente tortura, independentemente da intensidade do sofrimento e das demais circunstâncias exigidas pelo tipo penal. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 4. PRF 2021, CEBRASPE, item 100. A remarcação de novo número no chassi de um veículo e a falsificação de seu certificado de registro configuram, em conjunto, um único crime de falsificação de documento público. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "As quatro foram apresentadas. Se você quiser mais tempo para resolver, pause o áudio agora. Quando estiver pronto, continue para conferir o gabarito."
+    },
+    {
+      "speaker": "B",
+      "text": "Vamos corrigir. Mais importante do que acertar é entender exatamente por que cada item está certo ou errado."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 1. O gabarito oficial é CERTO."
+    },
+    {
+      "speaker": "B",
+      "text": "O item aborda os princípios e diretrizes da prevenção do uso indevido de drogas, previstos na Lei nº 11.343/2006. O candidato deveria lembrar que as ações preventivas não se limitam à repressão, mas envolvem políticas públicas focadas no desenvolvimento pessoal e na conscientização social. Fortalecer a autonomia e a responsabilidade individual é uma das diretrizes expressas do Sistema Nacional de Políticas Públicas sobre Drogas (SISNAD), visando capacitar o indivíduo a tomar decisões conscientes e saudáveis. A pegadinha da banca consiste em tentar fazer o aluno acreditar que a prevenção exige exclusivamente sanções ou proibições estatais diretas, desconsiderando os aspectos educativos e de promoção da autonomia pessoal. Portanto, a afirmativa está correta ao reconhecer que o fortalecimento da autonomia e da responsabilidade individual integra o conjunto de atividades de prevenção ao uso indevido de drogas."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 2. O gabarito oficial é CERTO."
+    },
+    {
+      "speaker": "A",
+      "text": "A questão exige do candidato o conhecimento das disposições da Lei nº 10.826/2003 (Estatuto do Desarmamento) sobre o crime de comércio ilegal de arma de fogo (artigo 17). O tipo penal abrange não apenas a venda direta, mas também condutas equiparadas. O parágrafo único do referido artigo equipara à atividade comercial ou industrial qualquer forma de prestação de serviços, transporte ou fabricação clandestina. Assim, transportar ou conduzir arma de fogo sem autorização legal, quando realizado no exercício de atividade comercial ou empresarial, pode sim caracterizar o delito do artigo 17. A pegadinha tenta induzir o candidato a pensar que o comércio ilegal exige obrigatoriamente a compra e venda formal de armas. Para acertar, era preciso atentar para a expressão 'pode configurar' e recordar que a conduta de transportar no contexto comercial está tipificada. Logo, o item está correto."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 3. O gabarito oficial é ERRADO."
+    },
+    {
+      "speaker": "B",
+      "text": "O item aborda a tipificação do crime de tortura prevista na Lei nº 9.455/1997. O gabarito é ERRADO porque o tipo penal exige o preenchimento rigoroso de suas elementares específicas, como a finalidade da conduta (obter informação, provocar ação/omissão, discriminação) ou submissão a intenso sofrimento físico ou mental como forma de aplicar castigo. O uso dos termos 'necessariamente' e 'independentemente da intensidade e das demais circunstâncias' invalida a assertiva. Se a conduta do agente público não preencher os requisitos específicos definidos em lei, poderá configurar outros delitos, como lesão corporal ou abuso de autoridade, mas não automaticamente o crime de tortura. A pegadinha do Cebraspe fundamenta-se na generalização indevida de que qualquer violência policial em posto público seria tortura. O candidato devia analisar estritamente o princípio da legalidade e as elementares do tipo penal."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 4. O gabarito oficial é ERRADO."
+    },
+    {
+      "speaker": "A",
+      "text": "A questão cobra do candidato o conhecimento sobre o concurso de crimes e os tipos penais previstos no Código Penal Brasileiro. O gabarito é ERRADO porque a adulteração do número do chassi e a falsificação do certificado de registro do veículo (CRLV) constituem condutas autônomas que violam bens jurídicos distintos. A remarcação de chassi configura o crime de adulteração de sinal identificador de veículo automotor, tipificado no artigo 311 do Código Penal. Já a falsificação do CRLV caracteriza o crime de falsificação de documento público, previsto no artigo 297 do Código Penal. Não ocorre a absorção de um crime pelo outro, nem a configuração de crime único. A pegadinha tenta confundir o candidato ao unificar infrações autônomas sob um único delito. O raciocínio correto exige a distinção das condutas e a aplicação das regras do concurso de crimes."
+    },
+    {
+      "speaker": "A",
+      "text": "Se você errou alguma delas, essa é justamente a questão que merece entrar na sua lista de revisão."
+    },
+    {
+      "speaker": "B",
+      "text": "E se acertou as quatro, ótimo. Mas não fique apenas no acerto: tenha certeza de que você consegue explicar o motivo de cada resposta."
+    },
+    {
+      "speaker": "A",
+      "text": "Continuamos no próximo episódio com outro tema e quatro novas questões. Bons estudos e até lá."
+    }
+  ]
+}

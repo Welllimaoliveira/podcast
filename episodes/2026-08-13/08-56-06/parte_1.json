@@ -1,0 +1,69 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Fala, futura policial rodoviária, futuro patrulheiro das estradas brasileiras! Se você quer vestir essa farda, saiba que o Direito Penal é uma das matérias mais decisivas na sua prova da PRF. Hoje vamos construir uma base extremamente sólida, sem enrolação e focando exatamente naquilo que a banca adora cobrar no dia do exame."
+    },
+    {
+      "speaker": "B",
+      "text": "E nada melhor do que começar pelas fundações do Direito Penal, que são os Princípios Fundamentais. O princípio da Legalidade é o nosso ponto de partida absoluto, traduzido naquela famosa frase que exige lei prévia para definir crime e pena. Sem uma lei anterior escrita, estrita e formal, o Estado simplesmente não pode punir ninguém nas rodovias ou fora delas."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, e a banca Cebraspe ama testar o candidato perguntando se Medida Provisória pode criar crimes ou aumentar penas. Lembre-se sempre de que Medida Provisória não pode tratar de matéria penal incriminadora, garantindo a reserva legal. Além disso, a anterioridade exige que a lei esteja em vigor antes da prática da conduta, proibindo a criação de leis penais retroativas para prejudicar o cidadão."
+    },
+    {
+      "speaker": "B",
+      "text": "Outro princípio crucial para a PRF é o da Insignificância, também conhecido como princípio da bagatela. Ele exclui a própria tipicidade material da conduta quando a lesão ao bem jurídico é irrelevante. Para a prova, você precisa memorizar os quatro requisitos vetores exigidos pelos tribunais superiores: mínima ofensividade da conduta, nenhuma periculosidade social da ação, reducidíssimo grau de reprovabilidade e inexpressividade da lesão jurídica."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito, e vale destacar uma pegadinha clássica de concurso envolvendo crimes de trânsito ou contrabando. Em regra, não se aplica a insignificância ao crime de contrabando, mas ela pode ser aceita no descaminho dentro do limite fiscal estabelecido. Já nos crimes de trânsito, por envolverem a segurança coletiva na via pública, a aplicação da bagatela é extremamente restrita e quase sempre afastada pela jurisprudência."
+    },
+    {
+      "speaker": "B",
+      "text": "Passando agora para a Aplicação da Lei Penal no tempo, vigora a regra geral da irretroatividade da lei penal maléfica. Se uma nova lei surge tornando a conduta mais severa ou criando um novo crime, ela jamais retroage para alcançar fatos passados. Porém, se a nova norma for benéfica, a famosa lex mitior, ela retroagirá obrigatoriamente, mesmo se já houver condenação transitada em julgado."
+    },
+    {
+      "speaker": "A",
+      "text": "Isso é fundamental porque a retroatividade da lei mais benéfica é uma garantia constitucional absoluta. Se uma lei nova deixa de considerar determinada conduta como crime, ocorre a abolitio criminis, cessando imediatamente a execução e os efeitos penais da condenação. Mas atenção na prova: os efeitos civis da sentença condenatória continuam existindo, pois apenas os efeitos penais são extintos."
+    },
+    {
+      "speaker": "B",
+      "text": "Agora, como identificar o exato momento e o local em que o crime aconteceu? Para não errar na hora do teste, guarde o clássico mnemônico LUTA, que salva milhares de candidatos. Ele significa que para o Lugar do crime adotamos a Teoria da Ubiquidade, e para o Tempo do crime adotamos a Teoria da Atividade."
+    },
+    {
+      "speaker": "A",
+      "text": "Vamos detalhar isso melhor para ficar bem fixado na sua mente. Pela Teoria da Atividade, considera-se praticado o crime no momento da ação ou omissão, mesmo que outro seja o momento do resultado. Uma pegadinha muito comum da Cebraspe envolve o agente com dezessete anos que atira na vítima, mas ela falece dias depois quando ele já completou dezoito anos. Como vale o momento da conduta, ele responderá por ato infracional, pois era inimputável no momento da ação."
+    },
+    {
+      "speaker": "B",
+      "text": "Já pela Teoria da Ubiquidade, o lugar do crime é tanto o local onde ocorreu a ação ou omissão quanto onde se produziu ou deveria produzir-se o resultado. Essa teoria é fundamental para definir a competência de jurisdição em crimes à distância ou transnacionais, muito comuns na fiscalização de fronteiras pela PRF. Se uma carga ilícita é despachada em um estado e apreendida em outro, ambos os locais são considerados lugar do crime."
+    },
+    {
+      "speaker": "A",
+      "text": "Entendido o tempo e o lugar, precisamos entrar no coração do Direito Penal, que é o Conceito Analítico de Crime. Adotamos majoritariamente a teoria tripartida, que estrutura o crime em três elementos essenciais e cumulativos: fato típico, ilicitude e culpabilidade. Se faltar qualquer um desses três degraus, o crime simplesmente não se consolida do ponto de vista analítico."
+    },
+    {
+      "speaker": "B",
+      "text": "O primeiro degrau dessa estrutura é o Fato Típico, composto por quatro elementos fundamentais: conduta, resultado, nexo de causalidade e tipicidade. A conduta deve ser uma ação ou omissão humana, voluntária e consciente, voltada a uma finalidade. Se o motorista tem um ataque epilético súbito ao volante sem histórico prévio, faltará voluntariedade, excluindo a própria conduta."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, e o resultado é a modificação no mundo exterior causada pela conduta, exigido nos crimes materiais. Já o nexo causal é o elo físico de causa e efeito que liga a conduta do agente ao resultado produzido. Para o Código Penal, considera-se causa a ação ou omissão sem a qual o resultado não teria ocorrido, aplicando a teoria da equivalência dos antecedentes causais."
+    },
+    {
+      "speaker": "B",
+      "text": "Por fim, dentro do Fato Típico, temos a Tipicidade, que se divide em formal e material. A tipicidade formal é o enquadramento perfeito do fato real à norma abstrata prevista na lei penal. Já a tipicidade material é a efetiva e relevante lesão ou ameaça de lesão ao bem jurídico tutelado, que nos conecta de volta ao princípio da insignificância que vimos anteriormente."
+    },
+    {
+      "speaker": "A",
+      "text": "Avançando para o segundo degrau do conceito tripartido, temos a Ilicitude, que é a contrariedade entre a conduta e o ordenamento jurídico. Em regra, todo fato típico presume-se ilícito, a menos que concorra alguma excludente de ilicitude. As excludentes legais clássicas são o estado de necessidade, a legítima defesa, o estrito cumprimento do dever legal e o exercício regular de direito, fundamentais na atuação policial."
+    },
+    {
+      "speaker": "B",
+      "text": "E para fechar a nossa estrutura analítica, o terceiro degrau é a Culpabilidade, que é o juízo de reprovação social incidente sobre o autor do fato. Seus elementos são a imputabilidade penal, o potencial conhecimento da ilicitude e a exigibilidade de conduta diversa. Sem esses três pilares da culpabilidade, o agente praticou um fato típico e ilícito, mas não poderá receber uma pena criminal."
+    }
+  ]
+}
