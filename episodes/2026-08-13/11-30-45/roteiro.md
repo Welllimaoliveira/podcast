@@ -1,0 +1,239 @@
+# Tema
+
+Informática para a prova da PRF
+
+## Apresentador 1
+
+Se você está se preparando para a Polícia Rodoviária Federal, já deve ter percebido que a disciplina de Informática deixou de ser apenas um detalhe e passou a ser um grande divisor de águas na pontuação. O Cebraspe não quer saber se você sabe apenas ligar um computador, mas sim se entende como a informação trafega de forma segura e eficiente. Essa compreensão é vital tanto para garantir pontos preciosos no concurso quanto para o trabalho diário do policial nas rodovias.
+
+## Apresentadora 2
+
+Exatamente, e vale lembrar que no modelo tradicional de Certo ou Errado da banca, uma questão incorreta anula uma correta, o que exige uma precisão conceitual afiada do candidato. Na rotina da PRF, o agente consulta bancos de dados restritos, transmite relatórios de ocorrências e valida documentos digitais em tempo real no meio da pista. Tudo isso depende diretamente da infraestrutura de redes e das regras de segurança da informação que o edital cobra com tanto rigor.
+
+## Apresentador 1
+
+Para construir essa base sólida, o ponto de partida perfeito é entender a diferença entre Internet, Intranet e Extranet. A Internet é a rede mundial, pública e descentralizada, acessível por qualquer pessoa em qualquer lugar. Já a Intranet é uma rede privada que utiliza os mesmos padrões e tecnologias da Internet, mas com acesso restrito aos membros de uma organização, como os servidores da PRF.
+
+## Apresentadora 2
+
+Uma pegadinha clássica do Cebraspe é afirmar que a Intranet precisa de equipamentos físicos totalmente separados ou de protocolos proprietários para funcionar. Na verdade, a Intranet usa exatamente a suíte de protocolos TCP/IP da Internet, diferenciando-se apenas pelo controle de acesso e pelo escopo privado. Por sua vez, a Extranet surge quando essa Intranet abre um acesso externo controlado e seguro para parceiros autorizados, como outras forças de segurança ou órgãos de trânsito.
+
+## Apresentador 1
+
+Essa comunicação toda só acontece porque existe uma arquitetura de rede organizada por trás, estruturada em diferentes topologias e camadas. Em termos de topologia, temos o arranjo físico e lógico dos nós da rede, variando entre modelos em estrela, onde tudo passa por um concentrador central, barramento e malha. Em sistemas críticos como os da segurança pública, redes em malha ou estrela redundante garantem que uma falha em um ponto não pare toda a operação de fiscalização.
+
+## Apresentadora 2
+
+E para que os dados realmente conversem entre si nessas redes, entram em cena os protocolos da camada de aplicação. O HTTP é o protocolo padrão para navegação na web, mas quando adicionamos uma camada de criptografia, ele vira o HTTPS, garantindo sigilo das informações. Também usamos o FTP para transferência de arquivos pesados entre servidores e o SMTP, que é o protocolo específico focado no envio de mensagens de e-mail.
+
+## Apresentador 1
+
+Não podemos esquecer do IP e do DNS, que funcionam como os pilares de identificação e localização na camada de rede e aplicação. O IP é o endereço numérico e único de cada dispositivo conectado à rede, funcionando quase como a placa de identificação de um veículo. Já o DNS atua como a lista telefônica da rede, traduzindo nomes de domínios amigáveis que digitamos no navegador para os respectivos endereços IP numéricos.
+
+## Apresentadora 2
+
+Perceba como todos esses protocolos e estruturas se conectam diretamente com o tema mais quente das provas da PRF, que é a Segurança da Informação. Proteger os dados operacionais da polícia exige que a rede respeite princípios fundamentais que garantem a confiabilidade do sistema. É por isso que o edital destaca os pilares da informação, conhecidos pela sigla CIDAN, que engloba Confidencialidade, Integridade, Disponibilidade, Autenticidade e Não-Repúdio.
+
+## Apresentador 1
+
+O primeiro desses pilares é a Confidencialidade, que garante que a informação só será acessada por pessoas ou sistemas devidamente autorizados. Imagine um relatório sigiloso sobre uma operação de combate ao crime organizado em uma rodovia federal. Se uma pessoa não autorizada tiver acesso a esse arquivo, a confidencialidade foi quebrada, comprometendo toda a missão policial e colocando vidas em risco.
+
+## Apresentadora 2
+
+O segundo pilar é a Integridade, que assegura que a informação não foi alterada, adulterada ou destruída de forma não autorizada durante o armazenamento ou envio. Se o auto de infração preenchido pelo policial sofrer qualquer modificação não permitida no caminho até o banco de dados central, haverá perda de integridade. A banca costuma testar se você sabe diferenciar essa alteração indevida da simples interceptação de dados.
+
+## Apresentador 1
+
+Já a Disponibilidade garante que o sistema e as informações estejam acessíveis sempre que os usuários autorizados precisarem deles. Para o policial rodoviário federal na pista às três da manhã, a indisponibilidade do sistema de consulta de placas pode inviabilizar a checagem imediata de um veículo suspeito. Por isso, soluções de redundância de servidores e links de comunicação são vitais para manter a disponibilidade em níveis altíssimos.
+
+## Apresentadora 2
+
+Na sequência temos a Autenticidade, que é a garantia da identidade de quem está enviando a informação ou acessando o sistema. A banca adora confundir Autenticidade com Confidencialidade, mas elas tratam de coisas completamente diferentes. A Autenticidade confirma a origem legítima do usuário ou da mensagem, assegurando que o policial é realmente quem diz ser ao se autenticar no sistema corporativo.
+
+## Apresentador 1
+
+Ligado diretamente à autenticidade está o Não-Repúdio, também chamado de Irretratabilidade pela banca Cebraspe. O Não-Repúdio garante que o autor de uma ação ou mensagem não possa negar posteriormente ter sido ele quem a realizou. Quando o agente assina digitalmente um boletim de acidente de trânsito usando um certificado digital válido, ele não pode alegar que não fez aquele documento.
+
+## Apresentadora 2
+
+Fique muito atento às questões do Cebraspe que tentam trocar as definições desses pilares para induzir o candidato ao erro. Uma pegadinha clássica é afirmar que o Não-Repúdio impede o acesso não autorizado, quando na verdade ele impede a negação da autoria. Outra armadilha frequente é dizer que o HTTPS garante apenas a confidencialidade, omitindo que ele também preserva a integridade dos dados transmitidos.
+
+## Apresentador 1
+
+Essa abordagem contextualizada do Cebraspe exige que o candidato estude a teoria sempre pensando na aplicação prática da atividade policial. Entender como esses conceitos se relacionam evita a necessidade de memorização decorada e mecânica das definições teóricas. Quando você enxerga a lógica por trás de uma rede segura, fica muito mais fácil julgar se o item do Cebraspe está certo ou errado.
+
+## Apresentadora 2
+
+Uma dica preciosa para resolver os itens da banca é buscar palavras-chave e identificar inversões conceituais sutis na afirmação. Se o texto diz que o protocolo DNS é responsável pelo envio de e-mails ou que a Intranet não aceita conexão remota via VPN, você já sabe que o item está incorreto. Treinar com questões anteriores focadas nesses conceitos iniciais é o caminho mais rápido para consolidar a matéria.
+
+## Apresentador 1
+
+Ao integrar o conhecimento de redes com a segurança da informação, você constrói o raciocínio exigido para dominar essa primeira parte do edital. Saber a função dos protocolos, o escopo da Internet, Intranet e Extranet e os pilares de segurança prepara o terreno para tópicos mais avançados. Esse domínio conceitual inicial é o que garante a segurança necessária para enfrentar a prova sem medo das pegadinhas da banca.
+
+## Apresentadora 2
+
+Exatamente, ter clareza sobre como as redes se estruturam e se protegem transforma uma disciplina vista como complexa em um diferencial competitivo no concurso. A partir desse panorama geral e dos conceitos fundamentais, podemos avançar com muito mais consistência na análise detalhada das ameaças e das tecnologias de proteção.
+
+## Apresentador 1
+
+E entrando de cabeça nessas ameaças, o ponto de partida essencial é entender como os diferentes tipos de malwares operam. O vírus precisa obrigatoriamente de um arquivo hospedeiro e da ação do usuário para se executar e infectar a máquina. Já o worm é um código totalmente autônomo, que se multiplica sozinho explorando vulnerabilidades na rede, sem precisar se anexar a nenhum programa.
+
+## Apresentadora 2
+
+Essa diferença na forma de propagação é um prato cheio para a banca Cebraspe. Outro destaque constante é o Cavalo de Tróia, o Trojan, que se esconde atrás de um programa aparentemente legítimo para abrir portas vulneráveis no sistema sem o conhecimento do usuário. Ele se difere do ransomware, que sequestra os dados do computador por meio de criptografia forte e exige o pagamento de um resgate para liberar a chave de decodificação.
+
+## Apresentador 1
+
+Não podemos esquecer do spyware, que é projetado especificamente para monitorar as atividades do usuário e coletar informações confidenciais sem o seu consentimento. Nessa categoria temos os keyloggers, que gravam as teclas digitadas no teclado, e os screenloggers, que registram a posição do clique e a imagem da tela. O Cebraspe adora inventar que o spyware apaga arquivos da máquina, quando na verdade o objetivo dele é ser o mais discreto possível para continuar espionando.
+
+## Apresentadora 2
+
+Passando agora para as modalidades de ataques, precisamos diferenciar o que é engenharia social do que é ataque técnico estruturado. O phishing tenta enganar o usuário usando mensagens apelativas ou páginas falsas para induzi-lo a entregar credenciais de acesso ou dados pessoais. O spoofing, por sua vez, é a falsificação técnica de endereços, como o IP spoofing ou o e-mail spoofing, onde o invasor mascara sua verdadeira identidade na rede.
+
+## Apresentador 1
+
+Outro ataque que despenca nas provas da área policial é o Man-in-the-Middle, no qual o invasor intercepta e pode até alterar secretamente a comunicação entre duas partes sem que elas percebam. Já o ataque de Força Bruta foca em adivinhar credenciais de acesso por tentativa e erro, testando sistematicamente milhares de combinações de senhas até encontrar a correta. Em redes policiais, esse ataque costuma ser mitigado com políticas de bloqueio de conta após poucas tentativas incorretas.
+
+## Apresentadora 2
+
+A pegadinha clássica da banca nesse assunto é trocar Phishing por Spoofing. O Cebraspe costuma afirmar que o spoofing consiste em mandar uma mensagem persuasiva com um link fraudulento para a vítima, omitindo o fato de que isso é o phishing. Lembre-se sempre de que o phishing foca no engano psicológico da pessoa, enquanto o spoofing é a maquiagem da identidade técnica do pacote ou do remetente.
+
+## Apresentador 1
+
+Para conter todas essas ameaças, a prova exige a diferenciação precisa dos mecanismos de defesa da rede. O firewall atua como uma barreira de proteção que filtra o tráfego de entrada e saída com base em um conjunto de regras predefinidas de portas e protocolos. Ele não substitui o antivírus, pois o firewall foca no controle de conexões de rede, enquanto o antivírus analisa o conteúdo interno dos arquivos em busca de assinaturas ou comportamentos maliciosos.
+
+## Apresentadora 2
+
+E quando subimos o nível de proteção da infraestrutura, surgem o IDS e o IPS, que geram muita confusão entre os candidatos. O IDS é o sistema de detecção de intrusão, atuando como um alarme passivo que apenas monitora, identifica e alerta os administradores sobre atividades suspeitas. O IPS é o sistema de prevenção de intrusão, que trabalha de forma ativa, sendo capaz de bloquear o tráfego malicioso e redefinir a conexão em tempo real.
+
+## Apresentador 1
+
+Migrando agora para o universo da Computação em Nuvem, é fundamental dominar a comparação entre os modelos de serviço SaaS, PaaS e IaaS. Na IaaS, a instituição contrata a infraestrutura básica de hardware, como servidores virtuais, armazenamento e capacidade de processamento. Na PaaS, o foco é o ambiente de desenvolvimento, fornecendo a plataforma com sistemas operacionais e ferramentas de banco de dados para criar aplicações. E no SaaS, o software final é entregue pronto para o uso final, acessível direto pelo navegador.
+
+## Apresentadora 2
+
+Quanto aos modelos de implantação da nuvem, a banca cobra a distinção entre Pública, Privada e Híbrida. A nuvem privada é de uso exclusivo de uma única organização, garantindo maior controle sobre a segurança e privacidade, o que é muito comum em órgãos de segurança pública. Uma armadilha famosa do Cebraspe é afirmar que a nuvem privada precisa obrigatoriamente estar localizada dentro do prédio físico da instituição, o que é incorreto, pois ela pode ser hospedada em um datacenter terceirizado dedicado.
+
+## Apresentador 1
+
+Com certeza, essa é uma pegadinha que pega muita gente desprevenida. A banca também costuma fazer generalizações indevidas ao afirmar que a contratação de um serviço na nuvem transfere toda a responsabilidade de segurança para a empresa contratada. Mesmo no modelo SaaS, a gestão de acessos dos usuários, a criação de senhas fortes e a classificação das informações confidenciais continuam sendo responsabilidade do cliente, no caso, o próprio órgão policial.
+
+## Apresentadora 2
+
+Por isso o candidato deve prestar atenção máxima a termos parecidos com significados totalmente opostos na hora da prova. Autenticação diz respeito à verificação da identidade do usuário, confirmando quem ele é, enquanto Autorização se refere às permissões concedidas a esse usuário autenticado. Trocar essas duas definições em um enunciado longo é um dos recursos mais comuns do Cebraspe para induzir ao erro por falta de atenção.
+
+## Apresentador 1
+
+Outro trio conceitual que a banca gosta de misturar é Vulnerabilidade, Ameaça e Risco. A vulnerabilidade é a falha ou fraqueza existente no sistema; a ameaça é o agente ou evento externo que pode explorar essa fraqueza; e o risco é a probabilidade da ameaça se concretizar e causar impacto. Se um sistema corporativo possui uma porta de comunicação aberta sem atualização, temos uma vulnerabilidade, e a existência de hackers buscando essa porta caracteriza a ameaça.
+
+## Apresentadora 2
+
+E esses conceitos se conectam diretamente com as normas de privacidade e proteção de dados aplicadas à atividade policial. A legislação brasileira de proteção de dados estabelece diretrizes rigorosas para o tratamento de dados pessoais, mas prevê hipóteses de tratamento sem consentimento direto para fins de segurança pública e investigação criminal. No entanto, o Cebraspe costuma criar questões erradas afirmando que essa exceção concede um salvo-conduto irrestrito para o acesso de dados sem rastreabilidade.
+
+## Apresentador 1
+
+Exatamente. A necessidade de justificativa legal, a auditoria dos acessos e o respeito aos princípios da finalidade e da proporcionalidade continuam valendo integralmente no ambiente corporativo da PRF. Um agente não pode utilizar os sistemas policiais para consultar dados de terceiros por motivação pessoal sem uma justificativa operacional legítima, pois o sistema registra o log de cada transação efetuada.
+
+## Apresentadora 2
+
+Compreender como todas essas peças se encaixam, desde a estrutura dos malwares até os controles regulatórios e de nuvem, constrói a maturidade necessária para encarar qualquer prova de alto nível. O grande segredo nas questões de segurança da informação é manter a calma, identificar o conceito técnico central do item e verificar se o Cebraspe não inseriu palavras absolutistas como sempre, nunca ou totalmente para distorcer a regra.
+
+## Apresentador 1
+
+Com toda essa base conceitual bem estabelecida sobre ataques, defesas, arquitetura de nuvem e regulamentação, você concluiu a parte teórica mais densa e cobrada do edital. O próximo passo lógico para garantir a retenção de todo esse conteúdo é colocar a teoria à prova na prática.
+
+## Apresentadora 2
+
+Com certeza. Chegou o momento ideal para testarmos todo esse conhecimento acumulado com uma seleção de questões recentes da banca para você calibrar o seu radar de pegadinhas.
+
+## Apresentador 1
+
+Agora chegou a hora de testar de verdade o que você sabe. Separei quatro questões de provas anteriores da Polícia Rodoviária Federal.
+
+## Apresentadora 2
+
+A regra é simples: escute as quatro questões e marque mentalmente certo ou errado. Não vamos revelar as respostas agora. Depois das quatro, a gente volta com o gabarito oficial e explica cada uma.
+
+## Apresentador 1
+
+Como estamos usando provas anteriores, considere sempre o ano indicado e o gabarito oficial daquela prova. Legislação pode sofrer alterações ao longo do tempo.
+
+## Apresentadora 2
+
+Questão 1. PRF 2021, CEBRASPE, item 35. Em uma busca do Google, o uso conjunto dos termos campanha PRF e do operador associado ao Twitter pode ser empregado para procurar publicações da rede social relacionadas a esses termos. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 2. PRF 2021, CEBRASPE, item 36. A Internet das Coisas pode aumentar volume, velocidade e variedade dos dados, influenciando características típicas de big data. Certo ou errado?
+
+## Apresentadora 2
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentadora 2
+
+Questão 3. PRF 2021, CEBRASPE, item 37. Ransomware é definido como malware cuja forma característica de propagação consiste em inserir cópias de si próprio dentro de arquivos criptografados. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 4. PRF 2021, CEBRASPE, item 38. Quando o provedor oferece um ambiente de nuvem no qual o usuário constrói e publica seus próprios aplicativos, esse serviço é classificado como Software como Serviço, SaaS. Certo ou errado?
+
+## Apresentador 1
+
+As quatro foram apresentadas. Se você quiser mais tempo para resolver, pause o áudio agora. Quando estiver pronto, continue para conferir o gabarito.
+
+## Apresentadora 2
+
+Vamos corrigir. Mais importante do que acertar é entender exatamente por que cada item está certo ou errado.
+
+## Apresentador 1
+
+Questão 1. O gabarito oficial é CERTO.
+
+## Apresentadora 2
+
+O item esta correto. No mecanismo de busca do Google, e possivel utilizar operadores especificos para refinar pesquisas. O operador arroba (@) e utilizado especificamente para buscar informacoes e perfis em redes sociais, como no caso do Twitter (por exemplo, @twitter). Alem disso, operadores como site:twitter.com tambem permitem direcionar a busca a uma plataforma especifica. O candidato deveria perceber que a integracao entre termos de busca simples, como campanha PRF, e operadores sociais permite localizar publicacoes direcionadas na rede social. A pegadinha consiste em duvidar se o Google possui recursos dedicados a midias sociais especificas. O raciocinio correto e lembrar que o mecanismo de busca suporta simbolos avancados para mapear redes sociais e dominios.
+
+## Apresentadora 2
+
+Questão 2. O gabarito oficial é CERTO.
+
+## Apresentador 1
+
+O item esta correto. A Internet das Coisas (IoT) conecta bilhoes de dispositivos a rede, gerando continuamente fluxos gigantescos de dados a partir de sensores e dispositivos inteligentes. Esse cenario amplia diretamente os pilares fundamentais do Big Data, conhecidos como os V's (especialmente Volume, Velocidade e Variedade). O candidato deveria relacionar a expansao de dispositivos conectados com a necessidade de processar volumes enormes de dados em tempo real e em formatos diversificados. A pegadinha esta em achar que a IoT e apenas uma tecnologia isolada de automacao, sem impacto na infraestrutura de dados global. O raciocinio correto e compreender que a IoT atua como uma das principais fontes geradoras de dados que alimentam ecossistemas de Big Data.
+
+## Apresentador 1
+
+Questão 3. O gabarito oficial é ERRADO.
+
+## Apresentadora 2
+
+O item esta errado. O ransomware e um tipo de codigo malicioso cujo objetivo principal e sequestrar dados do usuario, geralmente por meio de criptografia, cobrando um resgate para restabelecer o acesso. Ele nao se define por se propagar inserindo copias de si mesmo dentro de arquivos criptografados. A acao de se replicar infectando outros arquivos e caracteristica de virus ou worms, e nao a definicao central do ransomware. A pegadinha do Cebraspe foi misturar o conceito de criptografia (usado pelo ransomware para bloquear arquivos) com o mecanismo de infeccao e propagacao tipico de virus. O raciocinio do candidato deve focar na finalidade da ameaca: ransomware extorque mediante bloqueio ou criptografia de arquivos, e nao apenas infecta arquivos existentes.
+
+## Apresentadora 2
+
+Questão 4. O gabarito oficial é ERRADO.
+
+## Apresentador 1
+
+O item esta errado. O modelo de nuvem no qual o provedor fornece a infraestrutura e a plataforma para que o usuario desenvolva, construa, teste e publique suas proprias aplicacoes e denominado Plataforma como Servico (PaaS - Platform as a Service). Ja o Software como Servico (SaaS - Software as a Service) entrega o aplicativo final pronto para uso pelo cliente final, como e-mails e suites de escritorio virtuais. A pegadinha da banca foi inverter a classificacao dos modelos de servicos em nuvem (IaaS, PaaS e SaaS). O raciocinio do candidato exige distinguir o nivel de controle do usuario: se ele cria e desenvolve softwares na nuvem, trata-se de PaaS; se ele apenas utiliza o software pronto, e SaaS.
+
+## Apresentador 1
+
+Se você errou alguma delas, essa é justamente a questão que merece entrar na sua lista de revisão.
+
+## Apresentadora 2
+
+E se acertou as quatro, ótimo. Mas não fique apenas no acerto: tenha certeza de que você consegue explicar o motivo de cada resposta.
+
+## Apresentador 1
+
+Continuamos no próximo episódio com outro tema e quatro novas questões. Bons estudos e até lá.

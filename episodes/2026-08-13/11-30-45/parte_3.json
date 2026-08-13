@@ -1,0 +1,97 @@
+{
+  "parte": 3,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Agora chegou a hora de testar de verdade o que você sabe. Separei quatro questões de provas anteriores da Polícia Rodoviária Federal."
+    },
+    {
+      "speaker": "B",
+      "text": "A regra é simples: escute as quatro questões e marque mentalmente certo ou errado. Não vamos revelar as respostas agora. Depois das quatro, a gente volta com o gabarito oficial e explica cada uma."
+    },
+    {
+      "speaker": "A",
+      "text": "Como estamos usando provas anteriores, considere sempre o ano indicado e o gabarito oficial daquela prova. Legislação pode sofrer alterações ao longo do tempo."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 1. PRF 2021, CEBRASPE, item 35. Em uma busca do Google, o uso conjunto dos termos campanha PRF e do operador associado ao Twitter pode ser empregado para procurar publicações da rede social relacionadas a esses termos. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 2. PRF 2021, CEBRASPE, item 36. A Internet das Coisas pode aumentar volume, velocidade e variedade dos dados, influenciando características típicas de big data. Certo ou errado?"
+    },
+    {
+      "speaker": "B",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 3. PRF 2021, CEBRASPE, item 37. Ransomware é definido como malware cuja forma característica de propagação consiste em inserir cópias de si próprio dentro de arquivos criptografados. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 4. PRF 2021, CEBRASPE, item 38. Quando o provedor oferece um ambiente de nuvem no qual o usuário constrói e publica seus próprios aplicativos, esse serviço é classificado como Software como Serviço, SaaS. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "As quatro foram apresentadas. Se você quiser mais tempo para resolver, pause o áudio agora. Quando estiver pronto, continue para conferir o gabarito."
+    },
+    {
+      "speaker": "B",
+      "text": "Vamos corrigir. Mais importante do que acertar é entender exatamente por que cada item está certo ou errado."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 1. O gabarito oficial é CERTO."
+    },
+    {
+      "speaker": "B",
+      "text": "O item esta correto. No mecanismo de busca do Google, e possivel utilizar operadores especificos para refinar pesquisas. O operador arroba (@) e utilizado especificamente para buscar informacoes e perfis em redes sociais, como no caso do Twitter (por exemplo, @twitter). Alem disso, operadores como site:twitter.com tambem permitem direcionar a busca a uma plataforma especifica. O candidato deveria perceber que a integracao entre termos de busca simples, como campanha PRF, e operadores sociais permite localizar publicacoes direcionadas na rede social. A pegadinha consiste em duvidar se o Google possui recursos dedicados a midias sociais especificas. O raciocinio correto e lembrar que o mecanismo de busca suporta simbolos avancados para mapear redes sociais e dominios."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 2. O gabarito oficial é CERTO."
+    },
+    {
+      "speaker": "A",
+      "text": "O item esta correto. A Internet das Coisas (IoT) conecta bilhoes de dispositivos a rede, gerando continuamente fluxos gigantescos de dados a partir de sensores e dispositivos inteligentes. Esse cenario amplia diretamente os pilares fundamentais do Big Data, conhecidos como os V's (especialmente Volume, Velocidade e Variedade). O candidato deveria relacionar a expansao de dispositivos conectados com a necessidade de processar volumes enormes de dados em tempo real e em formatos diversificados. A pegadinha esta em achar que a IoT e apenas uma tecnologia isolada de automacao, sem impacto na infraestrutura de dados global. O raciocinio correto e compreender que a IoT atua como uma das principais fontes geradoras de dados que alimentam ecossistemas de Big Data."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 3. O gabarito oficial é ERRADO."
+    },
+    {
+      "speaker": "B",
+      "text": "O item esta errado. O ransomware e um tipo de codigo malicioso cujo objetivo principal e sequestrar dados do usuario, geralmente por meio de criptografia, cobrando um resgate para restabelecer o acesso. Ele nao se define por se propagar inserindo copias de si mesmo dentro de arquivos criptografados. A acao de se replicar infectando outros arquivos e caracteristica de virus ou worms, e nao a definicao central do ransomware. A pegadinha do Cebraspe foi misturar o conceito de criptografia (usado pelo ransomware para bloquear arquivos) com o mecanismo de infeccao e propagacao tipico de virus. O raciocinio do candidato deve focar na finalidade da ameaca: ransomware extorque mediante bloqueio ou criptografia de arquivos, e nao apenas infecta arquivos existentes."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 4. O gabarito oficial é ERRADO."
+    },
+    {
+      "speaker": "A",
+      "text": "O item esta errado. O modelo de nuvem no qual o provedor fornece a infraestrutura e a plataforma para que o usuario desenvolva, construa, teste e publique suas proprias aplicacoes e denominado Plataforma como Servico (PaaS - Platform as a Service). Ja o Software como Servico (SaaS - Software as a Service) entrega o aplicativo final pronto para uso pelo cliente final, como e-mails e suites de escritorio virtuais. A pegadinha da banca foi inverter a classificacao dos modelos de servicos em nuvem (IaaS, PaaS e SaaS). O raciocinio do candidato exige distinguir o nivel de controle do usuario: se ele cria e desenvolve softwares na nuvem, trata-se de PaaS; se ele apenas utiliza o software pronto, e SaaS."
+    },
+    {
+      "speaker": "A",
+      "text": "Se você errou alguma delas, essa é justamente a questão que merece entrar na sua lista de revisão."
+    },
+    {
+      "speaker": "B",
+      "text": "E se acertou as quatro, ótimo. Mas não fique apenas no acerto: tenha certeza de que você consegue explicar o motivo de cada resposta."
+    },
+    {
+      "speaker": "A",
+      "text": "Continuamos no próximo episódio com outro tema e quatro novas questões. Bons estudos e até lá."
+    }
+  ]
+}

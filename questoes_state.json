@@ -28,14 +28,18 @@
     "PRF-2021-046",
     "PRF-2021-047",
     "PRF-2021-048",
-    "PRF-2021-100"
+    "PRF-2021-100",
+    "PRF-2021-035",
+    "PRF-2021-036",
+    "PRF-2021-037",
+    "PRF-2021-038"
   ],
-  "ultima_disciplina": "direito penal",
+  "ultima_disciplina": "informatica",
   "ultimas_questoes": [
-    "PRF-2021-113",
-    "PRF-2021-114",
-    "PRF-2021-115",
-    "PRF-2021-100"
+    "PRF-2021-035",
+    "PRF-2021-036",
+    "PRF-2021-037",
+    "PRF-2021-038"
   ],
-  "ultima_execucao": "2026-08-13T08:56:06.675330-03:00"
+  "ultima_execucao": "2026-08-13T11:30:45.972209-03:00"
 }

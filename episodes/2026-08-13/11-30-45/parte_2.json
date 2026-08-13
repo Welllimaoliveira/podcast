@@ -1,0 +1,77 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "E entrando de cabeça nessas ameaças, o ponto de partida essencial é entender como os diferentes tipos de malwares operam. O vírus precisa obrigatoriamente de um arquivo hospedeiro e da ação do usuário para se executar e infectar a máquina. Já o worm é um código totalmente autônomo, que se multiplica sozinho explorando vulnerabilidades na rede, sem precisar se anexar a nenhum programa."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa diferença na forma de propagação é um prato cheio para a banca Cebraspe. Outro destaque constante é o Cavalo de Tróia, o Trojan, que se esconde atrás de um programa aparentemente legítimo para abrir portas vulneráveis no sistema sem o conhecimento do usuário. Ele se difere do ransomware, que sequestra os dados do computador por meio de criptografia forte e exige o pagamento de um resgate para liberar a chave de decodificação."
+    },
+    {
+      "speaker": "A",
+      "text": "Não podemos esquecer do spyware, que é projetado especificamente para monitorar as atividades do usuário e coletar informações confidenciais sem o seu consentimento. Nessa categoria temos os keyloggers, que gravam as teclas digitadas no teclado, e os screenloggers, que registram a posição do clique e a imagem da tela. O Cebraspe adora inventar que o spyware apaga arquivos da máquina, quando na verdade o objetivo dele é ser o mais discreto possível para continuar espionando."
+    },
+    {
+      "speaker": "B",
+      "text": "Passando agora para as modalidades de ataques, precisamos diferenciar o que é engenharia social do que é ataque técnico estruturado. O phishing tenta enganar o usuário usando mensagens apelativas ou páginas falsas para induzi-lo a entregar credenciais de acesso ou dados pessoais. O spoofing, por sua vez, é a falsificação técnica de endereços, como o IP spoofing ou o e-mail spoofing, onde o invasor mascara sua verdadeira identidade na rede."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro ataque que despenca nas provas da área policial é o Man-in-the-Middle, no qual o invasor intercepta e pode até alterar secretamente a comunicação entre duas partes sem que elas percebam. Já o ataque de Força Bruta foca em adivinhar credenciais de acesso por tentativa e erro, testando sistematicamente milhares de combinações de senhas até encontrar a correta. Em redes policiais, esse ataque costuma ser mitigado com políticas de bloqueio de conta após poucas tentativas incorretas."
+    },
+    {
+      "speaker": "B",
+      "text": "A pegadinha clássica da banca nesse assunto é trocar Phishing por Spoofing. O Cebraspe costuma afirmar que o spoofing consiste em mandar uma mensagem persuasiva com um link fraudulento para a vítima, omitindo o fato de que isso é o phishing. Lembre-se sempre de que o phishing foca no engano psicológico da pessoa, enquanto o spoofing é a maquiagem da identidade técnica do pacote ou do remetente."
+    },
+    {
+      "speaker": "A",
+      "text": "Para conter todas essas ameaças, a prova exige a diferenciação precisa dos mecanismos de defesa da rede. O firewall atua como uma barreira de proteção que filtra o tráfego de entrada e saída com base em um conjunto de regras predefinidas de portas e protocolos. Ele não substitui o antivírus, pois o firewall foca no controle de conexões de rede, enquanto o antivírus analisa o conteúdo interno dos arquivos em busca de assinaturas ou comportamentos maliciosos."
+    },
+    {
+      "speaker": "B",
+      "text": "E quando subimos o nível de proteção da infraestrutura, surgem o IDS e o IPS, que geram muita confusão entre os candidatos. O IDS é o sistema de detecção de intrusão, atuando como um alarme passivo que apenas monitora, identifica e alerta os administradores sobre atividades suspeitas. O IPS é o sistema de prevenção de intrusão, que trabalha de forma ativa, sendo capaz de bloquear o tráfego malicioso e redefinir a conexão em tempo real."
+    },
+    {
+      "speaker": "A",
+      "text": "Migrando agora para o universo da Computação em Nuvem, é fundamental dominar a comparação entre os modelos de serviço SaaS, PaaS e IaaS. Na IaaS, a instituição contrata a infraestrutura básica de hardware, como servidores virtuais, armazenamento e capacidade de processamento. Na PaaS, o foco é o ambiente de desenvolvimento, fornecendo a plataforma com sistemas operacionais e ferramentas de banco de dados para criar aplicações. E no SaaS, o software final é entregue pronto para o uso final, acessível direto pelo navegador."
+    },
+    {
+      "speaker": "B",
+      "text": "Quanto aos modelos de implantação da nuvem, a banca cobra a distinção entre Pública, Privada e Híbrida. A nuvem privada é de uso exclusivo de uma única organização, garantindo maior controle sobre a segurança e privacidade, o que é muito comum em órgãos de segurança pública. Uma armadilha famosa do Cebraspe é afirmar que a nuvem privada precisa obrigatoriamente estar localizada dentro do prédio físico da instituição, o que é incorreto, pois ela pode ser hospedada em um datacenter terceirizado dedicado."
+    },
+    {
+      "speaker": "A",
+      "text": "Com certeza, essa é uma pegadinha que pega muita gente desprevenida. A banca também costuma fazer generalizações indevidas ao afirmar que a contratação de um serviço na nuvem transfere toda a responsabilidade de segurança para a empresa contratada. Mesmo no modelo SaaS, a gestão de acessos dos usuários, a criação de senhas fortes e a classificação das informações confidenciais continuam sendo responsabilidade do cliente, no caso, o próprio órgão policial."
+    },
+    {
+      "speaker": "B",
+      "text": "Por isso o candidato deve prestar atenção máxima a termos parecidos com significados totalmente opostos na hora da prova. Autenticação diz respeito à verificação da identidade do usuário, confirmando quem ele é, enquanto Autorização se refere às permissões concedidas a esse usuário autenticado. Trocar essas duas definições em um enunciado longo é um dos recursos mais comuns do Cebraspe para induzir ao erro por falta de atenção."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro trio conceitual que a banca gosta de misturar é Vulnerabilidade, Ameaça e Risco. A vulnerabilidade é a falha ou fraqueza existente no sistema; a ameaça é o agente ou evento externo que pode explorar essa fraqueza; e o risco é a probabilidade da ameaça se concretizar e causar impacto. Se um sistema corporativo possui uma porta de comunicação aberta sem atualização, temos uma vulnerabilidade, e a existência de hackers buscando essa porta caracteriza a ameaça."
+    },
+    {
+      "speaker": "B",
+      "text": "E esses conceitos se conectam diretamente com as normas de privacidade e proteção de dados aplicadas à atividade policial. A legislação brasileira de proteção de dados estabelece diretrizes rigorosas para o tratamento de dados pessoais, mas prevê hipóteses de tratamento sem consentimento direto para fins de segurança pública e investigação criminal. No entanto, o Cebraspe costuma criar questões erradas afirmando que essa exceção concede um salvo-conduto irrestrito para o acesso de dados sem rastreabilidade."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente. A necessidade de justificativa legal, a auditoria dos acessos e o respeito aos princípios da finalidade e da proporcionalidade continuam valendo integralmente no ambiente corporativo da PRF. Um agente não pode utilizar os sistemas policiais para consultar dados de terceiros por motivação pessoal sem uma justificativa operacional legítima, pois o sistema registra o log de cada transação efetuada."
+    },
+    {
+      "speaker": "B",
+      "text": "Compreender como todas essas peças se encaixam, desde a estrutura dos malwares até os controles regulatórios e de nuvem, constrói a maturidade necessária para encarar qualquer prova de alto nível. O grande segredo nas questões de segurança da informação é manter a calma, identificar o conceito técnico central do item e verificar se o Cebraspe não inseriu palavras absolutistas como sempre, nunca ou totalmente para distorcer a regra."
+    },
+    {
+      "speaker": "A",
+      "text": "Com toda essa base conceitual bem estabelecida sobre ataques, defesas, arquitetura de nuvem e regulamentação, você concluiu a parte teórica mais densa e cobrada do edital. O próximo passo lógico para garantir a retenção de todo esse conteúdo é colocar a teoria à prova na prática."
+    },
+    {
+      "speaker": "B",
+      "text": "Com certeza. Chegou o momento ideal para testarmos todo esse conhecimento acumulado com uma seleção de questões recentes da banca para você calibrar o seu radar de pegadinhas."
+    }
+  ]
+}

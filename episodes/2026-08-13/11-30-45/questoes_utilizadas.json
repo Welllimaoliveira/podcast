@@ -1,0 +1,49 @@
+{
+  "disciplina": "informatica",
+  "questoes": [
+    {
+      "id": "PRF-2021-035",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Informática",
+      "disciplina_canonica": "informatica",
+      "item_original": 35,
+      "questao": "Em uma busca do Google, o uso conjunto dos termos campanha PRF e do operador associado ao Twitter pode ser empregado para procurar publicações da rede social relacionadas a esses termos.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 35 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-036",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Informática",
+      "disciplina_canonica": "informatica",
+      "item_original": 36,
+      "questao": "A Internet das Coisas pode aumentar volume, velocidade e variedade dos dados, influenciando características típicas de big data.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 36 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-037",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Informática",
+      "disciplina_canonica": "informatica",
+      "item_original": 37,
+      "questao": "Ransomware é definido como malware cuja forma característica de propagação consiste em inserir cópias de si próprio dentro de arquivos criptografados.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 37 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-038",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Informática",
+      "disciplina_canonica": "informatica",
+      "item_original": 38,
+      "questao": "Quando o provedor oferece um ambiente de nuvem no qual o usuário constrói e publica seus próprios aplicativos, esse serviço é classificado como Software como Serviço, SaaS.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 38 - gabarito oficial definitivo"
+    }
+  ]
+}
