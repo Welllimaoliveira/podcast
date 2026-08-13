@@ -1,0 +1,85 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Muita gente olha o edital de um concurso de alto nível, vê lá Raciocínio Lógico-Matemático e já sente um frio na espinha. A verdade é que o RLM não é um bicho de sete cabeças, mas sim o aprendizado de uma nova linguagem, estruturada e sem espaço para ambiguidades."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito! Quando o candidato entende que a lógica tem regras claras e universais, a matéria deixa de ser um obstáculo e vira um diferencial competitivo para garantir pontos preciosos. E a base de tudo nesse universo começa em uma única pergunta: o que é, de fato, uma proposição lógica?"
+    },
+    {
+      "speaker": "A",
+      "text": "Uma proposição lógica nada mais é do que uma sentença declarativa, fechada, à qual podemos atribuir com certeza um valor lógico: verdadeiro ou falso. Não existe meio-termo, subjetividade ou dúvida quanto à possibilidade de julgamento dessa frase."
+    },
+    {
+      "speaker": "B",
+      "text": "Isso decorre dos três princípios fundamentais da lógica clássica. Temos o princípio da identidade, que diz que o que é verdadeiro é verdadeiro; o princípio da não-contradição, que afirma que uma proposição não pode ser verdadeira e falsa ao mesmo tempo; e o princípio do terceiro excluído, segundo o qual ou ela é verdadeira ou é falsa, sem terceira opção."
+    },
+    {
+      "speaker": "A",
+      "text": "E as bancas, principalmente o Cebraspe em questões no modelo Certo ou Errado, adoram colocar pegadinhas testando o que NÃO é proposição. Frases interrogativas como 'onde fica o tribunal?', exclamativas como 'que prova difícil!', e ordens diretas imperativas como 'estude todo dia' não podem ser valoradas logicamente."
+    },
+    {
+      "speaker": "B",
+      "text": "Outro ponto clássico de armadilha são as sentenças abertas, onde falta informação essencial para definirmos a veracidade. Se a questão trouxer 'Ele é auditor fiscal' ou 'x mais cinco é igual a dez', não temos como julgar se é verdadeiro ou falso sem saber quem é 'ele' ou qual é o valor de x. Por isso, sentenças abertas não são proposições lógicas."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente. Já frases como 'Brasília é a capital federal' ou 'Três mais quatro é igual a oito' são proposições perfeitas, pois podemos julgá-las objetivamente, sendo a primeira verdadeira e a segunda falsa. Definido isso, passamos para a tipologia: as proposições podem ser simples ou compostas."
+    },
+    {
+      "speaker": "B",
+      "text": "A proposição simples, ou atômica, expressa um pensamento completo único, sem conectivos ligando pensamentos distintos. Já a proposição composta, também chamada de molecular, é formada pela união de duas ou mais proposições simples por meio dos operadores lógicos, que são os conectivos."
+    },
+    {
+      "speaker": "A",
+      "text": "Esses conectivos são os blocos de construção que todo concurseiro precisa dominar com precisão cirúrgica. O primeiro deles é a Conjunção, representada pela conjunção aditiva 'e', cujo símbolo é um 'v' invertido. Na conjunção, o rigor é máximo: a sentença composta só será verdadeira se todas as proposições simples que a compõem forem estritamente verdadeiras."
+    },
+    {
+      "speaker": "B",
+      "text": "É a famosa promessa de mãe exigente: 'Você vai arrumar o quarto E vai lavar a louça'. Se você fizer apenas uma das tarefas ou nenhuma, a proposição inteira se torna falsa. Em seguida, temos a Disjunção Inclusiva, o conectivo 'ou', simbolizado pelo 'v'."
+    },
+    {
+      "speaker": "A",
+      "text": "Na disjunção inclusiva, a regra é muito mais branda, bastando que pelo menos uma das partes seja verdadeira para que o todo seja verdadeiro. O único cenário em que a disjunção inclusiva resulta em falsidade é quando ambas as partes são simultaneamente falsas."
+    },
+    {
+      "speaker": "B",
+      "text": "Só precisamos tomar cuidado para não confundir com a Disjunção Exclusiva, indicada pela estrutura 'ou... ou' e simbolizada pelo 'v' com um traço embaixo. Nela, exatamente uma das partes deve ser verdadeira, excluindo a possibilidade de ambas ocorrerem juntas, como em 'Ou Maria é cearense ou é mineira'."
+    },
+    {
+      "speaker": "A",
+      "text": "Agora chegamos ao conectivo mais cobrado e que mais derruba candidatos desatentos: a Condicional, indicada por 'se... então' e representada por uma seta apontando para a direita. Na condicional, temos o antecedente, que é a condição, e o consequente, que é o resultado."
+    },
+    {
+      "speaker": "B",
+      "text": "A condicional só é falsa em um único caso específico: quando o antecedente é verdadeiro e o consequente é falso. O famoso macete dos concurseiros, a combinação 'Vera Fischer é Falsa', resume bem a linha em que V aponta para F resultando em Falsidade."
+    },
+    {
+      "speaker": "A",
+      "text": "E o raciocínio é muito lógico: se eu prometo que 'Se fizer sol, então irei à praia', e faz sol, mas eu não vou, eu quebrei minha promessa, logo é falso. Por outro lado, se chover, não importando o que eu faça, minha promessa inicial não foi invalidada, mantendo o valor lógico verdadeiro."
+    },
+    {
+      "speaker": "B",
+      "text": "Completando o time dos conectivos fundamentais, temos a Bicondicional, estruturada por 'se e somente se' e representada por uma seta dupla. A bicondicional exige coerência total de valores: ela só é verdadeira quando ambos os lados têm o mesmo valor lógico, ou seja, ambos verdadeiros ou ambos falsos."
+    },
+    {
+      "speaker": "A",
+      "text": "Para consolidar a análise de todas essas combinações possíveis, nós utilizamos a Tabela-Verdade. O número de linhas de uma tabela-verdade é sempre dado pela fórmula dois elevado a 'n', onde 'n' representa a quantidade de proposições simples envolvidas no problema."
+    },
+    {
+      "speaker": "B",
+      "text": "Então, se temos duas proposições simples 'p' e 'q', teremos dois elevado ao quadrado, resultando em quatro linhas de combinações lógicas. Se forem três proposições, serão oito linhas, alternando organizadamente os valores de verdadeiro e falso para mapear todos os cenários possíveis sem esquecer nenhum caso."
+    },
+    {
+      "speaker": "A",
+      "text": "Memorizar o comportamento dos operadores na tabela é direto: o 'e' procura por falsidade para ser falso; o 'ou' procura por verdade para ser verdadeiro; a condicional só teme a combinação de antecedente verdadeiro com consequente falso; e a bicondicional exige igualdade entre as partes."
+    },
+    {
+      "speaker": "B",
+      "text": "Dominando essa matriz fundamental de proposições e conectivos, o candidato tem a base sólida necessária para encarar qualquer questão de equivalência lógica, negação de sentenças e problemas de argumentação complexos nas provas."
+    }
+  ]
+}

@@ -1,14 +1,8 @@
 {
   "questoes_usadas": [
-    "PRF-2021-027",
-    "PRF-2021-028",
     "PRF-2021-033",
     "PRF-2021-034",
     "PRF-2021-002-ING",
-    "PRF-2021-029",
-    "PRF-2021-030",
-    "PRF-2021-031",
-    "PRF-2021-032",
     "PRF-2021-046",
     "PRF-2021-047",
     "PRF-2021-048",
@@ -23,14 +17,18 @@
     "PRF-2021-003-ING",
     "PRF-2021-004-ING",
     "PRF-2021-005-ING",
-    "PRF-2021-006-ING"
+    "PRF-2021-006-ING",
+    "PRF-2021-027",
+    "PRF-2021-028",
+    "PRF-2021-029",
+    "PRF-2021-030"
   ],
-  "ultima_disciplina": "ingles",
+  "ultima_disciplina": "raciocinio logico",
   "ultimas_questoes": [
-    "PRF-2021-003-ING",
-    "PRF-2021-004-ING",
-    "PRF-2021-005-ING",
-    "PRF-2021-006-ING"
+    "PRF-2021-027",
+    "PRF-2021-028",
+    "PRF-2021-029",
+    "PRF-2021-030"
   ],
-  "ultima_execucao": "2026-08-13T16:59:56.654394-03:00"
+  "ultima_execucao": "2026-08-13T18:57:15.972051-03:00"
 }

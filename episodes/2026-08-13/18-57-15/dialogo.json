@@ -1,0 +1,292 @@
+{
+  "tema": "Raciocínio lógico para concurso",
+  "disciplina": "raciocinio logico",
+  "plano": {
+    "parte_1": "Introdução e Fundamentos do Raciocínio Lógico Proposicional: 1. Abertura e Contextualização: Apresentação descontraída sobre a importância do Raciocínio Lógico-Matemático (RLM) na preparação para concursos de alto nível, desmistificando o medo da disciplina e mostrando que a lógica é uma linguagem estruturada. 2. Conceito de Proposição: Definição de sentença declarativa fechada com valor lógico binário (Verdadeiro ou Falso), princípios da identidade, da não-contradição e do terceiro excluído. Diferenciação prática entre o que é proposição e o que não é (frases interrogativas, exclamativas, imperativas e sentenças abertas). 3. Tipologia das Proposições: Apresentação das proposições simples (atômicas) e compostas (moleculares). 4. Conectivos Lógicos Fundamentais: Explicação conceitual de Conjunção ('e' - ∧), Disjunção Inclusiva ('ou' - ∨), Disjunção Exclusiva ('ou... ou' - ⊻), Condicional ('se... então' - →) e Bicondicional ('se e somente se' - ↔). 5. Estrutura da Tabela-Verdade: Dinâmica básica de construção e regras operacionais de cada conectivo lógico.",
+    "parte_2": "Aprofundamento, Equivalências e Pegadinhas Clássicas de Prova: 1. Negação de Proposições Compostas: Aplicação detalhada das Leis de De Morgan para negação de conjunção e disjunção, além da regra fundamental para negar a condicional (manter a primeira e negar a segunda). 2. Equivalências Lógicas Essenciais: Estudo aprofundado da equivalência da condicional por meio da contrapositiva (inverte e nega) e da transformação de condicional em disjunção inclusiva (nega a primeira ou mantém a segunda). 3. Lógica de Primeira Ordem (Quantificadores): Análise dos quantificadores universais ('Todo', 'Nenhum') e existenciais ('Algum', 'Pelo menos um', 'Existe'), destacando as técnicas de negação categórica (negar 'todo' com 'algum não'). 4. Comparações e Raciocínio Dedutivo: Diferença entre validade de um argumento e veracidade dos fatos no mundo real, além do conceito de tautologia, contradição e contingência. 5. Armadilhas e Pegadinhas Comuns: Alertas práticos sobre confusão entre condição suficiente e necessária, armadilhas na interpretação do 'se... então' disfarçado no português formal, e o erro clássico de negar 'todo' usando 'nenhum'. 6. Fechamento da teoria e transição para o bloco de resolução de questões práticas."
+  },
+  "questoes": [
+    {
+      "id": "PRF-2021-027",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Raciocínio lógico",
+      "disciplina_canonica": "raciocinio logico",
+      "item_original": 27,
+      "questao": "Considere um modelo em que a taxa de espalhamento de uma notícia seja p vezes (1 - p), com constante de proporcionalidade igual a 1. Se 30% da população já conhece a notícia, então a taxa de espalhamento é superior a 20% por unidade de tempo.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 27 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-028",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Raciocínio lógico",
+      "disciplina_canonica": "raciocinio logico",
+      "item_original": 28,
+      "questao": "No modelo em que a taxa de espalhamento é p vezes (1 - p), se essa taxa for 16% por unidade de tempo, então necessariamente mais de 75% da população ainda desconhece a notícia.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 28 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-029",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Raciocínio lógico",
+      "disciplina_canonica": "raciocinio logico",
+      "item_original": 29,
+      "questao": "No modelo de espalhamento dado por p vezes (1 - p), com p entre zero e um, é possível que a taxa de espalhamento de uma notícia ultrapasse 50% por unidade de tempo.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 29 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-030",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Raciocínio lógico",
+      "disciplina_canonica": "raciocinio logico",
+      "item_original": 30,
+      "questao": "No mesmo modelo, quanto maior for o número de pessoas que já conhecem uma notícia, maior será necessariamente sua taxa de espalhamento.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 30 - gabarito oficial definitivo"
+    }
+  ],
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Muita gente olha o edital de um concurso de alto nível, vê lá Raciocínio Lógico-Matemático e já sente um frio na espinha. A verdade é que o RLM não é um bicho de sete cabeças, mas sim o aprendizado de uma nova linguagem, estruturada e sem espaço para ambiguidades."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito! Quando o candidato entende que a lógica tem regras claras e universais, a matéria deixa de ser um obstáculo e vira um diferencial competitivo para garantir pontos preciosos. E a base de tudo nesse universo começa em uma única pergunta: o que é, de fato, uma proposição lógica?"
+    },
+    {
+      "speaker": "A",
+      "text": "Uma proposição lógica nada mais é do que uma sentença declarativa, fechada, à qual podemos atribuir com certeza um valor lógico: verdadeiro ou falso. Não existe meio-termo, subjetividade ou dúvida quanto à possibilidade de julgamento dessa frase."
+    },
+    {
+      "speaker": "B",
+      "text": "Isso decorre dos três princípios fundamentais da lógica clássica. Temos o princípio da identidade, que diz que o que é verdadeiro é verdadeiro; o princípio da não-contradição, que afirma que uma proposição não pode ser verdadeira e falsa ao mesmo tempo; e o princípio do terceiro excluído, segundo o qual ou ela é verdadeira ou é falsa, sem terceira opção."
+    },
+    {
+      "speaker": "A",
+      "text": "E as bancas, principalmente o Cebraspe em questões no modelo Certo ou Errado, adoram colocar pegadinhas testando o que NÃO é proposição. Frases interrogativas como 'onde fica o tribunal?', exclamativas como 'que prova difícil!', e ordens diretas imperativas como 'estude todo dia' não podem ser valoradas logicamente."
+    },
+    {
+      "speaker": "B",
+      "text": "Outro ponto clássico de armadilha são as sentenças abertas, onde falta informação essencial para definirmos a veracidade. Se a questão trouxer 'Ele é auditor fiscal' ou 'x mais cinco é igual a dez', não temos como julgar se é verdadeiro ou falso sem saber quem é 'ele' ou qual é o valor de x. Por isso, sentenças abertas não são proposições lógicas."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente. Já frases como 'Brasília é a capital federal' ou 'Três mais quatro é igual a oito' são proposições perfeitas, pois podemos julgá-las objetivamente, sendo a primeira verdadeira e a segunda falsa. Definido isso, passamos para a tipologia: as proposições podem ser simples ou compostas."
+    },
+    {
+      "speaker": "B",
+      "text": "A proposição simples, ou atômica, expressa um pensamento completo único, sem conectivos ligando pensamentos distintos. Já a proposição composta, também chamada de molecular, é formada pela união de duas ou mais proposições simples por meio dos operadores lógicos, que são os conectivos."
+    },
+    {
+      "speaker": "A",
+      "text": "Esses conectivos são os blocos de construção que todo concurseiro precisa dominar com precisão cirúrgica. O primeiro deles é a Conjunção, representada pela conjunção aditiva 'e', cujo símbolo é um 'v' invertido. Na conjunção, o rigor é máximo: a sentença composta só será verdadeira se todas as proposições simples que a compõem forem estritamente verdadeiras."
+    },
+    {
+      "speaker": "B",
+      "text": "É a famosa promessa de mãe exigente: 'Você vai arrumar o quarto E vai lavar a louça'. Se você fizer apenas uma das tarefas ou nenhuma, a proposição inteira se torna falsa. Em seguida, temos a Disjunção Inclusiva, o conectivo 'ou', simbolizado pelo 'v'."
+    },
+    {
+      "speaker": "A",
+      "text": "Na disjunção inclusiva, a regra é muito mais branda, bastando que pelo menos uma das partes seja verdadeira para que o todo seja verdadeiro. O único cenário em que a disjunção inclusiva resulta em falsidade é quando ambas as partes são simultaneamente falsas."
+    },
+    {
+      "speaker": "B",
+      "text": "Só precisamos tomar cuidado para não confundir com a Disjunção Exclusiva, indicada pela estrutura 'ou... ou' e simbolizada pelo 'v' com um traço embaixo. Nela, exatamente uma das partes deve ser verdadeira, excluindo a possibilidade de ambas ocorrerem juntas, como em 'Ou Maria é cearense ou é mineira'."
+    },
+    {
+      "speaker": "A",
+      "text": "Agora chegamos ao conectivo mais cobrado e que mais derruba candidatos desatentos: a Condicional, indicada por 'se... então' e representada por uma seta apontando para a direita. Na condicional, temos o antecedente, que é a condição, e o consequente, que é o resultado."
+    },
+    {
+      "speaker": "B",
+      "text": "A condicional só é falsa em um único caso específico: quando o antecedente é verdadeiro e o consequente é falso. O famoso macete dos concurseiros, a combinação 'Vera Fischer é Falsa', resume bem a linha em que V aponta para F resultando em Falsidade."
+    },
+    {
+      "speaker": "A",
+      "text": "E o raciocínio é muito lógico: se eu prometo que 'Se fizer sol, então irei à praia', e faz sol, mas eu não vou, eu quebrei minha promessa, logo é falso. Por outro lado, se chover, não importando o que eu faça, minha promessa inicial não foi invalidada, mantendo o valor lógico verdadeiro."
+    },
+    {
+      "speaker": "B",
+      "text": "Completando o time dos conectivos fundamentais, temos a Bicondicional, estruturada por 'se e somente se' e representada por uma seta dupla. A bicondicional exige coerência total de valores: ela só é verdadeira quando ambos os lados têm o mesmo valor lógico, ou seja, ambos verdadeiros ou ambos falsos."
+    },
+    {
+      "speaker": "A",
+      "text": "Para consolidar a análise de todas essas combinações possíveis, nós utilizamos a Tabela-Verdade. O número de linhas de uma tabela-verdade é sempre dado pela fórmula dois elevado a 'n', onde 'n' representa a quantidade de proposições simples envolvidas no problema."
+    },
+    {
+      "speaker": "B",
+      "text": "Então, se temos duas proposições simples 'p' e 'q', teremos dois elevado ao quadrado, resultando em quatro linhas de combinações lógicas. Se forem três proposições, serão oito linhas, alternando organizadamente os valores de verdadeiro e falso para mapear todos os cenários possíveis sem esquecer nenhum caso."
+    },
+    {
+      "speaker": "A",
+      "text": "Memorizar o comportamento dos operadores na tabela é direto: o 'e' procura por falsidade para ser falso; o 'ou' procura por verdade para ser verdadeiro; a condicional só teme a combinação de antecedente verdadeiro com consequente falso; e a bicondicional exige igualdade entre as partes."
+    },
+    {
+      "speaker": "B",
+      "text": "Dominando essa matriz fundamental de proposições e conectivos, o candidato tem a base sólida necessária para encarar qualquer questão de equivalência lógica, negação de sentenças e problemas de argumentação complexos nas provas."
+    },
+    {
+      "speaker": "A",
+      "text": "E com essa base bem fixada, o próximo passo natural que as bancas adoram cobrar é a negação das proposições compostas. Para negar uma conjunção ou uma disjunção, nós aplicamos as clássicas Leis de De Morgan. A regra prática é muito direta: você nega todas as proposições simples envolvidas e inverte o conectivo, trocando o 'e' pelo 'ou', ou o 'ou' pelo 'e'."
+    },
+    {
+      "speaker": "B",
+      "text": "Por exemplo, se a frase for 'Estudo para o concurso e trabalho durante o dia', a negação rigorosa fica 'Não estudo para o concurso ou não trabalho durante o dia'. Muita gente erra achando que negar o 'e' mantém o 'e', mas o conectivo precisa obrigatoriamente virar 'ou'. E quando falamos em negar a condicional 'se... então', entra em cena a famosa regra do MANÉ: você Mantém a primeira proposição E Nega a segunda."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa regra do MANÉ evita uma das maiores armadilhas de prova. Se a proposição for 'Se eu me dedicar, então serei aprovado', a negação não começa com 'se', ela vira 'Eu me dedico e não sou aprovado'. Lembre-se sempre de que a negação de uma condicional nunca é outra condicional, e sim uma conjunção com o conectivo 'e'. Isso é cobrado com frequência impressionante em bancas como Cebraspe e FGV."
+    },
+    {
+      "speaker": "B",
+      "text": "Agora, é fundamental não confundir negação com equivalência lógica. A equivalência consiste em dizer exatamente a mesma coisa usando uma estrutura formal diferente, mantendo rigorosamente a mesma tabela-verdade. Na condicional, a equivalência mais famosa é a contrapositiva: você inverte os lados e nega ambas as partes. Ou seja, 'Se p, então q' equivale a 'Se não q, então não p'."
+    },
+    {
+      "speaker": "A",
+      "text": "Na prática, dizer 'Se chove, a rua fica molhada' equivale logicamente a dizer 'Se a rua não está molhada, então não choveu'. A banca costuma tentar induzir o candidato ao erro apenas invertendo a ordem sem negar, ou negando sem inverter, o que gera uma falácia formal. Outra equivalência fortíssima da condicional é a transformação em disjunção pelo macete do 'NE OU', em que você nega a primeira proposição ou mantém a segunda."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. A sentença 'Se dirijo, não bebo' equivale a 'Não dirijo ou não bebo'. E aqui surge outro ponto crucial da condicional, que é a distinção entre condição suficiente e condição necessária. O antecedente, que vem logo após o 'se', é sempre a condição suficiente; já o consequente, que vem depois do 'então', é a condição necessária. Dizer que 'A é suficiente para B' significa que a ocorrência de A garante B, mas B não garante A."
+    },
+    {
+      "speaker": "A",
+      "text": "E as bancas exploram isso mascarando a condicional no português formal sem usar a estrutura explícita 'se... então'. Construções como 'Quem estuda é aprovado', 'Basta chover para o trânsito parar' ou 'Caso viaje, avisarei' são todas condicionais disfarçadas. Identificar quem é a condição suficiente e quem é a necessária nessas orações é o primeiro passo para não cair nas armadilhas de equivalência da prova."
+    },
+    {
+      "speaker": "B",
+      "text": "Avançando para a lógica de primeira ordem, nós encontramos os quantificadores, que também são terreno fértil para pegadinhas clássicas. Temos os quantificadores universais, representados pelas palavras 'Todo' e 'Nenhum', e os existenciais, representados por 'Algum', 'Existe' e 'Pelo menos um'. A pegadinha campeã de audiência em concursos é a negação do 'Todo'."
+    },
+    {
+      "speaker": "A",
+      "text": "O senso comum faz a maioria das pessoas achar que o oposto ou a negação de 'Todo político é honesto' seria 'Nenhum político é honesto'. Mas na lógica formal, para quebrar uma afirmação universal, basta encontrar uma única exceção. Por isso, a negação do 'Todo' é feita usando o mnemônico PEA mais o 'não', ou seja: 'Pelo menos um não', 'Existe um que não' ou 'Algum não'. Portanto, a negação correta seria 'Pelo menos um político não é honesto'."
+    },
+    {
+      "speaker": "B",
+      "text": "Da mesma forma, para negar 'Nenhum juiz é corrupto', não usamos 'Todos os juízes são corruptos', mas sim 'Pelo menos um juiz é corrupto' ou 'Existe juiz corrupto'. E quando a frase original for existencial, como 'Algum candidato foi aprovado', a sua negação universaliza no sentido negativo: 'Nenhum candidato foi aprovado'. Dominar essa alternância entre quantificadores universais e existenciais garante pontos preciosos no bloco de raciocínio categórico."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro tópico que confunde muitos estudantes é a relação entre a validade de um argumento dedutivo e a veracidade factual das proposições no mundo real. Em lógica, um argumento é considerado válido exclusivamente pela sua estrutura formal, onde a conclusão decorre necessariamente das premissas. Um argumento pode ser perfeitamente válido mesmo que fale de coisas absurdas, como 'Todo cachorro voa; Rex é um cachorro; logo, Rex voa'."
+    },
+    {
+      "speaker": "B",
+      "text": "A lógica não se preocupa com a biologia ou com a verdade material dos fatos, mas sim com a consistência da inferência. Se as premissas fossem verdadeiras, a conclusão seria inevitavelmente verdadeira, caracterizando um argumento válido. E quando analisamos as proposições compostas sob todas as possibilidades de valores lógicos, nós as classificamos em tautologia, contradição ou contingência."
+    },
+    {
+      "speaker": "A",
+      "text": "A tautologia ocorre quando a proposição composta resulta em verdadeiro em absolutamente todas as linhas da tabela-verdade, independentemente dos valores das proposições simples. A contradição é o oposto absoluto, resultando sempre em falso em todas as combinações possíveis. Já a contingência é o caso intermediário, quando a tabela apresenta pelo menos um valor verdadeiro e pelo menos um valor falso."
+    },
+    {
+      "speaker": "B",
+      "text": "Em itens do Cebraspe no formato Certo ou Errado, é comum a banca apresentar uma fórmula lógica extensa e afirmar que ela constitui uma tautologia. Nesses casos, o candidato experiente não precisa necessariamente construir a tabela-verdade inteira de oito ou dezesseis linhas; basta tentar forçar a estrutura a dar um resultado falso. Se for impossível torná-la falsa sob qualquer combinação, temos uma tautologia confirmada de maneira rápida e segura."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa estratégia de testar a hipótese de falsidade economiza um tempo valioso durante a resolução da prova, permitindo focar a energia nas questões mais complexas. Cobrimos todas as ferramentas teóricas essenciais: conectivos, tabelas, negações de De Morgan e da condicional, equivalências, quantificadores e a análise de argumentos válidos."
+    },
+    {
+      "speaker": "B",
+      "text": "Com todo esse arsenal teórico bem mapeado na mente, o melhor jeito de consolidar o método e destravar a velocidade é colocar a mão na massa. Vamos passar agora para a resolução de questões reais de concurso para ver exatamente como as bancas cobram cada um desses detalhes no papel."
+    },
+    {
+      "speaker": "A",
+      "text": "Agora chegou a hora de testar de verdade o que você sabe. Separei quatro questões de provas anteriores da Polícia Rodoviária Federal."
+    },
+    {
+      "speaker": "B",
+      "text": "A regra é simples: escute as quatro questões e marque mentalmente certo ou errado. Não vamos revelar as respostas agora. Depois das quatro, a gente volta com o gabarito oficial e explica cada uma."
+    },
+    {
+      "speaker": "A",
+      "text": "Como estamos usando provas anteriores, considere sempre o ano indicado e o gabarito oficial daquela prova. Legislação pode sofrer alterações ao longo do tempo."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 1. PRF 2021, CEBRASPE, item 27. Considere um modelo em que a taxa de espalhamento de uma notícia seja p vezes (1 - p), com constante de proporcionalidade igual a 1. Se 30% da população já conhece a notícia, então a taxa de espalhamento é superior a 20% por unidade de tempo. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 2. PRF 2021, CEBRASPE, item 28. No modelo em que a taxa de espalhamento é p vezes (1 - p), se essa taxa for 16% por unidade de tempo, então necessariamente mais de 75% da população ainda desconhece a notícia. Certo ou errado?"
+    },
+    {
+      "speaker": "B",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 3. PRF 2021, CEBRASPE, item 29. No modelo de espalhamento dado por p vezes (1 - p), com p entre zero e um, é possível que a taxa de espalhamento de uma notícia ultrapasse 50% por unidade de tempo. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 4. PRF 2021, CEBRASPE, item 30. No mesmo modelo, quanto maior for o número de pessoas que já conhecem uma notícia, maior será necessariamente sua taxa de espalhamento. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "As quatro foram apresentadas. Se você quiser mais tempo para resolver, pause o áudio agora. Quando estiver pronto, continue para conferir o gabarito."
+    },
+    {
+      "speaker": "B",
+      "text": "Vamos corrigir. Mais importante do que acertar é entender exatamente por que cada item está certo ou errado."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 1. O gabarito oficial é CERTO."
+    },
+    {
+      "speaker": "B",
+      "text": "Para resolver este item, basta substituir a proporção informada na função da taxa de espalhamento expressa por f(p) = p * (1 - p). Se 30% da população já conhece a notícia, a variável p assume o valor 0,30. Aplicando diretamente na fórmula: Taxa = 0,30 * (1 - 0,30) = 0,30 * 0,70 = 0,21, o que equivale a 21% por unidade de tempo. Como o resultado de 21% é estritamente superior ao valor de 20% indicado no enunciado, a afirmativa é verdadeira. A pegadinha para o candidato consistia em hesitar na modelagem ou errar o cálculo básico com números decimais, quando na verdade tratava-se de simples valor numérico de uma função quadrática. Gabarito: CERTO."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 2. O gabarito oficial é ERRADO."
+    },
+    {
+      "speaker": "A",
+      "text": "A questão propõe que uma taxa de 16% (0,16) implica necessariamente que mais de 75% desconhece a notícia. Montando a equação p * (1 - p) = 0,16, temos p² - p + 0,16 = 0. Resolvendo por Bhaskara, encontramos duas raízes reais válidas: p = 0,20 ou p = 0,80. A proporção dos que desconhecem a notícia é (1 - p). Se p = 0,20, a parcela desinformada é 80% (maior que 75%). Contudo, se p = 0,80, a parcela desinformada é de apenas 20% (menor que 75%). A pegadinha está no uso da palavra 'necessariamente', que desconsidera a segunda raiz real da equação quadrática. Logo, a afirmativa é incorreta. Gabarito: ERRADO."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 3. O gabarito oficial é ERRADO."
+    },
+    {
+      "speaker": "B",
+      "text": "A função da taxa de espalhamento é f(p) = -p² + p, caracterizada por uma parábola com concavidade voltada para baixo. O ponto em que a taxa atinge seu ápice é o vértice da parábola, dado por p = -b / (2a) = -1 / (2 * (-1)) = 0,5 (ou seja, quando 50% conhece a notícia). Substituindo esse valor na função, obtemos a taxa máxima: f(0,5) = 0,5 * (1 - 0,5) = 0,25 (25%). Portanto, a taxa máxima possível no modelo é de 25%, sendo impossível ultrapassar 50%. A pegadinha clássica da banca foi induzir o candidato a confundir o ponto de máximo (p = 0,50) com o valor máximo da taxa resultante. Gabarito: ERRADO."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 4. O gabarito oficial é ERRADO."
+    },
+    {
+      "speaker": "A",
+      "text": "A taxa de espalhamento f(p) = p * (1 - p) descreve uma curva quadrática e não uma relação linear monótona crescente. Para valores de p entre 0 e 0,5 (até 50%), a taxa de fato aumenta conforme mais pessoas conhecem a notícia, atingindo o máximo de 25%. Porém, a partir de p > 0,5, a taxa passa a decrescer progressivamente até atingir zero quando p = 1, pois restam cada vez menos pessoas suscetíveis a receber a notícia. A pegadinha reside no senso comum de achar que mais propagadores geram sempre maior ritmo de disseminação, ignorando o efeito do esgotamento do público-alvo na modelagem matemática. Gabarito: ERRADO."
+    },
+    {
+      "speaker": "A",
+      "text": "Se você errou alguma delas, essa é justamente a questão que merece entrar na sua lista de revisão."
+    },
+    {
+      "speaker": "B",
+      "text": "E se acertou as quatro, ótimo. Mas não fique apenas no acerto: tenha certeza de que você consegue explicar o motivo de cada resposta."
+    },
+    {
+      "speaker": "A",
+      "text": "Continuamos no próximo episódio com outro tema e quatro novas questões. Bons estudos e até lá."
+    }
+  ]
+}

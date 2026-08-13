@@ -1,0 +1,69 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "E com essa base bem fixada, o próximo passo natural que as bancas adoram cobrar é a negação das proposições compostas. Para negar uma conjunção ou uma disjunção, nós aplicamos as clássicas Leis de De Morgan. A regra prática é muito direta: você nega todas as proposições simples envolvidas e inverte o conectivo, trocando o 'e' pelo 'ou', ou o 'ou' pelo 'e'."
+    },
+    {
+      "speaker": "B",
+      "text": "Por exemplo, se a frase for 'Estudo para o concurso e trabalho durante o dia', a negação rigorosa fica 'Não estudo para o concurso ou não trabalho durante o dia'. Muita gente erra achando que negar o 'e' mantém o 'e', mas o conectivo precisa obrigatoriamente virar 'ou'. E quando falamos em negar a condicional 'se... então', entra em cena a famosa regra do MANÉ: você Mantém a primeira proposição E Nega a segunda."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa regra do MANÉ evita uma das maiores armadilhas de prova. Se a proposição for 'Se eu me dedicar, então serei aprovado', a negação não começa com 'se', ela vira 'Eu me dedico e não sou aprovado'. Lembre-se sempre de que a negação de uma condicional nunca é outra condicional, e sim uma conjunção com o conectivo 'e'. Isso é cobrado com frequência impressionante em bancas como Cebraspe e FGV."
+    },
+    {
+      "speaker": "B",
+      "text": "Agora, é fundamental não confundir negação com equivalência lógica. A equivalência consiste em dizer exatamente a mesma coisa usando uma estrutura formal diferente, mantendo rigorosamente a mesma tabela-verdade. Na condicional, a equivalência mais famosa é a contrapositiva: você inverte os lados e nega ambas as partes. Ou seja, 'Se p, então q' equivale a 'Se não q, então não p'."
+    },
+    {
+      "speaker": "A",
+      "text": "Na prática, dizer 'Se chove, a rua fica molhada' equivale logicamente a dizer 'Se a rua não está molhada, então não choveu'. A banca costuma tentar induzir o candidato ao erro apenas invertendo a ordem sem negar, ou negando sem inverter, o que gera uma falácia formal. Outra equivalência fortíssima da condicional é a transformação em disjunção pelo macete do 'NE OU', em que você nega a primeira proposição ou mantém a segunda."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. A sentença 'Se dirijo, não bebo' equivale a 'Não dirijo ou não bebo'. E aqui surge outro ponto crucial da condicional, que é a distinção entre condição suficiente e condição necessária. O antecedente, que vem logo após o 'se', é sempre a condição suficiente; já o consequente, que vem depois do 'então', é a condição necessária. Dizer que 'A é suficiente para B' significa que a ocorrência de A garante B, mas B não garante A."
+    },
+    {
+      "speaker": "A",
+      "text": "E as bancas exploram isso mascarando a condicional no português formal sem usar a estrutura explícita 'se... então'. Construções como 'Quem estuda é aprovado', 'Basta chover para o trânsito parar' ou 'Caso viaje, avisarei' são todas condicionais disfarçadas. Identificar quem é a condição suficiente e quem é a necessária nessas orações é o primeiro passo para não cair nas armadilhas de equivalência da prova."
+    },
+    {
+      "speaker": "B",
+      "text": "Avançando para a lógica de primeira ordem, nós encontramos os quantificadores, que também são terreno fértil para pegadinhas clássicas. Temos os quantificadores universais, representados pelas palavras 'Todo' e 'Nenhum', e os existenciais, representados por 'Algum', 'Existe' e 'Pelo menos um'. A pegadinha campeã de audiência em concursos é a negação do 'Todo'."
+    },
+    {
+      "speaker": "A",
+      "text": "O senso comum faz a maioria das pessoas achar que o oposto ou a negação de 'Todo político é honesto' seria 'Nenhum político é honesto'. Mas na lógica formal, para quebrar uma afirmação universal, basta encontrar uma única exceção. Por isso, a negação do 'Todo' é feita usando o mnemônico PEA mais o 'não', ou seja: 'Pelo menos um não', 'Existe um que não' ou 'Algum não'. Portanto, a negação correta seria 'Pelo menos um político não é honesto'."
+    },
+    {
+      "speaker": "B",
+      "text": "Da mesma forma, para negar 'Nenhum juiz é corrupto', não usamos 'Todos os juízes são corruptos', mas sim 'Pelo menos um juiz é corrupto' ou 'Existe juiz corrupto'. E quando a frase original for existencial, como 'Algum candidato foi aprovado', a sua negação universaliza no sentido negativo: 'Nenhum candidato foi aprovado'. Dominar essa alternância entre quantificadores universais e existenciais garante pontos preciosos no bloco de raciocínio categórico."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro tópico que confunde muitos estudantes é a relação entre a validade de um argumento dedutivo e a veracidade factual das proposições no mundo real. Em lógica, um argumento é considerado válido exclusivamente pela sua estrutura formal, onde a conclusão decorre necessariamente das premissas. Um argumento pode ser perfeitamente válido mesmo que fale de coisas absurdas, como 'Todo cachorro voa; Rex é um cachorro; logo, Rex voa'."
+    },
+    {
+      "speaker": "B",
+      "text": "A lógica não se preocupa com a biologia ou com a verdade material dos fatos, mas sim com a consistência da inferência. Se as premissas fossem verdadeiras, a conclusão seria inevitavelmente verdadeira, caracterizando um argumento válido. E quando analisamos as proposições compostas sob todas as possibilidades de valores lógicos, nós as classificamos em tautologia, contradição ou contingência."
+    },
+    {
+      "speaker": "A",
+      "text": "A tautologia ocorre quando a proposição composta resulta em verdadeiro em absolutamente todas as linhas da tabela-verdade, independentemente dos valores das proposições simples. A contradição é o oposto absoluto, resultando sempre em falso em todas as combinações possíveis. Já a contingência é o caso intermediário, quando a tabela apresenta pelo menos um valor verdadeiro e pelo menos um valor falso."
+    },
+    {
+      "speaker": "B",
+      "text": "Em itens do Cebraspe no formato Certo ou Errado, é comum a banca apresentar uma fórmula lógica extensa e afirmar que ela constitui uma tautologia. Nesses casos, o candidato experiente não precisa necessariamente construir a tabela-verdade inteira de oito ou dezesseis linhas; basta tentar forçar a estrutura a dar um resultado falso. Se for impossível torná-la falsa sob qualquer combinação, temos uma tautologia confirmada de maneira rápida e segura."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa estratégia de testar a hipótese de falsidade economiza um tempo valioso durante a resolução da prova, permitindo focar a energia nas questões mais complexas. Cobrimos todas as ferramentas teóricas essenciais: conectivos, tabelas, negações de De Morgan e da condicional, equivalências, quantificadores e a análise de argumentos válidos."
+    },
+    {
+      "speaker": "B",
+      "text": "Com todo esse arsenal teórico bem mapeado na mente, o melhor jeito de consolidar o método e destravar a velocidade é colocar a mão na massa. Vamos passar agora para a resolução de questões reais de concurso para ver exatamente como as bancas cobram cada um desses detalhes no papel."
+    }
+  ]
+}
