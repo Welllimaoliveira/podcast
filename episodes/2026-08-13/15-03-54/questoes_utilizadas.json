@@ -1,0 +1,49 @@
+{
+  "disciplina": "transito",
+  "questoes": [
+    {
+      "id": "PRF-2021-064",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Trânsito",
+      "disciplina_canonica": "transito",
+      "item_original": 64,
+      "questao": "Entre os medidores fixos de velocidade, o equipamento do tipo redutor é o que deve obrigatoriamente possuir display, conforme a regulamentação considerada na prova.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 64 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-065",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Trânsito",
+      "disciplina_canonica": "transito",
+      "item_original": 65,
+      "questao": "Quando necessário, veículos com engate para reboque ou carroceria intercambiável devem utilizar segunda placa de identificação veicular traseira, porque reboques e semirreboques possuem identificação traseira.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 65 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-066",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Trânsito",
+      "disciplina_canonica": "transito",
+      "item_original": 66,
+      "questao": "Infração de trânsito concomitante é aquela em que a prática de uma infração tem como pressuposto necessário o cometimento de outra.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 66 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-056",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Trânsito",
+      "disciplina_canonica": "transito",
+      "item_original": 56,
+      "questao": "Em rodovia rural de pista dupla sem sinalização regulamentadora, automóveis, camionetas e motocicletas submetem-se ao mesmo limite máximo de velocidade.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 56 - gabarito oficial definitivo"
+    }
+  ]
+}

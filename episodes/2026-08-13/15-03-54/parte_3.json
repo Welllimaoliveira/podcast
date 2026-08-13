@@ -1,0 +1,97 @@
+{
+  "parte": 3,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Agora chegou a hora de testar de verdade o que você sabe. Separei quatro questões de provas anteriores da Polícia Rodoviária Federal."
+    },
+    {
+      "speaker": "B",
+      "text": "A regra é simples: escute as quatro questões e marque mentalmente certo ou errado. Não vamos revelar as respostas agora. Depois das quatro, a gente volta com o gabarito oficial e explica cada uma."
+    },
+    {
+      "speaker": "A",
+      "text": "Como estamos usando provas anteriores, considere sempre o ano indicado e o gabarito oficial daquela prova. Legislação pode sofrer alterações ao longo do tempo."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 1. PRF 2021, CEBRASPE, item 64. Entre os medidores fixos de velocidade, o equipamento do tipo redutor é o que deve obrigatoriamente possuir display, conforme a regulamentação considerada na prova. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 2. PRF 2021, CEBRASPE, item 65. Quando necessário, veículos com engate para reboque ou carroceria intercambiável devem utilizar segunda placa de identificação veicular traseira, porque reboques e semirreboques possuem identificação traseira. Certo ou errado?"
+    },
+    {
+      "speaker": "B",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 3. PRF 2021, CEBRASPE, item 66. Infração de trânsito concomitante é aquela em que a prática de uma infração tem como pressuposto necessário o cometimento de outra. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 4. PRF 2021, CEBRASPE, item 56. Em rodovia rural de pista dupla sem sinalização regulamentadora, automóveis, camionetas e motocicletas submetem-se ao mesmo limite máximo de velocidade. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "As quatro foram apresentadas. Se você quiser mais tempo para resolver, pause o áudio agora. Quando estiver pronto, continue para conferir o gabarito."
+    },
+    {
+      "speaker": "B",
+      "text": "Vamos corrigir. Mais importante do que acertar é entender exatamente por que cada item está certo ou errado."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 1. O gabarito oficial é CERTO."
+    },
+    {
+      "speaker": "B",
+      "text": "O item está CERTO. De acordo com a regulamentação do CONTRAN aplicável ao concurso (Resolução 798/2020), os medidores de velocidade do tipo fixo dividem-se em controladores e redutores. O redutor de velocidade (conhecido popularmente como lombada eletrônica) é instalado em trechos críticos e possui obrigatoriamente um mostrador operacional (display) que exibe a velocidade do veículo aos condutores. Já os controladores fixos (pardais) não exigem a presença do display. A pegadinha da banca consiste em tentar confundir o candidato entre as exigências do controlador fixo e do redutor fixo. O candidato deveria lembrar que o objetivo do redutor é forçar a redução imediata no local, justificando a obrigatoriedade do visor com a velocidade instantânea registrada."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 2. O gabarito oficial é CERTO."
+    },
+    {
+      "speaker": "A",
+      "text": "O item está CERTO. Segundo as normas do CONTRAN relativas às placas de identificação veicular, quando o engate para reboque, suporte de carga ou carroceria intercambiável encobrir total ou parcialmente a placa traseira principal do veículo, torna-se obrigatória a instalação de uma segunda placa de identificação na traseira. A justificativa do dispositivo legal considera a necessidade de visibilidade da identificação, do mesmo modo que reboques e semirreboques já possuem sua própria placa de identificação traseira por constituírem unidades autônomas de trânsito. A pegadinha está em achar que a placa original encoberta seria suficiente. O candidato deveria raciocinar que a trafegabilidade exige visibilidade plena das placas, justificando a obrigatoriedade do segundo dispositivo de identificação."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 3. O gabarito oficial é ERRADO."
+    },
+    {
+      "speaker": "B",
+      "text": "O item está ERRADO. A questão trocou os conceitos de infrações de trânsito. Infração concomitante ocorre quando o condutor comete duas ou mais infrações independentes ao mesmo tempo (por exemplo, dirigir sem cinto de segurança e segurando o telefone celular simultaneamente). Por outro lado, quando a prática de uma infração serve como pressuposto ou meio necessário para o cometimento de outra, trata-se de uma infração sucessiva (ou dependente). A pegadinha do CEBRASPE foi atribuir à infração concomitante a definição de infração dependente ou sucessiva. O candidato deveria identificar que a palavra concomitante remete a eventos independentes e simultâneos, o que torna a afirmativa incorreta perante os conceitos de fiscalização e legislação de trânsito."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 4. O gabarito oficial é CERTO."
+    },
+    {
+      "speaker": "A",
+      "text": "O item está CERTO. Nos termos do artigo 61 do Código de Trânsito Brasileiro (CTB), onde não houver sinalização regulamentadora de velocidade, os limites nas rodovias rurais de pista dupla são de 110 km/h para automóveis, camionetas e motocicletas, e de 90 km/h para os demais veículos. Portanto, esses três tipos de veículos submetem-se rigorosamente ao mesmo limite máximo de velocidade de 110 km/h nessa via específica. A pegadinha consiste na tentativa de fazer o candidato confundir a regração de pista simples (onde o limite para esses veículos é 100 km/h) com a de pista dupla, ou acreditar que motocicletas teriam limite inferior. O candidato deveria lembrar do agrupamento legal: automóveis, camionetas e motocicletas possuem idêntico teto de velocidade."
+    },
+    {
+      "speaker": "A",
+      "text": "Se você errou alguma delas, essa é justamente a questão que merece entrar na sua lista de revisão."
+    },
+    {
+      "speaker": "B",
+      "text": "E se acertou as quatro, ótimo. Mas não fique apenas no acerto: tenha certeza de que você consegue explicar o motivo de cada resposta."
+    },
+    {
+      "speaker": "A",
+      "text": "Continuamos no próximo episódio com outro tema e quatro novas questões. Bons estudos e até lá."
+    }
+  ]
+}
