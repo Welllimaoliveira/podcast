@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Quando a gente pensa no dia a dia da Polícia Rodoviária Federal, a primeira imagem costuma ser a viatura na rodovia e a fiscalização de trânsito. Só que, por trás de cada abordagem e de cada flagrante nas BRs, existe uma engrenagem técnica fortíssima que define o que é ou não crime. No concurso da PRF, o Direito Penal não é apenas uma matéria teórica, mas a própria ferramenta de trabalho que o futuro policial precisa dominar com absoluta segurança."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. A banca Cebraspe sabe muito bem disso e cobra o Direito Penal sempre atrelado a situações hipotéticas práticas e realistas. Ela não quer apenas que o candidato decore o texto da lei, mas que compreenda como os princípios fundamentais e a aplicação da norma operam na pista. Entender essas bases dogmáticas desde o início faz toda a diferença para não cair nas pegadinhas clássicas de prova."
+    },
+    {
+      "speaker": "A",
+      "text": "E quando falamos de base, tudo começa no Princípio da Legalidade, previsto tanto na Constituição Federal quanto no artigo primeiro do Código Penal. Não há crime sem lei anterior que o defina, nem pena sem prévia cominação legal. Disso decorrem a anterioridade da lei e a proibição expressa do uso da analogia para prejudicar o réu, o que chamamos de analogia in malam partem."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa anterioridade traz uma consequência direta para a aplicação da lei penal no tempo, onde a regra geral é a irretroatividade da lei mais gravosa. Se uma nova lei tornar a conduta mais severa, ela só valerá para fatos praticados a partir de sua vigência. Por outro lado, se a nova norma for benéfica, a chamada novatio legis in mellius, ou descriminalizar a conduta na abolitio criminis, ela retroage imediatamente para beneficiar o agente, mesmo diante de condenação transitada em julgado."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa é uma excelente lembrança, porque o Cebraspe adora tentar confundir se a retroatividade benéfica alcança a coisa julgada. Ela alcança sim a coisa julgada e deve ser aplicada inclusive na fase de execução penal. Isso nos conduz diretamente à análise do momento exato em que o crime se considera praticado."
+    },
+    {
+      "speaker": "B",
+      "text": "Para definir o tempo do crime, o Código Penal adotou expressamente a Teoria da Atividade no artigo quarto. Considera-se praticado o delito no momento da ação ou da omissão, ainda que outro seja o momento do resultado. Se um suspeito efetua disparos contra policiais rodoviários e a vítima falece semanas depois, o crime ocorreu no dia da conduta, momento em que se avalia a imputabilidade do autor e a lei vigente."
+    },
+    {
+      "speaker": "A",
+      "text": "É exatamente aí que entra o famoso mnemônico LUTA, indispensável para qualquer prova de carreiras policiais. Lugar é Ubiquidade e Tempo é Atividade. Enquanto para o tempo adotamos a atividade, para o lugar do crime, previsto no artigo sexto do Código Penal, o Brasil consagrou a Teoria da Ubiquidade."
+    },
+    {
+      "speaker": "B",
+      "text": "Com a ubiquidade, considera-se praticado o crime tanto no local onde ocorreu a conduta quanto no lugar onde se produziu ou deveria produzir-se o resultado. Em rodovias federais que cortam divisas estaduais ou fronteiras internacionais, isso ganha relevância máxima. Se os atos executórios iniciam em um ponto e o desfecho ocorre em outro, a jurisdição nacional e a competência se firmam de forma sólida."
+    },
+    {
+      "speaker": "A",
+      "text": "Conectado a isso, temos o Princípio da Territorialidade Temperada no artigo quinto do Código Penal. Aplica-se a lei brasileira aos crimes cometidos no território nacional, ressalvadas as convenções, tratados e regras de direito internacional. Essa extensão territorial abrange também embarcações e aeronaves públicas brasileiras onde quer que se encontrem, e as privadas em alto-mar ou espaço aéreo correspondente."
+    },
+    {
+      "speaker": "B",
+      "text": "Dentro dessa introdução, outro pilar essencial e recorrente nas provas da PRF é o Princípio da Insignificância, também chamado de bagatela própria. A insignificância não está escrita expressamente no Código Penal, mas decorre do caráter fragmentário e subsidiário do Direito Penal, a clássica ultima ratio. O Direito Penal só deve intervir quando os outros ramos jurídicos forem incapazes de tutelar o bem de forma eficaz."
+    },
+    {
+      "speaker": "A",
+      "text": "O Supremo Tribunal Federal e o Superior Tribunal de Justiça consolidaram quatro requisitos objetivos cumulativos para a incidência da bagatela: mínima ofensividade da conduta, nenhuma periculosidade social da ação, reduzidíssimo grau de reprovabilidade do comportamento e inexpressividade da lesão jurídica. Presentes esses vetores, afasta-se a tipicidade material da conduta, tornando o fato materialmente atípico."
+    },
+    {
+      "speaker": "B",
+      "text": "Na rotina da PRF, a aplicação desse princípio aparece de forma emblemática no confronto entre descaminho e contrabando. No descaminho, previsto no artigo 334, o agente ilude o pagamento de tributo devido pela entrada ou saída de mercadoria permitida. Já no contrabando, tipificado no artigo 334-A, a conduta consiste em importar ou exportar mercadoria proibida por lei."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa distinção é fundamental. A jurisprudência dos tribunais superiores admite a insignificância para o descaminho quando o total do tributo sonegado não ultrapassa o limite fiscal de vinte mil reais. Contudo, no contrabando, a regra geral é a inaplicabilidade da insignificância, pois a tutela recai sobre a saúde pública, a segurança e a administração, e não apenas sobre o erário."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito. Se um motorista for flagrado na rodovia com uma quantidade pequena de cigarros estrangeiros sem autorização, incide o crime de contrabando e não se aplica a bagatela, salvo situações excepcionalíssimas de medicamentos indispensáveis para consumo estritamente pessoal. O Cebraspe adora trazer quantias aparentemente irrisórias de produtos proibidos para tentar induzir o candidato a marcar a insignificância de forma errada."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro postulado indispensável é o Princípio da Alteridade ou Lesividade, que proíbe a punição de atitudes meramente internas ou de autolesão. O Direito Penal não pune a cogitação nem a conduta que prejudica unicamente o próprio agente. Para haver relevância penal, o ato precisa necessariamente ultrapassar a esfera do indivíduo e afetar bens jurídicos de terceiros."
+    },
+    {
+      "speaker": "B",
+      "text": "Vale destacar ainda o instituto da extraterritorialidade, presente no artigo sétimo do Código Penal, que pode ser incondicionada ou condicionada. Nos casos incondicionados, como crimes praticados contra o patrimônio da União, autarquias federais ou a vida do Presidente da República, a lei brasileira incide mesmo que o autor seja julgado ou absolvido no exterior. Isso garante a proteção inegociável do Estado brasileiro."
+    },
+    {
+      "speaker": "A",
+      "text": "Veja como todas essas premissas formam um filtro indispensável para a atuação nas rodovias. Diante de qualquer ocorrência, o policial precisa analisar se a lei estava em vigor, qual a eficácia espacial e se a conduta possui tipicidade e relevância material. É esse raciocínio integrado que transforma a teoria em capacidade operacional real."
+    },
+    {
+      "speaker": "B",
+      "text": "Ter clareza sobre esses fundamentos abre caminho para o próximo grande desafio, que é dissecar o conceito analítico de crime, examinando em detalhes o fato típico, a ilicitude e a culpabilidade."
+    }
+  ]
+}

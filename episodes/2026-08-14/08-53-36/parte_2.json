@@ -1,0 +1,77 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "E para estruturar esse raciocínio, a teoria analítica tripartite adotada pela doutrina majoritária divide o crime em fato típico, ilicitude e culpabilidade. O fato típico é o primeiro degrau dessa análise e é composto por conduta, resultado, nexo causal e tipicidade formal e material. Se faltar qualquer um desses elementos, o fato se torna formalmente atípico e a análise nem avança para os degraus seguintes."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. Quando olhamos para a conduta, que é a ação ou omissão humana, voluntária e consciente dirigida a uma finalidade, precisamos lembrar das hipóteses que a excluem de plano. A coação física irresistível, os movimentos puramente reflexos, o sonambulismo e o estado de inconsciência completa retiram a própria voluntariedade. Sem voluntariedade não há conduta, o que desidrata o fato típico logo na raiz."
+    },
+    {
+      "speaker": "A",
+      "text": "Aqui mora uma das pegadinhas mais clássicas do Cebraspe para a carreira policial. A banca costuma misturar a coação física irresistível com a coação moral irresistível. Na coação física, o agente é mero instrumento mecânico, não há vontade e exclui-se o fato típico por ausência de conduta. Já na coação moral irresistível, a conduta existe, mas a vontade está viciada pela ameaça, o que exclui a culpabilidade por inexigibilidade de conduta diversa."
+    },
+    {
+      "speaker": "B",
+      "text": "É uma diferença técnica essencial que derruba muita gente desatenta. Avançando dentro do fato típico, temos o nexo de causalidade previsto no artigo 13 do Código Penal, com a teoria da equivalência dos antecedentes ou conditio sine qua non. Mas o ponto que mais exige atenção nas provas é a quebra do nexo pelas concausas supervenientes relativamente independentes que, por si sós, produzem o resultado."
+    },
+    {
+      "speaker": "A",
+      "text": "Imagine um exemplo prático de rodovia: um indivíduo efetua um disparo contra uma vítima na BR, causando uma lesão leve. A ambulância do resgate vem socorrer a vítima, mas no trajeto até o hospital sofre um acidente fatal de trânsito em que a vítima falece exclusivamente em decorrência do capotamento. O autor do tiro responde apenas por tentativa de homicídio ou lesão corporal, e não pelo homicídio consumado, porque o acidente foi um desdobramento anômalo que produziu o resultado por si só."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito. Agora, se a vítima morresse no hospital por complicações cirúrgicas normais decorrentes do tiro, teríamos um desdobramento previsível da linha causal e ele responderia pelo resultado morte. Outra distinção que a prova da PRF adora explorar é a fronteira entre dolo eventual e culpa consciente nos crimes de trânsito. Essa linha tênue exige muito rigor técnico na caracterização do elemento subjetivo."
+    },
+    {
+      "speaker": "A",
+      "text": "Com certeza. No dolo eventual, o agente prevê o resultado danoso e assume o risco de produzi-lo, demonstrando indiferença com a regra do 'se acontecer, tanto faz'. Na culpa consciente, o agente também prevê o resultado, mas acredita sinceramente, com base em suas habilidades ou na situação concreta, que ele não ocorrerá. A disputa automobilística não autorizada em rodovia, o famoso racha com morte, é um cenário fértil para essa discussão doutrinária e jurisprudencial."
+    },
+    {
+      "speaker": "B",
+      "text": "Superado o fato típico, chegamos ao segundo substrato do crime, que é a ilicitude. A regra geral é que todo fato típico se presume ilícito, salvo se presente uma das excludentes de ilicitude do artigo 23: estado de necessidade, legítima defesa, estrito cumprimento do dever legal e exercício regular de direito. Para a atividade do policial rodoviário federal, a diferenciação entre legítima defesa e estrito cumprimento do dever legal é rotineira."
+    },
+    {
+      "speaker": "A",
+      "text": "Esse detalhe é importantíssimo. Quando o policial age usando a força moderada necessária para efetuar uma prisão em flagrante ou cumprir uma ordem judicial, ele atua no estrito cumprimento do dever legal. Porém, se durante essa abordagem o infrator saca uma arma de fogo e dispara contra a equipe, a reação armada imediata do policial para neutralizar a ameaça configura legítima defesa própria e de terceiros, e não estrito cumprimento, pois inexiste o dever legal de matar alguém."
+    },
+    {
+      "speaker": "B",
+      "text": "Muito bem lembrado. E não podemos esquecer o excesso punível, seja ele doloso ou culposo, expressamente previsto no parágrafo único do artigo 23. Toda excludente exige proporcionalidade e moderação dos meios necessários. Se a agressão injusta cessou e o agente continua desferindo golpes ou disparos, há excesso, e ele responderá pelo dano excedente causado a partir daquele momento."
+    },
+    {
+      "speaker": "A",
+      "text": "Já o terceiro substrato do conceito analítico é a culpabilidade, que funciona como um juízo de reprovação pessoal sobre o autor de um fato típico e ilícito. Seus elementos constitutivos são a imputabilidade penal, o potencial conhecimento da ilicitude e a exigibilidade de conduta diversa. Se faltar qualquer um deles, o réu será isento de pena por ausência de culpabilidade, sendo o fato punível apenas na esfera formal e antijurídica."
+    },
+    {
+      "speaker": "B",
+      "text": "E dentro da culpabilidade, o examinador costuma testar a diferença entre erro de tipo e erro de proibição. O erro de tipo recai sobre a realidade fática, sobre os elementos constitutivos do tipo penal, excluindo sempre o dolo e permitindo a punição culposa se o erro for inescusável. Já o erro de proibição recai sobre a consciência da ilicitude da conduta: o agente sabe perfeitamente o que está fazendo, mas supõe de forma equivocada que aquilo é permitido pelo Direito."
+    },
+    {
+      "speaker": "A",
+      "text": "Pensando na fiscalização rodoviária, um motorista que transporta um pacote fechado acreditando de boa-fé conter peças mecânicas, quando na verdade há substância entorpecente camuflada, incide em erro de tipo essencial sobre o objeto material. Mas se um estrangeiro recém-chegado ao país porta uma arma sem registro acreditando que no Brasil o porte é livre como em seu país natal, ele incide em erro de proibição, cuja consequência é isentar de pena se inevitável, ou diminuir a pena de um sexto a um terço se evitável."
+    },
+    {
+      "speaker": "B",
+      "text": "Excelente visualização. Agora, conectando a parte geral com a parte especial, os crimes contra a Administração Pública são cobrança obrigatória no concurso da PRF. Os três tipos que o candidato precisa dominar com precisão cirúrgica são a concussão, a corrupção passiva e a corrupção ativa. O segredo aqui reside nos núcleos verbais de cada dispositivo legal."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito. Na concussão, prevista no artigo 316, o funcionário público 'exige' para si ou para outrem, direta ou indiretamente, vantagem indevida, impondo um temor de represália à vítima. Na corrupção passiva, do artigo 317, o funcionário 'solicita', 'recebe' ou 'aceita promessa' de tal vantagem, sem a imposição intimidatória da exigência. Ambos são crimes formais e se consumam no momento da conduta, independentemente do recebimento efetivo do dinheiro."
+    },
+    {
+      "speaker": "B",
+      "text": "E não se pode cair na pegadinha da bilateralidade obrigatória. A corrupção passiva e a corrupção ativa são crimes autônomos. Se o motorista abordado na rodovia oferece dinheiro espontaneamente ao policial para não ser autuado, ele consumou a corrupção ativa do artigo 333 no instante da oferta, mesmo que o agente público recuse categoricamente a proposta e lhe dê voz de prisão imediatamente."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro ponto crucial de jurisprudência recente diz respeito ao crime de desobediência do artigo 330 na desobediência a ordem de parada emitida por policial em atividade de segurança pública. O Superior Tribunal de Justiça firmou o entendimento de que a desobediência à ordem legal de parada emitida por autoridade policial no exercício de atividade ostensiva de segurança pública configura o crime do artigo 330, não se restringindo a mera infração administrativa de trânsito."
+    },
+    {
+      "speaker": "B",
+      "text": "Esse panorama completo demonstra como a teoria geral do crime, as excludentes e os tipos penais da parte especial se conectam de ponta a ponta na rotina operacional da Polícia Rodoviária Federal. Agora que mapeamos toda essa fundamentação técnica e as nuances doutrinárias mais cobradas, o próximo passo indispensável é colocar tudo isso à prova. Vamos calibrar essa bagagem resolvendo questões práticas no padrão Cebraspe."
+    }
+  ]
+}
