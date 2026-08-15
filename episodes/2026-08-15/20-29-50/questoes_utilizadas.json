@@ -1,0 +1,49 @@
+{
+  "disciplina": "informatica",
+  "questoes": [
+    {
+      "id": "PRF-2021-033",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Informática",
+      "disciplina_canonica": "informatica",
+      "item_original": 33,
+      "questao": "O salvamento e a sincronização de senhas em navegadores como Firefox e Chrome só podem funcionar quando os sites estiverem em uma intranet e utilizarem HTTPS.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 33 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-034",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Informática",
+      "disciplina_canonica": "informatica",
+      "item_original": 34,
+      "questao": "No Windows 10, uma mesma conta pode sincronizar algumas configurações entre computadores, mas, por motivo de segurança, senhas não podem ser sincronizadas entre essas máquinas.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 34 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-035",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Informática",
+      "disciplina_canonica": "informatica",
+      "item_original": 35,
+      "questao": "Em uma busca do Google, o uso conjunto dos termos campanha PRF e do operador associado ao Twitter pode ser empregado para procurar publicações da rede social relacionadas a esses termos.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 35 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-036",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Informática",
+      "disciplina_canonica": "informatica",
+      "item_original": 36,
+      "questao": "A Internet das Coisas pode aumentar volume, velocidade e variedade dos dados, influenciando características típicas de big data.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 36 - gabarito oficial definitivo"
+    }
+  ]
+}

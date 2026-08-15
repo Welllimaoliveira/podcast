@@ -1,0 +1,85 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Agora, entrando no campo das ameaças virtuais, o Cebraspe adora explorar a confusão conceitual entre os diferentes tipos de malware. O caso clássico é a comparação entre vírus e worm. O vírus é um código malicioso que depende explicitamente da execução pelo usuário e precisa infectar um arquivo hospedeiro para se propagar no sistema."
+    },
+    {
+      "speaker": "B",
+      "text": "Já o worm, ou verme digital, é totalmente autônomo e não precisa de um arquivo hospedeiro. Ele se propaga automaticamente pela rede ao explorar vulnerabilidades ativas em sistemas e serviços, sem exigir intervenção humana direta. O efeito típico do worm é sobrecarregar a largura de banda e degradar a comunicação de toda a infraestrutura."
+    },
+    {
+      "speaker": "A",
+      "text": "Dentro dessa mesma taxonomia, temos o Cavalo de Troia, o famoso Trojan, e o Ransomware. O Trojan se disfarça como um programa aparentemente legítimo e inofensivo, como um utilitário ou documento, mas sua função oculta é abrir portas dos fundos, as chamadas backdoors, permitindo o controle remoto da máquina por invasores."
+    },
+    {
+      "speaker": "B",
+      "text": "Enquanto isso, o Ransomware é a ameaça voltada diretamente para a extorsão financeira e sequestro digital. Ele utiliza algoritmos de criptografia forte para bloquear o acesso aos arquivos locais ou diretórios de rede da vítima, exigindo o pagamento de um resgate, geralmente em criptomoedas, para fornecer a chave de descriptografia."
+    },
+    {
+      "speaker": "A",
+      "text": "Quando o assunto migra dos malwares para os métodos de ataque, surge outra pegadinha clássica: a distinção entre Phishing e Pharming. O Phishing baseia-se fundamentalmente em engenharia social, disparando mensagens fraudulentas, e-mails falsos e links enganosos para induzir a vítima a entregar senhas ou dados sigilosos."
+    },
+    {
+      "speaker": "B",
+      "text": "O Pharming, por outro lado, é um ataque puramente técnico que atua corrompendo servidores de DNS ou o arquivo de hosts do próprio sistema operacional. Isso significa que mesmo que você digite a URL correta e legítima no navegador, o sistema de resolução de nomes comprometido redireciona silenciosamente o tráfego para uma página clonada fraudulenta."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa sutileza técnica desmonta uma das maiores lendas urbanas dos concurseiros: a ideia de que o protocolo HTTPS garante que o site é seguro e confiável. Na verdade, o HTTPS e o símbolo do cadeado apenas asseguram que a comunicação entre o navegador e o servidor está criptografada na camada de transporte, o que impede interceptações de terceiros, mas não atesta que aquele site não seja uma página golpista."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente, o cadeado atesta o sigilo do tráfego de dados, não a idoneidade moral do dono da página. E para compreender a fundo como essa proteção funciona, precisamos contrapor a criptografia simétrica à criptografia assimétrica, que é outro pilar favorito das bancas."
+    },
+    {
+      "speaker": "A",
+      "text": "Na Criptografia Simétrica, o emissor e o receptor utilizam rigorosamente a mesma chave secreta para cifrar e decifrar a informação. Essa abordagem é computacionalmente muito rápida e ideal para grandes volumes de dados, mas enfrenta o desafio operacional da distribuição segura e sigilosa dessa chave entre as partes."
+    },
+    {
+      "speaker": "B",
+      "text": "Para resolver esse impasse de distribuição, surge a Criptografia Assimétrica, fundamentada em um par de chaves matematicamente correlacionadas: a chave pública, que pode ser divulgada abertamente, e a chave privada, que deve ser mantida em sigilo absoluto pelo titular. Quando o objetivo é o sigilo da mensagem, o remetente cifra o dado com a chave pública do destinatário, e somente a chave privada correspondente deste destinatário conseguirá decifrar o conteúdo."
+    },
+    {
+      "speaker": "A",
+      "text": "O ponto em que muitos candidatos escorregam é quando a banca cobra o mecanismo da Assinatura Digital, porque nela a lógica de aplicação das chaves se inverte. Para assinar digitalmente um documento, o remetente gera um resumo criptográfico hash do arquivo e cifra esse hash utilizando sua própria chave privada."
+    },
+    {
+      "speaker": "B",
+      "text": "Quem recebe o documento utiliza a chave pública do autor para decifrar aquele hash e validar o arquivo recebido. Se o processo der certo e os resumos baterem perfeitamente, ficam comprovadas a autenticidade da autoria, a integridade do conteúdo e o não repúdio, impedindo que o emissor negue ter gerado aquela assinatura."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa diferenciação funcional entre confidencialidade e assinatura digital precisa estar no seu sangue. Outra armadilha clássica do Cebraspe é afirmar categoricamente que uma Intranet exige isolamento físico em relação à rede mundial de computadores."
+    },
+    {
+      "speaker": "B",
+      "text": "O que caracteriza uma Intranet é a restrição de acesso por políticas lógicas e controle rigoroso de permissões para membros autorizados de uma organização, e não a separação física de cabos e roteadores. Uma viatura da PRF pode perfeitamente acessar a Intranet corporativa trafegando pela própria infraestrutura pública da Internet por meio de um túnel VPN seguro."
+    },
+    {
+      "speaker": "A",
+      "text": "Para manter a disponibilidade desses serviços operacionais e a blindagem contra incidentes como ataques de ransomware, a corporação depende de políticas consistentes de backup. A base de qualquer estratégia é o Backup Completo, ou Full, que copia a totalidade de todos os dados selecionados em um determinado momento."
+    },
+    {
+      "speaker": "B",
+      "text": "Como o Backup Completo consome muito tempo e espaço de armazenamento, ele é conjugado com outros dois tipos: o Incremental e o Diferencial. O Backup Incremental grava apenas os arquivos que sofreram alterações desde o último backup executado, seja ele um Full ou outro Incremental, o que torna a rotina de gravação muito ágil, mas a restauração mais lenta e dependente de toda a cadeia de arquivos."
+    },
+    {
+      "speaker": "A",
+      "text": "Na hora de restaurar um sistema a partir do Incremental, é necessário recuperar o último Backup Full e cada uma das cópias incrementais intermediárias em sequência rigorosa. Já o Backup Diferencial copia todas as alterações acumuladas desde o último Backup Completo, desconsiderando backups diferenciais anteriores."
+    },
+    {
+      "speaker": "B",
+      "text": "Por isso, a restauração com Backup Diferencial é muito mais simples e rápida em cenários de contingência: você precisa apenas de duas mídias, que são o último Backup Full e a última cópia Diferencial realizada. Entender essa relação entre tempo de salvamento e tempo de recuperação resolve qualquer questão dessa disciplina."
+    },
+    {
+      "speaker": "A",
+      "text": "Com esse panorama analítico completo — englobando malwares, técnicas de ataque, esquemas criptográficos, assinaturas digitais, redes privadas e rotinas de backup —, você dominou a base teórica mais cobrada nas provas da PRF."
+    },
+    {
+      "speaker": "B",
+      "text": "Com certeza. E para calibrar a leitura de enunciados e fixar como essas pegadinhas aparecem na prática, nada melhor do que colocar toda essa teoria em ação resolvendo algumas questões de concurso agora mesmo."
+    }
+  ]
+}
