@@ -10,7 +10,7 @@ Fluxo:
 4. Lê questoes_prf.json.
 5. Lê questoes_state.json.
 6. Seleciona 4 questões de provas anteriores da disciplina.
-7. Gera duas partes teóricas com Gemini.
+7. Gera duas partes teóricas com Gemini, com retry/backoff e fallback de modelo.
 8. Cria uma terceira parte com:
    - 4 questões
    - tempo para o aluno pensar
@@ -40,6 +40,9 @@ import shutil
 import subprocess
 import tempfile
 import unicodedata
+import time
+import random
+import re
 
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -55,7 +58,40 @@ import edge_tts
 VOZ_A = "pt-BR-AntonioNeural"
 VOZ_B = "pt-BR-FranciscaNeural"
 
-MODELO_GEMINI = "gemini-flash-latest"
+# Modelos estáveis em ordem de preferência.
+# Pode sobrescrever no GitHub com a variável de ambiente GEMINI_MODELS,
+# por exemplo: gemini-3.6-flash,gemini-2.5-flash
+MODELOS_GEMINI = [
+    item.strip()
+    for item in os.environ.get(
+        "GEMINI_MODELS",
+        "gemini-3.6-flash,gemini-2.5-flash"
+    ).split(",")
+    if item.strip()
+]
+
+if not MODELOS_GEMINI:
+    MODELOS_GEMINI = ["gemini-3.6-flash"]
+
+# Mantido para metadados e compatibilidade com o restante do script.
+MODELO_GEMINI = MODELOS_GEMINI[0]
+
+# Controle de chamadas/retries do Gemini.
+TENTATIVAS_HTTP_GEMINI = 4
+ESPERA_BASE_GEMINI = 8
+ESPERA_MAX_GEMINI = 120
+INTERVALO_MINIMO_GEMINI = 5
+
+# Por padrão o planejamento usa o fallback local e economiza 1 chamada Gemini
+# por episódio. Se quiser reativar o planejamento por IA, defina
+# USAR_PLANEJAMENTO_GEMINI=1 nos Secrets/Variables do workflow.
+USAR_PLANEJAMENTO_GEMINI = (
+    os.environ.get("USAR_PLANEJAMENTO_GEMINI", "0").strip() == "1"
+)
+
+# Estado interno da camada Gemini.
+ULTIMA_CHAMADA_GEMINI = 0.0
+ULTIMO_MODELO_GEMINI_USADO = MODELO_GEMINI
 
 # Duas partes teóricas.
 # A terceira parte será o desafio das questões.
@@ -1150,6 +1186,285 @@ def limpar_json_gemini(
 
 
 # ==========================================================
+# CAMADA ROBUSTA DO GEMINI
+# ==========================================================
+
+class GeminiIndisponivelError(RuntimeError):
+    """Falha de API já tratada com retry/fallback na camada Gemini."""
+    pass
+
+
+def _erro_gemini_texto(resposta):
+
+    try:
+
+        dados = resposta.json()
+
+        erro = dados.get(
+            "error",
+            {}
+        )
+
+        mensagem = str(
+            erro.get(
+                "message",
+                ""
+            )
+        ).strip()
+
+        status = str(
+            erro.get(
+                "status",
+                ""
+            )
+        ).strip()
+
+        if status and mensagem:
+
+            return (
+                f"{status}: "
+                f"{mensagem}"
+            )
+
+        if mensagem:
+
+            return mensagem
+
+    except Exception:
+
+        pass
+
+    texto = str(
+        getattr(
+            resposta,
+            "text",
+            ""
+        )
+    ).strip()
+
+    if texto:
+
+        return texto[:1200]
+
+    return (
+        f"HTTP "
+        f"{getattr(resposta, 'status_code', '?')}"
+    )
+
+
+# ==========================================================
+# EXTRAIR TEMPO DE RETRY SUGERIDO PELO GEMINI
+# ==========================================================
+
+def _retry_after_gemini(
+    resposta,
+    tentativa
+):
+
+    # ------------------------------------------------------
+    # 1) Header Retry-After, quando existir.
+    # ------------------------------------------------------
+
+    try:
+
+        valor = resposta.headers.get(
+            "Retry-After"
+        )
+
+        if valor:
+
+            segundos = float(
+                valor
+            )
+
+            if segundos > 0:
+
+                return min(
+                    segundos,
+                    ESPERA_MAX_GEMINI
+                )
+
+    except Exception:
+
+        pass
+
+    # ------------------------------------------------------
+    # 2) google.rpc.RetryInfo dentro do JSON.
+    # Exemplo: {"retryDelay": "38s"}
+    # ------------------------------------------------------
+
+    try:
+
+        dados = resposta.json()
+
+        detalhes = (
+            dados
+            .get(
+                "error",
+                {}
+            )
+            .get(
+                "details",
+                []
+            )
+        )
+
+        for detalhe in detalhes:
+
+            if not isinstance(
+                detalhe,
+                dict
+            ):
+
+                continue
+
+            retry_delay = str(
+                detalhe.get(
+                    "retryDelay",
+                    ""
+                )
+            ).strip()
+
+            correspondencia = re.search(
+                r"([0-9]+(?:\.[0-9]+)?)s",
+                retry_delay
+            )
+
+            if correspondencia:
+
+                segundos = float(
+                    correspondencia.group(1)
+                )
+
+                return min(
+                    segundos,
+                    ESPERA_MAX_GEMINI
+                )
+
+    except Exception:
+
+        pass
+
+    # ------------------------------------------------------
+    # 3) Procura mensagens do tipo "retry in 12.3s".
+    # ------------------------------------------------------
+
+    try:
+
+        mensagem = _erro_gemini_texto(
+            resposta
+        )
+
+        correspondencia = re.search(
+            r"retry(?:\s+in|\s+after)?\s+([0-9]+(?:\.[0-9]+)?)\s*s",
+            mensagem,
+            flags=re.IGNORECASE,
+        )
+
+        if correspondencia:
+
+            segundos = float(
+                correspondencia.group(1)
+            )
+
+            return min(
+                segundos,
+                ESPERA_MAX_GEMINI
+            )
+
+    except Exception:
+
+        pass
+
+    # ------------------------------------------------------
+    # 4) Exponential backoff + jitter.
+    # ------------------------------------------------------
+
+    base = min(
+        ESPERA_BASE_GEMINI
+        * (2 ** max(0, tentativa - 1)),
+        ESPERA_MAX_GEMINI
+    )
+
+    jitter = random.uniform(
+        0.5,
+        3.0
+    )
+
+    return min(
+        base + jitter,
+        ESPERA_MAX_GEMINI
+    )
+
+
+# ==========================================================
+# IDENTIFICAR COTA DIÁRIA / NÃO TRANSITÓRIA
+# ==========================================================
+
+def _parece_cota_diaria(
+    resposta
+):
+
+    mensagem = normalizar_texto(
+        _erro_gemini_texto(
+            resposta
+        )
+    )
+
+    marcadores = (
+        "per day",
+        "perday",
+        "requests per day",
+        "request per day",
+        "daily quota",
+        "quota diaria",
+        "rpd",
+    )
+
+    return any(
+        marcador in mensagem
+        for marcador in marcadores
+    )
+
+
+# ==========================================================
+# RESPEITAR INTERVALO MÍNIMO ENTRE CHAMADAS
+# ==========================================================
+
+def _aguardar_intervalo_gemini():
+
+    global ULTIMA_CHAMADA_GEMINI
+
+    agora = time.monotonic()
+
+    decorrido = (
+        agora
+        - ULTIMA_CHAMADA_GEMINI
+    )
+
+    restante = (
+        INTERVALO_MINIMO_GEMINI
+        - decorrido
+    )
+
+    if (
+        ULTIMA_CHAMADA_GEMINI > 0
+        and
+        restante > 0
+    ):
+
+        print(
+            f"Aguardando {restante:.1f}s "
+            f"para respeitar o intervalo "
+            f"entre chamadas Gemini..."
+        )
+
+        time.sleep(
+            restante
+        )
+
+
+# ==========================================================
 # CHAMAR GEMINI
 # ==========================================================
 
@@ -1160,19 +1475,19 @@ def chamar_gemini(
     temperature=0.75
 ):
 
-    api_key = os.environ[
-        "GEMINI_API_KEY"
-    ]
+    global ULTIMA_CHAMADA_GEMINI
+    global ULTIMO_MODELO_GEMINI_USADO
 
-    url = (
+    api_key = os.environ.get(
+        "GEMINI_API_KEY",
+        ""
+    ).strip()
 
-        "https://generativelanguage.googleapis.com/"
-        "v1beta/models/"
+    if not api_key:
 
-        f"{MODELO_GEMINI}:generateContent"
-
-        f"?key={api_key}"
-    )
+        raise RuntimeError(
+            "GEMINI_API_KEY não foi configurada."
+        )
 
     corpo = {
 
@@ -1207,18 +1522,289 @@ def chamar_gemini(
         }
     }
 
-    resposta = requests.post(
+    ultimo_erro = None
 
-        url,
+    # ------------------------------------------------------
+    # Tenta os modelos em ordem.
+    # Exemplo padrão:
+    #   1. gemini-3.6-flash
+    #   2. gemini-2.5-flash
+    # ------------------------------------------------------
 
-        json=corpo,
+    for numero_modelo, modelo in enumerate(
+        MODELOS_GEMINI,
+        start=1
+    ):
 
-        timeout=180,
+        print("")
+        print(
+            f"Gemini: usando modelo "
+            f"{modelo} "
+            f"({numero_modelo}/"
+            f"{len(MODELOS_GEMINI)})"
+        )
+
+        url = (
+
+            "https://generativelanguage.googleapis.com/"
+            "v1beta/models/"
+
+            f"{modelo}:generateContent"
+        )
+
+        # --------------------------------------------------
+        # Retry HTTP dentro do mesmo modelo.
+        # --------------------------------------------------
+
+        for tentativa in range(
+            1,
+            TENTATIVAS_HTTP_GEMINI + 1
+        ):
+
+            try:
+
+                _aguardar_intervalo_gemini()
+
+                print(
+                    f"Chamada Gemini - "
+                    f"tentativa {tentativa}/"
+                    f"{TENTATIVAS_HTTP_GEMINI}"
+                )
+
+                ULTIMA_CHAMADA_GEMINI = (
+                    time.monotonic()
+                )
+
+                resposta = requests.post(
+
+                    url,
+
+                    params={
+                        "key":
+                            api_key
+                    },
+
+                    json=corpo,
+
+                    timeout=180,
+                )
+
+                # ------------------------------------------
+                # SUCESSO
+                # ------------------------------------------
+
+                if resposta.ok:
+
+                    ULTIMO_MODELO_GEMINI_USADO = (
+                        modelo
+                    )
+
+                    return resposta.json()
+
+                status = resposta.status_code
+
+                detalhe = _erro_gemini_texto(
+                    resposta
+                )
+
+                ultimo_erro = RuntimeError(
+                    f"Gemini {modelo} retornou "
+                    f"HTTP {status}: {detalhe}"
+                )
+
+                print("")
+                print(
+                    f"Gemini HTTP {status}."
+                )
+
+                print(
+                    detalhe
+                )
+
+                # ------------------------------------------
+                # 429 - RATE LIMIT / QUOTA
+                # ------------------------------------------
+
+                if status == 429:
+
+                    if _parece_cota_diaria(
+                        resposta
+                    ):
+
+                        print("")
+                        print(
+                            "A resposta parece indicar "
+                            "cota diária esgotada."
+                        )
+
+                        print(
+                            "Não adianta repetir várias "
+                            "vezes neste mesmo modelo."
+                        )
+
+                        break
+
+                    if tentativa < TENTATIVAS_HTTP_GEMINI:
+
+                        espera = _retry_after_gemini(
+                            resposta,
+                            tentativa
+                        )
+
+                        print(
+                            f"Rate limit 429. "
+                            f"Aguardando {espera:.1f}s "
+                            f"antes de tentar novamente..."
+                        )
+
+                        time.sleep(
+                            espera
+                        )
+
+                        continue
+
+                    break
+
+                # ------------------------------------------
+                # 408 / 5xx - ERROS TRANSITÓRIOS
+                # ------------------------------------------
+
+                if (
+                    status == 408
+                    or
+                    500 <= status <= 599
+                ):
+
+                    if tentativa < TENTATIVAS_HTTP_GEMINI:
+
+                        espera = _retry_after_gemini(
+                            resposta,
+                            tentativa
+                        )
+
+                        print(
+                            f"Erro transitório HTTP {status}. "
+                            f"Aguardando {espera:.1f}s..."
+                        )
+
+                        time.sleep(
+                            espera
+                        )
+
+                        continue
+
+                    break
+
+                # ------------------------------------------
+                # 400 / 401 / 403 / 404 etc.
+                # Não são bons candidatos a retry cego.
+                # --------------------------------------------------
+
+                print(
+                    "Erro não transitório. "
+                    "Não será repetido neste modelo."
+                )
+
+                break
+
+            except (
+                requests.Timeout,
+                requests.ConnectionError,
+            ) as erro:
+
+                ultimo_erro = erro
+
+                print("")
+                print(
+                    f"Falha de rede/timeout no Gemini: "
+                    f"{erro}"
+                )
+
+                if tentativa < TENTATIVAS_HTTP_GEMINI:
+
+                    espera = min(
+                        ESPERA_BASE_GEMINI
+                        * (2 ** (tentativa - 1))
+                        + random.uniform(0.5, 3.0),
+                        ESPERA_MAX_GEMINI,
+                    )
+
+                    print(
+                        f"Aguardando {espera:.1f}s "
+                        f"antes da nova tentativa..."
+                    )
+
+                    time.sleep(
+                        espera
+                    )
+
+                    continue
+
+                break
+
+            except requests.RequestException as erro:
+
+                ultimo_erro = erro
+
+                print(
+                    f"Erro HTTP inesperado: {erro}"
+                )
+
+                break
+
+        # --------------------------------------------------
+        # Se chegou aqui, o modelo atual falhou.
+        # Tenta o próximo modelo, se houver.
+        # --------------------------------------------------
+
+        if numero_modelo < len(
+            MODELOS_GEMINI
+        ):
+
+            proximo = MODELOS_GEMINI[
+                numero_modelo
+            ]
+
+            print("")
+            print(
+                f"Modelo {modelo} não ficou disponível."
+            )
+
+            print(
+                f"Tentando fallback: {proximo}"
+            )
+
+            # Pequena pausa para não trocar de modelo
+            # instantaneamente após uma sequência de 429.
+            time.sleep(
+                5
+            )
+
+    # ------------------------------------------------------
+    # TODOS OS MODELOS FALHARAM
+    # ------------------------------------------------------
+
+    mensagem = (
+        "Não foi possível obter resposta do Gemini. "
+        "Todos os modelos configurados falharam. "
+        f"Modelos: {', '.join(MODELOS_GEMINI)}."
     )
 
-    resposta.raise_for_status()
+    if ultimo_erro:
 
-    return resposta.json()
+        mensagem += (
+            f" Último erro: {ultimo_erro}"
+        )
+
+    mensagem += (
+        " Se o erro for 429 por cota diária, "
+        "aguarde a renovação da cota ou confira "
+        "os limites ativos do projeto no Google AI Studio."
+    )
+
+    raise GeminiIndisponivelError(
+        mensagem
+    ) from ultimo_erro
 
 
 # ==========================================================
@@ -1480,6 +2066,39 @@ def extrair_falas(
 def gerar_plano_episodio(
     tema
 ):
+
+    # ------------------------------------------------------
+    # ECONOMIA DE COTA
+    # ------------------------------------------------------
+    # O planejamento é simples e não precisa obrigatoriamente
+    # consumir uma chamada Gemini. Por padrão usamos um plano
+    # local. Para reativar o planejamento automático por IA,
+    # defina USAR_PLANEJAMENTO_GEMINI=1.
+
+    if not USAR_PLANEJAMENTO_GEMINI:
+
+        print("")
+        print("=" * 70)
+        print("PLANEJAMENTO LOCAL DO EPISÓDIO")
+        print("=" * 70)
+        print("Economizando 1 chamada Gemini neste episódio.")
+
+        return {
+
+            "parte_1":
+                (
+                    "Apresentar o assunto, "
+                    "contextualizar sua importância "
+                    "e explicar os fundamentos."
+                ),
+
+            "parte_2":
+                (
+                    "Aprofundar o assunto, trazer "
+                    "exemplos, aplicações e pegadinhas "
+                    "frequentes de prova."
+                ),
+        }
 
     print("")
     print(
@@ -1865,6 +2484,23 @@ Retorne somente JSON no formato:
                 f"Falha: {erro}"
             )
 
+            # A camada chamar_gemini() já fez retry com backoff
+            # e tentou os modelos de fallback. Não repetimos toda
+            # a sequência novamente apenas reduzindo palavras, pois
+            # isso não resolve 429/quota ou indisponibilidade de API.
+            if isinstance(
+                erro,
+                GeminiIndisponivelError
+            ):
+
+                print(
+                    "A camada Gemini já esgotou "
+                    "retries e fallbacks. "
+                    "Interrompendo novas tentativas desta parte."
+                )
+
+                break
+
             if tentativa < len(
                 TENTATIVAS_PALAVRAS
             ):
@@ -2170,6 +2806,19 @@ Formato:
             print(
                 f"Falha: {erro}"
             )
+
+            if isinstance(
+                erro,
+                GeminiIndisponivelError
+            ):
+
+                print(
+                    "A camada Gemini já esgotou "
+                    "retries e fallbacks. "
+                    "Não repetiremos as explicações inutilmente."
+                )
+
+                break
 
     raise RuntimeError(
 
@@ -3665,8 +4314,14 @@ def main():
         "disciplina":
             disciplina,
 
-        "modelo_gemini":
+        "modelo_gemini_principal":
             MODELO_GEMINI,
+
+        "modelo_gemini_usado":
+            ULTIMO_MODELO_GEMINI_USADO,
+
+        "modelos_gemini_fallback":
+            MODELOS_GEMINI,
 
         "partes_teoricas":
             2,
