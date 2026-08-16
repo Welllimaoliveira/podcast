@@ -1,0 +1,26 @@
+{
+  "data_hora_brasilia": "2026-08-16T10:40:03.842171-03:00",
+  "indice_tema": 2,
+  "numero_tema": 3,
+  "total_temas": 15,
+  "tema": "Noções de Informática para a prova da Petrobras",
+  "disciplina": "informatica",
+  "modelo_gemini_principal": "gemini-3.6-flash",
+  "modelo_gemini_usado": "gemini-3.6-flash",
+  "modelos_gemini_fallback": [
+    "gemini-3.6-flash",
+    "gemini-2.5-flash"
+  ],
+  "partes_teoricas": 2,
+  "parte_3": "Desafio com 4 questões",
+  "quantidade_questoes": 4,
+  "ids_questoes": [
+    "PRF-2021-037",
+    "PRF-2021-038",
+    "PRF-2021-033",
+    "PRF-2021-034"
+  ],
+  "apresentador_a": "pt-BR-AntonioNeural",
+  "apresentador_b": "pt-BR-FranciscaNeural",
+  "total_falas": 55
+}

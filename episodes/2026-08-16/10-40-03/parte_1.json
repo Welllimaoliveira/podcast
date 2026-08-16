@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Se você está estudando para o concurso da Petrobras, já deve ter percebido que a disciplina de Informática não é apenas um detalhe no edital. Na verdade, pela banca Cebraspe, algumas poucas questões de informática podem ser o divisor de águas entre a sua aprovação e a fila de espera. Hoje vamos descomplicar os pilares essenciais que a banca mais gosta de cobrar para você garantir esses pontos preciosos."
+    },
+    {
+      "speaker": "B",
+      "text": "É exatamente isso, e o segredo para dominar a informática no modelo Cebraspe é não focar só na decoreba de atalhos, mas entender os conceitos de verdade. A banca adora colocar afirmações que parecem corretas à primeira vista, trocando apenas um termo técnico sutil no final da frase. Por isso, compreender a lógica por trás de hardware, sistemas operacionais e redes faz toda a diferença na hora de julgar o item como certo ou errado."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito, e para começar com uma base bem sólida, precisamos deixar clara a diferença fundamental entre hardware e software e como a memória do computador funciona. Imagine o computador como um escritório de trabalho, onde o processador é o funcionário realizando as tarefas. A memória RAM funciona como a mesa de trabalho, rápida e acessível, mas que é limpa completamente quando a luz apaga no fim do expediente."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa analogia da mesa é fantástica porque explica perfeitamente a volatilidade da memória RAM, que é um prato cheio para pegadinhas. Já o HD ou o SSD funcionam como o arquivo de aço no canto da sala, onde os documentos ficam salvos de forma permanente, mesmo desligando a máquina. A Cebraspe adora tentar confundir o candidato dizendo que a memória RAM armazena dados permanentemente ou que o SSD é uma memória de execução temporária."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro ponto clássico de prova é o papel do Sistema Operacional, que atua como o gerente desse escritório todo. Ele é o software básico responsável por intermediar a comunicação entre o usuário, os aplicativos e o hardware da máquina. Sem o sistema operacional, o computador é apenas um amontoado de peças eletrônicas sem utilidade prática para o usuário final."
+    },
+    {
+      "speaker": "B",
+      "text": "E dentro do edital da Petrobras, a comparação entre Windows e Linux aparece com extrema frequência e exige muita atenção aos detalhes. Enquanto o Windows é um sistema proprietário, focado na facilidade de uso do usuário comum, o Linux é um sistema de código aberto e fortemente baseado em linhas de comando na administração. Uma pegadinha muito comum é afirmar que o Linux não possui interface gráfica ou que o Windows não aceita comandos via terminal."
+    },
+    {
+      "speaker": "A",
+      "text": "Além disso, a estrutura de arquivos entre esses dois sistemas operacionais guarda diferenças cruciais para a sua prova. No Windows, temos a divisão por letras de unidade, como C dois pontos, e o sistema não diferencia letras maiúsculas de minúsculas nos nomes de arquivos. Já o Linux organiza tudo a partir de um diretório raiz representado por uma barra e é estritamente sensível a maiúsculas e minúsculas, o chamado case sensitive."
+    },
+    {
+      "speaker": "B",
+      "text": "Avançando para o tópico de Redes de Computadores, a Cebraspe costuma cobrar bastante a classificação geográfica e os conceitos de Internet, Intranet e Extranet. A Internet é a rede pública global, acessível por qualquer pessoa conectada, utilizando o conjunto de protocolos TCP/IP. Já a Intranet é uma rede privada que utiliza exatamente os mesmos protocolos da Internet, mas com acesso restrito aos funcionários de uma organização."
+    },
+    {
+      "speaker": "A",
+      "text": "Isso gera uma confusão danada na cabeça dos candidatos, pois muitos acham erradamente que a Intranet usa tecnologia diferente da Internet. Na prática, a tecnologia é a mesma, o que muda radicalmente é o escopo e o controle de acesso à informação. E quando essa Intranet permite um acesso externo controlado para parceiros ou fornecedores cadastrados, temos o conceito de Extranet."
+    },
+    {
+      "speaker": "B",
+      "text": "Falando no funcionamento físico e lógico das redes, também precisamos lembrar dos equipamentos fundamentais como switches e roteadores. O switch atua no nível da rede local, conectando os dispositivos internos de uma empresa de forma inteligente para que o tráfego vá direto ao destino. O roteador, por sua vez, é responsável por interconectar redes distintas, como ligar a rede local da empresa à grande rede mundial."
+    },
+    {
+      "speaker": "A",
+      "text": "A transição do modelo tradicional de redes para a Computação em Nuvem é outro tema super quente para a Petrobras. A nuvem nada mais é do que o fornecimento de serviços de computação sobre a Internet, permitindo acesso flexível a servidores, armazenamento e softwares. A grande vantagem para as empresas é transformar custos fixos de infraestrutura pesada em custos operacionais dinâmicos e escaláveis."
+    },
+    {
+      "speaker": "B",
+      "text": "E para acertar as questões de nuvem na prova, você precisa memorizar os três modelos de serviço principais: IaaS, PaaS e SaaS. No modelo IaaS, como a infraestrutura como serviço, a empresa aluga servidores virtuais e armazenamento bruto, tendo controle sobre o sistema operacional. Já no SaaS, o software como serviço, o usuário final consome a aplicação pronta diretamente no navegador, como no caso do e-mail corporativo."
+    },
+    {
+      "speaker": "A",
+      "text": "O modelo PaaS, que é a plataforma como serviço, fica no meio do caminho e é voltado principalmente para desenvolvedores criarem suas próprias aplicações. Uma comparação prática que ajuda muito é pensar em alugar um terreno limpo no IaaS, alugar uma oficina equipada no PaaS, ou contratar o serviço pronto de entrega no SaaS. A Cebraspe adora inverter esses papéis nas afirmativas para testar se você realmente entendeu a gradação de controle."
+    },
+    {
+      "speaker": "B",
+      "text": "Outro pilar vital para qualquer ambiente corporativo do porte da Petrobras é a Segurança da Informação. A base teórica começa com os pilares da tríade conhecida pela sigla CID: Confidencialidade, Integridade e Disponibilidade. A confidencialidade garante que a informação só seja lida por pessoas autorizadas, enquanto a integridade assegura que o dado não foi alterado indevidamente no caminho."
+    },
+    {
+      "speaker": "A",
+      "text": "Completando a tríade, a disponibilidade garante que a informação e os sistemas estejam acessíveis sempre que o usuário autorizado precisar. Por vezes, a banca adiciona a autenticidade e o não repúdio como princípios complementares fundamentais. O não repúdio, por exemplo, garante que uma pessoa não consiga negar a autoria de uma ação ou transação digital realizada legitimamente."
+    },
+    {
+      "speaker": "B",
+      "text": "Quando falamos de ameaças à segurança, os programas maliciosos ou malwares exigem uma diferenciação técnica muito precisa por parte do candidato. O vírus de computador precisa se anexar a um arquivo hospedeiro e da execução humana para se propagar pela rede. O worm, por outro lado, é totalmente autônomo, explorando vulnerabilidades diretamente no sistema para se replicar sozinho entre máquinas."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa distinção entre vírus e worm é uma das pegadinhas mais antigas e frequentes das bancas de concurso, especialmente a Cebraspe. Enquanto o candidato desatento acha que todo malware se comporta do mesmo jeito, a questão cobra se houve necessidade de execução manual ou infecção de arquivo. Se o programa se espalha sozinho pela rede explorando brechas de sistema, você já sabe que o gabarito aponta para o worm."
+    },
+    {
+      "speaker": "B",
+      "text": "Para fechar a nossa base conceitual, não podemos deixar de mencionar a política de backups e seus tipos principais: total, incremental e diferencial. O backup total copia tudo, o incremental copia apenas as alterações desde o último backup feito, e o diferencial copia as alterações desde o último backup total. Entender o tempo de cópia e a facilidade de restauração de cada um deles é o caminho certo para gabaritar esse bloco de questões."
+    }
+  ]
+}

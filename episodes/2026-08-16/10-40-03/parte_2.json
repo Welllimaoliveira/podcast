@@ -1,0 +1,61 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "E já que tocamos no assunto das ameaças, vale a pena detalhar o ransomware e o Cavalo de Tróia, que caem com frequência em provas da área petroleira. O ransomware sequestra os dados da vítima por meio de criptografia forte e exige um resgate, geralmente em criptomoedas, para fornecer a chave de decodificação. Já o Cavalo de Tróia se finge de programa legítimo ou utilitário para enganar o usuário, mas esconde uma função maliciosa em seu interior para abrir portas de acesso."
+    },
+    {
+      "speaker": "B",
+      "text": "A Cebraspe costuma explorar muito essa diferença trazendo casos práticos em que o usuário baixa um suposto atualizador de sistema e acaba liberando acesso remoto para um invasor. Esse método de enganar a pessoa diretamente, em vez de explorar uma falha no código do sistema, entra na categoria de Engenharia Social. O Phishing é o exemplo clássico dessa técnica, usando e-mails ou páginas falsas idênticas às de instituições conhecidas para capturar senhas e dados bancários."
+    },
+    {
+      "speaker": "A",
+      "text": "Para proteger esses dados em trânsito e em repouso, a Criptografia é o recurso técnico mais cobrado nas questões de alto nível. Nós temos dois tipos principais: a Criptografia Simétrica, que utiliza uma única chave secreta tanto para cifrar quanto para decifrar a mensagem, e a Criptografia Assimétrica, que trabalha com um par de chaves, uma pública e uma privada. A pegadinha clássica aqui é inverter as funções do par de chaves no modelo assimétrico."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito, e a regra prática para memorizar a Criptografia Assimétrica é bem direta: a chave pública de uma pessoa serve para cifrar uma mensagem que só a chave privada dessa mesma pessoa conseguirá decifrar. Além disso, essa mesma tecnologia de chaves é a base da Assinatura Digital, que utiliza a chave privada do remetente para garantir a autenticidade e a integridade do documento. Se a questão mencionar que a assinatura digital garante o sigilo do arquivo, pode marcar como errada, pois a função dela não é esconder o conteúdo."
+    },
+    {
+      "speaker": "A",
+      "text": "Outra ferramenta indispensável em redes corporativas é o Firewall, que atua como uma barreira de proteção filtrando o tráfego de dados com base em regras de segurança pré-definidas. É fundamental entender que o firewall não é um antivírus e não remove malwares que já estejam instalados na máquina. Ele apenas inspeciona o tráfego nas portas de comunicação, bloqueando conexões não autorizadas de entrada ou saída da rede interna."
+    },
+    {
+      "speaker": "B",
+      "text": "E quando o funcionário da Petrobras precisa acessar a rede interna da empresa de forma remota e segura, entra em cena a VPN, que é a Rede Privada Virtual. A VPN cria um túnel criptografado sobre a Internet pública, permitindo o tráfego seguro de dados confidenciais de qualquer lugar do mundo. Mas fique atento, pois a Cebraspe adora afirmar que a VPN torna a navegação totalmente anônima ou imune a vírus, o que é um mito técnico muito cobrado em prova."
+    },
+    {
+      "speaker": "A",
+      "text": "Nas navegações web do dia a dia, essa segurança é garantida pelo protocolo HTTPS, que nada mais é do que o HTTP rodando sobre uma camada de criptografia SSL ou TLS. O famoso ícone do cadeado no navegador indica que a comunicação entre o seu computador e o servidor do site é cifrada e possui um Certificado Digital válido. Isso impede que cibercriminosos na mesma rede consigam interceptar e ler senhas ou dados sigilosos digitados na página."
+    },
+    {
+      "speaker": "B",
+      "text": "Mudando um pouco de bloco dentro do edital, a parte de Sistemas Operacionais sempre traz um embate forte entre as arquiteturas Windows e Linux. Enquanto o Windows é comercial e focado em interface gráfica amigável, o Linux é um sistema operacional livre, baseado em código aberto, amplamente utilizado em servidores de alta performance. Nas provas da Petrobras, o foco no Linux costuma ser na estrutura de diretórios e na gestão de permissões de arquivos."
+    },
+    {
+      "speaker": "A",
+      "text": "Sobre a estrutura do Linux, o candidato precisa saber de memória a utilidade das pastas raiz principais. O diretório barra etc guarda todos os arquivos de configuração do sistema, o barra var armazena dados variáveis como logs e filas de impressão, e o barra home abriga as pastas pessoais dos usuários. A banca ama dizer que os programas executáveis dos usuários ficam salvos na pasta barra etc, o que é errado, pois esses executáveis ficam em diretórios como barra bin ou barra usr barra bin."
+    },
+    {
+      "speaker": "B",
+      "text": "Outro ponto essencial do Linux é o sistema de permissões gerenciado pelo comando chmod, que ajusta leitura, escrita e execução para o dono, o grupo e outros usuários. Já no ambiente Windows, recursos corporativos como o BitLocker para criptografia do disco rígido e o Ponto de Restauração para recuperar o sistema após falhas são temas recorrentes. Saber a diferença entre restaurar o sistema e fazer backup dos seus arquivos pessoais evita cair em armadilhas elaboradas."
+    },
+    {
+      "speaker": "A",
+      "text": "Para fechar o diagnóstico e a manutenção de redes no terminal de comando de ambos os sistemas, temos utilitários essenciais como o ping e o tracert. O comando ping utiliza o protocolo ICMP para testar a conectividade básica e o tempo de resposta entre duas máquinas na rede. Já o tracert, que no Linux é chamado de traceroute, mapeia toda a rota percorrida pelos pacotes de dados, mostrando cada roteador intermediário pelo qual a informação passou."
+    },
+    {
+      "speaker": "B",
+      "text": "A pegadinha clássica com esses comandos é trocar a função do ping com a do tracert nas afirmativas. Se a questão perguntar qual comando serve para verificar o caminho completo e os saltos intermediários que um pacote dá até o destino, a resposta correta é o tracert. Entender essas pequenas sutilezas técnicas de comandos e protocolos faz toda a diferença para acumular pontos preciosos na pontuação final do concurso."
+    },
+    {
+      "speaker": "A",
+      "text": "Com toda essa bagagem teórica e o mapeamento detalhado das principais pegadinhas, nossa visão geral da disciplina de Informática para a Petrobras fica completa e muito bem fundamentada. Cobrimos desde a arquitetura de redes e nuvem até as camadas mais profundas de segurança, sistemas operacionais e comandos de diagnóstico."
+    },
+    {
+      "speaker": "B",
+      "text": "Agora que já revisamos os conceitos e desvendamos a forma de cobrança da banca, chegou o momento decisivo de colocar todo esse conhecimento em prática. Vamos resolver algumas questões recentes para fixar o aprendizado e testar como você se sai na hora de marcar o gabarito."
+    }
+  ]
+}
