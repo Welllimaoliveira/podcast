@@ -1,0 +1,26 @@
+{
+  "data_hora_brasilia": "2026-08-16T08:30:01.062275-03:00",
+  "indice_tema": 1,
+  "numero_tema": 2,
+  "total_temas": 15,
+  "tema": "Raciocínio Lógico e Matemático para a prova da Petrobras",
+  "disciplina": "raciocinio logico",
+  "modelo_gemini_principal": "gemini-3.6-flash",
+  "modelo_gemini_usado": "gemini-3.6-flash",
+  "modelos_gemini_fallback": [
+    "gemini-3.6-flash",
+    "gemini-2.5-flash"
+  ],
+  "partes_teoricas": 2,
+  "parte_3": "Desafio com 4 questões",
+  "quantidade_questoes": 4,
+  "ids_questoes": [
+    "PRF-2021-031",
+    "PRF-2021-032",
+    "PRF-2021-027",
+    "PRF-2021-028"
+  ],
+  "apresentador_a": "pt-BR-AntonioNeural",
+  "apresentador_b": "pt-BR-FranciscaNeural",
+  "total_falas": 59
+}

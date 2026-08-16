@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Se você está estudando para a Petrobras, provavelmente já percebeu que o Raciocínio Lógico e Matemático não é apenas mais uma matéria no edital, mas sim um verdadeiro divisor de águas. Muita gente trava só de olhar para as tabelas-verdade ou se assusta com a linguagem técnica das questões. No entanto, quando você domina a estrutura básica do pensamento lógico, aquela prova que parecia um bicho de sete cabeças passa a ser sua maior fonte de pontos garantidos."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente, e no estilo da banca Cebraspe, que é tradicionalmente a organizadora dos concursos da Petrobras, essa disciplina ganha um peso ainda mais estratégico. Como uma questão errada anula uma certa no formato de Certo ou Errado, você não pode se dar ao luxo de chutar ou responder no achismo. O raciocínio lógico te dá a certeza matemática necessária para marcar o item com total convicção e fugir das pegadinhas clássicas que eliminam milhares de candidatos."
+    },
+    {
+      "speaker": "A",
+      "text": "Para construir essa convicção, tudo começa na base do raciocínio proposicional, ou seja, na definição clara do que é uma proposição lógica. Uma proposição é simplesmente uma sentença declarativa que possui um sentido completo e que pode ser julgada estritamente como verdadeira ou como falsa. Se a frase não puder receber esse valor lógico de verdadeiro ou falso, ela simplesmente não entra no jogo da lógica formal."
+    },
+    {
+      "speaker": "B",
+      "text": "Isso é fundamental porque a banca adora cobrar o reconhecimento de proposições nas primeiras questões do bloco. Frases interrogativas, exclamativas, ordens diretas ou sentenças abertas sem um sujeito definido não são proposições. Por exemplo, se a prova trouxer a frase 'Faça o relatório de manutenção com atenção', você já sabe que é um comando e, portanto, não possui valor de verdade."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito exemplo, porque muita gente confunde uma ordem do dia a dia com uma afirmação passível de julgamento. Por outro lado, uma sentença como 'A refinaria operou acima da capacidade nominal no último trimestre' é claramente uma proposição declarativa. Ela pode ser verificada e classificada como verdadeira ou falsa, servindo como bloco de construção para raciocínios mais complexos."
+    },
+    {
+      "speaker": "B",
+      "text": "E esses blocos de construção se unem através dos conectivos lógicos, que são os verdadeiros operadores da nossa estrutura de pensamento. Nós temos a conjunção com o 'e', a disjunção com o 'ou', a disjunção exclusiva com o 'ou... ou', e a famosa condicional com o 'se... então'. Cada um desses conectivos possui uma regra de funcionamento muito clara e previsível, que chamamos de tabela-verdade."
+    },
+    {
+      "speaker": "A",
+      "text": "A tabela-verdade nada mais é do que um mapa de todas as combinações possíveis entre os valores das proposições simples. Veja o caso da conjunção, operada pelo 'e': ela só será verdadeira se absolutamente todas as proposições envolvidas forem verdadeiras. Pense em uma trava de segurança em uma plataforma onde dois sensores precisam confirmar a condição normal para o sistema liberar o fluxo."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa analogia da plataforma é perfeita porque reflete exatamente a lógica do 'e': se apenas um sensor falhar ou indicar erro, a condição final passa a ser falsa. Já na disjunção inclusiva, que é o nosso famoso 'ou', a situação se inverte e fica mais flexível. Basta que apenas uma das proposições simples seja verdadeira para que toda a sentença composta seja considerada verdadeira."
+    },
+    {
+      "speaker": "A",
+      "text": "Agora, o verdadeiro xodó das bancas examinadoras, especialmente quando falamos de Cebraspe, é a estrutura condicional, o 'se... então'. Na condicional, temos uma premissa chamada de antecedente e uma conclusão chamada de consequente. A regra de ouro da tabela-verdade da condicional é que ela só será falsa em um único caso: quando a primeira parte for verdadeira e a segunda parte for falsa."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa é a famosa regra do 'Vera Fischer', como muitos concurseiros gostam de memorizar para facilitar na hora do nervosismo. Se a primeira afirmação acontecer como verdadeira e a consequência for falsa, a condicional inteira quebra e se torna uma falsidade. Em qualquer outro cenário, seja V com V, F com V ou até F com F, a estrutura da condicional permanece totalmente verdadeira."
+    },
+    {
+      "speaker": "A",
+      "text": "E aqui entra uma pegadinha clássica em provas da Petrobras: a negação e a equivalência das proposições condicionais. A banca costuma colocar uma frase condicional longa e pedir para você avaliar uma reescrita que seja logicamente equivalente. A equivalência mais cobrada é a contrapositiva, onde nós invertemos a ordem das duas frases e negamos ambas."
+    },
+    {
+      "speaker": "B",
+      "text": "Por exemplo, a frase 'Se a bomba de pressão acionar, então o alarme soará' é logicamente idêntica a 'Se o alarme não soou, então a bomba de pressão não acionou'. Repare que nós trocamos as posições do antecedente e do consequente e aplicamos a negação nas duas partes sem alterar o sentido lógico original. A Cebraspe adora trocar o sentido dizendo que o equivalente seria apenas inverter as frases sem negar."
+    },
+    {
+      "speaker": "A",
+      "text": "Outra equivalência da condicional muito recorrente é a chamada regra do 'NéMaA', que transforma a estrutura do 'se... então' em um 'ou'. Nessa transformação, nós negamos a primeira proposição, mantemos o conectivo 'ou' e afirmamos a segunda proposição exatamente como ela estava. É uma ferramenta poderosa porque permite trocar uma implicação por uma disjunção sem perder a validade lógica."
+    },
+    {
+      "speaker": "B",
+      "text": "E quando o enunciado pedir especificamente a negação de uma condicional, você precisa tomar um cuidado redobrado para não cair no erro comum de colocar outro 'se... então'. Para negar o 'se... então', nós utilizamos o famoso macete do 'Mané': mantém a primeira parte e nega a segunda parte, conectando tudo com o 'e'. Ou seja, você nunca usa uma nova condicional para negar uma estrutura condicional existente."
+    },
+    {
+      "speaker": "A",
+      "text": "Isso é crucial porque intuitivamente as pessoas tentam negar o 'se... então' usando outro 'se... então', o que cria um erro conceitual grave. Na negação, você precisa provar que o antecedente aconteceu, mas o consequente esperado falhou em ocorrer. Voltando ao nosso exemplo da bomba, a negação correta seria 'A bomba de pressão acionou e o alarme não soou'."
+    },
+    {
+      "speaker": "B",
+      "text": "Também não podemos esquecer as Leis de De Morgan, que tratam da negação das conjunções e disjunções simples. Para negar uma frase composta ligada pelo conectivo 'e', você deve negar a primeira parte, trocar o 'e' pelo 'ou', e negar a segunda parte. É uma troca simultânea que pega desatento quem tenta negar apenas o verbo principal da frase."
+    },
+    {
+      "speaker": "A",
+      "text": "O mesmo raciocínio inverso se aplica para negar uma estrutura com o conectivo 'ou': você nega a primeira parte, substitui o 'ou' pelo 'e', e nega a segunda parte. Treinar essa mecanização com calma transforma a resolução de itens complexos em um processo quase automático e altamente seguro. O segredo no estudo do RLM para a Petrobras é justamente criar essa fluidez conceitual antes de partir para a bateria de exercícios."
+    },
+    {
+      "speaker": "B",
+      "text": "Com esses conceitos fundamentais sedimentados, a leitura dos enunciados passa a ser muito mais cirúrgica e analítica. Você deixa de ler o texto como uma redação comum e começa a enxergar os operadores, as proposições e as relações de causa e efeito. Essa mudança de postura é o primeiro grande passo para dominar a prova e garantir uma pontuação decisiva."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "E avançando para outro tópico que despenca nas provas da Cebraspe, precisamos falar sobre os quantificadores lógicos: 'todo', 'algum' e 'nenhum'. Uma das pegadinhas mais cruéis acontece quando o candidato tenta negar a frase 'Todo técnico de manutenção usou o EPI adequado'. A tendência intuitiva de muitos é responder que 'Nenhum técnico usou', mas isso é um erro fatal na lógica formal."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente. Para negar uma afirmação universal como 'todo', você não precisa ir ao outro extremo e negar tudo, você só precisa de uma exceção. O macete clássico aqui é a regra do 'PEA': Pelo menos um, Existe um, ou Algum, seguido da negação do verbo. Portanto, a negação correta dessa frase seria 'Pelo menos um técnico de manutenção não usou o EPI adequado'."
+    },
+    {
+      "speaker": "A",
+      "text": "O mesmo cuidado vale para o caminho inverso, quando tentamos negar uma proposição particular como 'Algum operador identificou a falha no duto'. Para negar que 'algum' fez algo, você precisa garantir que absolutamente ninguém fez, ou seja, transformar em uma negação universal. A negação perfeita nesse caso fica 'Nenhum operador identificou a falha no duto'."
+    },
+    {
+      "speaker": "B",
+      "text": "A Cebraspe adora misturar esses quantificadores com diagramas lógicos, transformando problemas de raciocínio em questões de teoria dos conjuntos. Quando a banca afirma que 'Todo engenheiro é analista' e 'Algum analista é inspetor', muitos candidatos desenham os círculos de forma rígida e tiram conclusões precipitadas. É essencial lembrar que a palavra 'algum' indica apenas uma intersecção possível, mas não garante exclusividade nem sobreposição total entre os grupos."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa representação por diagramas de Venn é excelente porque evita visualmente que você cometa a falácia da afirmação do consequente. Se sabemos que todo engenheiro é analista, o fato de alguém ser analista não o torna automaticamente um engenheiro. O conjunto dos analistas é maior e pode conter pessoas que não pertencem ao grupo dos engenheiros."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito, esse é o famoso erro de conversão indevida que a banca explora com frequência nos itens de 'certo ou errado'. Outra aplicação prática muito cobrada em provas da Petrobras envolve a análise de argumentos válidos versus argumentos inválidos. Um argumento só é considerado válido se for impossível ter premissas verdadeiras e, ao mesmo tempo, chegar a uma conclusão falsa."
+    },
+    {
+      "speaker": "A",
+      "text": "Para testar essa validade sem precisar construir uma tabela-verdade gigantesca, a melhor técnica é assumir que todas as premissas são verdadeiras e verificar se a conclusão é inevitável. Se existir qualquer cenário hipotético em que as premissas funcionam, mas a conclusão falha, o argumento é categorizado como inválido. Isso poupa minutos preciosos na hora da prova, onde o tempo por questão é bastante reduzido."
+    },
+    {
+      "speaker": "B",
+      "text": "Falando em economia de tempo, as questões sobre tautologias, contradições e contingências costumam assustar, mas podem ser resolvidas com simplificação rápida. Uma tautologia é uma proposição composta que resulta sempre em verdadeiro, independentemente do valor das proposições simples. Um exemplo simples e direto seria 'A válvula está aberta ou a válvula não está aberta', que nunca será falsa."
+    },
+    {
+      "speaker": "A",
+      "text": "Já a contradição é o oposto absoluto, sendo uma estrutura que resulta sempre em falso, como dizer 'A válvula está aberta e a válvula não está aberta'. A Cebraspe costuma apresentar fórmulas complexas com vários conectivos e perguntar se aquilo é uma tautologia. Nesses casos, em vez de construir a tabela completa com oito ou dezesseis linhas, vale a pena tentar forçar a proposição a ser falsa."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa técnica do 'método do absurdo' é fantástica. Se você tenta forçar o resultado final a ser falso e encontra uma contradição no meio do caminho, fica provado que é impossível a frase ser falsa, ou seja, ela é uma tautologia. Se você conseguir deixar a frase falsa sem gerar nenhum conflito de valores, então ela definitivamente não é uma tautologia."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro ponto alto nas provas técnicas é a parte de raciocínio analítico e sequências lógicas com números, letras ou figuras. Muitas vezes o candidato tenta aplicar fórmulas complexas de progressão aritmética, quando a questão pede apenas o reconhecimento de um padrão de repetição. O segredo é isolar o ciclo que se repete e trabalhar com o resto da divisão inteira para encontrar a posição desejada."
+    },
+    {
+      "speaker": "B",
+      "text": "Imagine o caso de uma luz de painel de controle que pisca nas cores azul, verde e vermelha sequencialmente a cada segundo. Se a banca pergunta qual cor estará acesa no segundo de número mil e trezentos e quarenta e sete, você não precisa contar um por um. Basta dividir mil e trezentos e quarenta e sete por três, que é o tamanho do ciclo, e olhar diretamente para o resto da divisão."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente. Se o resto for um, teremos a primeira cor do ciclo; se for dois, a segunda; e se o resto for zero, indica que o ciclo se completou perfeitamente na última cor. Essa aplicação de aritmética residual é limpa, rápida e elimina completamente a chance de erro por cansaço mental durante a maratona de resolução."
+    },
+    {
+      "speaker": "B",
+      "text": "E quando entramos no terreno da análise combinatória e probabilidade, a banca adora contextualizar com formação de equipes de trabalho ou inspeção de lotes. O grande divisor de águas na combinatória é sempre responder à pergunta: 'a ordem da escolha dos elementos importa ou não importa?'. Se a ordem altera a natureza do grupo, usamos arranjo; se a ordem não altera nada, usamos combinação simples."
+    },
+    {
+      "speaker": "A",
+      "text": "Para ilustrar de forma bem simples: escolher três engenheiros entre dez para formar uma comissão de vistoria é um caso claro de combinação, pois a ordem da escolha não muda os componentes da equipe. Mas escolher três engenheiros para assumir os cargos de diretor, gerente e supervisor é um caso de arranjo, porque inverter as pessoas altera completamente a atribuição de cada uma."
+    },
+    {
+      "speaker": "B",
+      "text": "Confundir arranjo com combinação é um dos erros mais frequentes e custa pontos valiosos que definem a aprovação no concurso. Na probabilidade, por sua vez, a dica de ouro para a Petrobras é o uso do evento complementar, especialmente em questões que trazem a expressão 'pelo menos um'. Calcular a probabilidade de 'não acontecer nada do que se espera' e subtrair de cem por cento costuma ser muito mais rápido."
+    },
+    {
+      "speaker": "A",
+      "text": "Por exemplo, em vez de calcular a chance de ter pelo menos uma peça defeituosa em uma amostra grande, calculamos a chance de todas as peças estarem perfeitas. Subtraindo esse valor do total de cem por cento, temos exatamente a resposta desejada sem precisar somar vários cenários individuais. É uma estratégia inteligente que reduz absurdamente o volume de contas no papel."
+    },
+    {
+      "speaker": "B",
+      "text": "Dominar esses atalhos teóricos e reconhecer os padrões de cobrança da banca transforma o raciocínio lógico em um grande aliado na pontuação final. Agora que já cobrimos a teoria essencial, as pegadinhas mais comuns e os melhores macetes de resolução, chegou o momento de colocar tudo isso em prática. Vamos testar o seu conhecimento resolvendo algumas questões recentes e emblemáticas da banca."
+    }
+  ]
+}
