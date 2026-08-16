@@ -1,0 +1,77 @@
+{
+  "parte": 2,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "E por falar nessa aplicação prática, a regência verbal é outro ponto em que o Cebraspe adora armar ciladas. Verbos muito comuns no cotidiano dos profissionais da área técnica, como aspirar, visar e implicar, mudam completamente de comportamento sintático no padrão culto. O verbo implicar, por exemplo, no sentido de acarretar ou ter como consequência, é transitivo direto e não admite a preposição em."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa é uma pegadinha clássica porque quase todo mundo fala no dia a dia que uma decisão vai implicar em custos adicionais. O correto gramaticalmente é dizer apenas que a decisão implicará custos adicionais, sem a preposição. O mesmo cuidado vale para o verbo assistir, que no sentido de presenciar exige a preposição a, gerando a crase quando seguido de termo feminino."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, quem assiste à palestra assiste a ela, e não assiste ela, como costumamos ouvir na linguagem informal. Essa relação direta entre regência e crase nos leva imediatamente ao estudo da colocação pronominal, que a banca cobra com frequência em itens de reescrita. A regra geral exige que a presença de palavras atrativas obrigue o uso da próclise, colocando o pronome antes do verbo."
+    },
+    {
+      "speaker": "B",
+      "text": "As palavras atrativas mais cobradas são as de sentido negativo, os advérbios e as conjunções subordinativas. Mas repare na pegadinha: se houver uma pausa marcada por vírgula logo após o advérbio, a atração deixa de existir e a ênclise passa a ser a opção gramaticalmente correta. Se dissermos Hoje, apresentam-se os resultados, a vírgula isolou o advérbio e impediu a atração do pronome."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa percepção do papel da pontuação é fundamental, porque a vírgula não serve para marcar pausa de respiração, mas sim para estruturar a sintaxe. Quando a banca desloca uma oração subordinada adverbial para o início da frase, a vírgula se torna obrigatória. Se essa mesma oração estiver na sua ordem direta, ao final da frase, o uso da vírgula passa a ser facultativo na maioria dos casos."
+    },
+    {
+      "speaker": "B",
+      "text": "Outra pegadinha que envolve vírgula e altera diretamente o sentido do texto é a diferença entre orações relativas explicativas e restritivas. Ao dizer Os engenheiros que concluíram o relatório foram premiados, sem vírgulas, estamos restringindo a premiação apenas àqueles que terminaram o relatório. Mas se colocarmos vírgulas isolando a oração relatoras, o sentido muda completamente."
+    },
+    {
+      "speaker": "A",
+      "text": "Com as vírgulas, a oração passa a ser explicativa, dando a entender que todos os engenheiros da equipe concluíram o relatório e foram premiados. O examinador ama perguntar se a retirada ou a inserção de vírgulas em trechos desse tipo mantém a correção gramatical e o sentido original. Nesses casos, a gramática continua correta, mas a mensagem original é inevitavelmente alterada."
+    },
+    {
+      "speaker": "B",
+      "text": "E essa distinção entre correção gramatical e manutenção do sentido é o grande divisor de águas nas provas do Cebraspe. Essa mesma lógica analítica aparece no estudo da voz passiva e da partícula se, um tópico que derruba muitos candidatos desatentos. É preciso saber diferenciar com clareza o pronome apassivador do índice de indeterminabilidade do sujeito."
+    },
+    {
+      "speaker": "A",
+      "text": "Na prática, em estruturas como Analisaram-se os dados do projeto, a palavra dados é o sujeito paciente, o que exige o verbo no plural. Se a frase for Reescreveu-se o laudo, o verbo fica no singular concordando com o termo laudo. Porém, em Precisa-se de novos técnicos, a preposição impede a apassivação, tornando o sujeito indeterminado e travando o verbo no singular."
+    },
+    {
+      "speaker": "B",
+      "text": "Se o candidato tentar pluralizar dizendo Precisam-se de novos técnicos, ele comete um erro grave de concordância verbal que a banca não deixa passar. Outro detalhe essencial é o paralelismo sintático, que exige a manutenção da mesma estrutura em enumerações ou comparações. Se você utiliza uma preposição antes do primeiro elemento, deve mantê-la ou omiti-la de forma simétrica nos elementos seguintes."
+    },
+    {
+      "speaker": "A",
+      "text": "Isso fica muito claro na estrutura de x a y ou do x ao y. Escrever de janeiro ao final de março quebra o paralelismo, enquanto o correto é utilizar de janeiro a março ou do início de janeiro ao final de março. Essa simetria garante não apenas a elegância da frase, mas também a sua precisão técnica e conformidade com a norma-padrão."
+    },
+    {
+      "speaker": "B",
+      "text": "O mesmo cuidado vale para a substituição de conectivos que exigem modos verbais diferentes. Ao reescrever um período complexo, trocar a conjunção embora por apesar de exige ajustar a forma verbal do subjuntivo para o infinitivo. Dizer embora tenha estudado equivale gramaticalmente a apesar de ter estudado, preservando o valor concessivo da oração."
+    },
+    {
+      "speaker": "A",
+      "text": "Se a troca for feita sem o devido ajuste do verbo, a frase resultante torna-se agramatical e o item deve ser julgado como errado. Além disso, atenção redobrada aos elementos de coesão anafórica, que resgatam ideias já mencionadas. Os pronomes demonstrativos este, esse e aquele possuem papéis bem definidos no tempo, no espaço e no próprio texto."
+    },
+    {
+      "speaker": "B",
+      "text": "O termo este refere-se ao que ainda será dito ou ao elemento mencionado mais recentemente, enquanto esse recupera o que já foi dito. Já o pronome relativo cujo gera muita confusão porque exige concordância com o termo posterior e nunca aceita artigo logo em seguida. É um erro grave dizer o funcionário cujo o crachá venceu, sendo o correto apenas cujo crachá venceu."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa proibição do artigo após o pronome cujo é uma das regras mais antigas e eficientes para eliminar alternativas incorretas. Quando somamos todas essas regras, percebemos como a banca constrói itens onde um único trecho testa regência, crase e concordância simultaneamente. Por isso, a leitura da questão precisa ser fatiada, analisando cada elemento sintático com calma."
+    },
+    {
+      "speaker": "B",
+      "text": "A melhor estratégia durante a prova é exatamente essa: não tentar resolver a questão de uma só vez na leitura rápida. Você deve identificar o verbo principal, encontrar o sujeito, checar a regência, verificar as crases e avaliar as vírgulas em etapas. Esse método sistemático reduz drasticamente as chances de cair em pegadinhas visuais."
+    },
+    {
+      "speaker": "A",
+      "text": "Com essa bagagem teórica e essas estratégias de checagem, o candidato deixa de adivinhar respostas e passa a aplicar um método seguro de resolução. A teoria ganha vida quando observamos como esses padrões se repetem no estilo de cobrança da banca."
+    },
+    {
+      "speaker": "B",
+      "text": "E não há maneira melhor de fixar todos esses conceitos do que colocar a mão na massa agora mesmo. Vamos passar para a prática e analisar detalhadamente algumas questões recentes para ver como tudo isso é cobrado na hora da prova."
+    }
+  ]
+}

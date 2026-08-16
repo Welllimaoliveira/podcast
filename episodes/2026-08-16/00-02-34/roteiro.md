@@ -1,0 +1,239 @@
+# Tema
+
+Língua Portuguesa para a prova da Petrobras
+
+## Apresentador 1
+
+Quando a gente abre o edital da Petrobras e vê Língua Portuguesa, muitos candidatos acham que é apenas mais uma matéria comum do bloco básico. No entanto, o peso dessa disciplina é gigantesco, agindo frequentemente como o verdadeiro divisor de águas entre a aprovação e a fila de espera. Entender como a banca cobra o idioma é o primeiro passo para transformar essa prova em uma grande aliada na sua pontuação final.
+
+## Apresentadora 2
+
+Exatamente, e quando falamos de Petrobras, é quase inevitável pensar no perfil clássico do Cebraspe, famoso pelo seu estilo bem particular de questão. Eles não querem apenas que você decore regras gramaticais secas ou classificações decorar de cor. O foco principal está na capacidade de ler, interpretar e analisar a estrutura do texto de forma extremamente precisa.
+
+## Apresentador 1
+
+É como na engenharia de uma refinaria, onde cada peça precisa se encaixar perfeitamente para a engrenagem funcionar. Na língua portuguesa, a coesão funciona como o cimento que liga as palavras e frases, enquanto a coerência é a lógica de toda a estrutura do texto. Se o candidato não percebe essa diferença, ele acaba caindo em armadilhas sutis de interpretação.
+
+## Apresentadora 2
+
+Uma pegadinha clássica do Cebraspe é colocar uma afirmação que parece totalmente lógica no nosso cotidiano, mas que não tem respaldo no texto fornecido. A banca adora testar se o candidato está extrapolando as informações ou se realmente está preso aos limites do texto. Interpretar não é adivinhar o que o autor pensou, mas sim identificar o que efetivamente foi escrito.
+
+## Apresentador 1
+
+Outro pilar fundamental que aparece com muita força nas provas é a sintaxe, especialmente a regência verbal e nominal. No dia a dia, a gente costuma usar construções informais que a norma-padrão não aceita, e o examinador sabe exatamente onde nós costumamos deslizar. Um exemplo clássico e muito cobrado é o verbo implicar no sentido de acarretar.
+
+## Apresentadora 2
+
+É verdade, a gente ouve muito por aí que uma decisão vai implicar em mudanças, mas para a norma culta o verbo implicar é transitivo direto nessa situação. Ou seja, o correto é dizer que a decisão vai implicar mudanças, sem a preposição em. O Cebraspe adora construir assertivas afirmativas dizendo que a inserção da preposição em manteria a correção gramatical, o que torna o item errado.
+
+## Apresentador 1
+
+E esse tipo de detalhe aparece em textos de perfil técnico e corporativo, que é justamente o universo vocabular das provas da Petrobras. Além da regência, a pontuação desempenha um papel crucial no sentido e na sintaxe de qualquer frase. A vírgula, por exemplo, nunca deve separar o sujeito do seu predicado, não importa o quão longo esse sujeito seja.
+
+## Apresentadora 2
+
+Essa regra é de ouro, mas o examinador gosta de complicar inserindo orações intercaladas ou termos explicativos no meio do caminho para confundir o candidato. Outro ponto crítico com vírgulas envolve as orações subordinadas adjetivas explicativas e restritivas. A presença ou ausência de uma simples vírgula pode alterar completamente o significado de um trecho inteiro.
+
+## Apresentador 1
+
+Imagine a frase: os engenheiros da Petrobras, que concluíram o treinamento, receberam o certificado. Com vírgulas, significa que todos os engenheiros concluíram o treinamento e receberam o documento. Se retirarmos as vírgulas, a oração vira restritiva, significando que apenas aqueles engenheiros específicos que concluíram o treinamento é que receberam o certificado.
+
+## Apresentadora 2
+
+É uma mudança semântica profunda que a banca adora explorar em itens de reescrita de texto. Por falar em reescrita, essa é uma das modalidades de questão mais temidas pelos concurseiros na prova de Português. O Cebraspe apresenta um trecho original e propõe uma nova redação, perguntando se mantém a correção e o sentido.
+
+## Apresentador 1
+
+Nesses casos de reescrita, o candidato precisa fazer uma dupla checagem rigorosa para não perder o ponto. Primeiro, verifica-se se a nova frase respeita todas as regras de concordância, regência, crase e pontuação. Depois, é preciso comparar se o sentido original foi preservado ou se houve alteração na mensagem do autor.
+
+## Apresentadora 2
+
+E é aí que entram os conectivos lógicos, que são os verdadeiros vilões de quem não estuda a fundo as conjunções. A troca de uma conjunção causal por uma concessiva, por exemplo, muda totalmente a relação lógica entre as orações. Palavras como porquanto e conquanto parecem similares na sonoridade, mas exercem funções gramaticais completamente distintas.
+
+## Apresentador 1
+
+O termo porquanto introduz uma explicação ou causa, equivalente a porque ou visto que. Já a palavra conquanto introduz uma concessão, equivalendo a embora ou ainda que. O examinador adora fazer essa substituição na reescrita e afirmar que o sentido original da frase foi mantido intacto.
+
+## Apresentadora 2
+
+Quem lê com pressa cai direto na pegadinha achando que só porque são palavras bonitas e cultas elas são sinônimas. A mesma atenção deve ser dada ao estudo da crase, que nada mais é do que a fusão da preposição a com o artigo feminino a. O segredo inicial é sempre substituir a palavra feminina por uma masculina correspondente.
+
+## Apresentador 1
+
+Se ao fazer a troca surgir a forma ao, significa que a crase é obrigatória diante da palavra feminina. Por exemplo, se dizemos ir ao trabalho, diremos ir à refinaria, garantindo o uso do acento grave. Obviamente, existem casos facultativos e proibições expressas que também despencam nas avaliações da banca.
+
+## Apresentadora 2
+
+A crase antes de pronomes possessivos femininos singulares, como em refiro-me a sua proposta ou à sua proposta, é um caso facultativo muito cobrado. A banca costuma perguntar se a retirada do acento grave prejudicaria a gramática do texto, e a resposta correta é que não prejudica. Conhecer essas nuances evita a perda de pontos valiosos na hora da marcação.
+
+## Apresentador 1
+
+A concordância verbal e nominal também fecha esse grupo de fundamentos essenciais que exigem treino constante. Casos com o sujeito coletivo ou expressões partitivas, como a maioria dos funcionários, aceitam dupla concordância e aparecem direto nas provas. Você pode concordar tanto com o núcleo singular quanto com o especificador no plural.
+
+## Apresentadora 2
+
+Entender essa flexibilidade gramatical e dominar as regras fundamentais dá a segurança necessária para enfrentar as questões mais complexas. À medida que avançamos na análise do edital, fica claro que Português não é uma matéria para memorizar na véspera, mas sim para praticar com método e consistência.
+
+## Apresentador 1
+
+E por falar nessa aplicação prática, a regência verbal é outro ponto em que o Cebraspe adora armar ciladas. Verbos muito comuns no cotidiano dos profissionais da área técnica, como aspirar, visar e implicar, mudam completamente de comportamento sintático no padrão culto. O verbo implicar, por exemplo, no sentido de acarretar ou ter como consequência, é transitivo direto e não admite a preposição em.
+
+## Apresentadora 2
+
+Essa é uma pegadinha clássica porque quase todo mundo fala no dia a dia que uma decisão vai implicar em custos adicionais. O correto gramaticalmente é dizer apenas que a decisão implicará custos adicionais, sem a preposição. O mesmo cuidado vale para o verbo assistir, que no sentido de presenciar exige a preposição a, gerando a crase quando seguido de termo feminino.
+
+## Apresentador 1
+
+Exatamente, quem assiste à palestra assiste a ela, e não assiste ela, como costumamos ouvir na linguagem informal. Essa relação direta entre regência e crase nos leva imediatamente ao estudo da colocação pronominal, que a banca cobra com frequência em itens de reescrita. A regra geral exige que a presença de palavras atrativas obrigue o uso da próclise, colocando o pronome antes do verbo.
+
+## Apresentadora 2
+
+As palavras atrativas mais cobradas são as de sentido negativo, os advérbios e as conjunções subordinativas. Mas repare na pegadinha: se houver uma pausa marcada por vírgula logo após o advérbio, a atração deixa de existir e a ênclise passa a ser a opção gramaticalmente correta. Se dissermos Hoje, apresentam-se os resultados, a vírgula isolou o advérbio e impediu a atração do pronome.
+
+## Apresentador 1
+
+Essa percepção do papel da pontuação é fundamental, porque a vírgula não serve para marcar pausa de respiração, mas sim para estruturar a sintaxe. Quando a banca desloca uma oração subordinada adverbial para o início da frase, a vírgula se torna obrigatória. Se essa mesma oração estiver na sua ordem direta, ao final da frase, o uso da vírgula passa a ser facultativo na maioria dos casos.
+
+## Apresentadora 2
+
+Outra pegadinha que envolve vírgula e altera diretamente o sentido do texto é a diferença entre orações relativas explicativas e restritivas. Ao dizer Os engenheiros que concluíram o relatório foram premiados, sem vírgulas, estamos restringindo a premiação apenas àqueles que terminaram o relatório. Mas se colocarmos vírgulas isolando a oração relatoras, o sentido muda completamente.
+
+## Apresentador 1
+
+Com as vírgulas, a oração passa a ser explicativa, dando a entender que todos os engenheiros da equipe concluíram o relatório e foram premiados. O examinador ama perguntar se a retirada ou a inserção de vírgulas em trechos desse tipo mantém a correção gramatical e o sentido original. Nesses casos, a gramática continua correta, mas a mensagem original é inevitavelmente alterada.
+
+## Apresentadora 2
+
+E essa distinção entre correção gramatical e manutenção do sentido é o grande divisor de águas nas provas do Cebraspe. Essa mesma lógica analítica aparece no estudo da voz passiva e da partícula se, um tópico que derruba muitos candidatos desatentos. É preciso saber diferenciar com clareza o pronome apassivador do índice de indeterminabilidade do sujeito.
+
+## Apresentador 1
+
+Na prática, em estruturas como Analisaram-se os dados do projeto, a palavra dados é o sujeito paciente, o que exige o verbo no plural. Se a frase for Reescreveu-se o laudo, o verbo fica no singular concordando com o termo laudo. Porém, em Precisa-se de novos técnicos, a preposição impede a apassivação, tornando o sujeito indeterminado e travando o verbo no singular.
+
+## Apresentadora 2
+
+Se o candidato tentar pluralizar dizendo Precisam-se de novos técnicos, ele comete um erro grave de concordância verbal que a banca não deixa passar. Outro detalhe essencial é o paralelismo sintático, que exige a manutenção da mesma estrutura em enumerações ou comparações. Se você utiliza uma preposição antes do primeiro elemento, deve mantê-la ou omiti-la de forma simétrica nos elementos seguintes.
+
+## Apresentador 1
+
+Isso fica muito claro na estrutura de x a y ou do x ao y. Escrever de janeiro ao final de março quebra o paralelismo, enquanto o correto é utilizar de janeiro a março ou do início de janeiro ao final de março. Essa simetria garante não apenas a elegância da frase, mas também a sua precisão técnica e conformidade com a norma-padrão.
+
+## Apresentadora 2
+
+O mesmo cuidado vale para a substituição de conectivos que exigem modos verbais diferentes. Ao reescrever um período complexo, trocar a conjunção embora por apesar de exige ajustar a forma verbal do subjuntivo para o infinitivo. Dizer embora tenha estudado equivale gramaticalmente a apesar de ter estudado, preservando o valor concessivo da oração.
+
+## Apresentador 1
+
+Se a troca for feita sem o devido ajuste do verbo, a frase resultante torna-se agramatical e o item deve ser julgado como errado. Além disso, atenção redobrada aos elementos de coesão anafórica, que resgatam ideias já mencionadas. Os pronomes demonstrativos este, esse e aquele possuem papéis bem definidos no tempo, no espaço e no próprio texto.
+
+## Apresentadora 2
+
+O termo este refere-se ao que ainda será dito ou ao elemento mencionado mais recentemente, enquanto esse recupera o que já foi dito. Já o pronome relativo cujo gera muita confusão porque exige concordância com o termo posterior e nunca aceita artigo logo em seguida. É um erro grave dizer o funcionário cujo o crachá venceu, sendo o correto apenas cujo crachá venceu.
+
+## Apresentador 1
+
+Essa proibição do artigo após o pronome cujo é uma das regras mais antigas e eficientes para eliminar alternativas incorretas. Quando somamos todas essas regras, percebemos como a banca constrói itens onde um único trecho testa regência, crase e concordância simultaneamente. Por isso, a leitura da questão precisa ser fatiada, analisando cada elemento sintático com calma.
+
+## Apresentadora 2
+
+A melhor estratégia durante a prova é exatamente essa: não tentar resolver a questão de uma só vez na leitura rápida. Você deve identificar o verbo principal, encontrar o sujeito, checar a regência, verificar as crases e avaliar as vírgulas em etapas. Esse método sistemático reduz drasticamente as chances de cair em pegadinhas visuais.
+
+## Apresentador 1
+
+Com essa bagagem teórica e essas estratégias de checagem, o candidato deixa de adivinhar respostas e passa a aplicar um método seguro de resolução. A teoria ganha vida quando observamos como esses padrões se repetem no estilo de cobrança da banca.
+
+## Apresentadora 2
+
+E não há maneira melhor de fixar todos esses conceitos do que colocar a mão na massa agora mesmo. Vamos passar para a prática e analisar detalhadamente algumas questões recentes para ver como tudo isso é cobrado na hora da prova.
+
+## Apresentador 1
+
+Agora chegou a hora de testar de verdade o que você sabe. Separei quatro questões de provas anteriores da Polícia Rodoviária Federal.
+
+## Apresentadora 2
+
+A regra é simples: escute as quatro questões e marque mentalmente certo ou errado. Não vamos revelar as respostas agora. Depois das quatro, a gente volta com o gabarito oficial e explica cada uma.
+
+## Apresentador 1
+
+Como estamos usando provas anteriores, considere sempre o ano indicado e o gabarito oficial daquela prova. Legislação pode sofrer alterações ao longo do tempo.
+
+## Apresentadora 2
+
+Questão 1. PRF 2021, CEBRASPE, item 11. O primeiro parágrafo permite inferir que o desenvolvimento, no século XIX, de campos científicos ligados à justiça criminal esteve associado a visões preconceituosas dirigidas a determinados grupos sociais. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 2. PRF 2021, CEBRASPE, item 13. Segundo o texto, a violência no período medieval era frequente e socialmente aceita. Certo ou errado?
+
+## Apresentadora 2
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentadora 2
+
+Questão 3. PRF 2021, CEBRASPE, item 17. No contexto do texto, o emprego da palavra 'irrupção' indica que a violência podia atingir os indivíduos de maneira súbita. Certo ou errado?
+
+## Apresentador 1
+
+Guarde sua resposta e vamos para a próxima.
+
+## Apresentador 1
+
+Questão 4. PRF 2021, CEBRASPE, item 22. Segundo o Manual de Redação da Presidência da República, informatividade integra, ao lado de objetividade e impessoalidade, o conjunto de características expressamente indicado para a redação oficial. Certo ou errado?
+
+## Apresentador 1
+
+As quatro foram apresentadas. Se você quiser mais tempo para resolver, pause o áudio agora. Quando estiver pronto, continue para conferir o gabarito.
+
+## Apresentadora 2
+
+Vamos corrigir. Mais importante do que acertar é entender exatamente por que cada item está certo ou errado.
+
+## Apresentador 1
+
+Questão 1. O gabarito oficial é CERTO.
+
+## Apresentadora 2
+
+A questão exige interpretação de texto sobre a história do direito penal e da criminologia no século XIX. O texto original da prova destaca como esses estudos científicos rotulavam e marginalizavam classes menos favorecidas ou minorias sob o manto do cientificismo. A pegadinha está em duvidar se o texto sustentava explicitamente esse viés discriminatório ou se era apenas uma inferência válida. O candidato deveria identificar no primeiro parágrafo a relação entre o surgimento das teorias criminológicas da época e a estigmatização de determinados grupos sociais, confirmando que a inferência do item é perfeita. Por essa razão, a afirmativa está inteiramente de acordo com o texto, justificando o gabarito oficial CERTO.
+
+## Apresentadora 2
+
+Questão 2. O gabarito oficial é CERTO.
+
+## Apresentador 1
+
+A assertiva solicita a comprovação da compreensão textual a respeito da violência no período medieval. O texto da prova aponta que as práticas violentas não apenas ocorriam com elevada frequência, mas também eram integradas aos costumes daquela sociedade, sendo toleradas e naturalizadas no cotidiano. A pegadinha reside em julgar o cenário histórico com a mentalidade e os valores morais contemporâneos, levando o candidato a achar erroneamente que a violência jamais seria socialmente aceita. O raciocínio correto exige apego estrito às informações expressas e implícitas do texto, reconhecendo que, para a época retratada, a violência possuía aceitação social. Logo, o item está correto.
+
+## Apresentador 1
+
+Questão 3. O gabarito oficial é CERTO.
+
+## Apresentadora 2
+
+A questão avalia o conhecimento vocabular e a semântica contextual da palavra irrupção. No dicionário e no texto, irrupção significa um surgimento impetuoso, repentino ou uma entrada violenta. Dessa forma, seu emprego reforça a ideia de que a violência podia atingir os indivíduos de maneira súbita e inesperada. A pegadinha comum entre os candidatos é confundir irrupção (ato de irromper, brotar repentinamente) com erupção (expulsão de matéria, como de vulcões), ou imaginar que o termo teria outro sentido gramatical. O candidato deveria resgatar o sentido preciso do vocábulo no contexto textual para concluir pela veracidade da afirmação, confirmando o gabarito CERTO.
+
+## Apresentadora 2
+
+Questão 4. O gabarito oficial é ERRADO.
+
+## Apresentador 1
+
+O item aborda as características da Redação Oficial descritas no Manual de Redação da Presidência da República. Os atributos expressamente indicados pelo manual são: clareza, precisão, objetividade, concisão, coesão, coerência, impessoalidade e formalidade/padronização. A informatividade é uma propriedade da textualidade em geral, mas NÃO integra o rol explícito de atributos da redação oficial segundo o manual. A pegadinha consiste no fato de a informatividade ser um conceito correto na teoria da comunicação, induzindo o candidato ao erro por parecer plausível. O raciocínio exige lembrar o rol exato de princípios formais do manual, confirmando que a afirmação do item está ERRADA.
+
+## Apresentador 1
+
+Se você errou alguma delas, essa é justamente a questão que merece entrar na sua lista de revisão.
+
+## Apresentadora 2
+
+E se acertou as quatro, ótimo. Mas não fique apenas no acerto: tenha certeza de que você consegue explicar o motivo de cada resposta.
+
+## Apresentador 1
+
+Continuamos no próximo episódio com outro tema e quatro novas questões. Bons estudos e até lá.

@@ -1,0 +1,49 @@
+{
+  "disciplina": "portugues",
+  "questoes": [
+    {
+      "id": "PRF-2021-011",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Português",
+      "disciplina_canonica": "portugues",
+      "item_original": 11,
+      "questao": "O primeiro parágrafo permite inferir que o desenvolvimento, no século XIX, de campos científicos ligados à justiça criminal esteve associado a visões preconceituosas dirigidas a determinados grupos sociais.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 11 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-013",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Português",
+      "disciplina_canonica": "portugues",
+      "item_original": 13,
+      "questao": "Segundo o texto, a violência no período medieval era frequente e socialmente aceita.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 13 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-017",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Português",
+      "disciplina_canonica": "portugues",
+      "item_original": 17,
+      "questao": "No contexto do texto, o emprego da palavra 'irrupção' indica que a violência podia atingir os indivíduos de maneira súbita.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 17 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-022",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Português",
+      "disciplina_canonica": "portugues",
+      "item_original": 22,
+      "questao": "Segundo o Manual de Redação da Presidência da República, informatividade integra, ao lado de objetividade e impessoalidade, o conjunto de características expressamente indicado para a redação oficial.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_001_01 - item 22 - gabarito oficial definitivo"
+    }
+  ]
+}

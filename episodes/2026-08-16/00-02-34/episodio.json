@@ -1,0 +1,26 @@
+{
+  "data_hora_brasilia": "2026-08-16T00:02:34.845849-03:00",
+  "indice_tema": 0,
+  "numero_tema": 1,
+  "total_temas": 15,
+  "tema": "Língua Portuguesa para a prova da Petrobras",
+  "disciplina": "portugues",
+  "modelo_gemini_principal": "gemini-3.6-flash",
+  "modelo_gemini_usado": "gemini-3.6-flash",
+  "modelos_gemini_fallback": [
+    "gemini-3.6-flash",
+    "gemini-2.5-flash"
+  ],
+  "partes_teoricas": 2,
+  "parte_3": "Desafio com 4 questões",
+  "quantidade_questoes": 4,
+  "ids_questoes": [
+    "PRF-2021-011",
+    "PRF-2021-013",
+    "PRF-2021-017",
+    "PRF-2021-022"
+  ],
+  "apresentador_a": "pt-BR-AntonioNeural",
+  "apresentador_b": "pt-BR-FranciscaNeural",
+  "total_falas": 59
+}

@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Quando a gente abre o edital da Petrobras e vê Língua Portuguesa, muitos candidatos acham que é apenas mais uma matéria comum do bloco básico. No entanto, o peso dessa disciplina é gigantesco, agindo frequentemente como o verdadeiro divisor de águas entre a aprovação e a fila de espera. Entender como a banca cobra o idioma é o primeiro passo para transformar essa prova em uma grande aliada na sua pontuação final."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente, e quando falamos de Petrobras, é quase inevitável pensar no perfil clássico do Cebraspe, famoso pelo seu estilo bem particular de questão. Eles não querem apenas que você decore regras gramaticais secas ou classificações decorar de cor. O foco principal está na capacidade de ler, interpretar e analisar a estrutura do texto de forma extremamente precisa."
+    },
+    {
+      "speaker": "A",
+      "text": "É como na engenharia de uma refinaria, onde cada peça precisa se encaixar perfeitamente para a engrenagem funcionar. Na língua portuguesa, a coesão funciona como o cimento que liga as palavras e frases, enquanto a coerência é a lógica de toda a estrutura do texto. Se o candidato não percebe essa diferença, ele acaba caindo em armadilhas sutis de interpretação."
+    },
+    {
+      "speaker": "B",
+      "text": "Uma pegadinha clássica do Cebraspe é colocar uma afirmação que parece totalmente lógica no nosso cotidiano, mas que não tem respaldo no texto fornecido. A banca adora testar se o candidato está extrapolando as informações ou se realmente está preso aos limites do texto. Interpretar não é adivinhar o que o autor pensou, mas sim identificar o que efetivamente foi escrito."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro pilar fundamental que aparece com muita força nas provas é a sintaxe, especialmente a regência verbal e nominal. No dia a dia, a gente costuma usar construções informais que a norma-padrão não aceita, e o examinador sabe exatamente onde nós costumamos deslizar. Um exemplo clássico e muito cobrado é o verbo implicar no sentido de acarretar."
+    },
+    {
+      "speaker": "B",
+      "text": "É verdade, a gente ouve muito por aí que uma decisão vai implicar em mudanças, mas para a norma culta o verbo implicar é transitivo direto nessa situação. Ou seja, o correto é dizer que a decisão vai implicar mudanças, sem a preposição em. O Cebraspe adora construir assertivas afirmativas dizendo que a inserção da preposição em manteria a correção gramatical, o que torna o item errado."
+    },
+    {
+      "speaker": "A",
+      "text": "E esse tipo de detalhe aparece em textos de perfil técnico e corporativo, que é justamente o universo vocabular das provas da Petrobras. Além da regência, a pontuação desempenha um papel crucial no sentido e na sintaxe de qualquer frase. A vírgula, por exemplo, nunca deve separar o sujeito do seu predicado, não importa o quão longo esse sujeito seja."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa regra é de ouro, mas o examinador gosta de complicar inserindo orações intercaladas ou termos explicativos no meio do caminho para confundir o candidato. Outro ponto crítico com vírgulas envolve as orações subordinadas adjetivas explicativas e restritivas. A presença ou ausência de uma simples vírgula pode alterar completamente o significado de um trecho inteiro."
+    },
+    {
+      "speaker": "A",
+      "text": "Imagine a frase: os engenheiros da Petrobras, que concluíram o treinamento, receberam o certificado. Com vírgulas, significa que todos os engenheiros concluíram o treinamento e receberam o documento. Se retirarmos as vírgulas, a oração vira restritiva, significando que apenas aqueles engenheiros específicos que concluíram o treinamento é que receberam o certificado."
+    },
+    {
+      "speaker": "B",
+      "text": "É uma mudança semântica profunda que a banca adora explorar em itens de reescrita de texto. Por falar em reescrita, essa é uma das modalidades de questão mais temidas pelos concurseiros na prova de Português. O Cebraspe apresenta um trecho original e propõe uma nova redação, perguntando se mantém a correção e o sentido."
+    },
+    {
+      "speaker": "A",
+      "text": "Nesses casos de reescrita, o candidato precisa fazer uma dupla checagem rigorosa para não perder o ponto. Primeiro, verifica-se se a nova frase respeita todas as regras de concordância, regência, crase e pontuação. Depois, é preciso comparar se o sentido original foi preservado ou se houve alteração na mensagem do autor."
+    },
+    {
+      "speaker": "B",
+      "text": "E é aí que entram os conectivos lógicos, que são os verdadeiros vilões de quem não estuda a fundo as conjunções. A troca de uma conjunção causal por uma concessiva, por exemplo, muda totalmente a relação lógica entre as orações. Palavras como porquanto e conquanto parecem similares na sonoridade, mas exercem funções gramaticais completamente distintas."
+    },
+    {
+      "speaker": "A",
+      "text": "O termo porquanto introduz uma explicação ou causa, equivalente a porque ou visto que. Já a palavra conquanto introduz uma concessão, equivalendo a embora ou ainda que. O examinador adora fazer essa substituição na reescrita e afirmar que o sentido original da frase foi mantido intacto."
+    },
+    {
+      "speaker": "B",
+      "text": "Quem lê com pressa cai direto na pegadinha achando que só porque são palavras bonitas e cultas elas são sinônimas. A mesma atenção deve ser dada ao estudo da crase, que nada mais é do que a fusão da preposição a com o artigo feminino a. O segredo inicial é sempre substituir a palavra feminina por uma masculina correspondente."
+    },
+    {
+      "speaker": "A",
+      "text": "Se ao fazer a troca surgir a forma ao, significa que a crase é obrigatória diante da palavra feminina. Por exemplo, se dizemos ir ao trabalho, diremos ir à refinaria, garantindo o uso do acento grave. Obviamente, existem casos facultativos e proibições expressas que também despencam nas avaliações da banca."
+    },
+    {
+      "speaker": "B",
+      "text": "A crase antes de pronomes possessivos femininos singulares, como em refiro-me a sua proposta ou à sua proposta, é um caso facultativo muito cobrado. A banca costuma perguntar se a retirada do acento grave prejudicaria a gramática do texto, e a resposta correta é que não prejudica. Conhecer essas nuances evita a perda de pontos valiosos na hora da marcação."
+    },
+    {
+      "speaker": "A",
+      "text": "A concordância verbal e nominal também fecha esse grupo de fundamentos essenciais que exigem treino constante. Casos com o sujeito coletivo ou expressões partitivas, como a maioria dos funcionários, aceitam dupla concordância e aparecem direto nas provas. Você pode concordar tanto com o núcleo singular quanto com o especificador no plural."
+    },
+    {
+      "speaker": "B",
+      "text": "Entender essa flexibilidade gramatical e dominar as regras fundamentais dá a segurança necessária para enfrentar as questões mais complexas. À medida que avançamos na análise do edital, fica claro que Português não é uma matéria para memorizar na véspera, mas sim para praticar com método e consistência."
+    }
+  ]
+}
