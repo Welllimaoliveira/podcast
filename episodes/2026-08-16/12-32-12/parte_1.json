@@ -1,0 +1,77 @@
+{
+  "parte": 1,
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Se você está estudando para o concurso da Petrobras, já deve ter percebido que a língua inglesa deixou de ser apenas um diferencial secundário para se tornar um pilar decisivo na sua aprovação. Muita gente comete o erro de achar que basta um vocabulário intermediário de dia a dia para se dar bem na prova. No entanto, o nível de cobrança exige uma leitura técnica apurada e uma capacidade analítica aguçada sobre textos do setor de energia."
+    },
+    {
+      "speaker": "B",
+      "text": "E isso tem uma razão muito clara de existir dentro da própria rotina de trabalho da companhia. A Petrobras lida diariamente com manuais internacionais, relatórios globais e parcerias estrangeiras, o que torna o inglês uma ferramenta de trabalho indispensável. A banca Cebraspe sabe disso e estrutura a prova para medir exatamente se você consegue interpretar textos densos com precisão e rapidez."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, e quando olhamos para o estilo clássico do Cebraspe, percebemos que o foco quase nunca é a gramática decorada por si só. Eles querem saber se você compreende a ideia central do texto, as relações de causa e efeito e as intenções do autor. As questões costumam cobrar a reescrita de frases ou a substituição de termos mantendo o mesmo sentido original."
+    },
+    {
+      "speaker": "B",
+      "text": "Para encarar esse formato sem perder tempo, o candidato precisa dominar duas técnicas fundamentais de leitura rápida: o skimming e o scanning. O skimming é como olhar um mapa do alto para entender o panorama geral do texto sem se apegar a cada palavra. Já o scanning é a busca localizada, como procurar um número específico na lista telefônica quando a questão pede um dado concreto."
+    },
+    {
+      "speaker": "A",
+      "text": "Essas duas estratégias salvam vidas na hora da prova, mas elas precisam caminhar junto com a atenção aos falsos cognatos. No inglês instrumental para engenharia e petróleo, os chamados falsos amigos são verdadeiras armadilhas preparadas para pegar o candidato desatento. Palavras que parecem muito com o português costumam ter significados totalmente diferentes no contexto técnico."
+    },
+    {
+      "speaker": "B",
+      "text": "Um exemplo clássico que vira e mexe aparece em provas é o termo eventually, que não significa eventualmente, mas sim no final das contas ou com o passar do tempo. Se o texto diz que um equipamento irá eventualmente falhar, a banca pode afirmar que o erro ocorrerá apenas de vez em quando, o que altera completamente o sentido. Outra palavra perigosa é comprehensive, que significa abrangente e não compreensivo."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa troca de significados é a especialidade do Cebraspe para criar itens errados bem sutis. Outro fundamento essencial que a banca explora com frequência é o uso dos marcadores discursivos, que são os conectivos ou conjunções. Termos como however, therefore, although e despite dão todo o tom da argumentação do texto."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito, e a banca adora perguntar se a substituição de embora por apesar de manteria a coerência e a correção gramatical do trecho. A resposta exige que o candidato saiba que embora introduz uma oração com verbo, enquanto apesar de exige um substantivo ou verbo no gerúndio. Esse tipo de detalhe mostra como a gramática é cobrada de forma aplicada e não decorativa."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro ponto central na interpretação é a referenciação pronominal, ou seja, saber a quem palavras como it, they, which ou this estão se referindo no parágrafo. Em textos longos e com estruturas complexas, a banca destaca um pronome na linha trinta e pergunta se ele retoma um termo específico da linha anterior. Se você se perder na cadeia de referências, erra a questão inteira."
+    },
+    {
+      "speaker": "B",
+      "text": "Uma dica prática para não cair nessa pegadinha é isolar a oração e substituir o pronome diretamente pelo elemento que você acha que é o sujeito. Se a frase continuar fazendo sentido lógico e técnico dentro do contexto da engenharia ou da economia da energia, você encontrou a resposta certa. É como montar um quebra-cabeça onde cada peça precisa se encaixar perfeitamente sem forçar a barra."
+    },
+    {
+      "speaker": "A",
+      "text": "E por falar em setor de energia, muitos candidatos entram em pânico achando que precisam memorizar todo o dicionário de petróleo e gás antes da prova. A verdade é que a própria estrutura do texto costuma fornecer pistas contextuais para vocabulários altamente especializados. Se você aprende a ler o entorno da palavra desconhecida, consegue deduzir seu significado sem desespero."
+    },
+    {
+      "speaker": "B",
+      "text": "O contexto funciona como um detetive que deixa pistas antes e depois do termo difícil. Muitas vezes, uma palavra técnica nova vem acompanhada de um aposto explicativo, um sinônimo logo em seguida ou uma relação de oposição. Por exemplo, se a frase contrasta um material rígido com um termo desconhecido, por dedução lógica esse termo provavelmente significa flexível ou maleável."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa percepção contextual também se aplica ao uso constante da voz passiva nas publicações científicas e relatórios da Petrobras. Textos técnicos valorizam a impessoalidade e o processo em si, preferindo construções onde o foco está no que foi feito e não em quem realizou a ação. O Cebraspe sabe disso e explora muito a transformação da voz ativa para a passiva nas questões."
+    },
+    {
+      "speaker": "B",
+      "text": "E a pegadinha aí geralmente está na alteração do tempo verbal ou na omissão de um agente que era essencial para a interpretação correta. Se o candidato não estiver atento à estrutura auxiliar do verbo to be, pode aceitar como correta uma reescrita que mudou o fato do passado para o presente. Por isso, a atenção aos tempos verbais não é perfumaria, é sobrevivência na prova."
+    },
+    {
+      "speaker": "A",
+      "text": "Além disso, é preciso ter extremo cuidado com as palavras de valor absoluto que o Cebraspe adora inserir nas assertivas de Certo ou Errado. Termos como sempre, nunca, exclusivamente ou somente costumam transformar um texto que apresentava uma possibilidade em uma regra inflexível. Se o texto original fala em tendência, a assertiva não pode afirmar uma certeza absoluta."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa diferença entre possibilidade e certeza é marcada pelos verbos modais como may, might, could e must. Um modal de possibilidade no texto indica uma hipótese razoável, enquanto outro traz uma ideia de obrigação ou dedução forte. Trocar esses verbos nas alternativas é um dos truques favoritos dos examinadores para testar seu nível de atenção."
+    },
+    {
+      "speaker": "A",
+      "text": "Para construir uma preparação sólida desses fundamentos, o caminho mais eficiente é resolver provas anteriores da própria Petrobras e de outros concursos de alto nível do Cebraspe. Fazer essa imersão prática faz você se acostumar com o tamanho dos textos, o tipo de fonte utilizada e o estilo de cobrança das questões."
+    },
+    {
+      "speaker": "B",
+      "text": "E o estudo diário pode ser enriquecido com a leitura de artigos em inglês sobre transição energética, exploração offshore e inovação na indústria de combustíveis. À medida que você ganha familiaridade com os tópicos recorrentes da Petrobras, a leitura em inglês deixa de ser um obstáculo e passa a ser uma grande aliada da sua pontuação final."
+    }
+  ]
+}

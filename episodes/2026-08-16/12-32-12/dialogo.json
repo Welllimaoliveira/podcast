@@ -1,0 +1,292 @@
+{
+  "tema": "Língua Inglesa para a prova da Petrobras",
+  "disciplina": "ingles",
+  "plano": {
+    "parte_1": "Apresentar o assunto, contextualizar sua importância e explicar os fundamentos.",
+    "parte_2": "Aprofundar o assunto, trazer exemplos, aplicações e pegadinhas frequentes de prova."
+  },
+  "questoes": [
+    {
+      "id": "PRF-2021-007-ING",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Inglês",
+      "disciplina_canonica": "ingles",
+      "item_original": 7,
+      "questao": "In the passage about water facilities freezing, replacing 'Yet' with 'Even so' would preserve the intended contrast in meaning.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 7 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-008-ING",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Inglês",
+      "disciplina_canonica": "ingles",
+      "item_original": 8,
+      "questao": "The text identifies a lack of wind as the main reason for the reduction in wind-energy production during the Texas cold spell.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 8 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-002-ING",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Inglês",
+      "disciplina_canonica": "ingles",
+      "item_original": 2,
+      "questao": "In the text about the Texas energy crisis, the pronoun 'That' in the final paragraph refers to Texas's decision to isolate its electric grid from the rest of the country.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 2 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-003-ING",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Inglês",
+      "disciplina_canonica": "ingles",
+      "item_original": 3,
+      "questao": "According to the text, despite the extremely cold weather, energy production in Texas continued without significant disruption.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 3 - gabarito oficial definitivo"
+    }
+  ],
+  "falas": [
+    {
+      "speaker": "A",
+      "text": "Se você está estudando para o concurso da Petrobras, já deve ter percebido que a língua inglesa deixou de ser apenas um diferencial secundário para se tornar um pilar decisivo na sua aprovação. Muita gente comete o erro de achar que basta um vocabulário intermediário de dia a dia para se dar bem na prova. No entanto, o nível de cobrança exige uma leitura técnica apurada e uma capacidade analítica aguçada sobre textos do setor de energia."
+    },
+    {
+      "speaker": "B",
+      "text": "E isso tem uma razão muito clara de existir dentro da própria rotina de trabalho da companhia. A Petrobras lida diariamente com manuais internacionais, relatórios globais e parcerias estrangeiras, o que torna o inglês uma ferramenta de trabalho indispensável. A banca Cebraspe sabe disso e estrutura a prova para medir exatamente se você consegue interpretar textos densos com precisão e rapidez."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, e quando olhamos para o estilo clássico do Cebraspe, percebemos que o foco quase nunca é a gramática decorada por si só. Eles querem saber se você compreende a ideia central do texto, as relações de causa e efeito e as intenções do autor. As questões costumam cobrar a reescrita de frases ou a substituição de termos mantendo o mesmo sentido original."
+    },
+    {
+      "speaker": "B",
+      "text": "Para encarar esse formato sem perder tempo, o candidato precisa dominar duas técnicas fundamentais de leitura rápida: o skimming e o scanning. O skimming é como olhar um mapa do alto para entender o panorama geral do texto sem se apegar a cada palavra. Já o scanning é a busca localizada, como procurar um número específico na lista telefônica quando a questão pede um dado concreto."
+    },
+    {
+      "speaker": "A",
+      "text": "Essas duas estratégias salvam vidas na hora da prova, mas elas precisam caminhar junto com a atenção aos falsos cognatos. No inglês instrumental para engenharia e petróleo, os chamados falsos amigos são verdadeiras armadilhas preparadas para pegar o candidato desatento. Palavras que parecem muito com o português costumam ter significados totalmente diferentes no contexto técnico."
+    },
+    {
+      "speaker": "B",
+      "text": "Um exemplo clássico que vira e mexe aparece em provas é o termo eventually, que não significa eventualmente, mas sim no final das contas ou com o passar do tempo. Se o texto diz que um equipamento irá eventualmente falhar, a banca pode afirmar que o erro ocorrerá apenas de vez em quando, o que altera completamente o sentido. Outra palavra perigosa é comprehensive, que significa abrangente e não compreensivo."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa troca de significados é a especialidade do Cebraspe para criar itens errados bem sutis. Outro fundamento essencial que a banca explora com frequência é o uso dos marcadores discursivos, que são os conectivos ou conjunções. Termos como however, therefore, although e despite dão todo o tom da argumentação do texto."
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito, e a banca adora perguntar se a substituição de embora por apesar de manteria a coerência e a correção gramatical do trecho. A resposta exige que o candidato saiba que embora introduz uma oração com verbo, enquanto apesar de exige um substantivo ou verbo no gerúndio. Esse tipo de detalhe mostra como a gramática é cobrada de forma aplicada e não decorativa."
+    },
+    {
+      "speaker": "A",
+      "text": "Outro ponto central na interpretação é a referenciação pronominal, ou seja, saber a quem palavras como it, they, which ou this estão se referindo no parágrafo. Em textos longos e com estruturas complexas, a banca destaca um pronome na linha trinta e pergunta se ele retoma um termo específico da linha anterior. Se você se perder na cadeia de referências, erra a questão inteira."
+    },
+    {
+      "speaker": "B",
+      "text": "Uma dica prática para não cair nessa pegadinha é isolar a oração e substituir o pronome diretamente pelo elemento que você acha que é o sujeito. Se a frase continuar fazendo sentido lógico e técnico dentro do contexto da engenharia ou da economia da energia, você encontrou a resposta certa. É como montar um quebra-cabeça onde cada peça precisa se encaixar perfeitamente sem forçar a barra."
+    },
+    {
+      "speaker": "A",
+      "text": "E por falar em setor de energia, muitos candidatos entram em pânico achando que precisam memorizar todo o dicionário de petróleo e gás antes da prova. A verdade é que a própria estrutura do texto costuma fornecer pistas contextuais para vocabulários altamente especializados. Se você aprende a ler o entorno da palavra desconhecida, consegue deduzir seu significado sem desespero."
+    },
+    {
+      "speaker": "B",
+      "text": "O contexto funciona como um detetive que deixa pistas antes e depois do termo difícil. Muitas vezes, uma palavra técnica nova vem acompanhada de um aposto explicativo, um sinônimo logo em seguida ou uma relação de oposição. Por exemplo, se a frase contrasta um material rígido com um termo desconhecido, por dedução lógica esse termo provavelmente significa flexível ou maleável."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa percepção contextual também se aplica ao uso constante da voz passiva nas publicações científicas e relatórios da Petrobras. Textos técnicos valorizam a impessoalidade e o processo em si, preferindo construções onde o foco está no que foi feito e não em quem realizou a ação. O Cebraspe sabe disso e explora muito a transformação da voz ativa para a passiva nas questões."
+    },
+    {
+      "speaker": "B",
+      "text": "E a pegadinha aí geralmente está na alteração do tempo verbal ou na omissão de um agente que era essencial para a interpretação correta. Se o candidato não estiver atento à estrutura auxiliar do verbo to be, pode aceitar como correta uma reescrita que mudou o fato do passado para o presente. Por isso, a atenção aos tempos verbais não é perfumaria, é sobrevivência na prova."
+    },
+    {
+      "speaker": "A",
+      "text": "Além disso, é preciso ter extremo cuidado com as palavras de valor absoluto que o Cebraspe adora inserir nas assertivas de Certo ou Errado. Termos como sempre, nunca, exclusivamente ou somente costumam transformar um texto que apresentava uma possibilidade em uma regra inflexível. Se o texto original fala em tendência, a assertiva não pode afirmar uma certeza absoluta."
+    },
+    {
+      "speaker": "B",
+      "text": "Essa diferença entre possibilidade e certeza é marcada pelos verbos modais como may, might, could e must. Um modal de possibilidade no texto indica uma hipótese razoável, enquanto outro traz uma ideia de obrigação ou dedução forte. Trocar esses verbos nas alternativas é um dos truques favoritos dos examinadores para testar seu nível de atenção."
+    },
+    {
+      "speaker": "A",
+      "text": "Para construir uma preparação sólida desses fundamentos, o caminho mais eficiente é resolver provas anteriores da própria Petrobras e de outros concursos de alto nível do Cebraspe. Fazer essa imersão prática faz você se acostumar com o tamanho dos textos, o tipo de fonte utilizada e o estilo de cobrança das questões."
+    },
+    {
+      "speaker": "B",
+      "text": "E o estudo diário pode ser enriquecido com a leitura de artigos em inglês sobre transição energética, exploração offshore e inovação na indústria de combustíveis. À medida que você ganha familiaridade com os tópicos recorrentes da Petrobras, a leitura em inglês deixa de ser um obstáculo e passa a ser uma grande aliada da sua pontuação final."
+    },
+    {
+      "speaker": "A",
+      "text": "Falando em leitura e interpretação, um dos maiores obstáculos para os candidatos são os famosos falsos cognatos, conhecidos como falsos amigos. Palavras que parecem muito com o português, mas possuem significados completamente diferentes no texto técnico em inglês. Um exemplo clássico que o Cebraspe adora usar é a palavra currently, que significa atualmente e não correntemente."
+    },
+    {
+      "speaker": "B",
+      "text": "Outro exemplo muito comum em relatórios corporativos é a palavra eventually, que muitos traduzem erroneamente como eventualmente. Na verdade, eventually indica algo que vai acontecer no final das contas, afinal de contas ou com o passar do tempo. Se o texto diz que uma tecnologia vai eventualmente ser adotada, a banca pode afirmar que ela será adotada de forma ocasional, o que está incorreto."
+    },
+    {
+      "speaker": "A",
+      "text": "E não podemos esquecer de actually, que significa na verdade ou realmente, e não atualmente. Ver esse termo em um texto sobre inovação tecnológica exige atenção, pois ele geralmente corrige ou detalha uma informação anterior. Outra palavra bastante perigosa é comprehensive, que significa abrangente ou completo, e não apenas compreensível."
+    },
+    {
+      "speaker": "B",
+      "text": "Exatamente, se o texto fala em um comprehensive report, ele está se referindo a um relatório detalhado e amplo, e não a um relatório fácil de entender. Além dos falsos cognatos, os conectores e conjunções desempenham um papel crucial na estruturação das ideias do texto. Eles são a espinha dorsal da coesão textual e aparecem constantemente em questões de reescrita."
+    },
+    {
+      "speaker": "A",
+      "text": "Perfeito, e a pegadinha clássica com conectores envolve a diferença entre os de oposição, como despite e although. A banca Cebraspe costuma propor a substituição de despite por although afirmando que o sentido original é mantido. O sentido até pode ser equivalente, mas a estrutura gramatical exige ajustes que a questão frequentemente ignora."
+    },
+    {
+      "speaker": "B",
+      "text": "Isso acontece porque despite é uma preposição e deve ser seguida por um substantivo ou verbo no gerúndio com ing. Já although é uma conjunção subordinativa e exige uma oração completa com sujeito e verbo conjugado. Trocar um pelo outro mantendo o resto da frase intacto é um erro gramatical que passa despercebido por quem foca apenas na tradução."
+    },
+    {
+      "speaker": "A",
+      "text": "Essa mesma lógica se aplica aos conectores de causa e consequência, como therefore, thus, because of e due to. Se a questão propõe trocar due to por because, o candidato precisa lembrar que due to exige um termo nominal na sequência. Já o because precisa ser seguido por uma oração inteira, com seu próprio sujeito e predicado."
+    },
+    {
+      "speaker": "B",
+      "text": "Outra estratégia fundamental para ganhar agilidade na prova da Petrobras é o conhecimento sobre formação de palavras, especialmente sufixos e prefixos. Dominar a morfologia permite que você desmonte termos complexos e entenda o significado sem precisar consultar um dicionário. Por exemplo, o sufixo less indica ausência ou privação, transformando a palavra harm em harmless."
+    },
+    {
+      "speaker": "A",
+      "text": "E na indústria de petróleo e gás, termos como colorless, odorless ou seamless aparecem com frequência em especificações técnicas. Um seamless pipe, por exemplo, é um tubo sem costura, algo essencial para suportar altíssimas pressões na exploração offshore. Se você conhece o sufixo, entende imediatamente a propriedade física descrita sem nunca ter visto a expressão inteira antes."
+    },
+    {
+      "speaker": "B",
+      "text": "Da mesma forma, prefixos de negação ou oposição como un, in, dis e mis alteram completamente o sentido da frase. Um erro comum de interpretação acontece com o prefixo mis, que indica algo feito de forma errada ou inadequada, como em misleading ou mismanagement. Se o candidato confunde misleading com algo relativo a liderança, toda a interpretação do parágrafo fica comprometida."
+    },
+    {
+      "speaker": "A",
+      "text": "Excelente ponto, porque misleading significa enganoso ou que induz ao erro, algo muito distante de liderança. Outro elemento que o Cebraspe explora exaustivamente são as questões de referência pronominal ou anáfora. A banca destaca um pronome como this, which, its ou former e pergunta a qual termo do texto ele se refere."
+    },
+    {
+      "speaker": "B",
+      "text": "Essas questões parecem simples, mas escondem armadilhas quando o parágrafo possui vários substantivos no singular e no plural. A dica de ouro é voltar ao texto e fazer o teste de substituição direta do pronome pelo elemento apontado pela banca. Se a frase perder o sentido lógico ou violar a concordância, a afirmativa da questão está errada."
+    },
+    {
+      "speaker": "A",
+      "text": "Vale lembrar também a dupla the former e the latter, que aparece com frequência em comparações entre dois elementos citados anteriormente. The former se refere ao primeiro elemento mencionado, enquanto the latter faz referência ao segundo. Inverter essa ordem na assertiva é um dos truques mais recorrentes dos examinadores para testar a leitura atenta."
+    },
+    {
+      "speaker": "B",
+      "text": "É como se a banca estivesse testando a sua capacidade de navegação espacial dentro do próprio texto técnico. Além disso, o uso dos pronomes relativos which e where também exige atenção redobrada. O where deve ser usado exclusivamente para lugares físicos ou conceituais bem delimitados, enquanto which introduz informações sobre coisas ou situações."
+    },
+    {
+      "speaker": "A",
+      "text": "Exatamente, se o texto menciona um processo ou uma fase do projeto, a substituição de in which por where pode ser aceita apenas se houver uma ideia clara de localização. A precisão na interpretação dessas conexões gramaticais é o que separa um candidato mediano de quem realmente garante a vaga na Petrobras. Não se trata de traduzir palavra por palavra, mas de compreender a arquitetura do texto."
+    },
+    {
+      "speaker": "B",
+      "text": "Com certeza, e quando você junta esses conhecimentos de falsos cognatos, conectores, sufixos e coesão pronominal, o texto em inglês se torna totalmente transparente. Você deixa de adivinhar o sentido e passa a enxergar exatamente a estrutura gramatical e a intenção do autor. Isso traz uma segurança enorme no momento de julgar os itens de Certo ou Errado."
+    },
+    {
+      "speaker": "A",
+      "text": "A teoria fica muito mais clara quando colocamos essa mecânica em prática e analisamos como a banca cobra cada um desses pontos. Ver a aplicação real dessas pegadinhas em itens no estilo do Cebraspe é o passo decisivo para fixar o conteúdo. Que tal agora testarmos todo esse conhecimento resolvendo algumas questões no estilo da prova?"
+    },
+    {
+      "speaker": "B",
+      "text": "Perfeito, essa é a melhor forma de consolidar tudo o que conversamos e treinar o seu olhar analítico. Vamos analisar os enunciados, identificar as armadilhas e aplicar cada uma dessas estratégias na prática. Pegue seu material de anotação e vamos juntos encarar esses desafios."
+    },
+    {
+      "speaker": "A",
+      "text": "Agora chegou a hora de testar de verdade o que você sabe. Separei quatro questões de provas anteriores da Polícia Rodoviária Federal."
+    },
+    {
+      "speaker": "B",
+      "text": "A regra é simples: escute as quatro questões e marque mentalmente certo ou errado. Não vamos revelar as respostas agora. Depois das quatro, a gente volta com o gabarito oficial e explica cada uma."
+    },
+    {
+      "speaker": "A",
+      "text": "Como estamos usando provas anteriores, considere sempre o ano indicado e o gabarito oficial daquela prova. Legislação pode sofrer alterações ao longo do tempo."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 1. PRF 2021, CEBRASPE, item 7. In the passage about water facilities freezing, replacing 'Yet' with 'Even so' would preserve the intended contrast in meaning. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 2. PRF 2021, CEBRASPE, item 8. The text identifies a lack of wind as the main reason for the reduction in wind-energy production during the Texas cold spell. Certo ou errado?"
+    },
+    {
+      "speaker": "B",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 3. PRF 2021, CEBRASPE, item 2. In the text about the Texas energy crisis, the pronoun 'That' in the final paragraph refers to Texas's decision to isolate its electric grid from the rest of the country. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "Guarde sua resposta e vamos para a próxima."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 4. PRF 2021, CEBRASPE, item 3. According to the text, despite the extremely cold weather, energy production in Texas continued without significant disruption. Certo ou errado?"
+    },
+    {
+      "speaker": "A",
+      "text": "As quatro foram apresentadas. Se você quiser mais tempo para resolver, pause o áudio agora. Quando estiver pronto, continue para conferir o gabarito."
+    },
+    {
+      "speaker": "B",
+      "text": "Vamos corrigir. Mais importante do que acertar é entender exatamente por que cada item está certo ou errado."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 1. O gabarito oficial é CERTO."
+    },
+    {
+      "speaker": "B",
+      "text": "A questão aborda o uso de conectivos gramaticais e a substituição de termos mantendo o sentido original. O vocábulo 'Yet' atua como uma conjunção ou advérbio adversativo, transmitindo a ideia de oposição, ressalva ou contraste ('no entanto', 'ainda assim'). A expressão 'Even so' possui valor semântico equivalente, funcionando como um conector concessivo e adversativo que significa 'mesmo assim' ou 'ainda que assim seja'. Portanto, ao substituir 'Yet' por 'Even so', a relação lógica de contraste entre as orações do texto é inteiramente preservada, garantindo a coerência e a correção gramatical do trecho. A pegadinha consiste em achar que 'Even so' mudaria o matiz discursivo para uma simples adição ou causa, mas ambas as formas exercem a mesma função conectiva de oposição. O candidato deve focar na equivalência semântica dos conectores adversativos em inglês."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 2. O gabarito oficial é ERRADO."
+    },
+    {
+      "speaker": "A",
+      "text": "A questão exige a interpretação textual precisa sobre as causas do colapso energético no Texas durante a onda de frio. O item afirma erradamente que a principal razão para a queda na produção de energia eólica foi a falta de vento. No entanto, a causa real apontada no texto foi o congelamento das pás das turbinas eólicas e dos componentes dos sistemas energéticos em razão das temperaturas extremamente baixas, e não a ausência de ventos. A pegadinha da banca é tentar induzir o candidato ao erro simples de associar a queda de energia eólica diretamente à ausência de ventos, um raciocínio intuitivo, mas falso perante o texto. Para acertar, o candidato deveria identificar os vocábulos do texto relacionados a 'frozen turbines' e congelamento de infraestrutura, percebendo que a afirmação extrapola e deturpa os fatos apresentados na leitura."
+    },
+    {
+      "speaker": "A",
+      "text": "Questão 3. O gabarito oficial é CERTO."
+    },
+    {
+      "speaker": "B",
+      "text": "A questão avalia a coesão referencial por meio do uso de pronomes demonstrativos em inglês. No contexto do último parágrafo, o pronome demonstrativo 'That' é empregado para retomar uma ideia complexa apresentada anteriormente na estrutura do texto. Especificamente, ele faz referência anafórica à escolha deliberada do estado do Texas de isolar sua rede elétrica dos demais estados norte-americanos para evitar regulamentações federais. A pegadinha comum em itens de referência pronominal é fazer o candidato buscar apenas um substantivo isolado e próximo, em vez de compreender a retomada de toda uma oração ou fato antecedente. O raciocínio correto exige a leitura atenta da cadeia coesiva, confirmando que 'That' sintetiza e recupera a decisão de isolamento da rede elétrica texana, mantendo a afirmativa como correta."
+    },
+    {
+      "speaker": "B",
+      "text": "Questão 4. O gabarito oficial é ERRADO."
+    },
+    {
+      "speaker": "A",
+      "text": "A questão cobra a compreensão geral do texto no que diz respeito aos impactos da onda de frio extremo no sistema de energia do Texas. O item declara que a produção de energia continuou sem interrupções significativas, o que é manifestamente incorreto. O texto retrata justamente uma crise energética sem precedentes, marcada por apagões massivos, paralisação de fontes geradoras e falhas graves no abastecimento que afetaram milhões de cidadãos. A pegadinha da banca está no uso de termos em inglês com sentido oposto à realidade retratada ('without significant disruption'), buscando enganar o leitor desatento que não fixou a ideia central da passagem. O candidato deveria notar a contradição direta entre a afirmativa e o tema principal do texto, identificando palavras-chave como 'crisis', 'blackouts' e 'outages', concluindo que o item está errado."
+    },
+    {
+      "speaker": "A",
+      "text": "Se você errou alguma delas, essa é justamente a questão que merece entrar na sua lista de revisão."
+    },
+    {
+      "speaker": "B",
+      "text": "E se acertou as quatro, ótimo. Mas não fique apenas no acerto: tenha certeza de que você consegue explicar o motivo de cada resposta."
+    },
+    {
+      "speaker": "A",
+      "text": "Continuamos no próximo episódio com outro tema e quatro novas questões. Bons estudos e até lá."
+    }
+  ]
+}

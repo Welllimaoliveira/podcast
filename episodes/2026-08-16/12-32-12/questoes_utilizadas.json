@@ -1,0 +1,49 @@
+{
+  "disciplina": "ingles",
+  "questoes": [
+    {
+      "id": "PRF-2021-007-ING",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Inglês",
+      "disciplina_canonica": "ingles",
+      "item_original": 7,
+      "questao": "In the passage about water facilities freezing, replacing 'Yet' with 'Even so' would preserve the intended contrast in meaning.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 7 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-008-ING",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Inglês",
+      "disciplina_canonica": "ingles",
+      "item_original": 8,
+      "questao": "The text identifies a lack of wind as the main reason for the reduction in wind-energy production during the Texas cold spell.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 8 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-002-ING",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Inglês",
+      "disciplina_canonica": "ingles",
+      "item_original": 2,
+      "questao": "In the text about the Texas energy crisis, the pronoun 'That' in the final paragraph refers to Texas's decision to isolate its electric grid from the rest of the country.",
+      "gabarito": "CERTO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 2 - gabarito oficial definitivo"
+    },
+    {
+      "id": "PRF-2021-003-ING",
+      "ano": 2021,
+      "banca": "CEBRASPE",
+      "disciplina": "Inglês",
+      "disciplina_canonica": "ingles",
+      "item_original": 3,
+      "questao": "According to the text, despite the extremely cold weather, energy production in Texas continued without significant disruption.",
+      "gabarito": "ERRADO",
+      "fonte": "PRF 2021 - caderno oficial 578_PRF_ING_01 - item 3 - gabarito oficial definitivo"
+    }
+  ]
+}
