@@ -1,12 +1,20 @@
 {
   "_comentario": "Os temas são utilizados em sequência. Cada execução utiliza o próximo tema. Quando chegar ao último tema, volta automaticamente ao primeiro.",
   "temas": [
-    "Direito Administrativo para a prova da PRF",
-    "Direito Penal para a prova da PRF",
-    "Informática para a prova da PRF",
-    "Português para a prova da PRF",
-    "Trânsito (Legislação de Trânsito) para a prova da PRF",
-    "Inglês geral para aprender questões e respostas",
-    "Raciocínio lógico para concurso"
+    "Língua Portuguesa para a prova da Petrobras",
+    "Raciocínio Lógico e Matemático para a prova da Petrobras",
+    "Noções de Informática para a prova da Petrobras",
+    "Língua Inglesa para a prova da Petrobras",
+    "Teoria Geral da Administração para a prova da Petrobras",
+    "Administração de Recursos Humanos para a prova da Petrobras",
+    "Administração Financeira e Orçamentária para a prova da Petrobras",
+    "Administração de Materiais e Logística para a prova da Petrobras",
+    "Planejamento Estratégico e Gestão Organizacional para a prova da Petrobras",
+    "Gestão de Processos e Qualidade para a prova da Petrobras",
+    "Governança Corporativa, Compliance e Ética para a prova da Petrobras",
+    "Gestão de Projetos para a prova da Petrobras",
+    "Marketing e Relacionamento com Clientes para a prova da Petrobras",
+    "Administração Pública para a prova da Petrobras",
+    "Custos e Análise de Investimentos para a prova da Petrobras"
   ]
 }
